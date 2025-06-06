@@ -109,7 +109,15 @@ void loop() {
 
 // ——— Debounced Button State Change Detection ———
 for (int i = 0; i < NUM_BUTTONS; i++) {
-  int reading = digitalRead(buttonPins[i]) == LOW ? 1 : 0; // adjust if needed
+  int reading;
+  if (i < 3) {
+    // For button 1–3: consider HIGH as pressed
+    reading = digitalRead(buttonPins[i]) == HIGH ? 1 : 0;
+  } else {
+    // For button 4 (index 3): keep original behavior (LOW as pressed)
+    reading = digitalRead(buttonPins[i]) == LOW ? 1 : 0;
+  }
+
 
   if (reading != lastReadings[i]) {
     lastChangeTime[i] = millis();
