@@ -50,3 +50,9 @@ When this works, it confirms all sensors output data. We can then move on to int
 We’ll go on to max and create a serial object and read the serial from the controller at index 2 (it's probably gonna be different for you) with baud rate 115200. this should get max data:
 
 [Iko Controller Maxpatch](Max/ico_v0.2.maxpat)
+
+
+
+to document:
+- new controller image. layout changed. (red button shoulder now is a panic button, stops sound, "X" now fires sounds)
+- briefly explain maxpatch areas and what they do: how was a specific sound constellation reached? why does it work?
