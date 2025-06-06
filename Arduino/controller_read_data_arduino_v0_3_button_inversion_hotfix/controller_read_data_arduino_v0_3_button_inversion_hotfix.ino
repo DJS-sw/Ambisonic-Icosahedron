@@ -63,9 +63,9 @@ void loop() {
   bno.getEvent(&evt);
   Serial.print("IMU_euler: ");
   Serial.print("Yaw: ");
-  Serial.print(evt.orientation.x);
+  Serial.print(evt.orientation.x); 
   Serial.print(" Pitch: ");
-  Serial.print(evt.orientation.y);
+  Serial.print(-evt.orientation.y);
   Serial.print(" Roll: ");
   Serial.print(evt.orientation.z);
   Serial.println();
