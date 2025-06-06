@@ -398,9 +398,45 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 77.0, 810.0, 570.0 ],
+						"rect" : [ 134.0, 134.0, 810.0, 570.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 608.0, 301.0, 42.0, 22.0 ],
+									"text" : "7 0.67"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 640.0, 249.0, 58.0, 22.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 593.0, 288.421030282974243, 42.0, 22.0 ],
+									"text" : "6 0.32"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-39",
 									"maxclass" : "newobj",
@@ -479,7 +515,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 631.0, 351.0, 50.0, 36.0 ],
+									"patching_rect" : [ 631.0, 351.0, 50.0, 22.0 ],
 									"text" : "0.1"
 								}
 
@@ -568,7 +604,7 @@
 												"version" : 1,
 												"isbank" : 0,
 												"isbase64" : 1,
-												"blob" : "1756.CMlaKA....fQPMDZ....APTcDUF.A.......A........................................X.nVMjLgboA...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BODUWXrQTYrEVd9vCTAIUPMARZj0iHHA0X0Q2SlYFSh.hcgwVck0iH4jiK4jSN4jiLybCL1.SMzbiHu3COPEjTA0DHoQVOhfDTiUGcOYlYRIBH1EFa0UVOhjSNtjSN4jSNxLyMvXCL0PyMh7hO7.UPRETSfjFY8HBSPMVcz8jYlwjHfXWXrUWY8HhLv.CLv3BLh7hO7.UPRETSfjFY8HBSPMVcz8jYlIkHfXWXrUWY8HhLv.CLv3BLh7hO7.UPRETSfjFY8HBYkwVX4IDTMwjHfXWXrUWY8HxMy3BMv.CLvDSMxTCN2fSNwHxK9vCTAIUPMARZj0iHjUFagkmPP0jTh.hcgwVck0iHyHCLt.iHu3COPEjTA0DHoQVOhPVYrEVdMUGazwjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhPVYrEVdMUGazIkHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhPlb4cTXo4lHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhXVYkQlXgM1ZLIBH1EFa0UVOhzBNt.iHu3COPEjTA0DHoQVOhXVYkQlXgM1ZRIBH1EFa0UVOhzBNt.iHu3COPEjTA0DHoQVOhvlYuQTYvQGZLIBH1EFa0UVOh.iKxfSN4jSN4jSL1TSMyPSN2HxK9vCTAIUPMARZj0iHrY1aDUFbzglTh.hcgwVck0iHv3RLvjSN4jSN4jCMvLSN0LiMh7hO7.UPRETSfjFY8HBal8lTgQWYLIBH1EFa0UVOhLiKwDSN4jSN3fSM0TSNvfiLh7hO7.UPRETSfjFY8HBal8lTgQWYRIBH1EFa0UVOhHiKw.SN4jSN3jSMvjSM3HSMh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh.WZzMFZLIBH1EFa0UVOhzhLv3RL4jSN4XSNzfiLzHSL4HxK9vCTAIUPMARZj0iHvkFciglTh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HhbuwFaLIBH1EFa0UVOhXiMtDSN4jSN1jCM3HCMxDSNh7hO7.UPRETSfjFY8HhbuwFaRIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHykmaiwjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhLWdtMlTh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HBcxElayY1ax0VSuQVYLIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHzIWXtMmYuIWaM8FYkIkHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWP5wjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWP5IkHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWQrwjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWQrIkHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAWSuQVYAoGSh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxcgIGbM8FYkEjdRIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iH2Elbv0zajUVQrwjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAWSuQVYEwlTh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxckQ2QgklaLIBH1EFa0UVOhzhMt.iHu3COPEjTA0DHoQVOhbWYzcTXo4lTh.hcgwVck0iHsXiKvHxK9vCTAIUPMARZj0iH3YVYkQlXgM1ZLIBH1EFa0UVOhzhLv3BLh7hO7.UPRETSfjFY8HBdlUVYjIVXislTh.hcgwVck0iHsHCLt.iHu3COPEjTA0DHoQVOhjWX2wjHfXWXrUWY8HRLv3BLh7hO7.UPRETSfjFY8HRdgcmTh.hcgwVck0iHsbiK0HxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7BQ0EFaDUFagk2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77BQ0EFaDUFagkmO.."
+												"blob" : "1768.CMlaKA....fQPMDZ....APTcDUF.A.......A........................................X.qVMjLgLpA...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BODUWXrQTYrEVd9vCTAIUPMARZj0iHHA0X0Q2SlYFSh.hcgwVck0iH4jiK4jSN4jiLybCL1.SMzbiHu3COPEjTA0DHoQVOhfDTiUGcOYlYRIBH1EFa0UVOhjSNtjSN4jSNxLyMvXCL0PyMh7hO7.UPRETSfjFY8HBSPMVcz8jYlwjHfXWXrUWY8HhLv.CLv3BLh7hO7.UPRETSfjFY8HBSPMVcz8jYlIkHfXWXrUWY8HhLv.CLv3BLh7hO7.UPRETSfjFY8HBYkwVX4IDTMwjHfXWXrUWY8HxMy3BMv.CLvDSMxTCN2fSNwHxK9vCTAIUPMARZj0iHjUFagkmPP0jTh.hcgwVck0iHxHSNtTCNv.CLwfyLw.SMzbiHu3COPEjTA0DHoQVOhPVYrEVdMUGazwjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhPVYrEVdMUGazIkHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhPlb4cTXo4lHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhXVYkQlXgM1ZLIBH1EFa0UVOhzBNt.iHu3COPEjTA0DHoQVOhXVYkQlXgM1ZRIBH1EFa0UVOhzBNt.iHu3COPEjTA0DHoQVOhvlYuQTYvQGZLIBH1EFa0UVOh.iKxfSN4jSN4jSL1TSMyPSN2HxK9vCTAIUPMARZj0iHrY1aDUFbzglTh.hcgwVck0iHv3RLvjSN4jSN4jCMvLSN0LiMh7hO7.UPRETSfjFY8HBal8lTgQWYLIBH1EFa0UVOhLiKwDSN4jSN3fSM0TSNvfiLh7hO7.UPRETSfjFY8HBal8lTgQWYRIBH1EFa0UVOhHiKw.SN4jSN3jSMvjSM3HSMh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh.WZzMFZLIBH1EFa0UVOhzhLv3RL4jSN4XSNzfiLzHSL4HxK9vCTAIUPMARZj0iHvkFciglTh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HhbuwFaLIBH1EFa0UVOhXiMtDSN4jSN1jCM3HCMxDSNh7hO7.UPRETSfjFY8HhbuwFaRIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHykmaiwjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhLWdtMlTh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HBcxElayY1ax0VSuQVYLIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHzIWXtMmYuIWaM8FYkIkHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWP5wjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWP5IkHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWQrwjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWQrIkHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAWSuQVYAoGSh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxcgIGbM8FYkEjdRIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iH2Elbv0zajUVQrwjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAWSuQVYEwlTh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxckQ2QgklaLIBH1EFa0UVOhzhMt.iHu3COPEjTA0DHoQVOhbWYzcTXo4lTh.hcgwVck0iHsXiKvHxK9vCTAIUPMARZj0iH3YVYkQlXgM1ZLIBH1EFa0UVOhzhLv3BLh7hO7.UPRETSfjFY8HBdlUVYjIVXislTh.hcgwVck0iHsHCLt.iHu3COPEjTA0DHoQVOhjWX2wjHfXWXrUWY8HRLv3BLh7hO7.UPRETSfjFY8HRdgcmTh.hcgwVck0iHsbiK0HxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7BQ0EFaDUFagk2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77BQ0EFaDUFagkmO.."
 											}
 ,
 											"snapshotlist" : 											{
@@ -590,7 +626,7 @@
 															"version" : 1,
 															"isbank" : 0,
 															"isbase64" : 1,
-															"blob" : "1756.CMlaKA....fQPMDZ....APTcDUF.A.......A........................................X.nVMjLgboA...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BODUWXrQTYrEVd9vCTAIUPMARZj0iHHA0X0Q2SlYFSh.hcgwVck0iH4jiK4jSN4jiLybCL1.SMzbiHu3COPEjTA0DHoQVOhfDTiUGcOYlYRIBH1EFa0UVOhjSNtjSN4jSNxLyMvXCL0PyMh7hO7.UPRETSfjFY8HBSPMVcz8jYlwjHfXWXrUWY8HhLv.CLv3BLh7hO7.UPRETSfjFY8HBSPMVcz8jYlIkHfXWXrUWY8HhLv.CLv3BLh7hO7.UPRETSfjFY8HBYkwVX4IDTMwjHfXWXrUWY8HxMy3BMv.CLvDSMxTCN2fSNwHxK9vCTAIUPMARZj0iHjUFagkmPP0jTh.hcgwVck0iHyHCLt.iHu3COPEjTA0DHoQVOhPVYrEVdMUGazwjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhPVYrEVdMUGazIkHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhPlb4cTXo4lHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhXVYkQlXgM1ZLIBH1EFa0UVOhzBNt.iHu3COPEjTA0DHoQVOhXVYkQlXgM1ZRIBH1EFa0UVOhzBNt.iHu3COPEjTA0DHoQVOhvlYuQTYvQGZLIBH1EFa0UVOh.iKxfSN4jSN4jSL1TSMyPSN2HxK9vCTAIUPMARZj0iHrY1aDUFbzglTh.hcgwVck0iHv3RLvjSN4jSN4jCMvLSN0LiMh7hO7.UPRETSfjFY8HBal8lTgQWYLIBH1EFa0UVOhLiKwDSN4jSN3fSM0TSNvfiLh7hO7.UPRETSfjFY8HBal8lTgQWYRIBH1EFa0UVOhHiKw.SN4jSN3jSMvjSM3HSMh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh.WZzMFZLIBH1EFa0UVOhzhLv3RL4jSN4XSNzfiLzHSL4HxK9vCTAIUPMARZj0iHvkFciglTh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HhbuwFaLIBH1EFa0UVOhXiMtDSN4jSN1jCM3HCMxDSNh7hO7.UPRETSfjFY8HhbuwFaRIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHykmaiwjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhLWdtMlTh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HBcxElayY1ax0VSuQVYLIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHzIWXtMmYuIWaM8FYkIkHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWP5wjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWP5IkHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWQrwjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWQrIkHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAWSuQVYAoGSh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxcgIGbM8FYkEjdRIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iH2Elbv0zajUVQrwjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAWSuQVYEwlTh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxckQ2QgklaLIBH1EFa0UVOhzhMt.iHu3COPEjTA0DHoQVOhbWYzcTXo4lTh.hcgwVck0iHsXiKvHxK9vCTAIUPMARZj0iH3YVYkQlXgM1ZLIBH1EFa0UVOhzhLv3BLh7hO7.UPRETSfjFY8HBdlUVYjIVXislTh.hcgwVck0iHsHCLt.iHu3COPEjTA0DHoQVOhjWX2wjHfXWXrUWY8HRLv3BLh7hO7.UPRETSfjFY8HRdgcmTh.hcgwVck0iHsbiK0HxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7BQ0EFaDUFagk2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77BQ0EFaDUFagkmO.."
+															"blob" : "1768.CMlaKA....fQPMDZ....APTcDUF.A.......A........................................X.qVMjLgLpA...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BODUWXrQTYrEVd9vCTAIUPMARZj0iHHA0X0Q2SlYFSh.hcgwVck0iH4jiK4jSN4jiLybCL1.SMzbiHu3COPEjTA0DHoQVOhfDTiUGcOYlYRIBH1EFa0UVOhjSNtjSN4jSNxLyMvXCL0PyMh7hO7.UPRETSfjFY8HBSPMVcz8jYlwjHfXWXrUWY8HhLv.CLv3BLh7hO7.UPRETSfjFY8HBSPMVcz8jYlIkHfXWXrUWY8HhLv.CLv3BLh7hO7.UPRETSfjFY8HBYkwVX4IDTMwjHfXWXrUWY8HxMy3BMv.CLvDSMxTCN2fSNwHxK9vCTAIUPMARZj0iHjUFagkmPP0jTh.hcgwVck0iHxHSNtTCNv.CLwfyLw.SMzbiHu3COPEjTA0DHoQVOhPVYrEVdMUGazwjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhPVYrEVdMUGazIkHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhPlb4cTXo4lHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhXVYkQlXgM1ZLIBH1EFa0UVOhzBNt.iHu3COPEjTA0DHoQVOhXVYkQlXgM1ZRIBH1EFa0UVOhzBNt.iHu3COPEjTA0DHoQVOhvlYuQTYvQGZLIBH1EFa0UVOh.iKxfSN4jSN4jSL1TSMyPSN2HxK9vCTAIUPMARZj0iHrY1aDUFbzglTh.hcgwVck0iHv3RLvjSN4jSN4jCMvLSN0LiMh7hO7.UPRETSfjFY8HBal8lTgQWYLIBH1EFa0UVOhLiKwDSN4jSN3fSM0TSNvfiLh7hO7.UPRETSfjFY8HBal8lTgQWYRIBH1EFa0UVOhHiKw.SN4jSN3jSMvjSM3HSMh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh.WZzMFZLIBH1EFa0UVOhzhLv3RL4jSN4XSNzfiLzHSL4HxK9vCTAIUPMARZj0iHvkFciglTh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HhbuwFaLIBH1EFa0UVOhXiMtDSN4jSN1jCM3HCMxDSNh7hO7.UPRETSfjFY8HhbuwFaRIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHykmaiwjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhLWdtMlTh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HBcxElayY1ax0VSuQVYLIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHzIWXtMmYuIWaM8FYkIkHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWP5wjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWP5IkHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWQrwjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWQrIkHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAWSuQVYAoGSh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxcgIGbM8FYkEjdRIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iH2Elbv0zajUVQrwjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAWSuQVYEwlTh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxckQ2QgklaLIBH1EFa0UVOhzhMt.iHu3COPEjTA0DHoQVOhbWYzcTXo4lTh.hcgwVck0iHsXiKvHxK9vCTAIUPMARZj0iH3YVYkQlXgM1ZLIBH1EFa0UVOhzhLv3BLh7hO7.UPRETSfjFY8HBdlUVYjIVXislTh.hcgwVck0iHsHCLt.iHu3COPEjTA0DHoQVOhjWX2wjHfXWXrUWY8HRLv3BLh7hO7.UPRETSfjFY8HRdgcmTh.hcgwVck0iHsbiK0HxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7BQ0EFaDUFagk2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77BQ0EFaDUFagkmO.."
 														}
 ,
 														"fileref" : 														{
@@ -677,7 +713,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 165.0, 374.0, 35.0, 91.0 ],
-									"text" : "\"Elevation angle 5\" 0.5"
+									"text" : "\"Elevation angle 1\" 0.5"
 								}
 
 							}
@@ -689,8 +725,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 113.0, 374.0, 37.0, 91.0 ],
-									"text" : "\"Azimuth angle 5\" 0.666667"
+									"patching_rect" : [ 113.0, 374.0, 39.0, 91.0 ],
+									"text" : "\"Azimuth angle 1\" 0.666667"
 								}
 
 							}
@@ -702,7 +738,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 109.0, 261.0, 50.0, 22.0 ],
-									"text" : "5"
+									"text" : "1"
 								}
 
 							}
@@ -746,7 +782,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 885.0, 37.0, 100.0, 22.0 ],
-													"text" : "5 0.5"
+													"text" : "1 0.5"
 												}
 
 											}
@@ -759,7 +795,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 885.0, 106.0, 121.0, 36.0 ],
-													"text" : "\"Elevation angle 5\" 0.5"
+													"text" : "\"Elevation angle 1\" 0.5"
 												}
 
 											}
@@ -818,7 +854,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 679.81596502661705, 37.0, 100.0, 22.0 ],
-													"text" : "5 0.666667"
+													"text" : "1 0.666667"
 												}
 
 											}
@@ -843,7 +879,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 679.81596502661705, 106.0, 121.0, 36.0 ],
-													"text" : "\"Azimuth angle 5\" 0.666667"
+													"text" : "\"Azimuth angle 1\" 0.666667"
 												}
 
 											}
@@ -867,7 +903,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 462.0, 80.0, 74.0, 22.0 ],
-													"text" : "5"
+													"text" : "1"
 												}
 
 											}
@@ -2778,6 +2814,13 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
 									"source" : [ "obj-50", 0 ]
 								}
 
@@ -2809,6 +2852,29 @@
 									"destination" : [ "obj-209", 0 ],
 									"order" : 0,
 									"source" : [ "obj-62", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"order" : 1,
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"order" : 0,
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-8", 0 ]
 								}
 
 							}
@@ -3085,7 +3151,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 962.12963205575943, 659.25924825668335, 50.0, 22.0 ],
-					"text" : "1"
+					"text" : "3"
 				}
 
 			}
@@ -3145,7 +3211,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 962.12963205575943, 599.074064075946808, 50.0, 22.0 ],
-					"text" : "2"
+					"text" : "4"
 				}
 
 			}
@@ -3175,7 +3241,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 962.12963205575943, 689.814803302288055, 19.0, 147.0 ],
 					"size" : 5,
-					"value" : 1
+					"value" : 3
 				}
 
 			}
@@ -13631,7 +13697,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 563.0, 119.0, 50.0, 22.0 ],
-													"text" : "128."
+													"text" : "0."
 												}
 
 											}
@@ -13743,7 +13809,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 331.0, 302.0, 50.0, 22.0 ],
-													"text" : "122.44"
+													"text" : "30.72"
 												}
 
 											}
@@ -14300,7 +14366,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 511.991524696350098, 459.152544736862183, 50.0, 22.0 ],
-									"text" : "3200."
+									"text" : "0."
 								}
 
 							}
@@ -14312,7 +14378,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 511.991524696350098, 427.796611785888672, 50.0, 22.0 ],
-									"text" : "3061."
+									"text" : "768."
 								}
 
 							}
@@ -15895,7 +15961,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 536.97475790977478, 618.487358093261719, 43.0, 22.0 ],
-													"text" : "3200."
+													"text" : "0."
 												}
 
 											}
@@ -15907,7 +15973,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 494.117617607116699, 680.672228336334229, 50.0, 22.0 ],
-													"text" : "128."
+													"text" : "0."
 												}
 
 											}
@@ -15977,7 +16043,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 344.537794589996338, 618.487358093261719, 43.0, 22.0 ],
-													"text" : "3061."
+													"text" : "768."
 												}
 
 											}
@@ -15989,7 +16055,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 307.56300687789917, 680.672228336334229, 50.0, 22.0 ],
-													"text" : "122.44"
+													"text" : "30.72"
 												}
 
 											}
@@ -16365,7 +16431,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 75.630247592926025, 546.218454837799072, 151.0, 22.0 ],
-													"text" : "84"
+													"text" : "58"
 												}
 
 											}
@@ -16447,7 +16513,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 75.630247592926025, 163.865536451339722, 275.0, 50.0 ],
-													"text" : "Touch: 0 loc: 768 size: 84 Touch: 1 loc: none size: none Touch: 2 loc: none size: none Touch: 3 loc: none size: none"
+													"text" : "Touch: 0 loc: 768 size: 58 Touch: 1 loc: none size: none Touch: 2 loc: none size: none Touch: 3 loc: none size: none"
 												}
 
 											}
@@ -18338,11 +18404,11 @@
  ],
 		"parameters" : 		{
 			"obj-102" : [ "vst~[13]", "vst~", 0 ],
-			"obj-128" : [ "mc.vst~[18]", "mc.vst~[18]", 0 ],
-			"obj-33::obj-24" : [ "mc.vst~[2]", "mc.vst~[2]", 0 ],
-			"obj-33::obj-4" : [ "mc.vst~[10]", "mc.vst~[10]", 0 ],
+			"obj-128" : [ "mc.vst~[19]", "mc.vst~[19]", 0 ],
+			"obj-33::obj-24" : [ "mc.vst~[11]", "mc.vst~[11]", 0 ],
+			"obj-33::obj-4" : [ "vst~[4]", "vst~[4]", 0 ],
 			"obj-35::obj-75::obj-134" : [ "mc.live.gain~[3]", "mc.live.gain~[3]", 0 ],
-			"obj-38::obj-171" : [ "mc.vst~[5]", "mc.vst~[5]", 0 ],
+			"obj-38::obj-171" : [ "mc.vst~[4]", "mc.vst~[4]", 0 ],
 			"obj-38::obj-23::obj-19" : [ "mc.live.gain~[1]", "mc.live.gain~[1]", 0 ],
 			"obj-38::obj-3::obj-12::obj-11" : [ "live.text[71]", "live.text", 0 ],
 			"obj-38::obj-3::obj-12::obj-110" : [ "live.text[70]", "live.text", 0 ],
@@ -18369,14 +18435,14 @@
 			"obj-38::obj-3::obj-26::obj-4::obj-62" : [ "live.text[67]", "live.text[9]", 0 ],
 			"obj-38::obj-3::obj-26::obj-4::obj-72" : [ "live.text[64]", "live.text[8]", 0 ],
 			"obj-38::obj-3::obj-6" : [ "mc.live.gain~[2]", "mc.live.gain~", 0 ],
-			"obj-38::obj-43" : [ "mc.vst~[1]", "mc.vst~[1]", 0 ],
+			"obj-38::obj-43" : [ "mc.vst~[6]", "mc.vst~[6]", 0 ],
 			"obj-40::obj-11" : [ "live.text[27]", "live.text", 0 ],
 			"obj-40::obj-110" : [ "live.text[25]", "live.text", 0 ],
 			"obj-40::obj-16" : [ "live.text[24]", "live.text", 0 ],
 			"obj-40::obj-55" : [ "live.text[28]", "live.text", 0 ],
 			"obj-40::obj-606" : [ "live.text[26]", "live.text", 0 ],
 			"obj-40::obj-607" : [ "live.button[2]", "live.button", 0 ],
-			"obj-6" : [ "mc.vst~[17]", "mc.vst~[17]", 0 ],
+			"obj-6" : [ "mc.vst~[21]", "mc.vst~[21]", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
