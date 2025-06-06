@@ -1,8 +1,22 @@
-# Ambisonic-Icosahedron-Controller
+# Ambisonic-Icosahedron
 
-This repository contains materials for the Ambisonic Controller Project.
+Ambisonic Icosahedron is an interactive spatial audio sculpture project, designed for creating immersive 3D audio worlds that the participant can actively participate in. Using second-order Ambisonics and a controller interface, the sculpture is based on the geometry of an icosahedron (20 faces, 12 vertices). One one loudspeaker is mounted at each vertex, giving 12 channels, equally distributed across an imaginary spherical surface.  The purpose is to create a spatial sound field suitable for artistic installations and research environments.
 
-We'll create a controller, connect its parts to an arduino, send their data over USB to a Host-PC that runs a Maxpatch which parses the data in order to control ambisonic effects and allows for spontaneous creation in virtual audio space.
+![Concept for the Ambisonic Icosahedron](Media/ambisonic_sculpture.png)
+
+##Key Features
+- Real-time ambisonic playback via 12 speakers arranged in an icosahedral layout
+- Integration of IEM’s AllRADecoder for flexible spatial decoding
+- Optional binaural output for monitoring without the sculpture
+- Visual configuration of loudspeaker angles within the plugin
+
+##Intended Audience
+- Sound artists
+- Acoustic researchers
+- Installation designers
+- Interactive media creators
+
+This repository also contains materials for the Ambisonic Controller Project, where we'll design a controller with four buttons, a touch interface, an Inertial Measurement Unit connected to an arduino. The arduino sends that data over USB to a PC that runs a maxpatch which parses the data. This is integrated into the ambisonic sculpture effects in order to control ambisonic effects and allow for the project's goal to create a spatial audio sculpture that allows participants to spontaneously create and compose abstract sonic scenes in virtual audio space.
 
 ![alt text](Media/controller_concept.png)
 
