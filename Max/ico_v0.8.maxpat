@@ -14,6 +14,1101 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "multichannelsignal" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 7,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 165.0, 157.0, 896.0, 544.0 ],
+						"gridsize" : [ 15.0, 15.0 ],
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-256",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patcher" : 									{
+										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 9,
+											"minor" : 0,
+											"revision" : 7,
+											"architecture" : "x64",
+											"modernui" : 1
+										}
+,
+										"classnamespace" : "box",
+										"rect" : [ -287.0, 183.0, 1402.0, 612.0 ],
+										"gridsize" : [ 15.0, 15.0 ],
+										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-95",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 885.0, 37.0, 100.0, 22.0 ],
+													"text" : "10 0.500861"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-96",
+													"linecount" : 2,
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 885.0, 106.0, 121.0, 36.0 ],
+													"text" : "\"Elevation angle 10\" 0.500861"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-97",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 885.0, 65.0, 188.0, 22.0 ],
+													"text" : "sprintf \"\\\"Elevation angle %s\\\" %f\""
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-94",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 462.0, 143.0, 47.0, 22.0 ],
+													"text" : "pack i f"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-93",
+													"linecount" : 2,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 510.0, 122.0, 150.0, 34.0 ],
+													"text" : "pack IMU data + droplet number"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-92",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 497.0, 42.0, 150.0, 20.0 ],
+													"text" : "get droplet number"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-88",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 679.81596502661705, 37.0, 100.0, 22.0 ],
+													"text" : "10 0.791667"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-86",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 462.0, 113.0, 47.0, 22.0 ],
+													"text" : "pack i f"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-82",
+													"linecount" : 2,
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 679.81596502661705, 106.0, 121.0, 36.0 ],
+													"text" : "\"Azimuth angle 10\" 0.791667"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-78",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 679.81596502661705, 65.0, 182.0, 22.0 ],
+													"text" : "sprintf \"\\\"Azimuth angle %s\\\" %f\""
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-46",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 462.0, 80.0, 74.0, 22.0 ],
+													"text" : "10"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-33",
+													"index" : 1,
+													"maxclass" : "inlet",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 462.0, 37.0, 30.0, 30.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-22",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "bang", "" ],
+													"patching_rect" : [ 69.0, 80.0, 50.0, 22.0 ],
+													"text" : "select 1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-23",
+													"maxclass" : "toggle",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "int" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 69.0, 55.0, 24.0, 24.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-24",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 95.0, 56.0, 47.0, 22.0 ],
+													"text" : "r btn_X"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-25",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 69.0, 216.0, 50.0, 22.0 ],
+													"text" : "1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-26",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 69.0, 187.0, 62.0, 22.0 ],
+													"text" : "expr $i1-1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-27",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 69.0, 156.0, 50.0, 22.0 ],
+													"text" : "2"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-28",
+													"maxclass" : "newobj",
+													"numinlets" : 5,
+													"numoutlets" : 4,
+													"outlettype" : [ "int", "", "", "int" ],
+													"patching_rect" : [ 69.0, 122.0, 69.0, 22.0 ],
+													"text" : "counter 1 6"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"disabled" : [ 0, 0, 0, 0, 0 ],
+													"flagmode" : 1,
+													"id" : "obj-29",
+													"itemtype" : 0,
+													"maxclass" : "radiogroup",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"offset" : 29,
+													"outlettype" : [ "" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 69.0, 247.0, 19.0, 147.0 ],
+													"size" : 5,
+													"value" : 1
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-4",
+													"index" : 2,
+													"maxclass" : "outlet",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 497.0, 301.0, 30.0, 30.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-3",
+													"index" : 1,
+													"maxclass" : "outlet",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 458.0, 301.0, 30.0, 30.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-2",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 353.0, 80.0, 86.0, 22.0 ],
+													"text" : "r elevation_full"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-1",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 270.5, 80.0, 73.0, 22.0 ],
+													"text" : "r azimut_full"
+												}
+
+											}
+ ],
+										"lines" : [ 											{
+												"patchline" : 												{
+													"destination" : [ "obj-86", 1 ],
+													"source" : [ "obj-1", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-94", 1 ],
+													"source" : [ "obj-2", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-28", 0 ],
+													"source" : [ "obj-22", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-22", 0 ],
+													"source" : [ "obj-23", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-23", 0 ],
+													"source" : [ "obj-24", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-29", 0 ],
+													"source" : [ "obj-25", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-25", 1 ],
+													"order" : 0,
+													"source" : [ "obj-26", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-25", 0 ],
+													"order" : 1,
+													"source" : [ "obj-26", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-26", 0 ],
+													"source" : [ "obj-27", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-27", 1 ],
+													"order" : 0,
+													"source" : [ "obj-28", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-27", 0 ],
+													"order" : 1,
+													"source" : [ "obj-28", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-46", 1 ],
+													"order" : 0,
+													"source" : [ "obj-33", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-46", 0 ],
+													"order" : 1,
+													"source" : [ "obj-33", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-86", 0 ],
+													"order" : 1,
+													"source" : [ "obj-46", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-94", 0 ],
+													"order" : 0,
+													"source" : [ "obj-46", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-82", 1 ],
+													"order" : 0,
+													"source" : [ "obj-78", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-82", 0 ],
+													"order" : 1,
+													"source" : [ "obj-78", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
+													"source" : [ "obj-82", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-88", 1 ],
+													"order" : 0,
+													"source" : [ "obj-86", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-88", 0 ],
+													"order" : 1,
+													"source" : [ "obj-86", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-78", 0 ],
+													"source" : [ "obj-88", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-95", 1 ],
+													"order" : 0,
+													"source" : [ "obj-94", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-95", 0 ],
+													"order" : 1,
+													"source" : [ "obj-94", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-97", 0 ],
+													"source" : [ "obj-95", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-4", 0 ],
+													"source" : [ "obj-96", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-96", 1 ],
+													"order" : 0,
+													"source" : [ "obj-97", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-96", 0 ],
+													"order" : 1,
+													"source" : [ "obj-97", 0 ]
+												}
+
+											}
+ ]
+									}
+,
+									"patching_rect" : [ 245.0, 321.0, 213.0, 22.0 ],
+									"text" : "patcher IMU_SourcePlacementEngine"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgmode" : 0,
+									"border" : 0,
+									"clickthrough" : 0,
+									"data" : 									{
+										"autosave" : 1,
+										"snapshot" : 										{
+											"filetype" : "C74Snapshot",
+											"version" : 2,
+											"minorversion" : 0,
+											"name" : "snapshotlist",
+											"origin" : "vst~",
+											"type" : "list",
+											"subtype" : "Undefined",
+											"embed" : 1,
+											"snapshot" : 											{
+												"pluginname" : "MultiEncoder.vstinfo",
+												"plugindisplayname" : "MultiEncoder",
+												"pluginsavedname" : "",
+												"pluginsaveduniqueid" : 1299531118,
+												"version" : 1,
+												"isbank" : 0,
+												"isbase64" : 1,
+												"blob" : "12723.CMlaKA....fQPMDZ....AzTcE4F.A..A....FzRKs....................................DycVMjLg3VL...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOMUGazkVQtM1ajUlbfL1ar8VcxASOhXlYv.iYlYlYh.xXuw1a0IWL8HhYlACLlYlYlIBHi8FauUmbxziHlYFLvXlYlYlHfL1ar8VcxMSOhXlYv.iYlYlYh.xXuw1a0IGM8HhYlACLlYlYlIBHi8FauUmb0ziHlYFLvXlYlYlHfL1ar8VcxYSOhXlYv.iYlYlYh.xXuw1a0I2M8HhYlACLlYlYlIBHi8FauUmb3ziHlYFLvXlYlYlHfL1ar8VcxkSOhXlYv.iYlYlYh.xXuw1a0IWLvziHlYFLvXlYlYlHfL1ar8VcxESL8HhYlACLlYlYlIBHi8FauUmbwHSOhXlYv.iYlYlYh.xXuw1a0IWLyziHlYFLvXlYlYlHfL1ar8VcxECM8HhYlACLlYlYlIBHi8FauUmbwTSOhXlYv.iYlYlYh.xXuw1a0IWL1ziHlYFLvXlYlYlHfL1ar8VcxEyM8HhYlACLlYlYlIBHi8FauUmbwfSOhXlYv.iYlYlYh.xXuw1a0IWL4ziHlYFLvXlYlYlHfL1ar8VcxICL8HhYlACLlYlYlIBHi8FauUmbxDSOhXlYv.iYlYlYh.xXuw1a0ImLxziHlYFLvXlYlYlHfL1ar8VcxIyL8HhYlACLlYlYlIBHi8FauUmbxPSOhXlYv.iYlYlYh.xXuw1a0ImL0ziHlYFLvXlYlYlHfL1ar8VcxIiM8HhYlACLlYlYlIBHi8FauUmbxbSOhXlYv.iYlYlYh.xXuw1a0ImL3ziHlYFLvXlYlYlHfL1ar8VcxISN8HhYlACLlYlYlIBHi8FauUmby.SOhXlYv.iYlYlYh.xXuw1a0I2LwziHlYFLvXlYlYlHfL1ar8VcxMiL8HhYlACLlYlYlIBHi8FauUmbyLSOhXlYv.iYlYlYh.xXuw1a0I2LzziHlYFLvXlYlYlHfL1ar8VcxMSM8HhYlACLlYlYlIBHi8FauUmbyXSOhXlYv.iYlYlYh.xXuw1a0I2L2ziHlYFLvXlYlYlHfL1ar8VcxMCN8HhYlACLlYlYlIBHi8FauUmbyjSOhXlYv.iYlYlYh.xXuw1a0IGMvziHlYFLvXlYlYlHfL1ar8VcxQSL8HhYlACLlYlYlIBHi8FauUmbzHSOhXlYv.iYlYlYh.xXuw1a0IGMyziHlYFLvXlYlYlHfL1ar8VcxQCM8HhYlACLlYlYlIBHi8FauUmbzTSOhXlYv.iYlYlYh.xXuw1a0IGM1ziHlYFLvXlYlYlHfL1ar8VcxQyM8HhYlACLlYlYlIBHi8FauUmbzfSOhXlYv.iYlYlYh.xXuw1a0IGM4ziHlYFLvXlYlYlHfL1ar8VcxUCL8HhYlACLlYlYlIBHi8FauUmb0DSOhXlYv.iYlYlYh.xXuw1a0IWMxziHlYFLvXlYlYlHfL1ar8VcxUyL8HhYlACLlYlYlIBHi8FauUmb0PSOhXlYv.iYlYlYh.xXuw1a0IWM0ziHlYFLvXlYlYlHfL1ar8VcxUiM8HhYlACLlYlYlIBHi8FauUmb0bSOhXlYv.iYlYlYh.xXuw1a0IWM3ziHlYFLvXlYlYlHfL1ar8VcxUSN8HhYlACLlYlYlIBHi8FauUmb1.SOhXlYv.iYlYlYh.xXuw1a0ImMwziHlYFLvXlYlYlHfL1ar8VcxYiL8HhYlACLlYlYlIBHi8FauUmb1LSOhXlYv.iYlYlYh3COPEjTA0DHoQVOhDlagwVd5UlTMMkHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFLh.hcgwVck0iHwHCMt.iHu3COPEjTA0DHoQVOhDldo0VczgVLh.hcgwVck0iHwDiMt.iHu3COPEjTA0DHoQVOhDldo0VczgVLvHBH1EFa0UVOhzhLw3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZwDiHfXWXrUWY8HRLxHiKvHxK9vCTAIUPMARZj0iHgoWZsUGcnEiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZwLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVLzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnESMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZwXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVL2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnECNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZwjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglLh.hcgwVck0iHsDCLt.iHu3COPEjTA0DHoQVOhDldo0VczglLvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnISLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZxHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnICMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZxTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnIyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZxfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnMiHfXWXrUWY8HBMv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZy.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0Vczg1LwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnMiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZyLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0Vczg1LzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnMSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZyXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0Vczg1L2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnMCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZyjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFMh.hcgwVck0iHsDCLv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZz.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnQiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZzLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFMzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnQSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZzXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFM2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnQCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZzjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVMh.hcgwVck0iHsDCL33BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ0.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnUiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ0LiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVMzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnUSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ0XiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVM2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnUCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ0jiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglMh.hcgwVck0iH0TiKvHxK9vCTAIUPMARZj0iHgoWZsUGcnYCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ1DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnYyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ2HBH1EFa0UVOhzxLt.iHu3COPEjTA0DHoQVOhDldo0VczgFNh.hcgwVck0iH0biKvHxK9vCTAIUPMARZj0iHgoWZsUGcnkiHfXWXrUWY8HRLvTiKvHxK9vCTAIUPMARZj0iHjkmag0VZiIUXtcVYh.hcgwVck0iH0fiKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lavHBH1EFa0UVOhDSLtDSNv.CLxPCMwPCL1HSMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VLh.hcgwVck0iHwPiK2TiHu3COPEjTA0DHoQVOhTFakYWXzk1atECLh.hcgwVck0iH1XiK0TSN4jyM0TCN0jyL2TiHu3COPEjTA0DHoQVOhTFakYWXzk1atESLh.hcgwVck0iHwTiK3.SN4jyM0TCN0jyL2TiHu3COPEjTA0DHoQVOhTFakYWXzk1atEiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lawPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atESMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lawbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atECNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8laxHBH1EFa0UVOhfiLtPCMv.CLxPCMwPCL1HSMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lLvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8laxDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atIiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8laxPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atISMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8laxbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atICNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8layHBH1EFa0UVOhPiLtTiHu3COPEjTA0DHoQVOhTFakYWXzk1atMCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu41LwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8layHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu41LzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8layTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu41L2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8layfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FMh.hcgwVck0iHsDSNtTiHu3COPEjTA0DHoQVOhTFakYWXzk1atQCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lazHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atQyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FMzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lazTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atQiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FM2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lazfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atQSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VMh.hcgwVck0iHsPiK0HxK9vCTAIUPMARZj0iHkwVY1EFco8la0.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atUSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la0LiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atUCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la0XiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atUyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la0jiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atYiHfXWXrUWY8HxMtXSNv.CLxPCMwPCL1HSMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la1DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atYiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la2HBH1EFa0UVOhbyMtfiM4jSN0DSL2DCN2TiHu3COPEjTA0DHoQVOhTFakYWXzk1atgiHfXWXrUWY8HRLx3hL0HxK9vCTAIUPMARZj0iHkwVY1EFco8la4HBH1EFa0UVOh.iKy.SN4jyM0TCN0jyL2TiHu3COPEjTA0DHoQVOhbVXo4FLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklawHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtECLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklawDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtEyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklawPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtEiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklawbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtESNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtICLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaxDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtIyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaxPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtIiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaxbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtISNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklayHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtMCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklayDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo41LxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtMyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklayPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo41L0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtMiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaybiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo41L3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtMSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklazHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtQCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklazDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4FMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtQyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklazPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4FM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtQiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklazbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4FM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtQSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtUCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla0DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtUyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla0PiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtUiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla0biHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtUSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtYCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla1DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtYyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtgiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRZtAWczMUYzQWZtclHfXWXrUWY8HRLx3BLh7hO7.UPRETSfjFY8HBauM1ZkQFUu0TXyQWYxIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsE1bzUlbAoWZsUGcnIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsE1bzUlbEwVY1EFco8lah.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRagMGckImTuwFah.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckEiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVLvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckESLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckECMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckEyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckIiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlLvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckISLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckICMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckIyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1LvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYyHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1LyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYyTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1L1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYyfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1L4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0HiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0TiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0fiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckYiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckYSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY1HiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckciHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HBbkE1ZLUlckwlHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauECLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauEyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauEiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauESNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauICLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauIyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauIiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauISNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ayHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ayDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81LxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ayPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81L0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1aybiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81L3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0PiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0biHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauYCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a1DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauYyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FaugiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuzTcrQWZE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuzTcrQWZE41XuQVYx4C."
+											}
+,
+											"snapshotlist" : 											{
+												"current_snapshot" : 0,
+												"entries" : [ 													{
+														"filetype" : "C74Snapshot",
+														"version" : 2,
+														"minorversion" : 0,
+														"name" : "MultiEncoder",
+														"origin" : "MultiEncoder.vstinfo",
+														"type" : "VST",
+														"subtype" : "AudioEffect",
+														"embed" : 1,
+														"snapshot" : 														{
+															"pluginname" : "MultiEncoder.vstinfo",
+															"plugindisplayname" : "MultiEncoder",
+															"pluginsavedname" : "",
+															"pluginsaveduniqueid" : 1299531118,
+															"version" : 1,
+															"isbank" : 0,
+															"isbase64" : 1,
+															"blob" : "12723.CMlaKA....fQPMDZ....AzTcE4F.A..A....FzRKs....................................DycVMjLg3VL...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOMUGazkVQtM1ajUlbfL1ar8VcxASOhXlYv.iYlYlYh.xXuw1a0IWL8HhYlACLlYlYlIBHi8FauUmbxziHlYFLvXlYlYlHfL1ar8VcxMSOhXlYv.iYlYlYh.xXuw1a0IGM8HhYlACLlYlYlIBHi8FauUmb0ziHlYFLvXlYlYlHfL1ar8VcxYSOhXlYv.iYlYlYh.xXuw1a0I2M8HhYlACLlYlYlIBHi8FauUmb3ziHlYFLvXlYlYlHfL1ar8VcxkSOhXlYv.iYlYlYh.xXuw1a0IWLvziHlYFLvXlYlYlHfL1ar8VcxESL8HhYlACLlYlYlIBHi8FauUmbwHSOhXlYv.iYlYlYh.xXuw1a0IWLyziHlYFLvXlYlYlHfL1ar8VcxECM8HhYlACLlYlYlIBHi8FauUmbwTSOhXlYv.iYlYlYh.xXuw1a0IWL1ziHlYFLvXlYlYlHfL1ar8VcxEyM8HhYlACLlYlYlIBHi8FauUmbwfSOhXlYv.iYlYlYh.xXuw1a0IWL4ziHlYFLvXlYlYlHfL1ar8VcxICL8HhYlACLlYlYlIBHi8FauUmbxDSOhXlYv.iYlYlYh.xXuw1a0ImLxziHlYFLvXlYlYlHfL1ar8VcxIyL8HhYlACLlYlYlIBHi8FauUmbxPSOhXlYv.iYlYlYh.xXuw1a0ImL0ziHlYFLvXlYlYlHfL1ar8VcxIiM8HhYlACLlYlYlIBHi8FauUmbxbSOhXlYv.iYlYlYh.xXuw1a0ImL3ziHlYFLvXlYlYlHfL1ar8VcxISN8HhYlACLlYlYlIBHi8FauUmby.SOhXlYv.iYlYlYh.xXuw1a0I2LwziHlYFLvXlYlYlHfL1ar8VcxMiL8HhYlACLlYlYlIBHi8FauUmbyLSOhXlYv.iYlYlYh.xXuw1a0I2LzziHlYFLvXlYlYlHfL1ar8VcxMSM8HhYlACLlYlYlIBHi8FauUmbyXSOhXlYv.iYlYlYh.xXuw1a0I2L2ziHlYFLvXlYlYlHfL1ar8VcxMCN8HhYlACLlYlYlIBHi8FauUmbyjSOhXlYv.iYlYlYh.xXuw1a0IGMvziHlYFLvXlYlYlHfL1ar8VcxQSL8HhYlACLlYlYlIBHi8FauUmbzHSOhXlYv.iYlYlYh.xXuw1a0IGMyziHlYFLvXlYlYlHfL1ar8VcxQCM8HhYlACLlYlYlIBHi8FauUmbzTSOhXlYv.iYlYlYh.xXuw1a0IGM1ziHlYFLvXlYlYlHfL1ar8VcxQyM8HhYlACLlYlYlIBHi8FauUmbzfSOhXlYv.iYlYlYh.xXuw1a0IGM4ziHlYFLvXlYlYlHfL1ar8VcxUCL8HhYlACLlYlYlIBHi8FauUmb0DSOhXlYv.iYlYlYh.xXuw1a0IWMxziHlYFLvXlYlYlHfL1ar8VcxUyL8HhYlACLlYlYlIBHi8FauUmb0PSOhXlYv.iYlYlYh.xXuw1a0IWM0ziHlYFLvXlYlYlHfL1ar8VcxUiM8HhYlACLlYlYlIBHi8FauUmb0bSOhXlYv.iYlYlYh.xXuw1a0IWM3ziHlYFLvXlYlYlHfL1ar8VcxUSN8HhYlACLlYlYlIBHi8FauUmb1.SOhXlYv.iYlYlYh.xXuw1a0ImMwziHlYFLvXlYlYlHfL1ar8VcxYiL8HhYlACLlYlYlIBHi8FauUmb1LSOhXlYv.iYlYlYh3COPEjTA0DHoQVOhDlagwVd5UlTMMkHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFLh.hcgwVck0iHwHCMt.iHu3COPEjTA0DHoQVOhDldo0VczgVLh.hcgwVck0iHwDiMt.iHu3COPEjTA0DHoQVOhDldo0VczgVLvHBH1EFa0UVOhzhLw3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZwDiHfXWXrUWY8HRLxHiKvHxK9vCTAIUPMARZj0iHgoWZsUGcnEiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZwLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVLzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnESMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZwXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVL2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnECNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZwjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglLh.hcgwVck0iHsDCLt.iHu3COPEjTA0DHoQVOhDldo0VczglLvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnISLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZxHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnICMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZxTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnIyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZxfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnMiHfXWXrUWY8HBMv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZy.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0Vczg1LwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnMiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZyLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0Vczg1LzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnMSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZyXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0Vczg1L2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnMCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZyjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFMh.hcgwVck0iHsDCLv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZz.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnQiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZzLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFMzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnQSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZzXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFM2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnQCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZzjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVMh.hcgwVck0iHsDCL33BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ0.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnUiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ0LiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVMzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnUSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ0XiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVM2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnUCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ0jiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglMh.hcgwVck0iH0TiKvHxK9vCTAIUPMARZj0iHgoWZsUGcnYCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ1DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnYyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ2HBH1EFa0UVOhzxLt.iHu3COPEjTA0DHoQVOhDldo0VczgFNh.hcgwVck0iH0biKvHxK9vCTAIUPMARZj0iHgoWZsUGcnkiHfXWXrUWY8HRLvTiKvHxK9vCTAIUPMARZj0iHjkmag0VZiIUXtcVYh.hcgwVck0iH0fiKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lavHBH1EFa0UVOhDSLtDSNv.CLxPCMwPCL1HSMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VLh.hcgwVck0iHwPiK2TiHu3COPEjTA0DHoQVOhTFakYWXzk1atECLh.hcgwVck0iH1XiK0TSN4jyM0TCN0jyL2TiHu3COPEjTA0DHoQVOhTFakYWXzk1atESLh.hcgwVck0iHwTiK3.SN4jyM0TCN0jyL2TiHu3COPEjTA0DHoQVOhTFakYWXzk1atEiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lawPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atESMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lawbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atECNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8laxHBH1EFa0UVOhfiLtPCMv.CLxPCMwPCL1HSMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lLvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8laxDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atIiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8laxPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atISMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8laxbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atICNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8layHBH1EFa0UVOhPiLtTiHu3COPEjTA0DHoQVOhTFakYWXzk1atMCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu41LwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8layHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu41LzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8layTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu41L2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8layfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FMh.hcgwVck0iHsDSNtTiHu3COPEjTA0DHoQVOhTFakYWXzk1atQCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lazHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atQyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FMzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lazTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atQiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FM2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lazfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atQSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VMh.hcgwVck0iHsPiK0HxK9vCTAIUPMARZj0iHkwVY1EFco8la0.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atUSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la0LiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atUCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la0XiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atUyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la0jiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atYiHfXWXrUWY8HxMtXSNv.CLxPCMwPCL1HSMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la1DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atYiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la2HBH1EFa0UVOhbyMtfiM4jSN0DSL2DCN2TiHu3COPEjTA0DHoQVOhTFakYWXzk1atgiHfXWXrUWY8HRLx3hL0HxK9vCTAIUPMARZj0iHkwVY1EFco8la4HBH1EFa0UVOh.iKy.SN4jyM0TCN0jyL2TiHu3COPEjTA0DHoQVOhbVXo4FLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklawHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtECLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklawDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtEyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklawPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtEiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklawbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtESNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtICLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaxDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtIyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaxPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtIiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaxbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtISNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklayHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtMCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklayDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo41LxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtMyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklayPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo41L0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtMiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaybiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo41L3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtMSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklazHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtQCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklazDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4FMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtQyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklazPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4FM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtQiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklazbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4FM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtQSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtUCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla0DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtUyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla0PiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtUiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla0biHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtUSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtYCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla1DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtYyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtgiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRZtAWczMUYzQWZtclHfXWXrUWY8HRLx3BLh7hO7.UPRETSfjFY8HBauM1ZkQFUu0TXyQWYxIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsE1bzUlbAoWZsUGcnIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsE1bzUlbEwVY1EFco8lah.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRagMGckImTuwFah.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckEiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVLvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckESLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckECMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckEyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckIiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlLvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckISLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckICMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckIyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1LvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYyHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1LyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYyTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1L1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYyfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1L4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0HiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0TiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0fiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckYiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckYSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY1HiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckciHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HBbkE1ZLUlckwlHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauECLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauEyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauEiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauESNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauICLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauIyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauIiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauISNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ayHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ayDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81LxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ayPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81L0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1aybiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81L3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0PiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0biHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauYCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a1DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauYyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FaugiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuzTcrQWZE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuzTcrQWZE41XuQVYx4C."
+														}
+,
+														"fileref" : 														{
+															"name" : "MultiEncoder",
+															"filename" : "MultiEncoder.maxsnap",
+															"filepath" : "~/Documents/Max 9/Snapshots",
+															"filepos" : -1,
+															"snapshotfileid" : "e7110e7e31f55176e08d14036da687a6"
+														}
+
+													}
+, 													{
+														"filetype" : "C74Snapshot",
+														"version" : 2,
+														"minorversion" : 0,
+														"name" : "MultiEncoder",
+														"origin" : "MultiEncoder.vstinfo",
+														"type" : "VST",
+														"subtype" : "AudioEffect",
+														"embed" : 0,
+														"fileref" : 														{
+															"name" : "MultiEncoder",
+															"filename" : "MultiEncoder_20250602.maxsnap",
+															"filepath" : "~/Documents/Max 9/Snapshots",
+															"filepos" : -1,
+															"snapshotfileid" : "85e3abeb9c7c0fb989f00369a3bf47a7"
+														}
+
+													}
+ ]
+											}
+
+										}
+
+									}
+,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-24",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "newobj",
+									"numinlets" : 12,
+									"numoutlets" : 19,
+									"offset" : [ 0.0, 0.0 ],
+									"outlettype" : [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
+									"patching_rect" : [ 448.0, 370.0, 208.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"parameter_enable" : 1,
+										"parameter_mappable" : 0
+									}
+,
+									"text" : "mc.vst~ 12 12 MultiEncoder",
+									"varname" : "mc.vst~[2]",
+									"viewvisibility" : 0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "gain~",
+									"multichannelvariant" : 1,
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "multichannelsignal", "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 95.0, 252.0, 22.0, 140.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-153",
+									"maxclass" : "toggle",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 345.0, 139.0, 24.0, 24.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-152",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patcher" : 									{
+										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 9,
+											"minor" : 0,
+											"revision" : 7,
+											"architecture" : "x64",
+											"modernui" : 1
+										}
+,
+										"classnamespace" : "box",
+										"rect" : [ 64.0, 143.0, 1000.0, 612.0 ],
+										"gridsize" : [ 15.0, 15.0 ],
+										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-77",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 580.0, 175.0, 46.0, 22.0 ],
+													"text" : "r btn_>"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-78",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "bang", "" ],
+													"patching_rect" : [ 580.0, 201.0, 50.0, 22.0 ],
+													"text" : "select 0"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-76",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 656.0, 153.0, 46.0, 22.0 ],
+													"text" : "r btn_>"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-75",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "bang", "" ],
+													"patching_rect" : [ 656.0, 177.0, 50.0, 22.0 ],
+													"text" : "select 1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-73",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 580.0, 229.0, 72.0, 22.0 ],
+													"text" : "0, 150 1000"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-59",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 656.0, 201.0, 72.0, 22.0 ],
+													"text" : "150, 0 1000"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-53",
+													"maxclass" : "newobj",
+													"numinlets" : 3,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "bang" ],
+													"patching_rect" : [ 681.0, 233.0, 54.0, 22.0 ],
+													"text" : "line 1 10"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-5",
+													"index" : 1,
+													"maxclass" : "inlet",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "int" ],
+													"patching_rect" : [ 308.0, 117.0, 30.0, 30.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-4",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 459.0, 178.0, 77.0, 22.0 ],
+													"text" : "loadmess 80"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-1",
+													"index" : 1,
+													"maxclass" : "outlet",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 262.839999999999975, 468.910000000000025, 30.0, 30.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-33",
+													"maxclass" : "gain~",
+													"multichannelvariant" : 0,
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "signal", "" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 459.0, 270.0, 22.0, 140.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-29",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 303.0, 329.0, 105.0, 22.0 ],
+													"text" : "167.019274"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-23",
+													"maxclass" : "newobj",
+													"numinlets" : 6,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 282.0, 284.0, 137.0, 22.0 ],
+													"text" : "scale 0.25 0.74 100 230"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-21",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "signal" ],
+													"patching_rect" : [ 355.0, 388.0, 37.0, 22.0 ],
+													"text" : "saw~"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-20",
+													"linecount" : 2,
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 242.0, 369.0, 38.0, 36.0 ],
+													"text" : "0.502611"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-17",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 160.355033695697784, 199.408289134502411, 86.0, 22.0 ],
+													"text" : "r elevation_full"
+												}
+
+											}
+ ],
+										"lines" : [ 											{
+												"patchline" : 												{
+													"destination" : [ "obj-20", 1 ],
+													"order" : 1,
+													"source" : [ "obj-17", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-23", 0 ],
+													"order" : 0,
+													"source" : [ "obj-17", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-33", 0 ],
+													"source" : [ "obj-21", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-29", 1 ],
+													"order" : 0,
+													"source" : [ "obj-23", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-29", 0 ],
+													"order" : 1,
+													"source" : [ "obj-23", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-21", 0 ],
+													"source" : [ "obj-29", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-1", 0 ],
+													"source" : [ "obj-33", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-33", 0 ],
+													"source" : [ "obj-4", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-21", 0 ],
+													"source" : [ "obj-5", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-33", 0 ],
+													"source" : [ "obj-53", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-53", 0 ],
+													"source" : [ "obj-59", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-53", 0 ],
+													"source" : [ "obj-73", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-59", 0 ],
+													"source" : [ "obj-75", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-75", 0 ],
+													"source" : [ "obj-76", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-78", 0 ],
+													"source" : [ "obj-77", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-73", 0 ],
+													"source" : [ "obj-78", 0 ]
+												}
+
+											}
+ ]
+									}
+,
+									"patching_rect" : [ 345.0, 178.0, 256.0, 22.0 ],
+									"text" : "patcher saw wave pitch controlled by elevation"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-1",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 46.0, 470.0, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-152", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-152", 0 ],
+									"source" : [ "obj-153", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"source" : [ "obj-256", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"source" : [ "obj-256", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 662.0, 157.0, 127.0, 22.0 ],
+					"text" : "patcher SampleSword"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 26.061951816082001, 154.941173553466797, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-88",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -32,7 +1127,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 460.0, 388.0, 29.5, 22.0 ],
-					"text" : "120"
+					"text" : "150"
 				}
 
 			}
@@ -167,17 +1262,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-61",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 104.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-39",
 					"maxclass" : "slider",
 					"numinlets" : 1,
@@ -232,7 +1316,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 192.647055149078369, 323.52940559387207, 67.029413938522339, 22.0 ],
-					"text" : "0.5"
+					"text" : "0.041596"
 				}
 
 			}
@@ -244,7 +1328,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 123.529409408569336, 323.52940559387207, 67.029413938522339, 22.0 ],
-					"text" : "0.5"
+					"text" : "0.300415"
 				}
 
 			}
@@ -256,7 +1340,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 192.647055149078369, 301.470582485198975, 67.029413938522339, 22.0 ],
-					"text" : "0.5"
+					"text" : "0.495727"
 				}
 
 			}
@@ -293,7 +1377,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 810.294102191925049, 248.999995708465576, 100.000004172325134, 36.0 ],
-					"text" : "\"Azimuth angle 1\" 0.666667"
+					"text" : "\"Azimuth angle 1\" 0.169444"
 				}
 
 			}
@@ -340,7 +1424,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 123.529409408569336, 301.470582485198975, 67.029413938522339, 22.0 ],
-					"text" : "0.5"
+					"text" : "0.501159"
 				}
 
 			}
@@ -364,7 +1448,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 297.0, 230.617642641067505, 50.0, 22.0 ],
-					"text" : "0."
+					"text" : "127."
 				}
 
 			}
@@ -398,7 +1482,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 134.0, 134.0, 810.0, 570.0 ],
+						"rect" : [ 254.0, 197.0, 810.0, 570.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -504,19 +1588,20 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 473.157902240753174, 396.0, 96.842097759246826, 22.0 ],
-									"text" : "6 0.1"
+									"text" : "6 0.96"
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"id" : "obj-21",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 631.0, 351.0, 50.0, 22.0 ],
-									"text" : "0.1"
+									"patching_rect" : [ 631.0, 351.0, 24.0, 36.0 ],
+									"text" : "0.96"
 								}
 
 							}
@@ -604,7 +1689,7 @@
 												"version" : 1,
 												"isbank" : 0,
 												"isbase64" : 1,
-												"blob" : "1768.CMlaKA....fQPMDZ....APTcDUF.A.......A........................................X.qVMjLgLpA...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BODUWXrQTYrEVd9vCTAIUPMARZj0iHHA0X0Q2SlYFSh.hcgwVck0iH4jiK4jSN4jiLybCL1.SMzbiHu3COPEjTA0DHoQVOhfDTiUGcOYlYRIBH1EFa0UVOhjSNtjSN4jSNxLyMvXCL0PyMh7hO7.UPRETSfjFY8HBSPMVcz8jYlwjHfXWXrUWY8HhLv.CLv3BLh7hO7.UPRETSfjFY8HBSPMVcz8jYlIkHfXWXrUWY8HhLv.CLv3BLh7hO7.UPRETSfjFY8HBYkwVX4IDTMwjHfXWXrUWY8HxMy3BMv.CLvDSMxTCN2fSNwHxK9vCTAIUPMARZj0iHjUFagkmPP0jTh.hcgwVck0iHxHSNtTCNv.CLwfyLw.SMzbiHu3COPEjTA0DHoQVOhPVYrEVdMUGazwjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhPVYrEVdMUGazIkHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhPlb4cTXo4lHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhXVYkQlXgM1ZLIBH1EFa0UVOhzBNt.iHu3COPEjTA0DHoQVOhXVYkQlXgM1ZRIBH1EFa0UVOhzBNt.iHu3COPEjTA0DHoQVOhvlYuQTYvQGZLIBH1EFa0UVOh.iKxfSN4jSN4jSL1TSMyPSN2HxK9vCTAIUPMARZj0iHrY1aDUFbzglTh.hcgwVck0iHv3RLvjSN4jSN4jCMvLSN0LiMh7hO7.UPRETSfjFY8HBal8lTgQWYLIBH1EFa0UVOhLiKwDSN4jSN3fSM0TSNvfiLh7hO7.UPRETSfjFY8HBal8lTgQWYRIBH1EFa0UVOhHiKw.SN4jSN3jSMvjSM3HSMh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh.WZzMFZLIBH1EFa0UVOhzhLv3RL4jSN4XSNzfiLzHSL4HxK9vCTAIUPMARZj0iHvkFciglTh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HhbuwFaLIBH1EFa0UVOhXiMtDSN4jSN1jCM3HCMxDSNh7hO7.UPRETSfjFY8HhbuwFaRIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHykmaiwjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhLWdtMlTh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HBcxElayY1ax0VSuQVYLIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHzIWXtMmYuIWaM8FYkIkHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWP5wjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWP5IkHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWQrwjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWQrIkHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAWSuQVYAoGSh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxcgIGbM8FYkEjdRIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iH2Elbv0zajUVQrwjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAWSuQVYEwlTh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxckQ2QgklaLIBH1EFa0UVOhzhMt.iHu3COPEjTA0DHoQVOhbWYzcTXo4lTh.hcgwVck0iHsXiKvHxK9vCTAIUPMARZj0iH3YVYkQlXgM1ZLIBH1EFa0UVOhzhLv3BLh7hO7.UPRETSfjFY8HBdlUVYjIVXislTh.hcgwVck0iHsHCLt.iHu3COPEjTA0DHoQVOhjWX2wjHfXWXrUWY8HRLv3BLh7hO7.UPRETSfjFY8HRdgcmTh.hcgwVck0iHsbiK0HxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7BQ0EFaDUFagk2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77BQ0EFaDUFagkmO.."
+												"blob" : "1756.CMlaKA....fQPMDZ....APTcDUF.A.......A........................................X.nVMjLgboA...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BODUWXrQTYrEVd9vCTAIUPMARZj0iHHA0X0Q2SlYFSh.hcgwVck0iH4jiK4jSN4jiLybCL1.SMzbiHu3COPEjTA0DHoQVOhfDTiUGcOYlYRIBH1EFa0UVOhjSNtjSN4jSNxLyMvXCL0PyMh7hO7.UPRETSfjFY8HBSPMVcz8jYlwjHfXWXrUWY8HhLv.CLv3BLh7hO7.UPRETSfjFY8HBSPMVcz8jYlIkHfXWXrUWY8HhLv.CLv3BLh7hO7.UPRETSfjFY8HBYkwVX4IDTMwjHfXWXrUWY8HxLvjiKvPCLv.CN0PCM4HSL4HxK9vCTAIUPMARZj0iHjUFagkmPP0jTh.hcgwVck0iHyHCLt.iHu3COPEjTA0DHoQVOhPVYrEVdMUGazwjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhPVYrEVdMUGazIkHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhPlb4cTXo4lHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhXVYkQlXgM1ZLIBH1EFa0UVOhzBNt.iHu3COPEjTA0DHoQVOhXVYkQlXgM1ZRIBH1EFa0UVOhzBNt.iHu3COPEjTA0DHoQVOhvlYuQTYvQGZLIBH1EFa0UVOh.iKxfSN4jSN4jSL1TSMyPSN2HxK9vCTAIUPMARZj0iHrY1aDUFbzglTh.hcgwVck0iHv3RLvjSN4jSN4jCMvLSN0LiMh7hO7.UPRETSfjFY8HBal8lTgQWYLIBH1EFa0UVOhLiKwDSN4jSN3fSM0TSNvfiLh7hO7.UPRETSfjFY8HBal8lTgQWYRIBH1EFa0UVOhHiKw.SN4jSN3jSMvjSM3HSMh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh.WZzMFZLIBH1EFa0UVOhzhLv3RL4jSN4XSNzfiLzHSL4HxK9vCTAIUPMARZj0iHvkFciglTh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HhbuwFaLIBH1EFa0UVOhXiMtDSN4jSN1jCM3HCMxDSNh7hO7.UPRETSfjFY8HhbuwFaRIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHykmaiwjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhLWdtMlTh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HBcxElayY1ax0VSuQVYLIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHzIWXtMmYuIWaM8FYkIkHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWP5wjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWP5IkHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWQrwjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWQrIkHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAWSuQVYAoGSh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxcgIGbM8FYkEjdRIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iH2Elbv0zajUVQrwjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAWSuQVYEwlTh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxckQ2QgklaLIBH1EFa0UVOhzhMt.iHu3COPEjTA0DHoQVOhbWYzcTXo4lTh.hcgwVck0iHsXiKvHxK9vCTAIUPMARZj0iH3YVYkQlXgM1ZLIBH1EFa0UVOhzhLv3BLh7hO7.UPRETSfjFY8HBdlUVYjIVXislTh.hcgwVck0iHsHCLt.iHu3COPEjTA0DHoQVOhjWX2wjHfXWXrUWY8HRLv3BLh7hO7.UPRETSfjFY8HRdgcmTh.hcgwVck0iHsbiK0HxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7BQ0EFaDUFagk2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77BQ0EFaDUFagkmO.."
 											}
 ,
 											"snapshotlist" : 											{
@@ -626,7 +1711,7 @@
 															"version" : 1,
 															"isbank" : 0,
 															"isbase64" : 1,
-															"blob" : "1768.CMlaKA....fQPMDZ....APTcDUF.A.......A........................................X.qVMjLgLpA...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BODUWXrQTYrEVd9vCTAIUPMARZj0iHHA0X0Q2SlYFSh.hcgwVck0iH4jiK4jSN4jiLybCL1.SMzbiHu3COPEjTA0DHoQVOhfDTiUGcOYlYRIBH1EFa0UVOhjSNtjSN4jSNxLyMvXCL0PyMh7hO7.UPRETSfjFY8HBSPMVcz8jYlwjHfXWXrUWY8HhLv.CLv3BLh7hO7.UPRETSfjFY8HBSPMVcz8jYlIkHfXWXrUWY8HhLv.CLv3BLh7hO7.UPRETSfjFY8HBYkwVX4IDTMwjHfXWXrUWY8HxMy3BMv.CLvDSMxTCN2fSNwHxK9vCTAIUPMARZj0iHjUFagkmPP0jTh.hcgwVck0iHxHSNtTCNv.CLwfyLw.SMzbiHu3COPEjTA0DHoQVOhPVYrEVdMUGazwjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhPVYrEVdMUGazIkHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhPlb4cTXo4lHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhXVYkQlXgM1ZLIBH1EFa0UVOhzBNt.iHu3COPEjTA0DHoQVOhXVYkQlXgM1ZRIBH1EFa0UVOhzBNt.iHu3COPEjTA0DHoQVOhvlYuQTYvQGZLIBH1EFa0UVOh.iKxfSN4jSN4jSL1TSMyPSN2HxK9vCTAIUPMARZj0iHrY1aDUFbzglTh.hcgwVck0iHv3RLvjSN4jSN4jCMvLSN0LiMh7hO7.UPRETSfjFY8HBal8lTgQWYLIBH1EFa0UVOhLiKwDSN4jSN3fSM0TSNvfiLh7hO7.UPRETSfjFY8HBal8lTgQWYRIBH1EFa0UVOhHiKw.SN4jSN3jSMvjSM3HSMh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh.WZzMFZLIBH1EFa0UVOhzhLv3RL4jSN4XSNzfiLzHSL4HxK9vCTAIUPMARZj0iHvkFciglTh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HhbuwFaLIBH1EFa0UVOhXiMtDSN4jSN1jCM3HCMxDSNh7hO7.UPRETSfjFY8HhbuwFaRIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHykmaiwjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhLWdtMlTh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HBcxElayY1ax0VSuQVYLIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHzIWXtMmYuIWaM8FYkIkHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWP5wjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWP5IkHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWQrwjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWQrIkHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAWSuQVYAoGSh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxcgIGbM8FYkEjdRIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iH2Elbv0zajUVQrwjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAWSuQVYEwlTh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxckQ2QgklaLIBH1EFa0UVOhzhMt.iHu3COPEjTA0DHoQVOhbWYzcTXo4lTh.hcgwVck0iHsXiKvHxK9vCTAIUPMARZj0iH3YVYkQlXgM1ZLIBH1EFa0UVOhzhLv3BLh7hO7.UPRETSfjFY8HBdlUVYjIVXislTh.hcgwVck0iHsHCLt.iHu3COPEjTA0DHoQVOhjWX2wjHfXWXrUWY8HRLv3BLh7hO7.UPRETSfjFY8HRdgcmTh.hcgwVck0iHsbiK0HxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7BQ0EFaDUFagk2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77BQ0EFaDUFagkmO.."
+															"blob" : "1756.CMlaKA....fQPMDZ....APTcDUF.A.......A........................................X.nVMjLgboA...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BODUWXrQTYrEVd9vCTAIUPMARZj0iHHA0X0Q2SlYFSh.hcgwVck0iH4jiK4jSN4jiLybCL1.SMzbiHu3COPEjTA0DHoQVOhfDTiUGcOYlYRIBH1EFa0UVOhjSNtjSN4jSNxLyMvXCL0PyMh7hO7.UPRETSfjFY8HBSPMVcz8jYlwjHfXWXrUWY8HhLv.CLv3BLh7hO7.UPRETSfjFY8HBSPMVcz8jYlIkHfXWXrUWY8HhLv.CLv3BLh7hO7.UPRETSfjFY8HBYkwVX4IDTMwjHfXWXrUWY8HxLvjiKvPCLv.CN0PCM4HSL4HxK9vCTAIUPMARZj0iHjUFagkmPP0jTh.hcgwVck0iHyHCLt.iHu3COPEjTA0DHoQVOhPVYrEVdMUGazwjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhPVYrEVdMUGazIkHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhPlb4cTXo4lHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhXVYkQlXgM1ZLIBH1EFa0UVOhzBNt.iHu3COPEjTA0DHoQVOhXVYkQlXgM1ZRIBH1EFa0UVOhzBNt.iHu3COPEjTA0DHoQVOhvlYuQTYvQGZLIBH1EFa0UVOh.iKxfSN4jSN4jSL1TSMyPSN2HxK9vCTAIUPMARZj0iHrY1aDUFbzglTh.hcgwVck0iHv3RLvjSN4jSN4jCMvLSN0LiMh7hO7.UPRETSfjFY8HBal8lTgQWYLIBH1EFa0UVOhLiKwDSN4jSN3fSM0TSNvfiLh7hO7.UPRETSfjFY8HBal8lTgQWYRIBH1EFa0UVOhHiKw.SN4jSN3jSMvjSM3HSMh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh.WZzMFZLIBH1EFa0UVOhzhLv3RL4jSN4XSNzfiLzHSL4HxK9vCTAIUPMARZj0iHvkFciglTh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HhbuwFaLIBH1EFa0UVOhXiMtDSN4jSN1jCM3HCMxDSNh7hO7.UPRETSfjFY8HhbuwFaRIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHykmaiwjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhLWdtMlTh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HBcxElayY1ax0VSuQVYLIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHzIWXtMmYuIWaM8FYkIkHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWP5wjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWP5IkHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWQrwjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAmQgMFcuIWQrIkHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAWSuQVYAoGSh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxcgIGbM8FYkEjdRIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iH2Elbv0zajUVQrwjHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbWXxAWSuQVYEwlTh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxckQ2QgklaLIBH1EFa0UVOhzhMt.iHu3COPEjTA0DHoQVOhbWYzcTXo4lTh.hcgwVck0iHsXiKvHxK9vCTAIUPMARZj0iH3YVYkQlXgM1ZLIBH1EFa0UVOhzhLv3BLh7hO7.UPRETSfjFY8HBdlUVYjIVXislTh.hcgwVck0iHsHCLt.iHu3COPEjTA0DHoQVOhjWX2wjHfXWXrUWY8HRLv3BLh7hO7.UPRETSfjFY8HRdgcmTh.hcgwVck0iHsbiK0HxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7BQ0EFaDUFagk2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77BQ0EFaDUFagkmO.."
 														}
 ,
 														"fileref" : 														{
@@ -707,13 +1792,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-22",
-									"linecount" : 6,
+									"linecount" : 8,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 165.0, 374.0, 35.0, 91.0 ],
-									"text" : "\"Elevation angle 1\" 0.5"
+									"patching_rect" : [ 165.0, 374.0, 35.0, 119.0 ],
+									"text" : "\"Elevation angle 12\" 0.515806"
 								}
 
 							}
@@ -725,8 +1810,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 113.0, 374.0, 39.0, 91.0 ],
-									"text" : "\"Azimuth angle 1\" 0.666667"
+									"patching_rect" : [ 113.0, 374.0, 41.0, 91.0 ],
+									"text" : "\"Azimuth angle 12\" 0.241667"
 								}
 
 							}
@@ -738,7 +1823,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 109.0, 261.0, 50.0, 22.0 ],
-									"text" : "1"
+									"text" : "12"
 								}
 
 							}
@@ -782,7 +1867,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 885.0, 37.0, 100.0, 22.0 ],
-													"text" : "1 0.5"
+													"text" : "12 0.515806"
 												}
 
 											}
@@ -795,7 +1880,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 885.0, 106.0, 121.0, 36.0 ],
-													"text" : "\"Elevation angle 1\" 0.5"
+													"text" : "\"Elevation angle 12\" 0.515806"
 												}
 
 											}
@@ -854,7 +1939,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 679.81596502661705, 37.0, 100.0, 22.0 ],
-													"text" : "1 0.666667"
+													"text" : "12 0.241667"
 												}
 
 											}
@@ -879,7 +1964,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 679.81596502661705, 106.0, 121.0, 36.0 ],
-													"text" : "\"Azimuth angle 1\" 0.666667"
+													"text" : "\"Azimuth angle 12\" 0.241667"
 												}
 
 											}
@@ -903,7 +1988,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 462.0, 80.0, 74.0, 22.0 ],
-													"text" : "1"
+													"text" : "12"
 												}
 
 											}
@@ -2365,7 +3450,7 @@
 												"version" : 1,
 												"isbank" : 0,
 												"isbase64" : 1,
-												"blob" : "12610.CMlaKA....fQPMDZ....AzTcE4F.A..A....FzRKs....................................DiAVMjLgzOL...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOMUGazkVQtM1ajUlbfL1ar8VcxASOhXlYv.iYlYlYh.xXuw1a0IWL8HhYlACLlYlYlIBHi8FauUmbxziHlYFLvXlYlYlHfL1ar8VcxMSOhXlYv.iYlYlYh.xXuw1a0IGM8HhYlACLlYlYlIBHi8FauUmb0ziHlYFLvXlYlYlHfL1ar8VcxYSOhXlYv.iYlYlYh.xXuw1a0I2M8HhYlACLlYlYlIBHi8FauUmb3ziHlYFLvXlYlYlHfL1ar8VcxkSOhXlYv.iYlYlYh.xXuw1a0IWLvziHlYFLvXlYlYlHfL1ar8VcxESL8HhYlACLlYlYlIBHi8FauUmbwHSOhXlYv.iYlYlYh.xXuw1a0IWLyziHlYFLvXlYlYlHfL1ar8VcxECM8HhYlACLlYlYlIBHi8FauUmbwTSOhXlYv.iYlYlYh.xXuw1a0IWL1ziHlYFLvXlYlYlHfL1ar8VcxEyM8HhYlACLlYlYlIBHi8FauUmbwfSOhXlYv.iYlYlYh.xXuw1a0IWL4ziHlYFLvXlYlYlHfL1ar8VcxICL8HhYlACLlYlYlIBHi8FauUmbxDSOhXlYv.iYlYlYh.xXuw1a0ImLxziHlYFLvXlYlYlHfL1ar8VcxIyL8HhYlACLlYlYlIBHi8FauUmbxPSOhXlYv.iYlYlYh.xXuw1a0ImL0ziHlYFLvXlYlYlHfL1ar8VcxIiM8HhYlACLlYlYlIBHi8FauUmbxbSOhXlYv.iYlYlYh.xXuw1a0ImL3ziHlYFLvXlYlYlHfL1ar8VcxISN8HhYlACLlYlYlIBHi8FauUmby.SOhXlYv.iYlYlYh.xXuw1a0I2LwziHlYFLvXlYlYlHfL1ar8VcxMiL8HhYlACLlYlYlIBHi8FauUmbyLSOhXlYv.iYlYlYh.xXuw1a0I2LzziHlYFLvXlYlYlHfL1ar8VcxMSM8HhYlACLlYlYlIBHi8FauUmbyXSOhXlYv.iYlYlYh.xXuw1a0I2L2ziHlYFLvXlYlYlHfL1ar8VcxMCN8HhYlACLlYlYlIBHi8FauUmbyjSOhXlYv.iYlYlYh.xXuw1a0IGMvziHlYFLvXlYlYlHfL1ar8VcxQSL8HhYlACLlYlYlIBHi8FauUmbzHSOhXlYv.iYlYlYh.xXuw1a0IGMyziHlYFLvXlYlYlHfL1ar8VcxQCM8HhYlACLlYlYlIBHi8FauUmbzTSOhXlYv.iYlYlYh.xXuw1a0IGM1ziHlYFLvXlYlYlHfL1ar8VcxQyM8HhYlACLlYlYlIBHi8FauUmbzfSOhXlYv.iYlYlYh.xXuw1a0IGM4ziHlYFLvXlYlYlHfL1ar8VcxUCL8HhYlACLlYlYlIBHi8FauUmb0DSOhXlYv.iYlYlYh.xXuw1a0IWMxziHlYFLvXlYlYlHfL1ar8VcxUyL8HhYlACLlYlYlIBHi8FauUmb0PSOhXlYv.iYlYlYh.xXuw1a0IWM0ziHlYFLvXlYlYlHfL1ar8VcxUiM8HhYlACLlYlYlIBHi8FauUmb0bSOhXlYv.iYlYlYh.xXuw1a0IWM3ziHlYFLvXlYlYlHfL1ar8VcxUSN8HhYlACLlYlYlIBHi8FauUmb1.SOhXlYv.iYlYlYh.xXuw1a0ImMwziHlYFLvXlYlYlHfL1ar8VcxYiL8HhYlACLlYlYlIBHi8FauUmb1LSOhXlYv.iYlYlYh3COPEjTA0DHoQVOhDlagwVd5UlTMMkHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDldo0VczgFLh.hcgwVck0iH1.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnEiHfXWXrUWY8HhMv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZw.iHfXWXrUWY8HhMv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZwDiHfXWXrUWY8HhMv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZwHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnECMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZwTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnEyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZwfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnIiHfXWXrUWY8HhMv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZx.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglLwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnIiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZxLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglLzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnISMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZxXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglL2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnICNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZxjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0Vczg1Lh.hcgwVck0iH1.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnMCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZyDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0Vczg1LxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnMyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZyPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0Vczg1L0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnMiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZybiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0Vczg1L3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnMSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZzHBH1EFa0UVOhXCLt.iHu3COPEjTA0DHoQVOhDldo0VczgFMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnQSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZzHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnQCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZzTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnQyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZzfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnUiHfXWXrUWY8HhMv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ0.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnUiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ0LiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVMzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnUSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ0XiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVM2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnUCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ0jiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglMh.hcgwVck0iH1.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnYCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ1DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnYyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ2HBH1EFa0UVOhXCLt.iHu3COPEjTA0DHoQVOhDldo0VczgFNh.hcgwVck0iH1.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnkiHfXWXrUWY8HhMv3BLh7hO7.UPRETSfjFY8HBY44VXsk1XRElamUlHfXWXrUWY8HRM33BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VLvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lawDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atEiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lawPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atESMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lawbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atECNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8laxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lax.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atISLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8laxLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atICMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8laxXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atIyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8laxjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu41LwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8layHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu41LzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8layTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu41L2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8layfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lazDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atQiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lazPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atQSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lazbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atQCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la0.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atUSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la0LiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atUCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la0XiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atUyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la0jiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atYiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atYCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la1HiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atYyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu41Mh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklavHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtEiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VLvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtESLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklawHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtECMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklawTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtEyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklawfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtIiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lLvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtISLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaxHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtICMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaxTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtIyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaxfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtMiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo41LvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtMSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklayHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo41LyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtMCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklayTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo41L1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtMyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklayfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo41L4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtQiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4FMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtQSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklazHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4FMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtQCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklazTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4FM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtQyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklazfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4FM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtUiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtUSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla0HiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtUCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla0TiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtUyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla0fiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtYiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtYSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla1HiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtciHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4FNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHo4Fb0Q2TkQGco41Yh.hcgwVck0iHwHiKvHxK9vCTAIUPMARZj0iHr81XqUFYT8VSgMGckImHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVXyQWYxEjdo0VczglHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVXyQWYxUDakYWXzk1atIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsE1bzUlbR8FarIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckAiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYw.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVLwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckEiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVLzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckESMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVL2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckECNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYx.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlLwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckIiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlLzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckISMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlL2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckICNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1Lh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYy.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1LwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYyLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1LzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYyXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1L2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYyjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYz.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFMzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFM2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0LiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVMzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0XiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVM2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0jiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY1.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckYiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY1LiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1Mh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckkiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHvUVXqwTY1UFah.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1avHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauEiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VLvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauESLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauECMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauEyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauIiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lLvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauISLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauICMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauIyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81LvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ayHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81LyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ayTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81L1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ayfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81L4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0HiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0TiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0fiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauYiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauYSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a1HiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauciHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7RS0wFcoUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77RS0wFcoUjai8FYkImO.."
+												"blob" : "12779.CMlaKA....fQPMDZ....AzTcE4F.A..A....FzRKs....................................DyqVMjLgXZL...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOMUGazkVQtM1ajUlbfL1ar8VcxASOhXlYv.iYlYlYh.xXuw1a0IWL8HhYlACLlYlYlIBHi8FauUmbxziHlYFLvXlYlYlHfL1ar8VcxMSOhXlYv.iYlYlYh.xXuw1a0IGM8HhYlACLlYlYlIBHi8FauUmb0ziHlYFLvXlYlYlHfL1ar8VcxYSOhXlYv.iYlYlYh.xXuw1a0I2M8HhYlACLlYlYlIBHi8FauUmb3ziHlYFLvXlYlYlHfL1ar8VcxkSOhXlYv.iYlYlYh.xXuw1a0IWLvziHlYFLvXlYlYlHfL1ar8VcxESL8HhYlACLlYlYlIBHi8FauUmbwHSOhXlYv.iYlYlYh.xXuw1a0IWLyziHlYFLvXlYlYlHfL1ar8VcxECM8HhYlACLlYlYlIBHi8FauUmbwTSOhXlYv.iYlYlYh.xXuw1a0IWL1ziHlYFLvXlYlYlHfL1ar8VcxEyM8HhYlACLlYlYlIBHi8FauUmbwfSOhXlYv.iYlYlYh.xXuw1a0IWL4ziHlYFLvXlYlYlHfL1ar8VcxICL8HhYlACLlYlYlIBHi8FauUmbxDSOhXlYv.iYlYlYh.xXuw1a0ImLxziHlYFLvXlYlYlHfL1ar8VcxIyL8HhYlACLlYlYlIBHi8FauUmbxPSOhXlYv.iYlYlYh.xXuw1a0ImL0ziHlYFLvXlYlYlHfL1ar8VcxIiM8HhYlACLlYlYlIBHi8FauUmbxbSOhXlYv.iYlYlYh.xXuw1a0ImL3ziHlYFLvXlYlYlHfL1ar8VcxISN8HhYlACLlYlYlIBHi8FauUmby.SOhXlYv.iYlYlYh.xXuw1a0I2LwziHlYFLvXlYlYlHfL1ar8VcxMiL8HhYlACLlYlYlIBHi8FauUmbyLSOhXlYv.iYlYlYh.xXuw1a0I2LzziHlYFLvXlYlYlHfL1ar8VcxMSM8HhYlACLlYlYlIBHi8FauUmbyXSOhXlYv.iYlYlYh.xXuw1a0I2L2ziHlYFLvXlYlYlHfL1ar8VcxMCN8HhYlACLlYlYlIBHi8FauUmbyjSOhXlYv.iYlYlYh.xXuw1a0IGMvziHlYFLvXlYlYlHfL1ar8VcxQSL8HhYlACLlYlYlIBHi8FauUmbzHSOhXlYv.iYlYlYh.xXuw1a0IGMyziHlYFLvXlYlYlHfL1ar8VcxQCM8HhYlACLlYlYlIBHi8FauUmbzTSOhXlYv.iYlYlYh.xXuw1a0IGM1ziHlYFLvXlYlYlHfL1ar8VcxQyM8HhYlACLlYlYlIBHi8FauUmbzfSOhXlYv.iYlYlYh.xXuw1a0IGM4ziHlYFLvXlYlYlHfL1ar8VcxUCL8HhYlACLlYlYlIBHi8FauUmb0DSOhXlYv.iYlYlYh.xXuw1a0IWMxziHlYFLvXlYlYlHfL1ar8VcxUyL8HhYlACLlYlYlIBHi8FauUmb0PSOhXlYv.iYlYlYh.xXuw1a0IWM0ziHlYFLvXlYlYlHfL1ar8VcxUiM8HhYlACLlYlYlIBHi8FauUmb0bSOhXlYv.iYlYlYh.xXuw1a0IWM3ziHlYFLvXlYlYlHfL1ar8VcxUSN8HhYlACLlYlYlIBHi8FauUmb1.SOhXlYv.iYlYlYh.xXuw1a0ImMwziHlYFLvXlYlYlHfL1ar8VcxYiL8HhYlACLlYlYlIBHi8FauUmb1LSOhXlYv.iYlYlYh3COPEjTA0DHoQVOhDlagwVd5UlTMMkHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFLh.hcgwVck0iHwHCMt.iHu3COPEjTA0DHoQVOhDldo0VczgVLh.hcgwVck0iHz3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZw.iHfXWXrUWY8HxLt.iHu3COPEjTA0DHoQVOhDldo0VczgVLwHBH1EFa0UVOhzRNy3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZwHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnECMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZwTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnEyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZwfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnIiHfXWXrUWY8HRLxfiKvHxK9vCTAIUPMARZj0iHgoWZsUGcnICLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZxDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnIyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZxPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnIiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZxbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnISNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZyHBH1EFa0UVOhDCL23BLh7hO7.UPRETSfjFY8HRX5kVa0QGZy.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0Vczg1LwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnMiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZyLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0Vczg1LzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnMSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZyXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0Vczg1L2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnMCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZyjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFMh.hcgwVck0iHwLSLt.iHu3COPEjTA0DHoQVOhDldo0VczgFMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnQSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZzHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnQCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZzTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnQyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZzfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnUiHfXWXrUWY8HBN33BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ0.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnUiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ0LiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVMzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnUSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ0XiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVM2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnUCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ0jiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglMh.hcgwVck0iHwLiMt.iHu3COPEjTA0DHoQVOhDldo0VczglMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnYSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ1HiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnciHfXWXrUWY8HRLybiKvHxK9vCTAIUPMARZj0iHgoWZsUGcngiHfXWXrUWY8HRN33BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ4HBH1EFa0UVOhfiMt.iHu3COPEjTA0DHoQVOhPVdtEVaoMlTg41YkIBH1EFa0UVOhTCNt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atAiHfXWXrUWY8HRL43xLvjSN4bSM0fSM4LyM0HxK9vCTAIUPMARZj0iHkwVY1EFco8lawHBH1EFa0UVOhbyLtDSL4jSN0DSL2DCN2TiHu3COPEjTA0DHoQVOhTFakYWXzk1atECLh.hcgwVck0iH2LiKwDSN4jSMwDyMwfyM0HxK9vCTAIUPMARZj0iHkwVY1EFco8lawDiHfXWXrUWY8HRMtXSNv.CLxPCMwPCL1HSMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lawLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atECMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lawXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atEyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lawjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atIiHfXWXrUWY8HRL33xLvjSN4bSM0fSM4LyM0HxK9vCTAIUPMARZj0iHkwVY1EFco8lax.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atISLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8laxLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atICMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8laxXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atIyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8laxjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMiHfXWXrUWY8HxMz3BN1jSN4TSLwbSL3bSMh7hO7.UPRETSfjFY8HRYrUlcgQWZu41LvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8layDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu41LyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8layPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu41L1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8laybiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu41L4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lazHBH1EFa0UVOhDSLtXiL4jCN4XiLz.iLyPCMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lazDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atQiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lazPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atQSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lazbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atQCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la0HBH1EFa0UVOhHSLtXSNv.CLxPCMwPCL1HSMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la0DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atUiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la0PiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atUSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la0biHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atUCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la1HBH1EFa0UVOh.iK1jCLv.iLzPSLz.iMxTiHu3COPEjTA0DHoQVOhTFakYWXzk1atYCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la1HiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atYyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu41Mh.hcgwVck0iHsDiKybCLvDCLybSM4biM0XiLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FNh.hcgwVck0iHyjiK3bSN4fSN1HCMvHyLzPiHu3COPEjTA0DHoQVOhTFakYWXzk1atkiHfXWXrUWY8HRM03RLxjSN3jiMxPCLxLCMzHxK9vCTAIUPMARZj0iHmEVZtAiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaw.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VLwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtEiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklawLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VLzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtESMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklawXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VL2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtECNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklawjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklax.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lLwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtIiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaxLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lLzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtISMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaxXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lL2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtICNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaxjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo41Lh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklay.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo41LwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtMiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklayLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo41LzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtMSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklayXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo41L2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtMCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklayjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4FMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaz.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4FMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtQiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklazLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4FMzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtQSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklazXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4FM2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtQCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklazjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla0.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtUiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla0LiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VMzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtUSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla0XiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VM2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtUCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla0jiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla1.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtYiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla1LiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo41Mh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtkiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjlavUGcSUFczklamIBH1EFa0UVOhDiLt.iHu3COPEjTA0DHoQVOhv1aisVYjQ0aME1bzUlbh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRagMGckIWP5kVa0QGZh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRagMGckIWQrUlcgQWZu4lHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVXyQWYxI0arwlHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckECLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckEyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckEiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckESNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckICLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckIyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckIiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckISNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYyDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1LxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYyPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1L0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYybiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1L3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0PiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0biHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckYCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY1DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckYyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckgiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh.WYgsFSkYWYrIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauAiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1aw.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VLwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauEiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VLzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauESMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VL2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauECNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ax.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lLwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauIiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lLzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauISMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lL2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauICNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81Lh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ay.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81LwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ayLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81LzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ayXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81L2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ayjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1az.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FMzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FM2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0LiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VMzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0XiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VM2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0jiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a1.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauYiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a1LiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81Mh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FaukiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKMUGazkVQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKMUGazkVQtM1ajUlb9.."
 											}
 ,
 											"snapshotlist" : 											{
@@ -2387,7 +3472,7 @@
 															"version" : 1,
 															"isbank" : 0,
 															"isbase64" : 1,
-															"blob" : "12610.CMlaKA....fQPMDZ....AzTcE4F.A..A....FzRKs....................................DiAVMjLgzOL...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOMUGazkVQtM1ajUlbfL1ar8VcxASOhXlYv.iYlYlYh.xXuw1a0IWL8HhYlACLlYlYlIBHi8FauUmbxziHlYFLvXlYlYlHfL1ar8VcxMSOhXlYv.iYlYlYh.xXuw1a0IGM8HhYlACLlYlYlIBHi8FauUmb0ziHlYFLvXlYlYlHfL1ar8VcxYSOhXlYv.iYlYlYh.xXuw1a0I2M8HhYlACLlYlYlIBHi8FauUmb3ziHlYFLvXlYlYlHfL1ar8VcxkSOhXlYv.iYlYlYh.xXuw1a0IWLvziHlYFLvXlYlYlHfL1ar8VcxESL8HhYlACLlYlYlIBHi8FauUmbwHSOhXlYv.iYlYlYh.xXuw1a0IWLyziHlYFLvXlYlYlHfL1ar8VcxECM8HhYlACLlYlYlIBHi8FauUmbwTSOhXlYv.iYlYlYh.xXuw1a0IWL1ziHlYFLvXlYlYlHfL1ar8VcxEyM8HhYlACLlYlYlIBHi8FauUmbwfSOhXlYv.iYlYlYh.xXuw1a0IWL4ziHlYFLvXlYlYlHfL1ar8VcxICL8HhYlACLlYlYlIBHi8FauUmbxDSOhXlYv.iYlYlYh.xXuw1a0ImLxziHlYFLvXlYlYlHfL1ar8VcxIyL8HhYlACLlYlYlIBHi8FauUmbxPSOhXlYv.iYlYlYh.xXuw1a0ImL0ziHlYFLvXlYlYlHfL1ar8VcxIiM8HhYlACLlYlYlIBHi8FauUmbxbSOhXlYv.iYlYlYh.xXuw1a0ImL3ziHlYFLvXlYlYlHfL1ar8VcxISN8HhYlACLlYlYlIBHi8FauUmby.SOhXlYv.iYlYlYh.xXuw1a0I2LwziHlYFLvXlYlYlHfL1ar8VcxMiL8HhYlACLlYlYlIBHi8FauUmbyLSOhXlYv.iYlYlYh.xXuw1a0I2LzziHlYFLvXlYlYlHfL1ar8VcxMSM8HhYlACLlYlYlIBHi8FauUmbyXSOhXlYv.iYlYlYh.xXuw1a0I2L2ziHlYFLvXlYlYlHfL1ar8VcxMCN8HhYlACLlYlYlIBHi8FauUmbyjSOhXlYv.iYlYlYh.xXuw1a0IGMvziHlYFLvXlYlYlHfL1ar8VcxQSL8HhYlACLlYlYlIBHi8FauUmbzHSOhXlYv.iYlYlYh.xXuw1a0IGMyziHlYFLvXlYlYlHfL1ar8VcxQCM8HhYlACLlYlYlIBHi8FauUmbzTSOhXlYv.iYlYlYh.xXuw1a0IGM1ziHlYFLvXlYlYlHfL1ar8VcxQyM8HhYlACLlYlYlIBHi8FauUmbzfSOhXlYv.iYlYlYh.xXuw1a0IGM4ziHlYFLvXlYlYlHfL1ar8VcxUCL8HhYlACLlYlYlIBHi8FauUmb0DSOhXlYv.iYlYlYh.xXuw1a0IWMxziHlYFLvXlYlYlHfL1ar8VcxUyL8HhYlACLlYlYlIBHi8FauUmb0PSOhXlYv.iYlYlYh.xXuw1a0IWM0ziHlYFLvXlYlYlHfL1ar8VcxUiM8HhYlACLlYlYlIBHi8FauUmb0bSOhXlYv.iYlYlYh.xXuw1a0IWM3ziHlYFLvXlYlYlHfL1ar8VcxUSN8HhYlACLlYlYlIBHi8FauUmb1.SOhXlYv.iYlYlYh.xXuw1a0ImMwziHlYFLvXlYlYlHfL1ar8VcxYiL8HhYlACLlYlYlIBHi8FauUmb1LSOhXlYv.iYlYlYh3COPEjTA0DHoQVOhDlagwVd5UlTMMkHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDldo0VczgFLh.hcgwVck0iH1.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnEiHfXWXrUWY8HhMv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZw.iHfXWXrUWY8HhMv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZwDiHfXWXrUWY8HhMv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZwHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnECMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZwTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnEyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZwfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnIiHfXWXrUWY8HhMv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZx.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglLwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnIiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZxLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglLzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnISMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZxXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglL2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnICNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZxjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0Vczg1Lh.hcgwVck0iH1.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnMCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZyDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0Vczg1LxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnMyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZyPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0Vczg1L0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnMiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZybiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0Vczg1L3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnMSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZzHBH1EFa0UVOhXCLt.iHu3COPEjTA0DHoQVOhDldo0VczgFMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnQSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZzHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnQCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZzTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnQyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZzfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnUiHfXWXrUWY8HhMv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ0.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnUiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ0LiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVMzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnUSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ0XiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVM2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnUCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ0jiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglMh.hcgwVck0iH1.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnYCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ1DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnYyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ2HBH1EFa0UVOhXCLt.iHu3COPEjTA0DHoQVOhDldo0VczgFNh.hcgwVck0iH1.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnkiHfXWXrUWY8HhMv3BLh7hO7.UPRETSfjFY8HBY44VXsk1XRElamUlHfXWXrUWY8HRM33BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VLvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lawDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atEiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lawPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atESMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lawbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atECNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8laxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lax.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atISLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8laxLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atICMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8laxXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atIyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8laxjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu41LwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8layHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu41LzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8layTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu41L2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8layfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lazDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atQiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lazPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atQSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lazbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atQCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la0.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atUSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la0LiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atUCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la0XiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atUyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la0jiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atYiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atYCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la1HiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atYyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu41Mh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklavHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtEiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VLvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtESLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklawHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtECMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklawTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtEyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklawfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtIiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lLvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtISLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaxHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtICMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaxTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtIyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaxfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtMiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo41LvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtMSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklayHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo41LyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtMCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklayTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo41L1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtMyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklayfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo41L4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtQiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4FMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtQSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklazHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4FMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtQCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklazTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4FM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtQyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklazfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4FM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtUiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtUSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla0HiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtUCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla0TiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtUyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla0fiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtYiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtYSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla1HiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtciHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4FNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHo4Fb0Q2TkQGco41Yh.hcgwVck0iHwHiKvHxK9vCTAIUPMARZj0iHr81XqUFYT8VSgMGckImHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVXyQWYxEjdo0VczglHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVXyQWYxUDakYWXzk1atIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsE1bzUlbR8FarIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckAiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYw.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVLwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckEiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVLzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckESMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVL2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckECNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYx.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlLwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckIiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlLzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckISMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlL2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckICNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1Lh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYy.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1LwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYyLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1LzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYyXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1L2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYyjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYz.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFMzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFM2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0LiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVMzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0XiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVM2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0jiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY1.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckYiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY1LiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1Mh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckkiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHvUVXqwTY1UFah.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1avHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauEiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VLvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauESLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauECMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauEyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauIiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lLvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauISLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauICMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauIyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81LvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ayHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81LyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ayTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81L1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ayfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81L4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0HiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0TiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0fiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauYiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauYSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a1HiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauciHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7RS0wFcoUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77RS0wFcoUjai8FYkImO.."
+															"blob" : "12779.CMlaKA....fQPMDZ....AzTcE4F.A..A....FzRKs....................................DyqVMjLgXZL...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOMUGazkVQtM1ajUlbfL1ar8VcxASOhXlYv.iYlYlYh.xXuw1a0IWL8HhYlACLlYlYlIBHi8FauUmbxziHlYFLvXlYlYlHfL1ar8VcxMSOhXlYv.iYlYlYh.xXuw1a0IGM8HhYlACLlYlYlIBHi8FauUmb0ziHlYFLvXlYlYlHfL1ar8VcxYSOhXlYv.iYlYlYh.xXuw1a0I2M8HhYlACLlYlYlIBHi8FauUmb3ziHlYFLvXlYlYlHfL1ar8VcxkSOhXlYv.iYlYlYh.xXuw1a0IWLvziHlYFLvXlYlYlHfL1ar8VcxESL8HhYlACLlYlYlIBHi8FauUmbwHSOhXlYv.iYlYlYh.xXuw1a0IWLyziHlYFLvXlYlYlHfL1ar8VcxECM8HhYlACLlYlYlIBHi8FauUmbwTSOhXlYv.iYlYlYh.xXuw1a0IWL1ziHlYFLvXlYlYlHfL1ar8VcxEyM8HhYlACLlYlYlIBHi8FauUmbwfSOhXlYv.iYlYlYh.xXuw1a0IWL4ziHlYFLvXlYlYlHfL1ar8VcxICL8HhYlACLlYlYlIBHi8FauUmbxDSOhXlYv.iYlYlYh.xXuw1a0ImLxziHlYFLvXlYlYlHfL1ar8VcxIyL8HhYlACLlYlYlIBHi8FauUmbxPSOhXlYv.iYlYlYh.xXuw1a0ImL0ziHlYFLvXlYlYlHfL1ar8VcxIiM8HhYlACLlYlYlIBHi8FauUmbxbSOhXlYv.iYlYlYh.xXuw1a0ImL3ziHlYFLvXlYlYlHfL1ar8VcxISN8HhYlACLlYlYlIBHi8FauUmby.SOhXlYv.iYlYlYh.xXuw1a0I2LwziHlYFLvXlYlYlHfL1ar8VcxMiL8HhYlACLlYlYlIBHi8FauUmbyLSOhXlYv.iYlYlYh.xXuw1a0I2LzziHlYFLvXlYlYlHfL1ar8VcxMSM8HhYlACLlYlYlIBHi8FauUmbyXSOhXlYv.iYlYlYh.xXuw1a0I2L2ziHlYFLvXlYlYlHfL1ar8VcxMCN8HhYlACLlYlYlIBHi8FauUmbyjSOhXlYv.iYlYlYh.xXuw1a0IGMvziHlYFLvXlYlYlHfL1ar8VcxQSL8HhYlACLlYlYlIBHi8FauUmbzHSOhXlYv.iYlYlYh.xXuw1a0IGMyziHlYFLvXlYlYlHfL1ar8VcxQCM8HhYlACLlYlYlIBHi8FauUmbzTSOhXlYv.iYlYlYh.xXuw1a0IGM1ziHlYFLvXlYlYlHfL1ar8VcxQyM8HhYlACLlYlYlIBHi8FauUmbzfSOhXlYv.iYlYlYh.xXuw1a0IGM4ziHlYFLvXlYlYlHfL1ar8VcxUCL8HhYlACLlYlYlIBHi8FauUmb0DSOhXlYv.iYlYlYh.xXuw1a0IWMxziHlYFLvXlYlYlHfL1ar8VcxUyL8HhYlACLlYlYlIBHi8FauUmb0PSOhXlYv.iYlYlYh.xXuw1a0IWM0ziHlYFLvXlYlYlHfL1ar8VcxUiM8HhYlACLlYlYlIBHi8FauUmb0bSOhXlYv.iYlYlYh.xXuw1a0IWM3ziHlYFLvXlYlYlHfL1ar8VcxUSN8HhYlACLlYlYlIBHi8FauUmb1.SOhXlYv.iYlYlYh.xXuw1a0ImMwziHlYFLvXlYlYlHfL1ar8VcxYiL8HhYlACLlYlYlIBHi8FauUmb1LSOhXlYv.iYlYlYh3COPEjTA0DHoQVOhDlagwVd5UlTMMkHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFLh.hcgwVck0iHwHCMt.iHu3COPEjTA0DHoQVOhDldo0VczgVLh.hcgwVck0iHz3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZw.iHfXWXrUWY8HxLt.iHu3COPEjTA0DHoQVOhDldo0VczgVLwHBH1EFa0UVOhzRNy3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZwHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnECMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZwTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnEyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZwfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnIiHfXWXrUWY8HRLxfiKvHxK9vCTAIUPMARZj0iHgoWZsUGcnICLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZxDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnIyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZxPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnIiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZxbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnISNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZyHBH1EFa0UVOhDCL23BLh7hO7.UPRETSfjFY8HRX5kVa0QGZy.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0Vczg1LwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnMiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZyLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0Vczg1LzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnMSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZyXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0Vczg1L2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnMCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZyjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFMh.hcgwVck0iHwLSLt.iHu3COPEjTA0DHoQVOhDldo0VczgFMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnQSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZzHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnQCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZzTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnQyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZzfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnUiHfXWXrUWY8HBN33BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ0.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnUiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ0LiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVMzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnUSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ0XiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVM2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnUCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ0jiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglMh.hcgwVck0iHwLiMt.iHu3COPEjTA0DHoQVOhDldo0VczglMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnYSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ1HiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnciHfXWXrUWY8HRLybiKvHxK9vCTAIUPMARZj0iHgoWZsUGcngiHfXWXrUWY8HRN33BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ4HBH1EFa0UVOhfiMt.iHu3COPEjTA0DHoQVOhPVdtEVaoMlTg41YkIBH1EFa0UVOhTCNt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atAiHfXWXrUWY8HRL43xLvjSN4bSM0fSM4LyM0HxK9vCTAIUPMARZj0iHkwVY1EFco8lawHBH1EFa0UVOhbyLtDSL4jSN0DSL2DCN2TiHu3COPEjTA0DHoQVOhTFakYWXzk1atECLh.hcgwVck0iH2LiKwDSN4jSMwDyMwfyM0HxK9vCTAIUPMARZj0iHkwVY1EFco8lawDiHfXWXrUWY8HRMtXSNv.CLxPCMwPCL1HSMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lawLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atECMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lawXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atEyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lawjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atIiHfXWXrUWY8HRL33xLvjSN4bSM0fSM4LyM0HxK9vCTAIUPMARZj0iHkwVY1EFco8lax.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atISLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8laxLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atICMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8laxXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atIyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8laxjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMiHfXWXrUWY8HxMz3BN1jSN4TSLwbSL3bSMh7hO7.UPRETSfjFY8HRYrUlcgQWZu41LvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8layDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu41LyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8layPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu41L1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8laybiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu41L4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lazHBH1EFa0UVOhDSLtXiL4jCN4XiLz.iLyPCMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lazDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atQiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lazPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atQSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lazbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atQCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la0HBH1EFa0UVOhHSLtXSNv.CLxPCMwPCL1HSMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la0DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atUiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la0PiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atUSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la0biHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atUCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la1HBH1EFa0UVOh.iK1jCLv.iLzPSLz.iMxTiHu3COPEjTA0DHoQVOhTFakYWXzk1atYCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la1HiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atYyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu41Mh.hcgwVck0iHsDiKybCLvDCLybSM4biM0XiLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FNh.hcgwVck0iHyjiK3bSN4fSN1HCMvHyLzPiHu3COPEjTA0DHoQVOhTFakYWXzk1atkiHfXWXrUWY8HRM03RLxjSN3jiMxPCLxLCMzHxK9vCTAIUPMARZj0iHmEVZtAiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaw.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VLwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtEiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklawLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VLzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtESMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklawXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VL2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtECNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklawjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklax.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lLwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtIiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaxLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lLzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtISMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaxXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lL2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtICNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaxjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo41Lh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklay.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo41LwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtMiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklayLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo41LzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtMSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklayXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo41L2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtMCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklayjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4FMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaz.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4FMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtQiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklazLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4FMzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtQSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklazXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4FM2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtQCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklazjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla0.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtUiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla0LiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VMzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtUSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla0XiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VM2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtUCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla0jiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla1.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtYiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla1LiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo41Mh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtkiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhjlavUGcSUFczklamIBH1EFa0UVOhDiLt.iHu3COPEjTA0DHoQVOhv1aisVYjQ0aME1bzUlbh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRagMGckIWP5kVa0QGZh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRagMGckIWQrUlcgQWZu4lHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVXyQWYxI0arwlHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckECLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckEyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckEiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckESNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckICLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckIyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckIiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckISNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYyDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1LxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYyPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1L0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYybiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1L3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0PiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0biHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckYCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY1DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckYyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckgiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh.WYgsFSkYWYrIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauAiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1aw.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VLwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauEiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VLzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauESMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VL2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauECNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ax.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lLwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauIiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lLzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauISMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lL2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauICNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81Lh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ay.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81LwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ayLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81LzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ayXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81L2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ayjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1az.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FMzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FM2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0LiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VMzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0XiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VM2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0jiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a1.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauYiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a1LiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81Mh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FaukiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKMUGazkVQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKMUGazkVQtM1ajUlb9.."
 														}
 ,
 														"fileref" : 														{
@@ -2888,17 +3973,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-259",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 772.17999999999995, 477.680000000000007, 35.0, 22.0 ],
-					"text" : "dac~"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-258",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -2977,7 +4051,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1080.648148596286774, 694.444432854652405, 50.0, 22.0 ],
-					"text" : "1"
+					"text" : "4"
 				}
 
 			}
@@ -3001,7 +4075,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1080.648148596286774, 634.259248673915863, 50.0, 22.0 ],
-					"text" : "2"
+					"text" : "5"
 				}
 
 			}
@@ -3031,7 +4105,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1080.648148596286774, 724.074061989784241, 19.0, 147.0 ],
 					"size" : 5,
-					"value" : 1
+					"value" : 4
 				}
 
 			}
@@ -3151,7 +4225,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 962.12963205575943, 659.25924825668335, 50.0, 22.0 ],
-					"text" : "3"
+					"text" : "4"
 				}
 
 			}
@@ -3211,7 +4285,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 962.12963205575943, 599.074064075946808, 50.0, 22.0 ],
-					"text" : "4"
+					"text" : "5"
 				}
 
 			}
@@ -3241,7 +4315,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 962.12963205575943, 689.814803302288055, 19.0, 147.0 ],
 					"size" : 5,
-					"value" : 3
+					"value" : 4
 				}
 
 			}
@@ -3254,18 +4328,6 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 1019.0, 340.0, 134.5, 22.0 ],
 					"text" : "mc.pack~ 12"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-140",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 726.400010824203491, 415.200006186962128, 92.0, 22.0 ],
-					"text" : "mc.mixdown~ 1"
 				}
 
 			}
@@ -3729,17 +4791,30 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 674.0, 84.0, 171.0, 555.0 ],
+						"rect" : [ -70.0, 162.0, 1213.0, 563.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "gain~",
+									"multichannelvariant" : 1,
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "multichannelsignal", "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 522.0, 395.0, 22.0, 140.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"comment" : "master out control",
 									"id" : "obj-10",
-									"index" : 1,
+									"index" : 2,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "multichannelsignal" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 104.0, 276.0, 30.0, 30.0 ]
 								}
 
@@ -3797,12 +4872,12 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-2",
-									"index" : 2,
+									"index" : 1,
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 209.0, 114.0, 30.0, 30.0 ]
+									"outlettype" : [ "multichannelsignal" ],
+									"patching_rect" : [ 59.0, 123.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -3878,7 +4953,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 168.0, 194.0, 1000.0, 735.0 ],
+										"rect" : [ 121.0, 127.0, 1000.0, 735.0 ],
 										"gridsize" : [ 15.0, 15.0 ],
 										"boxes" : [ 											{
 												"box" : 												{
@@ -3974,7 +5049,7 @@
 														}
 ,
 														"classnamespace" : "box",
-														"rect" : [ -88.0, 151.0, 1213.0, 570.0 ],
+														"rect" : [ -71.0, 188.0, 1213.0, 570.0 ],
 														"gridsize" : [ 15.0, 15.0 ],
 														"boxes" : [ 															{
 																"box" : 																{
@@ -4263,7 +5338,7 @@
 																		"/channel/1/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/1/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/1/filtergraph/curve/number" : 9,
-																		"/channel/1/filtergraph/samplerate" : 48000.0,
+																		"/channel/1/filtergraph/samplerate" : 44100.0,
 																		"/channel/1/filtergraph/title" : "",
 																		"/channel/1/filtergraph/curve/1/visible" : 0,
 																		"/channel/1/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -4378,7 +5453,7 @@
 																		"/channel/2/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/2/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/2/filtergraph/curve/number" : 9,
-																		"/channel/2/filtergraph/samplerate" : 48000.0,
+																		"/channel/2/filtergraph/samplerate" : 44100.0,
 																		"/channel/2/filtergraph/title" : "",
 																		"/channel/2/filtergraph/curve/1/visible" : 0,
 																		"/channel/2/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -4493,7 +5568,7 @@
 																		"/channel/3/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/3/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/3/filtergraph/curve/number" : 9,
-																		"/channel/3/filtergraph/samplerate" : 48000.0,
+																		"/channel/3/filtergraph/samplerate" : 44100.0,
 																		"/channel/3/filtergraph/title" : "",
 																		"/channel/3/filtergraph/curve/1/visible" : 0,
 																		"/channel/3/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -4608,7 +5683,7 @@
 																		"/channel/4/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/4/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/4/filtergraph/curve/number" : 9,
-																		"/channel/4/filtergraph/samplerate" : 48000.0,
+																		"/channel/4/filtergraph/samplerate" : 44100.0,
 																		"/channel/4/filtergraph/title" : "",
 																		"/channel/4/filtergraph/curve/1/visible" : 0,
 																		"/channel/4/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -4723,7 +5798,7 @@
 																		"/channel/5/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/5/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/5/filtergraph/curve/number" : 9,
-																		"/channel/5/filtergraph/samplerate" : 48000.0,
+																		"/channel/5/filtergraph/samplerate" : 44100.0,
 																		"/channel/5/filtergraph/title" : "",
 																		"/channel/5/filtergraph/curve/1/visible" : 0,
 																		"/channel/5/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -4838,7 +5913,7 @@
 																		"/channel/6/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/6/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/6/filtergraph/curve/number" : 9,
-																		"/channel/6/filtergraph/samplerate" : 48000.0,
+																		"/channel/6/filtergraph/samplerate" : 44100.0,
 																		"/channel/6/filtergraph/title" : "",
 																		"/channel/6/filtergraph/curve/1/visible" : 0,
 																		"/channel/6/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -4953,7 +6028,7 @@
 																		"/channel/7/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/7/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/7/filtergraph/curve/number" : 9,
-																		"/channel/7/filtergraph/samplerate" : 48000.0,
+																		"/channel/7/filtergraph/samplerate" : 44100.0,
 																		"/channel/7/filtergraph/title" : "",
 																		"/channel/7/filtergraph/curve/1/visible" : 0,
 																		"/channel/7/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -5068,7 +6143,7 @@
 																		"/channel/8/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/8/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/8/filtergraph/curve/number" : 9,
-																		"/channel/8/filtergraph/samplerate" : 48000.0,
+																		"/channel/8/filtergraph/samplerate" : 44100.0,
 																		"/channel/8/filtergraph/title" : "",
 																		"/channel/8/filtergraph/curve/1/visible" : 0,
 																		"/channel/8/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -5183,7 +6258,7 @@
 																		"/channel/9/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/9/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/9/filtergraph/curve/number" : 9,
-																		"/channel/9/filtergraph/samplerate" : 48000.0,
+																		"/channel/9/filtergraph/samplerate" : 44100.0,
 																		"/channel/9/filtergraph/title" : "",
 																		"/channel/9/filtergraph/curve/1/visible" : 0,
 																		"/channel/9/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -5298,7 +6373,7 @@
 																		"/channel/10/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/10/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/10/filtergraph/curve/number" : 9,
-																		"/channel/10/filtergraph/samplerate" : 48000.0,
+																		"/channel/10/filtergraph/samplerate" : 44100.0,
 																		"/channel/10/filtergraph/title" : "",
 																		"/channel/10/filtergraph/curve/1/visible" : 0,
 																		"/channel/10/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -5413,7 +6488,7 @@
 																		"/channel/11/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/11/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/11/filtergraph/curve/number" : 9,
-																		"/channel/11/filtergraph/samplerate" : 48000.0,
+																		"/channel/11/filtergraph/samplerate" : 44100.0,
 																		"/channel/11/filtergraph/title" : "",
 																		"/channel/11/filtergraph/curve/1/visible" : 0,
 																		"/channel/11/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -5528,7 +6603,7 @@
 																		"/channel/12/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/12/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/12/filtergraph/curve/number" : 9,
-																		"/channel/12/filtergraph/samplerate" : 48000.0,
+																		"/channel/12/filtergraph/samplerate" : 44100.0,
 																		"/channel/12/filtergraph/title" : "",
 																		"/channel/12/filtergraph/curve/1/visible" : 0,
 																		"/channel/12/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -5817,7 +6892,7 @@
 																		"/channel/1/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/1/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/1/filtergraph/curve/number" : 9,
-																		"/channel/1/filtergraph/samplerate" : 48000.0,
+																		"/channel/1/filtergraph/samplerate" : 44100.0,
 																		"/channel/1/filtergraph/title" : "",
 																		"/channel/1/filtergraph/curve/1/visible" : 0,
 																		"/channel/1/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -5932,7 +7007,7 @@
 																		"/channel/2/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/2/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/2/filtergraph/curve/number" : 9,
-																		"/channel/2/filtergraph/samplerate" : 48000.0,
+																		"/channel/2/filtergraph/samplerate" : 44100.0,
 																		"/channel/2/filtergraph/title" : "",
 																		"/channel/2/filtergraph/curve/1/visible" : 0,
 																		"/channel/2/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -6047,7 +7122,7 @@
 																		"/channel/3/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/3/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/3/filtergraph/curve/number" : 9,
-																		"/channel/3/filtergraph/samplerate" : 48000.0,
+																		"/channel/3/filtergraph/samplerate" : 44100.0,
 																		"/channel/3/filtergraph/title" : "",
 																		"/channel/3/filtergraph/curve/1/visible" : 0,
 																		"/channel/3/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -6162,7 +7237,7 @@
 																		"/channel/4/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/4/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/4/filtergraph/curve/number" : 9,
-																		"/channel/4/filtergraph/samplerate" : 48000.0,
+																		"/channel/4/filtergraph/samplerate" : 44100.0,
 																		"/channel/4/filtergraph/title" : "",
 																		"/channel/4/filtergraph/curve/1/visible" : 0,
 																		"/channel/4/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -6277,7 +7352,7 @@
 																		"/channel/5/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/5/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/5/filtergraph/curve/number" : 9,
-																		"/channel/5/filtergraph/samplerate" : 48000.0,
+																		"/channel/5/filtergraph/samplerate" : 44100.0,
 																		"/channel/5/filtergraph/title" : "",
 																		"/channel/5/filtergraph/curve/1/visible" : 0,
 																		"/channel/5/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -6392,7 +7467,7 @@
 																		"/channel/6/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/6/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/6/filtergraph/curve/number" : 9,
-																		"/channel/6/filtergraph/samplerate" : 48000.0,
+																		"/channel/6/filtergraph/samplerate" : 44100.0,
 																		"/channel/6/filtergraph/title" : "",
 																		"/channel/6/filtergraph/curve/1/visible" : 0,
 																		"/channel/6/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -6507,7 +7582,7 @@
 																		"/channel/7/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/7/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/7/filtergraph/curve/number" : 9,
-																		"/channel/7/filtergraph/samplerate" : 48000.0,
+																		"/channel/7/filtergraph/samplerate" : 44100.0,
 																		"/channel/7/filtergraph/title" : "",
 																		"/channel/7/filtergraph/curve/1/visible" : 0,
 																		"/channel/7/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -6622,7 +7697,7 @@
 																		"/channel/8/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/8/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/8/filtergraph/curve/number" : 9,
-																		"/channel/8/filtergraph/samplerate" : 48000.0,
+																		"/channel/8/filtergraph/samplerate" : 44100.0,
 																		"/channel/8/filtergraph/title" : "",
 																		"/channel/8/filtergraph/curve/1/visible" : 0,
 																		"/channel/8/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -6737,7 +7812,7 @@
 																		"/channel/9/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/9/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/9/filtergraph/curve/number" : 9,
-																		"/channel/9/filtergraph/samplerate" : 48000.0,
+																		"/channel/9/filtergraph/samplerate" : 44100.0,
 																		"/channel/9/filtergraph/title" : "",
 																		"/channel/9/filtergraph/curve/1/visible" : 0,
 																		"/channel/9/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -6852,7 +7927,7 @@
 																		"/channel/10/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/10/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/10/filtergraph/curve/number" : 9,
-																		"/channel/10/filtergraph/samplerate" : 48000.0,
+																		"/channel/10/filtergraph/samplerate" : 44100.0,
 																		"/channel/10/filtergraph/title" : "",
 																		"/channel/10/filtergraph/curve/1/visible" : 0,
 																		"/channel/10/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -6967,7 +8042,7 @@
 																		"/channel/11/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/11/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/11/filtergraph/curve/number" : 9,
-																		"/channel/11/filtergraph/samplerate" : 48000.0,
+																		"/channel/11/filtergraph/samplerate" : 44100.0,
 																		"/channel/11/filtergraph/title" : "",
 																		"/channel/11/filtergraph/curve/1/visible" : 0,
 																		"/channel/11/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -7082,7 +8157,7 @@
 																		"/channel/12/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/12/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/12/filtergraph/curve/number" : 9,
-																		"/channel/12/filtergraph/samplerate" : 48000.0,
+																		"/channel/12/filtergraph/samplerate" : 44100.0,
 																		"/channel/12/filtergraph/title" : "",
 																		"/channel/12/filtergraph/curve/1/visible" : 0,
 																		"/channel/12/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -7371,7 +8446,7 @@
 																		"/channel/1/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/1/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/1/filtergraph/curve/number" : 9,
-																		"/channel/1/filtergraph/samplerate" : 48000.0,
+																		"/channel/1/filtergraph/samplerate" : 44100.0,
 																		"/channel/1/filtergraph/title" : "",
 																		"/channel/1/filtergraph/curve/1/visible" : 0,
 																		"/channel/1/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -7486,7 +8561,7 @@
 																		"/channel/2/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/2/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/2/filtergraph/curve/number" : 9,
-																		"/channel/2/filtergraph/samplerate" : 48000.0,
+																		"/channel/2/filtergraph/samplerate" : 44100.0,
 																		"/channel/2/filtergraph/title" : "",
 																		"/channel/2/filtergraph/curve/1/visible" : 0,
 																		"/channel/2/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -7601,7 +8676,7 @@
 																		"/channel/3/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/3/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/3/filtergraph/curve/number" : 9,
-																		"/channel/3/filtergraph/samplerate" : 48000.0,
+																		"/channel/3/filtergraph/samplerate" : 44100.0,
 																		"/channel/3/filtergraph/title" : "",
 																		"/channel/3/filtergraph/curve/1/visible" : 0,
 																		"/channel/3/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -7716,7 +8791,7 @@
 																		"/channel/4/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/4/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/4/filtergraph/curve/number" : 9,
-																		"/channel/4/filtergraph/samplerate" : 48000.0,
+																		"/channel/4/filtergraph/samplerate" : 44100.0,
 																		"/channel/4/filtergraph/title" : "",
 																		"/channel/4/filtergraph/curve/1/visible" : 0,
 																		"/channel/4/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -7831,7 +8906,7 @@
 																		"/channel/5/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/5/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/5/filtergraph/curve/number" : 9,
-																		"/channel/5/filtergraph/samplerate" : 48000.0,
+																		"/channel/5/filtergraph/samplerate" : 44100.0,
 																		"/channel/5/filtergraph/title" : "",
 																		"/channel/5/filtergraph/curve/1/visible" : 0,
 																		"/channel/5/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -7946,7 +9021,7 @@
 																		"/channel/6/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/6/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/6/filtergraph/curve/number" : 9,
-																		"/channel/6/filtergraph/samplerate" : 48000.0,
+																		"/channel/6/filtergraph/samplerate" : 44100.0,
 																		"/channel/6/filtergraph/title" : "",
 																		"/channel/6/filtergraph/curve/1/visible" : 0,
 																		"/channel/6/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -8061,7 +9136,7 @@
 																		"/channel/7/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/7/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/7/filtergraph/curve/number" : 9,
-																		"/channel/7/filtergraph/samplerate" : 48000.0,
+																		"/channel/7/filtergraph/samplerate" : 44100.0,
 																		"/channel/7/filtergraph/title" : "",
 																		"/channel/7/filtergraph/curve/1/visible" : 0,
 																		"/channel/7/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -8176,7 +9251,7 @@
 																		"/channel/8/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/8/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/8/filtergraph/curve/number" : 9,
-																		"/channel/8/filtergraph/samplerate" : 48000.0,
+																		"/channel/8/filtergraph/samplerate" : 44100.0,
 																		"/channel/8/filtergraph/title" : "",
 																		"/channel/8/filtergraph/curve/1/visible" : 0,
 																		"/channel/8/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -8291,7 +9366,7 @@
 																		"/channel/9/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/9/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/9/filtergraph/curve/number" : 9,
-																		"/channel/9/filtergraph/samplerate" : 48000.0,
+																		"/channel/9/filtergraph/samplerate" : 44100.0,
 																		"/channel/9/filtergraph/title" : "",
 																		"/channel/9/filtergraph/curve/1/visible" : 0,
 																		"/channel/9/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -8406,7 +9481,7 @@
 																		"/channel/10/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/10/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/10/filtergraph/curve/number" : 9,
-																		"/channel/10/filtergraph/samplerate" : 48000.0,
+																		"/channel/10/filtergraph/samplerate" : 44100.0,
 																		"/channel/10/filtergraph/title" : "",
 																		"/channel/10/filtergraph/curve/1/visible" : 0,
 																		"/channel/10/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -8521,7 +9596,7 @@
 																		"/channel/11/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/11/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/11/filtergraph/curve/number" : 9,
-																		"/channel/11/filtergraph/samplerate" : 48000.0,
+																		"/channel/11/filtergraph/samplerate" : 44100.0,
 																		"/channel/11/filtergraph/title" : "",
 																		"/channel/11/filtergraph/curve/1/visible" : 0,
 																		"/channel/11/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -8636,7 +9711,7 @@
 																		"/channel/12/equalizer/filter/7/color" : [ 1.0, 0.062745101749897, 0.0, 1.0 ],
 																		"/channel/12/equalizer/filter/8/color" : [ 0.501960813999176, 0.0, 0.0, 1.0 ],
 																		"/channel/12/filtergraph/curve/number" : 9,
-																		"/channel/12/filtergraph/samplerate" : 48000.0,
+																		"/channel/12/filtergraph/samplerate" : 44100.0,
 																		"/channel/12/filtergraph/title" : "",
 																		"/channel/12/filtergraph/curve/1/visible" : 0,
 																		"/channel/12/filtergraph/curve/1/foreground/color" : [ 0.0, 0.0, 0.513725519180298, 1.0 ],
@@ -9248,11 +10323,11 @@
 												"pluginname" : "EnergyVisualizer.vstinfo",
 												"plugindisplayname" : "EnergyVisualizer",
 												"pluginsavedname" : "",
-												"pluginsaveduniqueid" : 1164858985,
+												"pluginsaveduniqueid" : 0,
 												"version" : 1,
 												"isbank" : 0,
 												"isbase64" : 1,
-												"blob" : "511.CMlaKA....fQPMDZ....ATjaVkF.A.fA....A........................................DvvVMjLgna....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOE4VYxcVdVk1b0EFaooWYx4COPEjTA0DHoQVOhHUSSQWZsU1Pu41bzElazIBH1EFa0UVOhjSNtjSN4jSNxLyMvXCL0PyMh7hO7.UPRETSfjFY8HBY44VXsk1XRElamUlHfXWXrUWY8HBMz3BLh7hO7.UPRETSfjFY8HBZuwFYMEFdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh.WYgsFSkYWYrIBH1EFa0UVOhzBLtLSN4jSN2bSLwDCNwXCMvXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKE4VYxcVdVk1b0EFaooWYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuTjakI2Y4YUZyUWXrkldkImO.."
+												"blob" : "496.CMlaKA....fQPMDZ....ATjaVkF.A.fA....A........................................D.sVMjLgrZ....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOE4VYxcVdVk1b0EFaooWYx4COPEjTA0DHoQVOhHUSSQWZsU1Pu41bzElazIBH1EFa0UVOhjSNtjSN4jSNxLyMvXCL0PyMh7hO7.UPRETSfjFY8HBY44VXsk1XRElamUlHfXWXrUWY8HxL03BLh7hO7.UPRETSfjFY8HBZuwFYMEFdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh.WYgsFSkYWYrIBH1EFa0UVOhDCLt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKE4VYxcVdVk1b0EFaooWYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuTjakI2Y4YUZyUWXrkldkImO.."
 											}
 ,
 											"snapshotlist" : 											{
@@ -9265,16 +10340,16 @@
 														"origin" : "EnergyVisualizer.vstinfo",
 														"type" : "VST",
 														"subtype" : "AudioEffect",
-														"embed" : 1,
+														"embed" : 0,
 														"snapshot" : 														{
 															"pluginname" : "EnergyVisualizer.vstinfo",
 															"plugindisplayname" : "EnergyVisualizer",
 															"pluginsavedname" : "",
-															"pluginsaveduniqueid" : 1164858985,
+															"pluginsaveduniqueid" : 0,
 															"version" : 1,
 															"isbank" : 0,
 															"isbase64" : 1,
-															"blob" : "511.CMlaKA....fQPMDZ....ATjaVkF.A.fA....A........................................DvvVMjLgna....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOE4VYxcVdVk1b0EFaooWYx4COPEjTA0DHoQVOhHUSSQWZsU1Pu41bzElazIBH1EFa0UVOhjSNtjSN4jSNxLyMvXCL0PyMh7hO7.UPRETSfjFY8HBY44VXsk1XRElamUlHfXWXrUWY8HBMz3BLh7hO7.UPRETSfjFY8HBZuwFYMEFdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh.WYgsFSkYWYrIBH1EFa0UVOhzBLtLSN4jSN2bSLwDCNwXCMvXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKE4VYxcVdVk1b0EFaooWYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuTjakI2Y4YUZyUWXrkldkImO.."
+															"blob" : "496.CMlaKA....fQPMDZ....ATjaVkF.A.fA....A........................................D.sVMjLgrZ....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOE4VYxcVdVk1b0EFaooWYx4COPEjTA0DHoQVOhHUSSQWZsU1Pu41bzElazIBH1EFa0UVOhjSNtjSN4jSNxLyMvXCL0PyMh7hO7.UPRETSfjFY8HBY44VXsk1XRElamUlHfXWXrUWY8HxL03BLh7hO7.UPRETSfjFY8HBZuwFYMEFdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh.WYgsFSkYWYrIBH1EFa0UVOhDCLt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKE4VYxcVdVk1b0EFaooWYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuTjakI2Y4YUZyUWXrkldkImO.."
 														}
 ,
 														"fileref" : 														{
@@ -9824,7 +10899,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 958.0, 841.0, 112.0, 36.0 ],
-													"text" : "\"Elevation angle 6\" 0.5"
+													"text" : "\"Elevation angle 6\" 0.558861"
 												}
 
 											}
@@ -9837,7 +10912,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 958.0, 736.0, 112.0, 36.0 ],
-													"text" : "\"Elevation angle 6\" 0.5"
+													"text" : "\"Elevation angle 6\" 0.502611"
 												}
 
 											}
@@ -9919,7 +10994,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 958.0, 790.0, 111.475406646728516, 36.0 ],
-													"text" : "\"Azimuth angle 6\" 0.666667"
+													"text" : "\"Azimuth angle 6\" 0.597222"
 												}
 
 											}
@@ -9932,7 +11007,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 958.0, 687.0, 111.6319300532341, 36.0 ],
-													"text" : "\"Azimuth angle 6\" 0.666667"
+													"text" : "\"Azimuth angle 6\" 0.169444"
 												}
 
 											}
@@ -9957,7 +11032,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 670.0, 841.0, 112.0, 36.0 ],
-													"text" : "\"Elevation angle 5\" 0.5"
+													"text" : "\"Elevation angle 5\" 0.713889"
 												}
 
 											}
@@ -9970,7 +11045,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 670.0, 736.0, 112.0, 36.0 ],
-													"text" : "\"Elevation angle 5\" 0.5"
+													"text" : "\"Elevation angle 5\" 0.502611"
 												}
 
 											}
@@ -10052,7 +11127,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 670.0, 790.0, 111.475406646728516, 36.0 ],
-													"text" : "\"Azimuth angle 5\" 0.666667"
+													"text" : "\"Azimuth angle 5\" 0.511111"
 												}
 
 											}
@@ -10065,7 +11140,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 670.0, 687.0, 111.6319300532341, 36.0 ],
-													"text" : "\"Azimuth angle 5\" 0.666667"
+													"text" : "\"Azimuth angle 5\" 0.169444"
 												}
 
 											}
@@ -10101,7 +11176,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 384.0, 841.0, 112.0, 36.0 ],
-													"text" : "\"Elevation angle 4\" 0.5"
+													"text" : "\"Elevation angle 4\" 0.515806"
 												}
 
 											}
@@ -10114,7 +11189,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 384.0, 736.0, 112.0, 36.0 ],
-													"text" : "\"Elevation angle 4\" 0.5"
+													"text" : "\"Elevation angle 4\" 0.502611"
 												}
 
 											}
@@ -10196,7 +11271,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 384.0, 790.0, 111.475406646728516, 36.0 ],
-													"text" : "\"Azimuth angle 4\" 0.666667"
+													"text" : "\"Azimuth angle 4\" 0.241667"
 												}
 
 											}
@@ -10209,7 +11284,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 384.0, 687.0, 111.6319300532341, 36.0 ],
-													"text" : "\"Azimuth angle 4\" 0.666667"
+													"text" : "\"Azimuth angle 4\" 0.169444"
 												}
 
 											}
@@ -10234,7 +11309,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 967.0, 432.0, 112.0, 36.0 ],
-													"text" : "\"Elevation angle 3\" 0.5"
+													"text" : "\"Elevation angle 3\" 0.56025"
 												}
 
 											}
@@ -10247,7 +11322,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 967.0, 326.0, 112.0, 36.0 ],
-													"text" : "\"Elevation angle 3\" 0.5"
+													"text" : "\"Elevation angle 3\" 0.502611"
 												}
 
 											}
@@ -10329,7 +11404,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 967.0, 380.0, 111.475406646728516, 36.0 ],
-													"text" : "\"Azimuth angle 3\" 0.666667"
+													"text" : "\"Azimuth angle 3\" 0.744444"
 												}
 
 											}
@@ -10342,7 +11417,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 967.0, 278.0, 111.6319300532341, 36.0 ],
-													"text" : "\"Azimuth angle 3\" 0.666667"
+													"text" : "\"Azimuth angle 3\" 0.169444"
 												}
 
 											}
@@ -10469,7 +11544,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 674.0, 432.0, 112.0, 36.0 ],
-													"text" : "\"Elevation angle 2\" 0.5"
+													"text" : "\"Elevation angle 2\" 0.496194"
 												}
 
 											}
@@ -10482,7 +11557,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 674.0, 327.0, 112.0, 36.0 ],
-													"text" : "\"Elevation angle 2\" 0.5"
+													"text" : "\"Elevation angle 2\" 0.502611"
 												}
 
 											}
@@ -10564,7 +11639,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 674.0, 381.0, 111.475406646728516, 36.0 ],
-													"text" : "\"Azimuth angle 2\" 0.666667"
+													"text" : "\"Azimuth angle 2\" 0.880556"
 												}
 
 											}
@@ -10577,7 +11652,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 674.0, 278.0, 111.6319300532341, 36.0 ],
-													"text" : "\"Azimuth angle 2\" 0.666667"
+													"text" : "\"Azimuth angle 2\" 0.169444"
 												}
 
 											}
@@ -10626,7 +11701,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 388.0, 432.0, 112.0, 36.0 ],
-													"text" : "\"Elevation angle 1\" 0.5"
+													"text" : "\"Elevation angle 1\" 0.501917"
 												}
 
 											}
@@ -10639,7 +11714,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 388.0, 327.0, 112.0, 36.0 ],
-													"text" : "\"Elevation angle 1\" 0.5"
+													"text" : "\"Elevation angle 1\" 0.502611"
 												}
 
 											}
@@ -10721,7 +11796,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 388.0, 381.0, 111.475406646728516, 36.0 ],
-													"text" : "\"Azimuth angle 1\" 0.666667"
+													"text" : "\"Azimuth angle 1\" 0.877778"
 												}
 
 											}
@@ -10734,7 +11809,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 388.0, 278.0, 111.6319300532341, 36.0 ],
-													"text" : "\"Azimuth angle 1\" 0.666667"
+													"text" : "\"Azimuth angle 1\" 0.169444"
 												}
 
 											}
@@ -11769,7 +12844,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 775.0, 104.0, 50.0, 35.0 ],
-													"text" : "0.2248"
+													"text" : "104.64"
 												}
 
 											}
@@ -11807,7 +12882,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 694.0, 173.0, 131.237371623516083, 22.0 ],
-													"text" : "80.737625"
+													"text" : "423.35"
 												}
 
 											}
@@ -11838,13 +12913,12 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-17",
-													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 621.0, 104.0, 50.0, 22.0 ],
-													"text" : "12.308699"
+													"text" : "68.88"
 												}
 
 											}
@@ -11882,7 +12956,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 540.0, 173.0, 131.237371623516083, 22.0 ],
-													"text" : "210.771747"
+													"text" : "352.2"
 												}
 
 											}
@@ -11957,7 +13031,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 300.0, 104.0, 50.0, 22.0 ],
-													"text" : "0."
+													"text" : "127."
 												}
 
 											}
@@ -12069,7 +13143,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 250.0, 173.0, 123.152537763118744, 22.0 ],
-													"text" : "180."
+													"text" : "497.5"
 												}
 
 											}
@@ -12594,7 +13668,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 303.0, 329.0, 105.0, 22.0 ],
-													"text" : "406.122449"
+													"text" : "409.319728"
 												}
 
 											}
@@ -12625,12 +13699,13 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-20",
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 242.0, 369.0, 50.0, 35.0 ],
-													"text" : "0.5"
+													"text" : "0.502611"
 												}
 
 											}
@@ -12978,8 +14053,9 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 224.0, 139.0, 417.0, 612.0 ],
+						"rect" : [ 134.0, 134.0, 417.0, 612.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-31",
@@ -13284,7 +14360,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 530.5, 153.333328306674957, 159.0, 34.0 ],
+									"patching_rect" : [ 530.5, 153.333328306674957, 162.0, 34.0 ],
 									"text" : "COM15 for ctrl1, COM17 for ctrl2"
 								}
 
@@ -13560,7 +14636,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 783.0, 532.0, 18.0, 105.0 ],
-													"text" : "0.2248"
+													"text" : "104.64"
 												}
 
 											}
@@ -13584,7 +14660,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 776.0, 302.0, 50.0, 36.0 ],
-													"text" : "0."
+													"text" : "84.4"
 												}
 
 											}
@@ -13609,7 +14685,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 758.0, 385.0, 50.0, 36.0 ],
-													"text" : "0.00177"
+													"text" : "0.823937"
 												}
 
 											}
@@ -13667,13 +14743,12 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-14",
-													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 570.0, 349.0, 50.0, 22.0 ],
-													"text" : "12.308699"
+													"text" : "68.88"
 												}
 
 											}
@@ -13697,7 +14772,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 563.0, 119.0, 50.0, 22.0 ],
-													"text" : "0."
+													"text" : "102.4"
 												}
 
 											}
@@ -13722,7 +14797,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 545.0, 202.0, 50.0, 22.0 ],
-													"text" : "0.096919"
+													"text" : "0.542362"
 												}
 
 											}
@@ -13809,7 +14884,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 331.0, 302.0, 50.0, 22.0 ],
-													"text" : "30.72"
+													"text" : "128."
 												}
 
 											}
@@ -13896,7 +14971,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 117.0, 357.0, 50.0, 22.0 ],
-													"text" : "0."
+													"text" : "127."
 												}
 
 											}
@@ -13920,7 +14995,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 110.0, 127.0, 50.0, 22.0 ],
-													"text" : "30.72"
+													"text" : "112."
 												}
 
 											}
@@ -13944,7 +15019,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 92.0, 210.0, 50.0, 36.0 ],
-													"text" : "0."
+													"text" : "1"
 												}
 
 											}
@@ -14354,7 +15429,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 511.991524696350098, 490.508477687835693, 50.0, 22.0 ],
-									"text" : "0."
+									"text" : "2110."
 								}
 
 							}
@@ -14366,7 +15441,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 511.991524696350098, 459.152544736862183, 50.0, 22.0 ],
-									"text" : "0."
+									"text" : "2560."
 								}
 
 							}
@@ -14378,7 +15453,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 511.991524696350098, 427.796611785888672, 50.0, 22.0 ],
-									"text" : "768."
+									"text" : "3200."
 								}
 
 							}
@@ -14390,7 +15465,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 511.991524696350098, 395.593221187591553, 50.0, 22.0 ],
-									"text" : "768."
+									"text" : "2800."
 								}
 
 							}
@@ -14402,20 +15477,20 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 183.766232013702393, 416.051947593688965, 81.818181037902832, 22.0 ],
-									"text" : "0.666667"
+									"text" : "0.169444"
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"id" : "obj-46",
-									"linecount" : 2,
+									"linecount" : 8,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 399.0, 428.048790693283081, 52.0, 36.0 ],
-									"text" : "0.5 0.5 0.5 0.5"
+									"patching_rect" : [ 399.0, 428.048790693283081, 55.0, 119.0 ],
+									"text" : "0.501159 0.495727 0.300415 0.041596"
 								}
 
 							}
@@ -14427,7 +15502,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 240.677971839904785, 505.084757804870605, 85.064934253692627, 22.0 ],
-									"text" : "0.5"
+									"text" : "0.502611"
 								}
 
 							}
@@ -14474,26 +15549,26 @@
 														"boxes" : [ 															{
 																"box" : 																{
 																	"id" : "obj-6",
-																	"linecount" : 2,
+																	"linecount" : 8,
 																	"maxclass" : "message",
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 352.0, 488.0, 50.0, 119.0 ],
-																	"text" : "0.5 0.5 0.5 0.5"
+																	"text" : "0.501159 0.495727 0.300415 0.041596"
 																}
 
 															}
 , 															{
 																"box" : 																{
 																	"id" : "obj-3",
-																	"linecount" : 8,
+																	"linecount" : 12,
 																	"maxclass" : "message",
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 188.0, 104.0, 52.0, 174.0 ],
-																	"text" : "QuatW: 0. QuatX: 0. QuatY: 0. QuatZ: 0."
+																	"text" : "QuatW: 0.002319 QuatX: -0.008545 QuatY: -0.39917 QuatZ: -0.916809"
 																}
 
 															}
@@ -14529,7 +15604,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 287.0, 387.0, 97.115387856960297, 22.0 ],
-																	"text" : "0.5"
+																	"text" : "0.041596"
 																}
 
 															}
@@ -14541,7 +15616,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 287.0, 363.0, 97.115387856960297, 22.0 ],
-																	"text" : "0.5"
+																	"text" : "0.300415"
 																}
 
 															}
@@ -14553,7 +15628,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 287.0, 343.0, 97.115387856960297, 22.0 ],
-																	"text" : "0.5"
+																	"text" : "0.495727"
 																}
 
 															}
@@ -14565,7 +15640,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 287.0, 319.0, 97.115387856960297, 22.0 ],
-																	"text" : "0.5"
+																	"text" : "0.501159"
 																}
 
 															}
@@ -14738,7 +15813,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 596.0, 272.0, 72.881351262331009, 22.0 ],
-																	"text" : "1."
+																	"text" : "-0.999751"
 																}
 
 															}
@@ -14806,12 +15881,13 @@
 , 															{
 																"box" : 																{
 																	"id" : "obj-45",
+																	"linecount" : 2,
 																	"maxclass" : "message",
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 466.0, 290.0, 50.0, 36.0 ],
-																	"text" : "0."
+																	"text" : "-0.916809"
 																}
 
 															}
@@ -14830,12 +15906,13 @@
 , 															{
 																"box" : 																{
 																	"id" : "obj-63",
+																	"linecount" : 2,
 																	"maxclass" : "message",
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 465.0, 239.0, 50.0, 36.0 ],
-																	"text" : "0."
+																	"text" : "-0.008545"
 																}
 
 															}
@@ -14854,12 +15931,13 @@
 , 															{
 																"box" : 																{
 																	"id" : "obj-59",
+																	"linecount" : 2,
 																	"maxclass" : "message",
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 466.0, 264.0, 50.0, 36.0 ],
-																	"text" : "0."
+																	"text" : "-0.39917"
 																}
 
 															}
@@ -14878,12 +15956,13 @@
 , 															{
 																"box" : 																{
 																	"id" : "obj-58",
+																	"linecount" : 2,
 																	"maxclass" : "message",
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 466.0, 213.0, 50.0, 36.0 ],
-																	"text" : "0."
+																	"text" : "0.002319"
 																}
 
 															}
@@ -15351,7 +16430,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 698.0, 494.0, 50.0, 22.0 ],
-																	"text" : "120"
+																	"text" : "299"
 																}
 
 															}
@@ -15433,7 +16512,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 357.0, 331.0, 151.0, 22.0 ],
-																	"text" : "0."
+																	"text" : "-47."
 																}
 
 															}
@@ -15457,7 +16536,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 357.0, 271.0, 151.0, 22.0 ],
-																	"text" : "0."
+																	"text" : "-0.94"
 																}
 
 															}
@@ -15481,7 +16560,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 357.0, 210.0, 151.0, 22.0 ],
-																	"text" : "0."
+																	"text" : "179.69"
 																}
 
 															}
@@ -15529,7 +16608,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 357.0, 104.0, 275.0, 22.0 ],
-																	"text" : "Yaw: 0. Pitch: 0. Roll: 0."
+																	"text" : "Yaw: 179.69 Pitch: -0.94 Roll: -47."
 																}
 
 															}
@@ -15879,7 +16958,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 731.111087143421173, 618.487358093261719, 45.185183703899384, 22.0 ],
-													"text" : "0."
+													"text" : "2110."
 												}
 
 											}
@@ -15891,7 +16970,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 688.235253095626831, 680.672228336334229, 44.0, 36.0 ],
-													"text" : "0."
+													"text" : "84.4"
 												}
 
 											}
@@ -15961,7 +17040,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 536.97475790977478, 618.487358093261719, 43.0, 22.0 ],
-													"text" : "0."
+													"text" : "2560."
 												}
 
 											}
@@ -15973,7 +17052,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 494.117617607116699, 680.672228336334229, 50.0, 22.0 ],
-													"text" : "0."
+													"text" : "102.4"
 												}
 
 											}
@@ -16043,7 +17122,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 344.537794589996338, 618.487358093261719, 43.0, 22.0 ],
-													"text" : "768."
+													"text" : "3200."
 												}
 
 											}
@@ -16055,7 +17134,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 307.56300687789917, 680.672228336334229, 50.0, 22.0 ],
-													"text" : "30.72"
+													"text" : "128."
 												}
 
 											}
@@ -16431,7 +17510,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 75.630247592926025, 546.218454837799072, 151.0, 22.0 ],
-													"text" : "58"
+													"text" : "none"
 												}
 
 											}
@@ -16488,7 +17567,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 75.630247592926025, 484.033584594726562, 151.0, 22.0 ],
-													"text" : "768"
+													"text" : "none"
 												}
 
 											}
@@ -16513,7 +17592,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 75.630247592926025, 163.865536451339722, 275.0, 50.0 ],
-													"text" : "Touch: 0 loc: 768 size: 58 Touch: 1 loc: none size: none Touch: 2 loc: none size: none Touch: 3 loc: none size: none"
+													"text" : "Touch: 0 loc: none size: none Touch: 1 loc: none size: none Touch: 2 loc: none size: none Touch: 3 loc: none size: none"
 												}
 
 											}
@@ -16560,7 +17639,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 153.781503438949585, 621.848702430725098, 43.0, 22.0 ],
-													"text" : "768."
+													"text" : "2800."
 												}
 
 											}
@@ -16572,7 +17651,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 110.924363136291504, 684.033572673797607, 50.0, 22.0 ],
-													"text" : "30.72"
+													"text" : "112."
 												}
 
 											}
@@ -17836,22 +18915,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-259", 1 ],
-					"order" : 0,
-					"source" : [ "obj-140", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-259", 0 ],
-					"order" : 1,
-					"source" : [ "obj-140", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-104", 0 ],
 					"source" : [ "obj-150", 0 ]
 				}
@@ -17919,6 +18982,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-258", 0 ],
 					"source" : [ "obj-190", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -18165,7 +19235,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-38", 0 ],
+					"destination" : [ "obj-38", 1 ],
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -18404,11 +19474,11 @@
  ],
 		"parameters" : 		{
 			"obj-102" : [ "vst~[13]", "vst~", 0 ],
-			"obj-128" : [ "mc.vst~[19]", "mc.vst~[19]", 0 ],
-			"obj-33::obj-24" : [ "mc.vst~[11]", "mc.vst~[11]", 0 ],
-			"obj-33::obj-4" : [ "vst~[4]", "vst~[4]", 0 ],
+			"obj-128" : [ "mc.vst~[21]", "mc.vst~[21]", 0 ],
+			"obj-33::obj-24" : [ "mc.vst~[14]", "mc.vst~[14]", 0 ],
+			"obj-33::obj-4" : [ "vst~[8]", "vst~[8]", 0 ],
 			"obj-35::obj-75::obj-134" : [ "mc.live.gain~[3]", "mc.live.gain~[3]", 0 ],
-			"obj-38::obj-171" : [ "mc.vst~[4]", "mc.vst~[4]", 0 ],
+			"obj-38::obj-171" : [ "mc.vst~[8]", "mc.vst~[8]", 0 ],
 			"obj-38::obj-23::obj-19" : [ "mc.live.gain~[1]", "mc.live.gain~[1]", 0 ],
 			"obj-38::obj-3::obj-12::obj-11" : [ "live.text[71]", "live.text", 0 ],
 			"obj-38::obj-3::obj-12::obj-110" : [ "live.text[70]", "live.text", 0 ],
@@ -18435,14 +19505,15 @@
 			"obj-38::obj-3::obj-26::obj-4::obj-62" : [ "live.text[67]", "live.text[9]", 0 ],
 			"obj-38::obj-3::obj-26::obj-4::obj-72" : [ "live.text[64]", "live.text[8]", 0 ],
 			"obj-38::obj-3::obj-6" : [ "mc.live.gain~[2]", "mc.live.gain~", 0 ],
-			"obj-38::obj-43" : [ "mc.vst~[6]", "mc.vst~[6]", 0 ],
+			"obj-38::obj-43" : [ "mc.vst~[1]", "mc.vst~[1]", 0 ],
 			"obj-40::obj-11" : [ "live.text[27]", "live.text", 0 ],
 			"obj-40::obj-110" : [ "live.text[25]", "live.text", 0 ],
 			"obj-40::obj-16" : [ "live.text[24]", "live.text", 0 ],
 			"obj-40::obj-55" : [ "live.text[28]", "live.text", 0 ],
 			"obj-40::obj-606" : [ "live.text[26]", "live.text", 0 ],
 			"obj-40::obj-607" : [ "live.button[2]", "live.button", 0 ],
-			"obj-6" : [ "mc.vst~[21]", "mc.vst~[21]", 0 ],
+			"obj-4::obj-24" : [ "vst~[15]", "vst~[15]", 0 ],
+			"obj-6" : [ "mc.vst~[20]", "mc.vst~[20]", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
