@@ -3,7 +3,7 @@ outlets = 5;
 
 function list(w, x, y, z) {
     // Direction vector: rotate unit vector pointing in +X direction (forward)
-    var fx = 1 - 2 * (y * y + z * z);
+	var fx = 1 - 2 * (y * y + z * z);
     var fy = 2 * (x * y + w * z);
     var fz = 2 * (x * z - w * y);
 
