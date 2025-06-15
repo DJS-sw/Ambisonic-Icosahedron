@@ -2,13 +2,12 @@
 #include <Adafruit_Sensor.h>
 #include <Adafruit_BNO055.h>
 #include <Trill.h>
+#include <utility/imumaths.h>
 
 // BNO055 on address 0x28 (SA0 low)
 Adafruit_BNO055  bno = Adafruit_BNO055(55, 0x28);
 // Trill Bar (default I²C address 0x15)
 Trill           trillSensor;
-
-
 
 const int NUM_BUTTONS = 4;
 const int buttonPins[NUM_BUTTONS] = {2, 3, 4, 5};
@@ -115,7 +114,7 @@ for (int i = 0; i < NUM_BUTTONS; i++) {
     reading = digitalRead(buttonPins[i]) == HIGH ? 1 : 0;
   } else {
     // For button 4 (index 3): keep original behavior (LOW as pressed)
-    reading = digitalRead(buttonPins[i]) == LOW ? 1 : 0;
+    reading = digitalRead(buttonPins[i]) == HIGH ? 1 : 0;
   }
 
 
