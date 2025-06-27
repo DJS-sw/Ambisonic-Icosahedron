@@ -1,6 +1,6 @@
 # Ambisonic-Icosahedron
 
-Ambisonic Icosahedron is an interactive spatial audio sculpture project, designed for creating immersive 3D audio worlds that the participant can actively participate in. Using second-order Ambisonics and a controller interface, the sculpture is based on the geometry of an icosahedron (20 faces, 12 vertices). One one loudspeaker is mounted at each vertex, giving 12 channels, equally distributed across an imaginary spherical surface.  The purpose is to create a spatial sound field suitable for artistic installations and research environments.
+Ambisonic Icosahedron is an interactive spatial audio sculpture project, designed for creating immersive 3D audio worlds that a participant can actively take part in. Using second-order Ambisonics and a movement-sensing controller interface, the sculpture is based on the geometry of an icosahedron (20 faces, 12 vertices). One one loudspeaker is mounted at each vertex, giving 12 channels, equally distributed across an imaginary spherical surface.  The purpose is to create a spatial sound field suitable for artistic installations and research environments.
 
 ![Concept for the Ambisonic Icosahedron](Media/ambisonic_sculpture.png)
 
