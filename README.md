@@ -1,5 +1,7 @@
 # readme
 
+Copyright © [2026] [David Schweighofer]. All rights reserved.
+
 This project is released for research, education, and non-commercial creative use.
 
 All content of this repository is licensed under the PolyForm Noncommercial License 1.0.0., Artwork,
@@ -10,7 +12,7 @@ audio, documentation, and other media assets are licensed under CC BY-NC 4.0.
 
 Commercial use is not permitted without prior written permission from the author.
 
-## ambisonic-icosahedron
+## Ambisonic Icosahedron
 
 Ambisonic Icosahedron is an interactive spatial audio sculpture, creating an immersive 3D audio
 space experience that a participant can actively take part in. Using [Ambisonics][ambisonics] and a
