@@ -62,11 +62,9 @@ We're using the following Parts:
 
 How to wire:
 
-D 2, 3, 4, 5 → Button 1 (x), 2 (<), 3 (>), 4 (Shoulder). Buttons share common ground.
+D 2, 3, 4, 5 → Button 1 (x), 2 (<), 3 (>), 4 (Shoulder).
 
-GND → left side for I2C
-
-D18 (SDA), D19(SCL) → Serial data and clock for IMU and touchcontroller.
+D18(SDA), D19(SCL) → Serial for IMU and touch controller.
 
 Bela trill needs 5V → Solder USB vbridge for the Arduino Nano33, or provide adequate power supply.
 
