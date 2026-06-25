@@ -66,7 +66,7 @@ D 2, 3, 4, 5 → Button 1 (x), 2 (<), 3 (>), 4 (Shoulder).
 
 D18(SDA), D19(SCL) → Serial for IMU and touch controller.
 
-Bela trill needs 5V → Solder USB vbridge for the Arduino Nano33, or provide adequate power supply.
+Bela trill needs 5V → Solder USB vbridge on Arduino, or provide adequate power supply.
 
 The controller's arduino reads sensor data from the touchcontroller and the gyroscope:
 [Controller Sketch](arduino/ico-controller/ico-controller.ino).
