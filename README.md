@@ -27,7 +27,7 @@ original concept for the artistic installation can be seen as follows:
 
 <img src="media/ambisonic_sculpture.png" alt="Concept for the Ambisonic Icosahedron" width="720">
 
-### Key Features
+## Key Features
 
 - Real-time generation of an ambisonic signal using signals from a custom motion-controller
 - Included sample sounds
@@ -36,7 +36,7 @@ original concept for the artistic installation can be seen as follows:
 
 [allradecoder]: https://plugins.iem.at/
 
-### Controller
+## Controller
 
 This repository also contains materials for the controller project, where we'll design a controller
 with four buttons, a touch interface, an Inertial Measurement Unit connected to an arduino. The
@@ -68,8 +68,19 @@ D18(SDA), D19(SCL) → Serial for IMU and touch controller.
 
 Bela trill needs 5V → Solder USB vbridge on Arduino, or provide adequate power supply.
 
+### Install Firmware
+
 The controller's arduino reads sensor data from the touchcontroller and the gyroscope:
-[Controller Sketch](arduino/ico-controller/ico-controller.ino).
+[Controller Sketch](controller\firmware\spatial-controller).
+
+#### Dependencies
+You'll need the following libraries installed:
+
+| Library                     | Installation                                           |
+| --------------------------- | ------------------------------------------------------ |
+| **Adafruit BNO055**         | Arduino Library Manager → **Adafruit BNO055**          |
+| **Trill**                   | [BelaPlatform/Trill-Arduino](https://github.com/BelaPlatform/Trill-Arduino) |
+
 
 ### Controller Messages
 
