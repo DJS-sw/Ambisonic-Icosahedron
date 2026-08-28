@@ -4,13 +4,23 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 5,
+            "revision": 3,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 477.0, 255.0, 1471.0, 929.0 ],
+        "rect": [ 88.0, 230.0, 1471.0, 899.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-7",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 428.571435213089, 424.0, 113.0, 22.0 ],
+                    "text": "s openVectorCheck"
+                }
+            },
             {
                 "box": {
                     "bgmode": 0,
@@ -71,7 +81,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 335.0, 639.0, 50.0, 22.0 ],
+                    "patching_rect": [ 428.571435213089, 522.2222303152084, 50.0, 22.0 ],
                     "text": "1"
                 }
             },
@@ -82,7 +92,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 335.0, 597.0, 100.0, 22.0 ],
+                    "patching_rect": [ 428.571435213089, 491.0, 100.0, 22.0 ],
                     "text": "r counter_current"
                 }
             },
@@ -169,7 +179,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 189.0, 522.0, 50.0, 22.0 ],
-                    "text": "0.48"
+                    "text": "0."
                 }
             },
             {
@@ -223,7 +233,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 278.0, 232.0, 124.0, 34.0 ],
+                    "patching_rect": [ 230.0, 257.93651193380356, 124.0, 33.0 ],
                     "text": "azimuth calibration controller cheatcode"
                 }
             },
@@ -235,7 +245,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 416.0, 272.0, 24.0, 24.0 ]
+                    "patching_rect": [ 368.0952402353287, 298.41270303726196, 24.0, 24.0 ]
                 }
             },
             {
@@ -245,7 +255,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 416.0, 313.0, 32.0, 22.0 ],
+                    "patching_rect": [ 368.0952402353287, 338.88889414072037, 32.0, 22.0 ],
                     "text": "gate"
                 }
             },
@@ -256,7 +266,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 416.0, 232.0, 93.0, 22.0 ],
+                    "patching_rect": [ 368.0952402353287, 257.93651193380356, 93.0, 22.0 ],
                     "text": "r btn_<+>+shldr"
                 }
             },
@@ -267,7 +277,7 @@
                     "numinlets": 6,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 278.0, 273.0, 117.0, 22.0 ],
+                    "patching_rect": [ 230.0, 299.2063538432121, 117.0, 22.0 ],
                     "text": "scale 0. 127. 0. 360."
                 }
             },
@@ -375,27 +385,6 @@
             },
             {
                 "box": {
-                    "id": "obj-55",
-                    "maxclass": "message",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 463.0, 273.0, 35.0, 22.0 ],
-                    "text": "open"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-54",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 463.0, 313.0, 115.0, 22.0 ],
-                    "text": "s SpeakerCalibrator"
-                }
-            },
-            {
-                "box": {
                     "autosave": 1,
                     "bgmode": 0,
                     "border": 0,
@@ -438,7 +427,7 @@
                             "pluginname": "EnergyVisualizer.vstinfo",
                             "plugindisplayname": "EnergyVisualizer",
                             "pluginsavedname": "",
-                            "pluginsaveduniqueid": 0,
+                            "pluginsaveduniqueid": 1164858985,
                             "version": 1,
                             "isbank": 0,
                             "isbase64": 1,
@@ -460,7 +449,7 @@
                                         "pluginname": "EnergyVisualizer.vstinfo",
                                         "plugindisplayname": "EnergyVisualizer",
                                         "pluginsavedname": "",
-                                        "pluginsaveduniqueid": 0,
+                                        "pluginsaveduniqueid": 1164858985,
                                         "version": 1,
                                         "isbank": 0,
                                         "isbase64": 1,
@@ -471,7 +460,7 @@
                                         "filename": "EnergyVisualizer_20260828.maxsnap",
                                         "filepath": "~/Documents/Max 9/Snapshots",
                                         "filepos": -1,
-                                        "snapshotfileid": "ba99b722ec83888dc0add199b000df0d"
+                                        "snapshotfileid": "844d93e005ee8f42f364d5a494df9781"
                                     }
                                 }
                             ]
@@ -548,11 +537,11 @@
                             "pluginname": "BinauralDecoder.vstinfo",
                             "plugindisplayname": "BinauralDecoder",
                             "pluginsavedname": "",
-                            "pluginsaveduniqueid": 0,
+                            "pluginsaveduniqueid": 1114195045,
                             "version": 1,
                             "isbank": 0,
                             "isbase64": 1,
-                            "blob": "378.CMlaKA....fQPMDZ....AHTZDUF..XfA....A........................................DfOVMjLgTS....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOBklagUmbgwFQkM1ajUlb9vCTAIUPMARZj0iHgAGbrkGRkEFYvg1atUVQwIBH1EFa0UVOhDSMt.iHu3COPEjTA0DHoQVOhjlavUGcOIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuHTZtEVcxEFaDU1XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuHTZtEVcxEFaDU1XuQVYx4C."
+                            "blob": "377.CMlaKA....fQPMDZ....AHTZDUF..XfA....A........................................DPOVMjLgPS....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOBklagUmbgwFQkM1ajUlb9vCTAIUPMARZj0iHgAGbrkGRkEFYvg1atUVQwIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHo4Fb0Q2SxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKBklagUmbgwFQkM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKBklagUmbgwFQkM1ajUlb9.."
                         },
                         "snapshotlist": {
                             "current_snapshot": 0,
@@ -565,23 +554,23 @@
                                     "origin": "BinauralDecoder.vstinfo",
                                     "type": "VST",
                                     "subtype": "AudioEffect",
-                                    "embed": 0,
+                                    "embed": 1,
                                     "snapshot": {
                                         "pluginname": "BinauralDecoder.vstinfo",
                                         "plugindisplayname": "BinauralDecoder",
                                         "pluginsavedname": "",
-                                        "pluginsaveduniqueid": 0,
+                                        "pluginsaveduniqueid": 1114195045,
                                         "version": 1,
                                         "isbank": 0,
                                         "isbase64": 1,
-                                        "blob": "378.CMlaKA....fQPMDZ....AHTZDUF..XfA....A........................................DfOVMjLgTS....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOBklagUmbgwFQkM1ajUlb9vCTAIUPMARZj0iHgAGbrkGRkEFYvg1atUVQwIBH1EFa0UVOhDSMt.iHu3COPEjTA0DHoQVOhjlavUGcOIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuHTZtEVcxEFaDU1XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuHTZtEVcxEFaDU1XuQVYx4C."
+                                        "blob": "377.CMlaKA....fQPMDZ....AHTZDUF..XfA....A........................................DPOVMjLgPS....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOBklagUmbgwFQkM1ajUlb9vCTAIUPMARZj0iHgAGbrkGRkEFYvg1atUVQwIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHo4Fb0Q2SxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKBklagUmbgwFQkM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKBklagUmbgwFQkM1ajUlb9.."
                                     },
                                     "fileref": {
                                         "name": "BinauralDecoder",
-                                        "filename": "BinauralDecoder_20260827.maxsnap",
+                                        "filename": "BinauralDecoder_20260828.maxsnap",
                                         "filepath": "~/Documents/Max 9/Snapshots",
                                         "filepos": -1,
-                                        "snapshotfileid": "1e82e39821d0a9f5a280e2bff40012b5"
+                                        "snapshotfileid": "260462e49dba0419e64b2b16e60465d9"
                                     }
                                 }
                             ]
@@ -609,50 +598,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 351.0, 424.0, 29.5, 22.0 ],
+                    "patching_rect": [ 282.08333134651184, 376.0, 29.5, 22.0 ],
                     "text": "260"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-62",
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 425.0, 483.0, 83.33333253860474, 20.0 ],
-                    "text": "elevation"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-61",
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 335.0, 485.0, 83.33333253860474, 20.0 ],
-                    "text": "azimuth"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-60",
-                    "maxclass": "message",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 425.0, 460.0, 91.22806930541992, 22.0 ],
-                    "text": "0.502084"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-59",
-                    "maxclass": "message",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 335.0, 460.0, 83.33333253860474, 22.0 ],
-                    "text": "0.988613"
                 }
             },
             {
@@ -661,277 +608,8 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 441.0, 386.0, 116.0, 20.0 ],
+                    "patching_rect": [ 470.6349279284477, 385.3968242406845, 116.0, 20.0 ],
                     "text": "check coordinates"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-47",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
-                    "patcher": {
-                        "fileversion": 1,
-                        "appversion": {
-                            "major": 9,
-                            "minor": 1,
-                            "revision": 5,
-                            "architecture": "x64",
-                            "modernui": 1
-                        },
-                        "classnamespace": "box",
-                        "rect": [ 35.0, 98.0, 991.0, 824.0 ],
-                        "boxes": [
-                            {
-                                "box": {
-                                    "comment": "elevation_f",
-                                    "id": "obj-11",
-                                    "index": 2,
-                                    "maxclass": "outlet",
-                                    "numinlets": 1,
-                                    "numoutlets": 0,
-                                    "patching_rect": [ 447.0, 213.0, 30.0, 30.0 ]
-                                }
-                            },
-                            {
-                                "box": {
-                                    "comment": "azimuth_f",
-                                    "id": "obj-10",
-                                    "index": 1,
-                                    "maxclass": "outlet",
-                                    "numinlets": 1,
-                                    "numoutlets": 0,
-                                    "patching_rect": [ 399.46, 213.19, 30.0, 30.0 ]
-                                }
-                            },
-                            {
-                                "box": {
-                                    "id": "obj-7",
-                                    "maxclass": "newobj",
-                                    "numinlets": 1,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 414.0, 146.0, 63.0, 22.0 ],
-                                    "text": "prepend 2"
-                                }
-                            },
-                            {
-                                "box": {
-                                    "id": "obj-5",
-                                    "maxclass": "newobj",
-                                    "numinlets": 1,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 312.0, 146.0, 63.0, 22.0 ],
-                                    "text": "prepend 1"
-                                }
-                            },
-                            {
-                                "box": {
-                                    "id": "obj-3",
-                                    "maxclass": "newobj",
-                                    "numinlets": 0,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 467.0, 116.0, 74.0, 22.0 ],
-                                    "text": "r elevation_f"
-                                }
-                            },
-                            {
-                                "box": {
-                                    "id": "obj-2",
-                                    "maxclass": "newobj",
-                                    "numinlets": 0,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 362.0, 116.0, 68.0, 22.0 ],
-                                    "text": "r azimuth_f"
-                                }
-                            },
-                            {
-                                "box": {
-                                    "comment": "",
-                                    "id": "obj-1",
-                                    "index": 1,
-                                    "maxclass": "inlet",
-                                    "numinlets": 0,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 47.0, 46.0, 30.0, 30.0 ]
-                                }
-                            },
-                            {
-                                "box": {
-                                    "id": "obj-8",
-                                    "maxclass": "newobj",
-                                    "numinlets": 0,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 179.0, 116.0, 113.0, 22.0 ],
-                                    "text": "r open_vectorcheck"
-                                }
-                            },
-                            {
-                                "box": {
-                                    "autosave": 1,
-                                    "bgmode": 0,
-                                    "border": 0,
-                                    "clickthrough": 0,
-                                    "id": "obj-6",
-                                    "maxclass": "newobj",
-                                    "numinlets": 2,
-                                    "numoutlets": 8,
-                                    "offset": [ 0.0, 0.0 ],
-                                    "outlettype": [ "signal", "signal", "", "list", "int", "", "", "" ],
-                                    "patching_rect": [ 179.0, 199.0, 140.0, 22.0 ],
-                                    "save": [ "#N", "vst~", "loaduniqueid", 0, "coordinateconverter", ";" ],
-                                    "saved_attribute_attributes": {
-                                        "valueof": {
-                                            "parameter_invisible": 1,
-                                            "parameter_longname": "vst~[170]",
-                                            "parameter_modmode": 0,
-                                            "parameter_shortname": "vst~[8]",
-                                            "parameter_type": 3
-                                        }
-                                    },
-                                    "saved_object_attributes": {
-                                        "parameter_enable": 1,
-                                        "parameter_mappable": 0
-                                    },
-                                    "snapshot": {
-                                        "filetype": "C74Snapshot",
-                                        "version": 2,
-                                        "minorversion": 0,
-                                        "name": "snapshotlist",
-                                        "origin": "vst~",
-                                        "type": "list",
-                                        "subtype": "Undefined",
-                                        "embed": 1,
-                                        "snapshot": {
-                                            "pluginname": "CoordinateConverter.vstinfo",
-                                            "plugindisplayname": "CoordinateConverter",
-                                            "pluginsavedname": "",
-                                            "pluginsaveduniqueid": 0,
-                                            "version": 1,
-                                            "isbank": 0,
-                                            "isbase64": 1,
-                                            "blob": "1011.CMlaKA....fQPMDZ....ALzaC8F..PfA....A........................................LvsVMjLg35....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOC81axQVZtEFckMzatYWYxQWYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRL2TiK3jSN4jyL3jiMzfCMzHxK9vCTAIUPMARZj0iHgoWZsUGcnYDaoAmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOh.iK2TiHu3COPEjTA0DHoQVOhTFakYWXzk1atYDaoAmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhHWXjkVcyIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iHxEFYoU2bFwVZvIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHxEFYoU2bRElamUlHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhfmQrkFbh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HBdP81bh.hcgwVck0iHs.iK4jyMyjSN4fSM2jCLxTiL2HxK9vCTAIUPMARZj0iH3IUXtcVYh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HBdRUlYkIWYtMVYh.hcgwVck0iHy3BNwPiM4biL1TiMxTSYsXiHu3COPEjTA0DHoQVOhjmQrkFbh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRdP81bh.hcgwVck0iHv3BL2DCM4jSNzLyMyLiLwTyLyHxK9vCTAIUPMARZj0iH4IUXtcVYh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HRdRUlYkIWYtMVYh.hcgwVck0iHy3BNwPiM4biL1TiMxTSYsXiHu3COPEjTA0DHoQVOhnmQrkFbh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HhdP81bh.hcgwVck0iHv3BLwLSLv.CLxfCLyfCLxPSNh7hO7.UPRETSfjFY8HhdRElamUlHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhnmTkYVYxUlaiUlHfXWXrUWY8HxLtfSLzXSN2HiM0XiL0TVK1HxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xPu8lbjklagQWYC8la1UlbzUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKC81axQVZtEFckMzatYWYxQWYx4C."
-                                        },
-                                        "snapshotlist": {
-                                            "current_snapshot": 0,
-                                            "entries": [
-                                                {
-                                                    "filetype": "C74Snapshot",
-                                                    "version": 2,
-                                                    "minorversion": 0,
-                                                    "name": "CoordinateConverter",
-                                                    "origin": "CoordinateConverter.vstinfo",
-                                                    "type": "VST",
-                                                    "subtype": "AudioEffect",
-                                                    "embed": 1,
-                                                    "snapshot": {
-                                                        "pluginname": "CoordinateConverter.vstinfo",
-                                                        "plugindisplayname": "CoordinateConverter",
-                                                        "pluginsavedname": "",
-                                                        "pluginsaveduniqueid": 0,
-                                                        "version": 1,
-                                                        "isbank": 0,
-                                                        "isbase64": 1,
-                                                        "blob": "1011.CMlaKA....fQPMDZ....ALzaC8F..PfA....A........................................LvsVMjLg35....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOC81axQVZtEFckMzatYWYxQWYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRL2TiK3jSN4jyL3jiMzfCMzHxK9vCTAIUPMARZj0iHgoWZsUGcnYDaoAmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOh.iK2TiHu3COPEjTA0DHoQVOhTFakYWXzk1atYDaoAmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhHWXjkVcyIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iHxEFYoU2bFwVZvIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHxEFYoU2bRElamUlHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhfmQrkFbh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HBdP81bh.hcgwVck0iHs.iK4jyMyjSN4fSM2jCLxTiL2HxK9vCTAIUPMARZj0iH3IUXtcVYh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HBdRUlYkIWYtMVYh.hcgwVck0iHy3BNwPiM4biL1TiMxTSYsXiHu3COPEjTA0DHoQVOhjmQrkFbh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRdP81bh.hcgwVck0iHv3BL2DCM4jSNzLyMyLiLwTyLyHxK9vCTAIUPMARZj0iH4IUXtcVYh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HRdRUlYkIWYtMVYh.hcgwVck0iHy3BNwPiM4biL1TiMxTSYsXiHu3COPEjTA0DHoQVOhnmQrkFbh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HhdP81bh.hcgwVck0iHv3BLwLSLv.CLxfCLyfCLxPSNh7hO7.UPRETSfjFY8HhdRElamUlHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhnmTkYVYxUlaiUlHfXWXrUWY8HxLtfSLzXSN2HiM0XiL0TVK1HxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xPu8lbjklagQWYC8la1UlbzUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKC81axQVZtEFckMzatYWYxQWYx4C."
-                                                    },
-                                                    "fileref": {
-                                                        "name": "CoordinateConverter",
-                                                        "filename": "CoordinateConverter.maxsnap",
-                                                        "filepath": "~/Documents/Max 9/Snapshots",
-                                                        "filepos": -1,
-                                                        "snapshotfileid": "4017b29357186dd7b526ca0e106d5f71"
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    "text": "vst~ coordinateconverter",
-                                    "varname": "vst~",
-                                    "viewvisibility": 0
-                                }
-                            },
-                            {
-                                "box": {
-                                    "id": "obj-4",
-                                    "maxclass": "message",
-                                    "numinlets": 2,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ 179.0, 146.0, 35.0, 22.0 ],
-                                    "text": "open"
-                                }
-                            }
-                        ],
-                        "lines": [
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-4", 0 ],
-                                    "source": [ "obj-1", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-10", 0 ],
-                                    "order": 0,
-                                    "source": [ "obj-2", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-5", 0 ],
-                                    "order": 1,
-                                    "source": [ "obj-2", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-11", 0 ],
-                                    "order": 0,
-                                    "source": [ "obj-3", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-7", 0 ],
-                                    "order": 1,
-                                    "source": [ "obj-3", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-6", 0 ],
-                                    "source": [ "obj-4", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-6", 0 ],
-                                    "source": [ "obj-5", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-6", 0 ],
-                                    "source": [ "obj-7", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-4", 0 ],
-                                    "source": [ "obj-8", 0 ]
-                                }
-                            }
-                        ]
-                    },
-                    "patching_rect": [ 399.0, 424.0, 117.0, 22.0 ],
-                    "text": "patcher Vectorcheck"
                 }
             },
             {
@@ -941,7 +619,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 399.0, 386.0, 35.0, 22.0 ],
+                    "patching_rect": [ 428.571435213089, 385.3968242406845, 35.0, 22.0 ],
                     "text": "open"
                 }
             },
@@ -952,7 +630,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 313.0, 386.0, 69.36928230524063, 34.0 ],
+                    "patching_rect": [ 243.54166615009308, 337.45833480358124, 69.36928230524063, 33.0 ],
                     "text": "azimuth correction"
                 }
             },
@@ -965,7 +643,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 300.0, 424.0, 50.0, 22.0 ]
+                    "patching_rect": [ 230.0, 376.0, 50.0, 22.0 ]
                 }
             },
             {
@@ -1019,7 +697,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 108.0, 491.0, 50.0, 22.0 ],
-                    "text": "127."
+                    "text": "18.6"
                 }
             },
             {
@@ -1133,12 +811,12 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 5,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 713.0, 207.0, 1455.0, 1145.0 ],
+                        "rect": [ 221.0, 101.0, 1455.0, 899.0 ],
                         "boxes": [
                             {
                                 "box": {
@@ -1173,7 +851,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 5,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1221,7 +899,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 117.0, 357.0, 52.0, 22.0 ],
-                                                    "text": "0.48"
+                                                    "text": "0."
                                                 }
                                             },
                                             {
@@ -1243,7 +921,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 110.0, 127.0, 50.0, 22.0 ],
-                                                    "text": "75."
+                                                    "text": "66.56"
                                                 }
                                             },
                                             {
@@ -1265,7 +943,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 92.0, 210.0, 59.0, 22.0 ],
-                                                    "text": "0.00378"
+                                                    "text": "0"
                                                 }
                                             },
                                             {
@@ -1381,7 +1059,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 1230.0, 271.0, 115.0, 34.0 ],
+                                    "patching_rect": [ 1230.0, 271.0, 115.0, 33.0 ],
                                     "text": "azimuth calibration cheat code"
                                 }
                             },
@@ -1655,7 +1333,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 631.0, 593.0, 88.0, 22.0 ],
-                                    "text": "58968"
+                                    "text": "27908"
                                 }
                             },
                             {
@@ -1676,7 +1354,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 631.0, 550.0, 88.0, 22.0 ],
-                                    "text": "2564348"
+                                    "text": "2910776"
                                 }
                             },
                             {
@@ -1687,7 +1365,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 630.0, 503.0, 88.0, 34.0 ],
+                                    "patching_rect": [ 630.0, 503.0, 88.0, 33.0 ],
                                     "text": "message display"
                                 }
                             },
@@ -1698,7 +1376,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 890.0, 94.0, 47.45762825012207, 34.0 ],
+                                    "patching_rect": [ 890.0, 94.0, 47.45762825012207, 33.0 ],
                                     "text": "button states"
                                 }
                             },
@@ -1962,7 +1640,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 728.0, 639.0, 88.0, 22.0 ],
-                                    "text": "-0.669495"
+                                    "text": "-0.494568"
                                 }
                             },
                             {
@@ -1983,7 +1661,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 728.0, 593.0, 88.0, 22.0 ],
-                                    "text": "0.019348"
+                                    "text": "0.008667"
                                 }
                             },
                             {
@@ -2004,7 +1682,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 728.0, 550.0, 88.0, 22.0 ],
-                                    "text": "-0.03125"
+                                    "text": "-0.043884"
                                 }
                             },
                             {
@@ -2025,7 +1703,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 728.0, 507.0, 88.0, 22.0 ],
-                                    "text": "0.741882"
+                                    "text": "0.867981"
                                 }
                             },
                             {
@@ -2057,7 +1735,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 589.0, 261.0, 170.0, 62.0 ],
+                                    "patching_rect": [ 589.0, 261.0, 170.0, 60.0 ],
                                     "text": "message format: F millis seq qw qx qy qz t0loc t0size t1loc t1size t2loc t2size t3loc t3size buttons"
                                 }
                             },
@@ -2138,7 +1816,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 5,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -2348,7 +2026,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 5,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -2396,7 +2074,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 117.0, 357.0, 52.0, 22.0 ],
-                                                    "text": "127."
+                                                    "text": "18.6"
                                                 }
                                             },
                                             {
@@ -2418,7 +2096,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 310.37036019563675, 85.92592310905457, 50.0, 22.0 ],
-                                                    "text": "56.32"
+                                                    "text": "46.32"
                                                 }
                                             },
                                             {
@@ -2440,7 +2118,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 92.0, 210.0, 59.0, 22.0 ],
-                                                    "text": "1"
+                                                    "text": "0.146457"
                                                 }
                                             },
                                             {
@@ -2547,7 +2225,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 212.0, 710.0, 81.81818103790283, 22.0 ],
-                                    "text": "0.988613"
+                                    "text": "0.4818"
                                 }
                             },
                             {
@@ -2558,7 +2236,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 310.0, 710.0, 85.06493425369263, 22.0 ],
-                                    "text": "0.502084"
+                                    "text": "0.50452"
                                 }
                             },
                             {
@@ -2573,12 +2251,12 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 5,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
                                         "classnamespace": "box",
-                                        "rect": [ 892.0, 370.0, 1402.0, 824.0 ],
+                                        "rect": [ 274.0, 176.0, 1402.0, 824.0 ],
                                         "boxes": [
                                             {
                                                 "box": {
@@ -2758,7 +2436,7 @@
                                                     "saved_attribute_attributes": {
                                                         "valueof": {
                                                             "parameter_invisible": 1,
-                                                            "parameter_longname": "vst~[169]",
+                                                            "parameter_longname": "vst~[173]",
                                                             "parameter_modmode": 0,
                                                             "parameter_shortname": "vst~[1]",
                                                             "parameter_type": 3
@@ -2785,7 +2463,7 @@
                                                             "version": 1,
                                                             "isbank": 0,
                                                             "isbase64": 1,
-                                                            "blob": "1011.CMlaKA....fQPMDZ....ALzaC8F..PfA....A........................................LvsVMjLg35....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOC81axQVZtEFckMzatYWYxQWYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRK3PiKvjSN4jCNzbCMwHSLvjiHu3COPEjTA0DHoQVOhDldo0VczglQrkFbh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lHfXWXrUWY8HBLtbSMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lQrkFbh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HhbgQVZ0MmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhHWXjkVcyYDaoAmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhHWXjkVcyIUXtcVYh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HBdFwVZvIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iH3A0ayIBH1EFa0UVOh.iKw.iL3.CLvDSL1LCM3HiM2HxK9vCTAIUPMARZj0iH3IUXtcVYh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HBdRUlYkIWYtMVYh.hcgwVck0iHy3BNwPiM4biL1TiMxTSYsXiHu3COPEjTA0DHoQVOhjmQrkFbh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRdP81bh.hcgwVck0iHs.iK4jCM0jSN4jyM4jyMxfyL4HxK9vCTAIUPMARZj0iH4IUXtcVYh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HRdRUlYkIWYtMVYh.hcgwVck0iHy3BNwPiM4biL1TiMxTSYsXiHu3COPEjTA0DHoQVOhnmQrkFbh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HhdP81bh.hcgwVck0iHv3BLwLSLv.CLxfCLyfCLxPSNh7hO7.UPRETSfjFY8HhdRElamUlHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhnmTkYVYxUlaiUlHfXWXrUWY8HxLtfSLzXSN2HiM0XiL0TVK1HxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xPu8lbjklagQWYC8la1UlbzUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKC81axQVZtEFckMzatYWYxQWYx4C."
+                                                            "blob": "1024.CMlaKA....fQPMDZ....ALzaC8F..PfA....A........................................L.wVMjLgr6....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOC81axQVZtEFckMzatYWYxQWYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRK0jiKxfCLv.iL0jyL4jCMwPiHu3COPEjTA0DHoQVOhDldo0VczglQrkFbh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lHfXWXrUWY8HRLtXiL4jSN0jCMxDSL0bCNzHxK9vCTAIUPMARZj0iHkwVY1EFco8laFwVZvIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHxEFYoU2bh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HhbgQVZ0MmQrkFbh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HhbgQVZ0MmTg41YkIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH3YDaoAmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhfGTuMmHfXWXrUWY8HBLtTSLvXSN4jCN2PSLwPSN4HxK9vCTAIUPMARZj0iH3IUXtcVYh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HBdRUlYkIWYtMVYh.hcgwVck0iHy3BNwPiM4biL1TiMxTSYsXiHu3COPEjTA0DHoQVOhjmQrkFbh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRdP81bh.hcgwVck0iHs.iK3TSNy.CLvDyMyTiM3biL1HxK9vCTAIUPMARZj0iH4IUXtcVYh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HRdRUlYkIWYtMVYh.hcgwVck0iHy3BNwPiM4biL1TiMxTSYsXiHu3COPEjTA0DHoQVOhnmQrkFbh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HhdP81bh.hcgwVck0iHv3BLxfyL4jSN2PSLvbyMzHyLwHxK9vCTAIUPMARZj0iH5IUXtcVYh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HhdRUlYkIWYtMVYh.hcgwVck0iHy3BNwPiM4biL1TiMxTSYsXiHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKC81axQVZtEFckMzatYWYxQWYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLzauIGYo4VXzU1Pu4lckIGckImO.."
                                                         },
                                                         "snapshotlist": {
                                                             "current_snapshot": 0,
@@ -2807,14 +2485,14 @@
                                                                         "version": 1,
                                                                         "isbank": 0,
                                                                         "isbase64": 1,
-                                                                        "blob": "1011.CMlaKA....fQPMDZ....ALzaC8F..PfA....A........................................LvsVMjLg35....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOC81axQVZtEFckMzatYWYxQWYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRK3PiKvjSN4jCNzbCMwHSLvjiHu3COPEjTA0DHoQVOhDldo0VczglQrkFbh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lHfXWXrUWY8HBLtbSMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lQrkFbh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HhbgQVZ0MmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhHWXjkVcyYDaoAmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhHWXjkVcyIUXtcVYh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HBdFwVZvIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iH3A0ayIBH1EFa0UVOh.iKw.iL3.CLvDSL1LCM3HiM2HxK9vCTAIUPMARZj0iH3IUXtcVYh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HBdRUlYkIWYtMVYh.hcgwVck0iHy3BNwPiM4biL1TiMxTSYsXiHu3COPEjTA0DHoQVOhjmQrkFbh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRdP81bh.hcgwVck0iHs.iK4jCM0jSN4jyM4jyMxfyL4HxK9vCTAIUPMARZj0iH4IUXtcVYh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HRdRUlYkIWYtMVYh.hcgwVck0iHy3BNwPiM4biL1TiMxTSYsXiHu3COPEjTA0DHoQVOhnmQrkFbh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HhdP81bh.hcgwVck0iHv3BLwLSLv.CLxfCLyfCLxPSNh7hO7.UPRETSfjFY8HhdRElamUlHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhnmTkYVYxUlaiUlHfXWXrUWY8HxLtfSLzXSN2HiM0XiL0TVK1HxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xPu8lbjklagQWYC8la1UlbzUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKC81axQVZtEFckMzatYWYxQWYx4C."
+                                                                        "blob": "1024.CMlaKA....fQPMDZ....ALzaC8F..PfA....A........................................L.wVMjLgr6....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOC81axQVZtEFckMzatYWYxQWYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRK0jiKxfCLv.iL0jyL4jCMwPiHu3COPEjTA0DHoQVOhDldo0VczglQrkFbh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lHfXWXrUWY8HRLtXiL4jSN0jCMxDSL0bCNzHxK9vCTAIUPMARZj0iHkwVY1EFco8laFwVZvIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHxEFYoU2bh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HhbgQVZ0MmQrkFbh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HhbgQVZ0MmTg41YkIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH3YDaoAmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhfGTuMmHfXWXrUWY8HBLtTSLvXSN4jCN2PSLwPSN4HxK9vCTAIUPMARZj0iH3IUXtcVYh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HBdRUlYkIWYtMVYh.hcgwVck0iHy3BNwPiM4biL1TiMxTSYsXiHu3COPEjTA0DHoQVOhjmQrkFbh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRdP81bh.hcgwVck0iHs.iK3TSNy.CLvDyMyTiM3biL1HxK9vCTAIUPMARZj0iH4IUXtcVYh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HRdRUlYkIWYtMVYh.hcgwVck0iHy3BNwPiM4biL1TiMxTSYsXiHu3COPEjTA0DHoQVOhnmQrkFbh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HhdP81bh.hcgwVck0iHv3BLxfyL4jSN2PSLvbyMzHyLwHxK9vCTAIUPMARZj0iH5IUXtcVYh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HhdRUlYkIWYtMVYh.hcgwVck0iHy3BNwPiM4biL1TiMxTSYsXiHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKC81axQVZtEFckMzatYWYxQWYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLzauIGYo4VXzU1Pu4lckIGckImO.."
                                                                     },
                                                                     "fileref": {
                                                                         "name": "CoordinateConverter",
                                                                         "filename": "CoordinateConverter.maxsnap",
                                                                         "filepath": "~/Documents/Max 9/Snapshots",
                                                                         "filepos": -1,
-                                                                        "snapshotfileid": "4017b29357186dd7b526ca0e106d5f71"
+                                                                        "snapshotfileid": "35d9bef69ee147d83982e26e7c6da963"
                                                                     }
                                                                 }
                                                             ]
@@ -2833,7 +2511,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 159.25927197933197, 356.7901519536972, 69.8630086183548, 22.0 ],
-                                                    "text": "0.506568"
+                                                    "text": "0.514181"
                                                 }
                                             },
                                             {
@@ -2855,7 +2533,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 128.3950719833374, 309.87656795978546, 65.75341987609863, 22.0 ],
-                                                    "text": "0.002709"
+                                                    "text": "0.070344"
                                                 }
                                             },
                                             {
@@ -2877,7 +2555,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 85.18519198894501, 261.72841596603394, 71.23287153244019, 22.0 ],
-                                                    "text": "0.551402"
+                                                    "text": "0.755327"
                                                 }
                                             },
                                             {
@@ -3064,7 +2742,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 5,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -3142,7 +2820,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 1136.0, 301.0, 63.29787188768387, 22.0 ],
-                                                    "text": "-269.952"
+                                                    "text": "-278.016"
                                                 }
                                             },
                                             {
@@ -3249,19 +2927,18 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 448.0, 270.0, 43.0, 22.0 ],
-                                                    "text": "1562."
+                                                    "text": "1779."
                                                 }
                                             },
                                             {
                                                 "box": {
                                                     "id": "obj-27",
-                                                    "linecount": 2,
                                                     "maxclass": "message",
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 566.0, 301.0, 50.0, 22.0 ],
-                                                    "text": "-120.064"
+                                                    "text": "-92.288"
                                                 }
                                             },
                                             {
@@ -3368,7 +3045,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 832.0, 301.0, 50.0, 22.0 ],
-                                                    "text": "75."
+                                                    "text": "66.56"
                                                 }
                                             },
                                             {
@@ -3520,7 +3197,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 159.0, 270.0, 43.0, 22.0 ],
-                                                    "text": "1408."
+                                                    "text": "1158."
                                                 }
                                             },
                                             {
@@ -3531,7 +3208,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 246.0, 301.0, 50.0, 22.0 ],
-                                                    "text": "56.32"
+                                                    "text": "46.32"
                                                 }
                                             },
                                             {
@@ -4011,8 +3688,8 @@
                                     "numinlets": 1,
                                     "numoutlets": 2,
                                     "outlettype": [ "int", "" ],
-                                    "patching_rect": [ 457.0, 229.0, 119.0, 22.0 ],
-                                    "text": "serial COM4 921600"
+                                    "patching_rect": [ 457.0, 229.0, 90.0, 22.0 ],
+                                    "text": "serial c 921600"
                                 }
                             }
                         ],
@@ -4652,12 +4329,12 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 5,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 204.0, 538.0, 1279.0, 740.0 ],
+                        "rect": [ 204.0, 260.0, 1279.0, 740.0 ],
                         "boxes": [
                             {
                                 "box": {
@@ -4869,14 +4546,36 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 5,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
                                         "classnamespace": "box",
-                                        "rect": [ 896.0, 145.0, 1775.0, 1150.0 ],
+                                        "rect": [ -799.0, -1348.0, 3372.0, 1314.0 ],
                                         "visible": 1,
                                         "boxes": [
+                                            {
+                                                "box": {
+                                                    "id": "obj-30",
+                                                    "maxclass": "newobj",
+                                                    "numinlets": 0,
+                                                    "numoutlets": 1,
+                                                    "outlettype": [ "" ],
+                                                    "patching_rect": [ 486.7021241784096, 113.23077964782715, 93.0, 22.0 ],
+                                                    "text": "r btn_<+>+shldr"
+                                                }
+                                            },
+                                            {
+                                                "box": {
+                                                    "id": "obj-1",
+                                                    "maxclass": "newobj",
+                                                    "numinlets": 2,
+                                                    "numoutlets": 1,
+                                                    "outlettype": [ "" ],
+                                                    "patching_rect": [ 1375.531905055046, 163.0769386291504, 32.0, 22.0 ],
+                                                    "text": "gate"
+                                                }
+                                            },
                                             {
                                                 "box": {
                                                     "id": "obj-2",
@@ -4889,7 +4588,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 5,
+                                                            "revision": 3,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -4915,8 +4614,8 @@
                                                                     "numinlets": 2,
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
-                                                                    "patching_rect": [ 230.0, 253.0, 50.0, 36.0 ],
-                                                                    "text": "0.00189"
+                                                                    "patching_rect": [ 230.0, 253.0, 50.0, 35.0 ],
+                                                                    "text": "0.426772"
                                                                 }
                                                             },
                                                             {
@@ -5059,79 +4758,13 @@
                                             },
                                             {
                                                 "box": {
-                                                    "id": "obj-719",
-                                                    "maxclass": "toggle",
-                                                    "numinlets": 1,
-                                                    "numoutlets": 1,
-                                                    "outlettype": [ "int" ],
-                                                    "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 2527.692548751831, 24.0, 24.0 ]
-                                                }
-                                            },
-                                            {
-                                                "box": {
-                                                    "id": "obj-720",
-                                                    "maxclass": "newobj",
-                                                    "numinlets": 2,
-                                                    "numoutlets": 1,
-                                                    "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1736.9102729558945, 2528.8973680734634, 39.0, 22.0 ],
-                                                    "text": "== 42"
-                                                }
-                                            },
-                                            {
-                                                "box": {
-                                                    "id": "obj-717",
-                                                    "maxclass": "toggle",
-                                                    "numinlets": 1,
-                                                    "numoutlets": 1,
-                                                    "outlettype": [ "int" ],
-                                                    "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 2481.538698196411, 24.0, 24.0 ]
-                                                }
-                                            },
-                                            {
-                                                "box": {
-                                                    "id": "obj-718",
-                                                    "maxclass": "newobj",
-                                                    "numinlets": 2,
-                                                    "numoutlets": 1,
-                                                    "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1736.9102729558945, 2482.7435175180435, 39.0, 22.0 ],
-                                                    "text": "== 41"
-                                                }
-                                            },
-                                            {
-                                                "box": {
-                                                    "id": "obj-707",
-                                                    "maxclass": "toggle",
-                                                    "numinlets": 1,
-                                                    "numoutlets": 1,
-                                                    "outlettype": [ "int" ],
-                                                    "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 2432.30792427063, 24.0, 24.0 ]
-                                                }
-                                            },
-                                            {
-                                                "box": {
-                                                    "id": "obj-708",
-                                                    "maxclass": "newobj",
-                                                    "numinlets": 2,
-                                                    "numoutlets": 1,
-                                                    "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1735.705453634262, 2433.5127435922623, 39.0, 22.0 ],
-                                                    "text": "== 40"
-                                                }
-                                            },
-                                            {
-                                                "box": {
                                                     "id": "obj-709",
                                                     "maxclass": "toggle",
                                                     "numinlets": 1,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 2386.15407371521, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 2262.9032419919968, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5141,7 +4774,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1735.705453634262, 2387.3588930368423, 39.0, 22.0 ],
+                                                    "patching_rect": [ 1735.7445920109749, 2264.5161452293396, 39.0, 22.0 ],
                                                     "text": "== 39"
                                                 }
                                             },
@@ -5153,7 +4786,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 2336.9232997894287, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 2213.7096932530403, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5163,7 +4796,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1735.705453634262, 2338.128119111061, 39.0, 22.0 ],
+                                                    "patching_rect": [ 1735.7445920109749, 2215.322596490383, 39.0, 22.0 ],
                                                     "text": "== 38"
                                                 }
                                             },
@@ -5175,7 +4808,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 2289.230987548828, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 2166.1290477514267, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5185,7 +4818,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1735.705453634262, 2290.4358068704605, 39.0, 22.0 ],
+                                                    "patching_rect": [ 1735.7445920109749, 2167.7419509887695, 39.0, 22.0 ],
                                                     "text": "== 37"
                                                 }
                                             },
@@ -5197,7 +4830,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 2241.5386753082275, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 2118.548402249813, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5207,7 +4840,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1735.705453634262, 2242.74349462986, 39.0, 22.0 ],
+                                                    "patching_rect": [ 1735.7445920109749, 2120.161305487156, 39.0, 22.0 ],
                                                     "text": "== 36"
                                                 }
                                             },
@@ -5219,7 +4852,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 2155.3848209381104, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 2070.9677567481995, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5229,7 +4862,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1735.705453634262, 2156.5896402597427, 39.0, 22.0 ],
+                                                    "patching_rect": [ 1735.7445920109749, 2072.5806599855423, 39.0, 22.0 ],
                                                     "text": "== 35"
                                                 }
                                             },
@@ -5241,7 +4874,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 2109.2309703826904, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 2025.0000144839287, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5251,7 +4884,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1735.705453634262, 2110.435789704323, 39.0, 22.0 ],
+                                                    "patching_rect": [ 1735.7445920109749, 2026.6129177212715, 39.0, 22.0 ],
                                                     "text": "== 34"
                                                 }
                                             },
@@ -5263,7 +4896,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 2060.000196456909, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 1975.8064657449722, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5273,7 +4906,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1735.705453634262, 2061.2050157785416, 39.0, 22.0 ],
+                                                    "patching_rect": [ 1735.7445920109749, 1977.419368982315, 39.0, 22.0 ],
                                                     "text": "== 33"
                                                 }
                                             },
@@ -5285,7 +4918,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 2012.3078842163086, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 1896.7742071151733, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5295,7 +4928,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1735.705453634262, 2012.3078842163086, 39.0, 22.0 ],
+                                                    "patching_rect": [ 1735.7445920109749, 1896.7742071151733, 39.0, 22.0 ],
                                                     "text": "== 32"
                                                 }
                                             },
@@ -5307,7 +4940,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 1963.0771102905273, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 1847.580658376217, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5317,7 +4950,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1735.705453634262, 1964.2819296121597, 39.0, 22.0 ],
+                                                    "patching_rect": [ 1735.7445920109749, 1848.3871099948883, 39.0, 22.0 ],
                                                     "text": "== 31"
                                                 }
                                             },
@@ -5329,7 +4962,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 1916.9232597351074, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 1801.612916111946, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5339,7 +4972,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1736.9102729558945, 1918.1280790567398, 39.0, 22.0 ],
+                                                    "patching_rect": [ 1737.3574952483177, 1802.4193677306175, 39.0, 22.0 ],
                                                     "text": "== 30"
                                                 }
                                             },
@@ -5351,7 +4984,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 1867.6924858093262, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 1751.6129157543182, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5361,7 +4994,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1736.9102729558945, 1868.8973051309586, 39.0, 22.0 ],
+                                                    "patching_rect": [ 1737.3574952483177, 1753.225818991661, 39.0, 22.0 ],
                                                     "text": "== 29"
                                                 }
                                             },
@@ -5373,7 +5006,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 1821.5386352539062, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 1705.6451734900475, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5383,7 +5016,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1736.9102729558945, 1822.7434545755386, 39.0, 22.0 ],
+                                                    "patching_rect": [ 1737.3574952483177, 1707.2580767273903, 39.0, 22.0 ],
                                                     "text": "== 28"
                                                 }
                                             },
@@ -5395,7 +5028,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 1773.8463230133057, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 1658.0645279884338, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5405,7 +5038,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1736.9102729558945, 1773.8463230133057, 39.0, 22.0 ],
+                                                    "patching_rect": [ 1737.3574952483177, 1658.0645279884338, 39.0, 22.0 ],
                                                     "text": "== 27"
                                                 }
                                             },
@@ -5417,7 +5050,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 1724.6155490875244, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 1608.8709792494774, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5427,7 +5060,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1736.9102729558945, 1725.8203684091568, 39.0, 22.0 ],
+                                                    "patching_rect": [ 1737.3574952483177, 1610.4838824868202, 39.0, 22.0 ],
                                                     "text": "== 26"
                                                 }
                                             },
@@ -5439,7 +5072,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 1612.307846069336, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 1562.9032369852066, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5449,7 +5082,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1736.9102729558945, 1613.5126653909683, 39.0, 22.0 ],
+                                                    "patching_rect": [ 1736.5510436296463, 1563.709688603878, 39.0, 22.0 ],
                                                     "text": "== 25"
                                                 }
                                             },
@@ -5461,7 +5094,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 1563.0770721435547, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 1515.322591483593, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5471,7 +5104,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1736.9102729558945, 1563.0770721435547, 39.0, 22.0 ],
+                                                    "patching_rect": [ 1736.5510436296463, 1515.322591483593, 39.0, 22.0 ],
                                                     "text": "== 24"
                                                 }
                                             },
@@ -5483,7 +5116,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 1458.4616775512695, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 1466.1290427446365, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5493,7 +5126,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1736.9102729558945, 1459.666496872902, 39.0, 22.0 ],
+                                                    "patching_rect": [ 1737.3574952483177, 1467.7419459819794, 39.0, 22.0 ],
                                                     "text": "== 23"
                                                 }
                                             },
@@ -5505,7 +5138,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 1410.769365310669, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1785.7445923686028, 1381.4516227841377, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5515,7 +5148,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1736.9102729558945, 1411.9741846323013, 39.0, 22.0 ],
+                                                    "patching_rect": [ 1736.5510436296463, 1383.0645260214806, 39.0, 22.0 ],
                                                     "text": "== 22"
                                                 }
                                             },
@@ -5527,7 +5160,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 1363.0770530700684, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1785.7445923686028, 1333.870977282524, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5537,7 +5170,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1736.9102729558945, 1364.2818723917007, 39.0, 22.0 ],
+                                                    "patching_rect": [ 1736.5510436296463, 1335.483880519867, 39.0, 22.0 ],
                                                     "text": "== 21"
                                                 }
                                             },
@@ -5549,7 +5182,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 1315.3847408294678, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1785.7445923686028, 1286.2903317809105, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5559,7 +5192,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1736.9102729558945, 1316.5895601511002, 39.0, 22.0 ],
+                                                    "patching_rect": [ 1736.5510436296463, 1287.096783399582, 39.0, 22.0 ],
                                                     "text": "== 20"
                                                 }
                                             },
@@ -5571,7 +5204,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 1221.5385780334473, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 1237.9032346606255, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5581,7 +5214,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1736.9102729558945, 1222.7433973550797, 39.0, 22.0 ],
+                                                    "patching_rect": [ 1737.3574952483177, 1239.5161378979683, 39.0, 22.0 ],
                                                     "text": "== 19"
                                                 }
                                             },
@@ -5593,7 +5226,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 1175.3847274780273, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 1191.9354923963547, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5603,7 +5236,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1736.9102729558945, 1176.5895467996597, 39.0, 22.0 ],
+                                                    "patching_rect": [ 1737.3574952483177, 1193.5483956336975, 39.0, 22.0 ],
                                                     "text": "== 18"
                                                 }
                                             },
@@ -5615,7 +5248,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 1127.6924152374268, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 1144.354846894741, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5625,7 +5258,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1736.9102729558945, 1128.8972345590591, 39.0, 22.0 ],
+                                                    "patching_rect": [ 1737.3574952483177, 1145.967750132084, 39.0, 22.0 ],
                                                     "text": "== 17"
                                                 }
                                             },
@@ -5637,7 +5270,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 1080.0001029968262, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 1066.1290398836136, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5647,7 +5280,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1736.9102729558945, 1081.2049223184586, 39.0, 22.0 ],
+                                                    "patching_rect": [ 1737.3574952483177, 1066.935491502285, 39.0, 22.0 ],
                                                     "text": "== 16"
                                                 }
                                             },
@@ -5659,7 +5292,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 1030.769329071045, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 1016.9354911446571, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5669,7 +5302,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1735.705453634262, 1031.9741483926773, 39.0, 22.0 ],
+                                                    "patching_rect": [ 1735.7445920109749, 1017.7419427633286, 39.0, 22.0 ],
                                                     "text": "== 15"
                                                 }
                                             },
@@ -5681,7 +5314,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 984.615478515625, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 970.1612972617149, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5691,7 +5324,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1735.705453634262, 985.8202978372574, 39.0, 22.0 ],
+                                                    "patching_rect": [ 1735.7445920109749, 971.7742004990578, 39.0, 22.0 ],
                                                     "text": "== 14"
                                                 }
                                             },
@@ -5703,7 +5336,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 936.9231662750244, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 922.5806517601013, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5713,7 +5346,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1735.705453634262, 936.9231662750244, 39.0, 22.0 ],
+                                                    "patching_rect": [ 1735.7445920109749, 922.5806517601013, 39.0, 22.0 ],
                                                     "text": "== 13"
                                                 }
                                             },
@@ -5725,7 +5358,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 844.6154651641846, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 875.0000062584877, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5735,7 +5368,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1735.705453634262, 845.820284485817, 39.0, 22.0 ],
+                                                    "patching_rect": [ 1735.7445920109749, 876.6129094958305, 39.0, 22.0 ],
                                                     "text": "== 12"
                                                 }
                                             },
@@ -5747,7 +5380,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 798.4616146087646, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 827.4193607568741, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5757,7 +5390,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1735.705453634262, 799.666433930397, 38.0, 22.0 ],
+                                                    "patching_rect": [ 1735.7445920109749, 828.2258123755455, 38.0, 22.0 ],
                                                     "text": "== 11"
                                                 }
                                             },
@@ -5769,7 +5402,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 744.6154556274414, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 773.3871023058891, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5779,7 +5412,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1735.705453634262, 745.8202749490738, 39.0, 22.0 ],
+                                                    "patching_rect": [ 1735.7445920109749, 774.1935539245605, 39.0, 22.0 ],
                                                     "text": "== 10"
                                                 }
                                             },
@@ -5791,7 +5424,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 661.5385246276855, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 696.7741985321045, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5801,7 +5434,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1735.705453634262, 662.7433439493179, 33.0, 22.0 ],
+                                                    "patching_rect": [ 1735.7445920109749, 697.5806501507759, 33.0, 22.0 ],
                                                     "text": "== 9"
                                                 }
                                             },
@@ -5813,7 +5446,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 613.846212387085, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 649.1935530304909, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5823,7 +5456,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1735.705453634262, 615.0510317087173, 33.0, 22.0 ],
+                                                    "patching_rect": [ 1735.7445920109749, 650.0000046491623, 33.0, 22.0 ],
                                                     "text": "== 8"
                                                 }
                                             },
@@ -5835,7 +5468,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 566.1539001464844, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 568.5483911633492, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5845,7 +5478,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1735.705453634262, 567.3587194681168, 33.0, 22.0 ],
+                                                    "patching_rect": [ 1735.7445920109749, 569.3548427820206, 33.0, 22.0 ],
                                                     "text": "== 7"
                                                 }
                                             },
@@ -5857,7 +5490,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 487.6923542022705, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 520.1612940430641, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5867,7 +5500,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1735.705453634262, 488.8971735239029, 33.0, 22.0 ],
+                                                    "patching_rect": [ 1735.7445920109749, 520.9677456617355, 33.0, 22.0 ],
                                                     "text": "== 6"
                                                 }
                                             },
@@ -5879,7 +5512,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1786.3078651428223, 435.38465690612793, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1786.5510439872742, 467.741938829422, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -5889,7 +5522,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
-                                                    "patching_rect": [ 1735.705453634262, 436.5894762277603, 33.0, 22.0 ],
+                                                    "patching_rect": [ 1735.7445920109749, 468.5483904480934, 33.0, 22.0 ],
                                                     "text": "== 5"
                                                 }
                                             },
@@ -5983,17 +5616,6 @@
                                             },
                                             {
                                                 "box": {
-                                                    "id": "obj-583",
-                                                    "maxclass": "newobj",
-                                                    "numinlets": 2,
-                                                    "numoutlets": 1,
-                                                    "outlettype": [ "" ],
-                                                    "patching_rect": [ 1278.4616603851318, 163.0769386291504, 32.0, 22.0 ],
-                                                    "text": "gate"
-                                                }
-                                            },
-                                            {
-                                                "box": {
                                                     "id": "obj-582",
                                                     "maxclass": "newobj",
                                                     "numinlets": 2,
@@ -6009,436 +5631,7 @@
                                                     "maxclass": "comment",
                                                     "numinlets": 1,
                                                     "numoutlets": 0,
-                                                    "patching_rect": [ 2536.923318862915, 2427.692539215088, 150.0, 20.0 ]
-                                                }
-                                            },
-                                            {
-                                                "box": {
-                                                    "id": "obj-560",
-                                                    "maxclass": "newobj",
-                                                    "numinlets": 16,
-                                                    "numoutlets": 1,
-                                                    "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 2541.538703918457, 176.5, 22.0 ],
-                                                    "text": "mc.pack~ 16",
-                                                    "varname": "vst~[76]"
-                                                }
-                                            },
-                                            {
-                                                "box": {
-                                                    "bgmode": 0,
-                                                    "border": 0,
-                                                    "clickthrough": 0,
-                                                    "data": {
-                                                        "autosave": 1,
-                                                        "snapshot": {
-                                                            "filetype": "C74Snapshot",
-                                                            "version": 2,
-                                                            "minorversion": 0,
-                                                            "name": "snapshotlist",
-                                                            "origin": "vst~",
-                                                            "type": "list",
-                                                            "subtype": "Undefined",
-                                                            "embed": 1,
-                                                            "snapshot": {
-                                                                "pluginname": "StereoEncoder.vstinfo",
-                                                                "plugindisplayname": "StereoEncoder",
-                                                                "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
-                                                                "version": 1,
-                                                                "isbank": 0,
-                                                                "isbase64": 1,
-                                                                "blob": "723.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HvkVMjLg3n....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKy3hL1.CLvjyM1TiMxTiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhLyLtfCN4jSN4LCN4XCM3PCMh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK4TSMv.CLvPiL4DSMyPCMxHxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HRKv3BLzXSN4jSNyDyLyTCMzjiLxHxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3hL3jSN4jSN1DCN0LCLxbyLh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhzBLt.yL3jSN4jyMzbiL2XyLvXiLh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iHsPiK1LSN4jSNyfSN1PCNzLCNh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HxcoQFcnIBH1EFa0UVOhzRL1LiK2jCLv.CN0PCM4HSL4HxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTzUlbk8VQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSQWYxU1aE41XuQVYx4C."
-                                                            },
-                                                            "snapshotlist": {
-                                                                "current_snapshot": 0,
-                                                                "entries": [
-                                                                    {
-                                                                        "filetype": "C74Snapshot",
-                                                                        "version": 2,
-                                                                        "minorversion": 0,
-                                                                        "name": "StereoEncoder",
-                                                                        "origin": "StereoEncoder.vstinfo",
-                                                                        "type": "VST",
-                                                                        "subtype": "AudioEffect",
-                                                                        "embed": 0,
-                                                                        "snapshot": {
-                                                                            "pluginname": "StereoEncoder.vstinfo",
-                                                                            "plugindisplayname": "StereoEncoder",
-                                                                            "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
-                                                                            "version": 1,
-                                                                            "isbank": 0,
-                                                                            "isbase64": 1,
-                                                                            "blob": "723.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HvkVMjLg3n....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKy3hL1.CLvjyM1TiMxTiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhLyLtfCN4jSN4LCN4XCM3PCMh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK4TSMv.CLvPiL4DSMyPCMxHxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HRKv3BLzXSN4jSNyDyLyTCMzjiLxHxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3hL3jSN4jSN1DCN0LCLxbyLh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhzBLt.yL3jSN4jyMzbiL2XyLvXiLh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iHsPiK1LSN4jSNyfSN1PCNzLCNh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HxcoQFcnIBH1EFa0UVOhzRL1LiK2jCLv.CN0PCM4HSL4HxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTzUlbk8VQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSQWYxU1aE41XuQVYx4C."
-                                                                        },
-                                                                        "fileref": {
-                                                                            "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_2.maxsnap",
-                                                                            "filepath": "~/Documents/Max 9/Snapshots",
-                                                                            "filepos": -1,
-                                                                            "snapshotfileid": "f383b645d73aa8c2caad59acba143a60"
-                                                                        }
-                                                                    }
-                                                                ]
-                                                            }
-                                                        }
-                                                    },
-                                                    "enablehscroll": 0,
-                                                    "enablevscroll": 0,
-                                                    "id": "obj-561",
-                                                    "lockeddragscroll": 0,
-                                                    "lockedsize": 0,
-                                                    "maxclass": "newobj",
-                                                    "numinlets": 2,
-                                                    "numoutlets": 23,
-                                                    "offset": [ 0.0, 0.0 ],
-                                                    "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 2516.9233169555664, 250.0, 22.0 ],
-                                                    "saved_object_attributes": {
-                                                        "parameter_enable": 1,
-                                                        "parameter_mappable": 0
-                                                    },
-                                                    "text": "mc.vst~ 2 16 StereoEncoder",
-                                                    "varname": "vst~[77]",
-                                                    "viewvisibility": 0
-                                                }
-                                            },
-                                            {
-                                                "box": {
-                                                    "clipheight": 44.74263805150986,
-                                                    "color": [ 0.0, 0.0, 0.0, 1.0 ],
-                                                    "data": {
-                                                        "clips": [
-                                                            {
-                                                                "absolutepath": "42_deathwhistles-act8-1.1_1.wav",
-                                                                "filename": "42_deathwhistles-act8-1.1_1.wav",
-                                                                "filekind": "audiofile",
-                                                                "id": "u793013480",
-                                                                "selection": [ 0.0, 1.0 ],
-                                                                "loop": 0,
-                                                                "content_state": {                                                                }
-                                                            }
-                                                        ]
-                                                    },
-                                                    "id": "obj-562",
-                                                    "maxclass": "playlist~",
-                                                    "mode": "basic",
-                                                    "numinlets": 1,
-                                                    "numoutlets": 5,
-                                                    "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
-                                                    "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 2516.9233169555664, 594.7712819576263, 45.74263805150986 ],
-                                                    "quality": "basic",
-                                                    "saved_attribute_attributes": {
-                                                        "candicane2": {
-                                                            "expression": ""
-                                                        },
-                                                        "candicane3": {
-                                                            "expression": ""
-                                                        },
-                                                        "candicane4": {
-                                                            "expression": ""
-                                                        },
-                                                        "candicane5": {
-                                                            "expression": ""
-                                                        },
-                                                        "candicane6": {
-                                                            "expression": ""
-                                                        },
-                                                        "candicane7": {
-                                                            "expression": ""
-                                                        },
-                                                        "candicane8": {
-                                                            "expression": ""
-                                                        }
-                                                    }
-                                                }
-                                            },
-                                            {
-                                                "box": {
-                                                    "id": "obj-563",
-                                                    "maxclass": "newobj",
-                                                    "numinlets": 16,
-                                                    "numoutlets": 1,
-                                                    "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 2492.307929992676, 176.5, 22.0 ],
-                                                    "text": "mc.pack~ 16",
-                                                    "varname": "vst~[78]"
-                                                }
-                                            },
-                                            {
-                                                "box": {
-                                                    "bgmode": 0,
-                                                    "border": 0,
-                                                    "clickthrough": 0,
-                                                    "data": {
-                                                        "autosave": 1,
-                                                        "snapshot": {
-                                                            "filetype": "C74Snapshot",
-                                                            "version": 2,
-                                                            "minorversion": 0,
-                                                            "name": "snapshotlist",
-                                                            "origin": "vst~",
-                                                            "type": "list",
-                                                            "subtype": "Undefined",
-                                                            "embed": 1,
-                                                            "snapshot": {
-                                                                "pluginname": "StereoEncoder.vstinfo",
-                                                                "plugindisplayname": "StereoEncoder",
-                                                                "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
-                                                                "version": 1,
-                                                                "isbank": 0,
-                                                                "isbase64": 1,
-                                                                "blob": "703.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HvfVMjLgnm....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRLtPSM4jSNwPSM0.yM3DiL0HxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHyLiK0.SN4jCM0.iM3LSM4PiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3RN0bCLv.SLyXyL2TCMxbiLh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOh.iKvDyLv.CLvDSLzPCMvjSL3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3hL3bSN4jSN3biMvHiLyLSNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOh.iKvDSMv.CLw.CM4.CMwbCM3HxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhDiKwDSN4jSMwDyMwfyM0HxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HBLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
-                                                            },
-                                                            "snapshotlist": {
-                                                                "current_snapshot": 0,
-                                                                "entries": [
-                                                                    {
-                                                                        "filetype": "C74Snapshot",
-                                                                        "version": 2,
-                                                                        "minorversion": 0,
-                                                                        "name": "StereoEncoder",
-                                                                        "origin": "StereoEncoder.vstinfo",
-                                                                        "type": "VST",
-                                                                        "subtype": "AudioEffect",
-                                                                        "embed": 0,
-                                                                        "snapshot": {
-                                                                            "pluginname": "StereoEncoder.vstinfo",
-                                                                            "plugindisplayname": "StereoEncoder",
-                                                                            "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
-                                                                            "version": 1,
-                                                                            "isbank": 0,
-                                                                            "isbase64": 1,
-                                                                            "blob": "703.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HvfVMjLgnm....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRLtPSM4jSNwPSM0.yM3DiL0HxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHyLiK0.SN4jCM0.iM3LSM4PiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3RN0bCLv.SLyXyL2TCMxbiLh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOh.iKvDyLv.CLvDSLzPCMvjSL3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3hL3bSN4jSN3biMvHiLyLSNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOh.iKvDSMv.CLw.CM4.CMwbCM3HxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhDiKwDSN4jSMwDyMwfyM0HxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HBLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
-                                                                        },
-                                                                        "fileref": {
-                                                                            "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_1.maxsnap",
-                                                                            "filepath": "~/Documents/Max 9/Snapshots",
-                                                                            "filepos": -1,
-                                                                            "snapshotfileid": "c5fe30a69113663dec3fec5a0a002285"
-                                                                        }
-                                                                    }
-                                                                ]
-                                                            }
-                                                        }
-                                                    },
-                                                    "enablehscroll": 0,
-                                                    "enablevscroll": 0,
-                                                    "id": "obj-564",
-                                                    "lockeddragscroll": 0,
-                                                    "lockedsize": 0,
-                                                    "maxclass": "newobj",
-                                                    "numinlets": 2,
-                                                    "numoutlets": 23,
-                                                    "offset": [ 0.0, 0.0 ],
-                                                    "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 2469.231004714966, 250.0, 22.0 ],
-                                                    "saved_object_attributes": {
-                                                        "parameter_enable": 1,
-                                                        "parameter_mappable": 0
-                                                    },
-                                                    "text": "mc.vst~ 2 16 StereoEncoder",
-                                                    "varname": "vst~[79]",
-                                                    "viewvisibility": 0
-                                                }
-                                            },
-                                            {
-                                                "box": {
-                                                    "clipheight": 44.74263805150986,
-                                                    "color": [ 0.0, 0.0, 0.0, 1.0 ],
-                                                    "data": {
-                                                        "clips": [
-                                                            {
-                                                                "absolutepath": "41_glitchwobbler-act8-1.1_1.wav",
-                                                                "filename": "41_glitchwobbler-act8-1.1_1.wav",
-                                                                "filekind": "audiofile",
-                                                                "id": "u831013498",
-                                                                "selection": [ 0.0, 1.0 ],
-                                                                "loop": 0,
-                                                                "content_state": {                                                                }
-                                                            }
-                                                        ]
-                                                    },
-                                                    "id": "obj-565",
-                                                    "maxclass": "playlist~",
-                                                    "mode": "basic",
-                                                    "numinlets": 1,
-                                                    "numoutlets": 5,
-                                                    "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
-                                                    "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 2469.231004714966, 594.7712819576263, 45.74263805150986 ],
-                                                    "quality": "basic",
-                                                    "saved_attribute_attributes": {
-                                                        "candicane2": {
-                                                            "expression": ""
-                                                        },
-                                                        "candicane3": {
-                                                            "expression": ""
-                                                        },
-                                                        "candicane4": {
-                                                            "expression": ""
-                                                        },
-                                                        "candicane5": {
-                                                            "expression": ""
-                                                        },
-                                                        "candicane6": {
-                                                            "expression": ""
-                                                        },
-                                                        "candicane7": {
-                                                            "expression": ""
-                                                        },
-                                                        "candicane8": {
-                                                            "expression": ""
-                                                        }
-                                                    }
-                                                }
-                                            },
-                                            {
-                                                "box": {
-                                                    "id": "obj-566",
-                                                    "maxclass": "newobj",
-                                                    "numinlets": 16,
-                                                    "numoutlets": 1,
-                                                    "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 2446.154079437256, 176.5, 22.0 ],
-                                                    "text": "mc.pack~ 16",
-                                                    "varname": "vst~[80]"
-                                                }
-                                            },
-                                            {
-                                                "box": {
-                                                    "bgmode": 0,
-                                                    "border": 0,
-                                                    "clickthrough": 0,
-                                                    "data": {
-                                                        "autosave": 1,
-                                                        "snapshot": {
-                                                            "filetype": "C74Snapshot",
-                                                            "version": 2,
-                                                            "minorversion": 0,
-                                                            "name": "snapshotlist",
-                                                            "origin": "vst~",
-                                                            "type": "list",
-                                                            "subtype": "Undefined",
-                                                            "embed": 1,
-                                                            "snapshot": {
-                                                                "pluginname": "StereoEncoder.vstinfo",
-                                                                "plugindisplayname": "StereoEncoder",
-                                                                "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
-                                                                "version": 1,
-                                                                "isbank": 0,
-                                                                "isbase64": 1,
-                                                                "blob": "695.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HvdVMjLgHm....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HhLtHCL4jSNwPSM0.yM3DiL0HxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHy.iK3PSN4jCL3PCM2HiM0XiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3RN1PCLv.SLvTCN0bCNzjSLh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOh.iKv.yLv.CLvHCL4fCL3LCM4XSLh7hO7.UPRETSfjFY8HRb4IBH1EFa0UVOhzBLtHiM0jSN4jyMxfiLvHCNxHxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HBLt.SL3.CLv.CL1XyM0biLvHSLh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iHs.iKxTiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHv3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
-                                                            },
-                                                            "snapshotlist": {
-                                                                "current_snapshot": 0,
-                                                                "entries": [
-                                                                    {
-                                                                        "filetype": "C74Snapshot",
-                                                                        "version": 2,
-                                                                        "minorversion": 0,
-                                                                        "name": "StereoEncoder",
-                                                                        "origin": "StereoEncoder.vstinfo",
-                                                                        "type": "VST",
-                                                                        "subtype": "AudioEffect",
-                                                                        "embed": 0,
-                                                                        "snapshot": {
-                                                                            "pluginname": "StereoEncoder.vstinfo",
-                                                                            "plugindisplayname": "StereoEncoder",
-                                                                            "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
-                                                                            "version": 1,
-                                                                            "isbank": 0,
-                                                                            "isbase64": 1,
-                                                                            "blob": "695.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HvdVMjLgHm....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HhLtHCL4jSNwPSM0.yM3DiL0HxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHy.iK3PSN4jCL3PCM2HiM0XiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3RN1PCLv.SLvTCN0bCNzjSLh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOh.iKv.yLv.CLvHCL4fCL3LCM4XSLh7hO7.UPRETSfjFY8HRb4IBH1EFa0UVOhzBLtHiM0jSN4jyMxfiLvHCNxHxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HBLt.SL3.CLv.CL1XyM0biLvHSLh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iHs.iKxTiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHv3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
-                                                                        },
-                                                                        "fileref": {
-                                                                            "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_2.maxsnap",
-                                                                            "filepath": "~/Documents/Max 9/Snapshots",
-                                                                            "filepos": -1,
-                                                                            "snapshotfileid": "f383b645d73aa8c2caad59acba143a60"
-                                                                        }
-                                                                    }
-                                                                ]
-                                                            }
-                                                        }
-                                                    },
-                                                    "enablehscroll": 0,
-                                                    "enablevscroll": 0,
-                                                    "id": "obj-567",
-                                                    "lockeddragscroll": 0,
-                                                    "lockedsize": 0,
-                                                    "maxclass": "newobj",
-                                                    "numinlets": 2,
-                                                    "numoutlets": 23,
-                                                    "offset": [ 0.0, 0.0 ],
-                                                    "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 2421.5386924743652, 250.0, 22.0 ],
-                                                    "saved_object_attributes": {
-                                                        "parameter_enable": 1,
-                                                        "parameter_mappable": 0
-                                                    },
-                                                    "text": "mc.vst~ 2 16 StereoEncoder",
-                                                    "varname": "vst~[81]",
-                                                    "viewvisibility": 0
-                                                }
-                                            },
-                                            {
-                                                "box": {
-                                                    "clipheight": 44.74263805150986,
-                                                    "color": [ 0.0, 0.0, 0.0, 1.0 ],
-                                                    "data": {
-                                                        "clips": [
-                                                            {
-                                                                "absolutepath": "40_arpeggio-act8-1.1_1.wav",
-                                                                "filename": "40_arpeggio-act8-1.1_1.wav",
-                                                                "filekind": "audiofile",
-                                                                "id": "u173013503",
-                                                                "selection": [ 0.0, 1.0 ],
-                                                                "loop": 0,
-                                                                "content_state": {                                                                }
-                                                            }
-                                                        ]
-                                                    },
-                                                    "id": "obj-568",
-                                                    "maxclass": "playlist~",
-                                                    "mode": "basic",
-                                                    "numinlets": 1,
-                                                    "numoutlets": 5,
-                                                    "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
-                                                    "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 2421.5386924743652, 594.7712819576263, 45.74263805150986 ],
-                                                    "quality": "basic",
-                                                    "saved_attribute_attributes": {
-                                                        "candicane2": {
-                                                            "expression": ""
-                                                        },
-                                                        "candicane3": {
-                                                            "expression": ""
-                                                        },
-                                                        "candicane4": {
-                                                            "expression": ""
-                                                        },
-                                                        "candicane5": {
-                                                            "expression": ""
-                                                        },
-                                                        "candicane6": {
-                                                            "expression": ""
-                                                        },
-                                                        "candicane7": {
-                                                            "expression": ""
-                                                        },
-                                                        "candicane8": {
-                                                            "expression": ""
-                                                        }
-                                                    }
+                                                    "patching_rect": [ 2571.9103177785873, 2376.4046841859818, 150.0, 20.0 ]
                                                 }
                                             },
                                             {
@@ -6448,7 +5641,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 2396.9233055114746, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 2274.1935646533966, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[82]"
                                                 }
@@ -6473,11 +5666,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "710.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfhVMjLgDn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKv3RL4jSN4XSNzfiLzHSL3bSMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lHfXWXrUWY8HxL03RL0jSN3fCMvLyLx.yLwHxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HBLtjSMy.CLv.iM3XiMzTSMvfiHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHv3BLwDCLv.CLybSL4LiL4fyLzHxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3xLvDSN4jSN3XSL2DyMxHCMh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOh.iKv.iLv.CLvjyLzXCLvfyLv.CNh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iHw3xL3jSN4jyL3jiMzfCMyfiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHv3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -6490,23 +5683,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "710.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfhVMjLgDn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKv3RL4jSN4XSNzfiLzHSL3bSMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lHfXWXrUWY8HxL03RL0jSN3fCMvLyLx.yLwHxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HBLtjSMy.CLv.iM3XiMzTSMvfiHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHv3BLwDCLv.CLybSL4LiL4fyLzHxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3xLvDSN4jSN3XSL2DyMxHCMh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOh.iKv.iLv.CLvjyLzXCLvfyLv.CNh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iHw3xL3jSN4jyL3jiMzfCMyfiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHv3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_1.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_39.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "c5fe30a69113663dec3fec5a0a002285"
+                                                                            "snapshotfileid": "a5e56214b0b960067337f31107a6a9e5"
                                                                         }
                                                                     }
                                                                 ]
@@ -6523,7 +5716,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 2373.8463802337646, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 2250.8064677119255, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -6540,11 +5733,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "39_truextrawobblah-act8-1.1_1.wav",
-                                                                "filename": "39_truextrawobblah-act8-1.1_1.wav",
+                                                                "absolutepath": "39_deathwhistles-act8-1.1_1.wav",
+                                                                "filename": "39_deathwhistles-act8-1.1_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u848013508",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u032003105",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -6557,7 +5749,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 2375.3848419189453, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 2252.4193709492683, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -6591,7 +5783,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 2350.7694549560547, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 2228.225822389126, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[84]"
                                                 }
@@ -6616,11 +5808,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "692.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................H.dVMjLg7l....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRK03hL0HxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHxPiK4fSN4jCLxLCMybSMh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK4bCLv.CLwPyM3DSN0DSNh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOh.iKw.SMv.CLvDSNvbyLzfiMyHxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3hLwjSN4jSN1jCLvTSM3PyMh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhzBLt.SL3jSN4jyLzDSN1PyMxDyMh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iHwLiK0DSN4fSNvDyL1bSL3fiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHv3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -6633,23 +5825,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "692.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................H.dVMjLg7l....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRK03hL0HxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHxPiK4fSN4jCLxLCMybSMh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK4bCLv.CLwPyM3DSN0DSNh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOh.iKw.SMv.CLvDSNvbyLzfiMyHxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3hLwjSN4jSN1jCLvTSM3PyMh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhzBLt.SL3jSN4jyLzDSN1PyMxDyMh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iHwLiK0DSN4fSNvDyL1bSL3fiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHv3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_2.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_40.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "f383b645d73aa8c2caad59acba143a60"
+                                                                            "snapshotfileid": "c5509f2d3b2950f51a4c2b12cabe9c3f"
                                                                         }
                                                                     }
                                                                 ]
@@ -6666,7 +5858,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 2326.154067993164, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 2203.225822210312, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -6683,11 +5875,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "38_base-act8-1.1_1.wav",
-                                                                "filename": "38_base-act8-1.1_1.wav",
+                                                                "absolutepath": "38_glitchwobbler-act8-1.1_1.wav",
+                                                                "filename": "38_glitchwobbler-act8-1.1_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u127013513",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u957003091",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -6700,7 +5891,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 2326.154067993164, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 2203.225822210312, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -6734,7 +5925,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 2301.5386810302734, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 2178.225822031498, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[86]"
                                                 }
@@ -6759,11 +5950,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "709.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HPhVMjLg.n....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRK13RNw.CLvLiM1HSLvjyL2TiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhHiMtPCL4jCN3PCLyLiLvLSLh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK4XyMv.CLwHiM3LCN1fCMwHxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HBLt.SNz.CLvDCLw.CN4PyM2TCMh7hO7.UPRETSfjFY8HRb4IBH1EFa0UVOhzBLtHyLxjSN4jCNvPCM4XyM1TiHu3COPEjTA0DHoQVOhDmdh.hcgwVck0iHs.iKvLiL4jSN4LiL2XSM4XCL1jiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRLx3xMxjSN4TyMxbSMyjCL1HxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HBLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -6776,23 +5967,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "709.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HPhVMjLg.n....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRK13RNw.CLvLiM1HSLvjyL2TiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhHiMtPCL4jCN3PCLyLiLvLSLh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK4XyMv.CLwHiM3LCN1fCMwHxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HBLt.SNz.CLvDCLw.CN4PyM2TCMh7hO7.UPRETSfjFY8HRb4IBH1EFa0UVOhzBLtHyLxjSN4jCNvPCM4XyM1TiHu3COPEjTA0DHoQVOhDmdh.hcgwVck0iHs.iKvLiL4jSN4LiL2XSM4XCL1jiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRLx3xMxjSN4TyMxbSMyjCL1HxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HBLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_1.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_41.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "c5fe30a69113663dec3fec5a0a002285"
+                                                                            "snapshotfileid": "9ce8be3c15be3f26df52ae4a28ad30be"
                                                                         }
                                                                     }
                                                                 ]
@@ -6809,7 +6000,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 2278.4617557525635, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 2155.6451767086983, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -6826,11 +6017,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "37_rhytmicgrains-act8-1.2_1.wav",
-                                                                "filename": "37_rhytmicgrains-act8-1.2_1.wav",
+                                                                "absolutepath": "37_arpeggio-act8-1.1_1.wav",
+                                                                "filename": "37_arpeggio-act8-1.1_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u100013518",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u695003077",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -6843,7 +6033,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 2278.4617557525635, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 2155.6451767086983, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -6877,7 +6067,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 2253.846368789673, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 2130.6451765298843, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[88]"
                                                 }
@@ -6902,11 +6092,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "708.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................H.hVMjLg7m....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3RN2.CLvDiLx.yMvLSLxTiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhHiMtLCN4jSN4LCN4XCM3PCMh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK4XSNv.CLw.SLvfSNzbyM0HxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HBLt.CNz.CLvDSLvXiL1HiLvbiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHs.iKxLCL4jSN4PiM0jCMxLCNyHxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HRKv3BLwjSN4jSN3.SNxXSMwLiM2HxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhDSLt.iM4jSNx.iM0PiL4XSNh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HxcoQFcnIBH1EFa0UVOh.iKvHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTzUlbk8VQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSQWYxU1aE41XuQVYx4C."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -6919,23 +6109,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "708.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................H.hVMjLg7m....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3RN2.CLvDiLx.yMvLSLxTiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhHiMtLCN4jSN4LCN4XCM3PCMh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK4XSNv.CLw.SLvfSNzbyM0HxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HBLt.CNz.CLvDSLvXiL1HiLvbiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHs.iKxLCL4jSN4PiM0jCMxLCNyHxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HRKv3BLwjSN4jSN3.SNxXSMwLiM2HxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhDSLt.iM4jSNx.iM0PiL4XSNh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HxcoQFcnIBH1EFa0UVOh.iKvHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTzUlbk8VQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSQWYxU1aE41XuQVYx4C."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_2.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_42.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "f383b645d73aa8c2caad59acba143a60"
+                                                                            "snapshotfileid": "a9628410695cec51080f96f658970a8a"
                                                                         }
                                                                     }
                                                                 ]
@@ -6952,7 +6142,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 2230.769443511963, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 2108.0645312070847, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -6969,11 +6159,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "36_rhytmicgrains-act8-1.1_1.wav",
-                                                                "filename": "36_rhytmicgrains-act8-1.1_1.wav",
+                                                                "absolutepath": "36_truextrawobblah-act8-1.1_1.wav",
+                                                                "filename": "36_truextrawobblah-act8-1.1_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u091013523",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u663003063",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -6986,7 +6175,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 2230.769443511963, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 2108.0645312070847, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -7020,7 +6209,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 2169.2309761047363, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 2085.483885884285, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[66]"
                                                 }
@@ -7045,11 +6234,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "705.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HPgVMjLgvm....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKy3BN0.CLvXSLvLSMwTiMxTiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhHiMt.iL4jSN3byM4HSN1fCNh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK4bSLv.CLvbSMyPCLxbSLh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOh.iKvbyLv.CLvbyLzLiL4HiLyXiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHs.iKxHiM4jSN4LCNzfCNv.iM1HxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HRKv3BLwLSN4jSNyfSN1PCNzLyM0HxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhjiKzfSN4jCLxLCMybSMh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HxcoQFcnIBH1EFa0UVOh.iKvHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTzUlbk8VQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSQWYxU1aE41XuQVYx4C."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -7062,23 +6251,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "705.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HPgVMjLgvm....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKy3BN0.CLvXSLvLSMwTiMxTiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhHiMt.iL4jSN3byM4HSN1fCNh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK4bSLv.CLvbSMyPCLxbSLh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOh.iKvbyLv.CLvbyLzLiL4HiLyXiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHs.iKxHiM4jSN4LCNzfCNv.iM1HxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HRKv3BLwLSN4jSNyfSN1PCNzLyM0HxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhjiKzfSN4jCLxLCMybSMh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HxcoQFcnIBH1EFa0UVOh.iKvHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTzUlbk8VQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSQWYxU1aE41XuQVYx4C."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_1.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_43.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "c5fe30a69113663dec3fec5a0a002285"
+                                                                            "snapshotfileid": "8568da138d9094d7366d3f185720480b"
                                                                         }
                                                                     }
                                                                 ]
@@ -7095,7 +6284,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 2146.1540508270264, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 2062.096788942814, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -7112,11 +6301,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "35_droneswell-act7-1.1_1.wav",
-                                                                "filename": "35_droneswell-act7-1.1_1.wav",
+                                                                "absolutepath": "35_base-act8-1.1_1.wav",
+                                                                "filename": "35_base-act8-1.1_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u950013150",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u247003049",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -7129,7 +6317,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 2144.6155891418457, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 2060.483885705471, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -7163,7 +6351,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 2121.5386638641357, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 2037.096788764, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[68]"
                                                 }
@@ -7188,11 +6376,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "695.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HvdVMjLgHm....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3RL0.CLvjSL0TiL2LCMyfiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhHyMtLCL4jSN2TSM3TSNybSMh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK4XCNv.CLvTCMyTSNzLiMh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOh.iKvbCMv.CLv.CL4TyL1bCMyHiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHs.iKxLyM4jSN4bSM1fSLy.CM4HxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HRKv3BLwPSN4jSNxXCL4.iLz.CM3HxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhjiK2TiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHv3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -7205,23 +6393,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "695.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HvdVMjLgHm....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3RL0.CLvjSL0TiL2LCMyfiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhHyMtLCL4jSN2TSM3TSNybSMh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK4XCNv.CLvTCMyTSNzLiMh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOh.iKvbCMv.CLv.CL4TyL1bCMyHiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHs.iKxLyM4jSN4bSM1fSLy.CM4HxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HRKv3BLwPSN4jSNxXCL4.iLz.CM3HxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhjiK2TiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHv3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_2.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_44.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "f383b645d73aa8c2caad59acba143a60"
+                                                                            "snapshotfileid": "3b986bb8cfaebcd0879fcac47b0736d9"
                                                                         }
                                                                     }
                                                                 ]
@@ -7238,7 +6426,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 2096.923276901245, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 2012.9032402038574, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -7255,11 +6443,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "34_dronebass-act7-1.1_1.wav",
-                                                                "filename": "34_dronebass-act7-1.1_1.wav",
+                                                                "absolutepath": "34_rhytmicgrains-act8-1.2_1.wav",
+                                                                "filename": "34_rhytmicgrains-act8-1.2_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u562013145",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u890003035",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -7272,7 +6459,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 2098.461738586426, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 2014.5161434412003, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -7306,7 +6493,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 2072.3078899383545, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1987.9032400250435, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[58]"
                                                 }
@@ -7331,11 +6518,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "709.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HPhVMjLg.n....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3RL1.CLvLiM1HSLvjyL2TiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhHyMtXSM4jCN3PCLyLiLvLSLh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK4XyMv.CLwHiM3LCN1fCMwHxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HBLt.yM2.CLv.iLwjyLzTCL4HCNh7hO7.UPRETSfjFY8HRb4IBH1EFa0UVOhzBLtHCMvjSN4jyL2.SM2PSN0DiHu3COPEjTA0DHoQVOhDmdh.hcgwVck0iHs.iKvDyL4jSN4LCN4XCM3PyL2TiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRLv3RLxjSN3jiMxPCLxLCMzHxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HBLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -7348,23 +6535,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "709.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HPhVMjLg.n....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3RL1.CLvLiM1HSLvjyL2TiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhHyMtXSM4jCN3PCLyLiLvLSLh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK4XyMv.CLwHiM3LCN1fCMwHxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HBLt.yM2.CLv.iLwjyLzTCL4HCNh7hO7.UPRETSfjFY8HRb4IBH1EFa0UVOhzBLtHCMvjSN4jyL2.SM2PSN0DiHu3COPEjTA0DHoQVOhDmdh.hcgwVck0iHs.iKvDyL4jSN4LCN4XCM3PyL2TiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRLv3RLxjSN3jiMxPCLxLCMzHxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HBLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_1.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_45.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "c5fe30a69113663dec3fec5a0a002285"
+                                                                            "snapshotfileid": "677300fb889f9c670574ed0f973d1681"
                                                                         }
                                                                     }
                                                                 ]
@@ -7381,7 +6568,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 2049.2309646606445, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1965.3225947022438, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -7398,11 +6585,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "33_vocals-act7-1.1_1.wav",
-                                                                "filename": "33_vocals-act7-1.1_1.wav",
+                                                                "absolutepath": "33_rhytmicgrains-act8-1.1_1.wav",
+                                                                "filename": "33_rhytmicgrains-act8-1.1_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u915013140",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u605003021",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -7415,7 +6601,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 2049.2309646606445, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 1965.3225947022438, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -7449,7 +6635,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 2024.615577697754, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1908.8709813952446, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[60]"
                                                 }
@@ -7474,11 +6660,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "694.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfdVMjLgDm....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKw3RMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lHfXWXrUWY8HhL13BNvjSN4bSM0fSM4LyM0HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HBLtjyMv.CLvDCM2fSL4TSL4HxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HBLt.iM2.CLv.yLwPyMwHSMxPCMh7hO7.UPRETSfjFY8HRb4IBH1EFa0UVOhzBLtHyLwjSN4jSNyLiLzHyM4fiHu3COPEjTA0DHoQVOhDmdh.hcgwVck0iHv3BLvPCLv.CL1byMw.CN2XCM1TiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HBNtHSM4jSNzTCL1fyL0jyL3HxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HBLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -7491,23 +6677,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "694.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfdVMjLgDm....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKw3RMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lHfXWXrUWY8HhL13BNvjSN4bSM0fSM4LyM0HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HBLtjyMv.CLvDCM2fSL4TSL4HxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HBLt.iM2.CLv.yLwPyMwHSMxPCMh7hO7.UPRETSfjFY8HRb4IBH1EFa0UVOhzBLtHyLwjSN4jSNyLiLzHyM4fiHu3COPEjTA0DHoQVOhDmdh.hcgwVck0iHv3BLvPCLv.CL1byMw.CN2XCM1TiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HBNtHSM4jSNzTCL1fyL0jyL3HxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HBLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_2.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_46.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "f383b645d73aa8c2caad59acba143a60"
+                                                                            "snapshotfileid": "8d8a114ce3094857726386c5ef996271"
                                                                         }
                                                                     }
                                                                 ]
@@ -7524,7 +6710,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 2001.538652420044, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1885.4838844537735, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -7541,11 +6727,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "32_deathwhistles-act7-1.1_1.wav",
-                                                                "filename": "32_deathwhistles-act7-1.1_1.wav",
+                                                                "absolutepath": "32_droneswell-act7-1.1_1.wav",
+                                                                "filename": "32_droneswell-act7-1.1_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u058013135",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u204003007",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -7558,7 +6743,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 2001.538652420044, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 1885.4838844537735, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -7592,7 +6777,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1976.9232654571533, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1861.290335893631, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[62]"
                                                 }
@@ -7617,11 +6802,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "708.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................H.hVMjLg7m....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKv3BMwjSN4fSL1fSNzTyLwHSMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lHfXWXrUWY8HhL03BNvjSN4bSM0fSM4LyM0HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HBLtjyMx.CLvDiLx.yMvLSLxTiHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHv3BL2XCLv.CL4PCMwLyM0byLxHxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3hLxHSN4jSN3jSN3XCMwjyMh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOh.iKvDCMv.CLvTCNwbCMwLyLyHxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhjiKvLSN4jyLxfiMwLiL3DiLh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HxcoQFcnIBH1EFa0UVOh.iKvHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTzUlbk8VQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSQWYxU1aE41XuQVYx4C."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -7634,23 +6819,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "708.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................H.hVMjLg7m....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKv3BMwjSN4fSL1fSNzTyLwHSMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lHfXWXrUWY8HhL03BNvjSN4bSM0fSM4LyM0HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HBLtjyMx.CLvDiLx.yMvLSLxTiHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHv3BL2XCLv.CL4PCMwLyM0byLxHxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3hLxHSN4jSN3jSN3XCMwjyMh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOh.iKvDCMv.CLvTCNwbCMwLyLyHxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhjiKvLSN4jyLxfiMwLiL3DiLh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HxcoQFcnIBH1EFa0UVOh.iKvHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTzUlbk8VQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSQWYxU1aE41XuQVYx4C."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_1.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_47.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "c5fe30a69113663dec3fec5a0a002285"
+                                                                            "snapshotfileid": "6ec6a8c553046d9d37b151bf3e5ba62b"
                                                                         }
                                                                     }
                                                                 ]
@@ -7667,7 +6852,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1953.8463401794434, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1837.9032389521599, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -7684,11 +6869,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "31_synthesizer-act7-1.1_1.wav",
-                                                                "filename": "31_synthesizer-act7-1.1_1.wav",
+                                                                "absolutepath": "31_dronebass-act7-1.1_1.wav",
+                                                                "filename": "31_dronebass-act7-1.1_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u974013130",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u679002993",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -7701,7 +6885,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 1952.3078784942627, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 1836.290335714817, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -7735,7 +6919,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1929.2309532165527, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1813.7096903920174, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[64]"
                                                 }
@@ -7760,11 +6944,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "697.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HPeVMjLgPm....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKxjiKwjSN4jiM4PCNxPiLwjiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhLCNtbSMh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK4DyMv.CLvTSMyDyLwDCLzHxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HRKv3BLwjSN4jSN3.SNxXSMwLiM2HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3xLyXSN4jSN0HyM4LSLxDyLh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhzBLtHSLzjSN4jyMybyMyjSM1LiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HxMtjyMv.CLwHiLvbCLyDiL0HxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HBLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -7777,23 +6961,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "697.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HPeVMjLgPm....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKxjiKwjSN4jiM4PCNxPiLwjiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhLCNtbSMh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK4DyMv.CLvTSMyDyLwDCLzHxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HRKv3BLwjSN4jSN3.SNxXSMwLiM2HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3xLyXSN4jSN0HyM4LSLxDyLh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhzBLtHSLzjSN4jyMybyMyjSM1LiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HxMtjyMv.CLwHiLvbCLyDiL0HxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HBLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_2.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_48.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "f383b645d73aa8c2caad59acba143a60"
+                                                                            "snapshotfileid": "8789076c337d3f4aa69702aff011bca3"
                                                                         }
                                                                     }
                                                                 ]
@@ -7810,7 +6994,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1904.615566253662, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1788.7096902132034, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -7827,11 +7011,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "30_base-act7-1.1_1.wav",
-                                                                "filename": "30_base-act7-1.1_1.wav",
+                                                                "absolutepath": "30_vocals-act7-1.1_1.wav",
+                                                                "filename": "30_vocals-act7-1.1_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u633013125",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u851002979",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -7844,7 +7027,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 1906.1540279388428, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 1790.3225934505463, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -7878,7 +7061,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1881.5386409759521, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1766.1290448904037, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[54]"
                                                 }
@@ -7903,11 +7086,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "709.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HPhVMjLg.n....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKy3xM1.CLvjyM1TiMxTiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhHSMt.iM4jSNx.iM0PiL4XSNh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK4biMv.CLvbCL0bSL3jSNzHxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HRKv3BLvXSN4jSN1jCM3HCMxDCN2TiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHs.iKxDiM4jSN4PCNvHCM2PSN3HxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HRKv3BLyDSN4jSNzTiMz.SM1LSN1HxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOh.iKv.SN4jCM0.iM3LSM4LyM0HxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HBLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -7920,23 +7103,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "709.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HPhVMjLg.n....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKy3xM1.CLvjyM1TiMxTiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhHSMt.iM4jSNx.iM0PiL4XSNh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK4biMv.CLvbCL0bSL3jSNzHxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HRKv3BLvXSN4jSN1jCM3HCMxDCN2TiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHs.iKxDiM4jSN4PCNvHCM2PSN3HxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HRKv3BLyDSN4jSNzTiMz.SM1LSN1HxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOh.iKv.SN4jCM0.iM3LSM4LyM0HxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HBLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_1.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_49.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "c5fe30a69113663dec3fec5a0a002285"
+                                                                            "snapshotfileid": "589992199b5df5292fa860a9ccecdb88"
                                                                         }
                                                                     }
                                                                 ]
@@ -7953,7 +7136,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1858.4617156982422, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1742.7419479489326, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -7970,11 +7153,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "29_grainbeat-act7-1.1_1.wav",
-                                                                "filename": "29_grainbeat-act7-1.1_1.wav",
+                                                                "absolutepath": "29_deathwhistles-act7-1.1_1.wav",
+                                                                "filename": "29_deathwhistles-act7-1.1_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u146013120",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u226002965",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -7987,7 +7169,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 1858.4617156982422, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 1742.7419479489326, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -8021,7 +7203,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1833.8463287353516, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1718.5483993887901, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[56]"
                                                 }
@@ -8046,11 +7228,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "711.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HvhVMjLgHn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKy3BMv.CLvjSL0TiL2LCMyfiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhHCMtfCN4jSN4LCN4XCM3PCMh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK4biMv.CLvbCL0bSL3jSNzHxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HRKv3BLwjSN4jSN3.SNxXSMwLiM2HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3hLwPSN4jSN2LyM2LSN0XyLh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhzBLt.yLwjSN4jCM0XCMvTiMyjiMh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iHsDiK1.CLv.iMw.yL0DSM1HSMh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HxcoQFcnIBH1EFa0UVOh.iKvHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTzUlbk8VQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSQWYxU1aE41XuQVYx4C."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -8063,23 +7245,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "711.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HvhVMjLgHn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKy3BMv.CLvjSL0TiL2LCMyfiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhHCMtfCN4jSN4LCN4XCM3PCMh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK4biMv.CLvbCL0bSL3jSNzHxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HRKv3BLwjSN4jSN3.SNxXSMwLiM2HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3hLwPSN4jSN2LyM2LSN0XyLh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhzBLt.yLwjSN4jCM0XCMvTiMyjiMh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iHsDiK1.CLv.iMw.yL0DSM1HSMh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HxcoQFcnIBH1EFa0UVOh.iKvHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTzUlbk8VQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSQWYxU1aE41XuQVYx4C."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_2.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_50.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "f383b645d73aa8c2caad59acba143a60"
+                                                                            "snapshotfileid": "1a384a496e6892f82754cfa38fb6528d"
                                                                         }
                                                                     }
                                                                 ]
@@ -8096,7 +7278,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1810.7694034576416, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1695.161302447319, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -8113,11 +7295,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "28_rhytmicgrains-act7-1.2_1.wav",
-                                                                "filename": "28_rhytmicgrains-act7-1.2_1.wav",
+                                                                "absolutepath": "28_synthesizer-act7-1.1_1.wav",
+                                                                "filename": "28_synthesizer-act7-1.1_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u335013115",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u453002951",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -8130,7 +7311,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 1810.7694034576416, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 1695.161302447319, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -8164,7 +7345,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1786.154016494751, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1670.161302268505, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[46]"
                                                 }
@@ -8189,11 +7370,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "709.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HPhVMjLg.n....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKx3BN2.CLw.yL2TSN2XSM1HiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhHCMtXyM4jSNxXyM0bCNwHSMh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK4biMv.CLvbCL0bSL3jSNzHxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HRKv3BLxTSN4jSN1LiL3LSMyfCNxHxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3hLwHSN4jSNyjSNwfSMwfSLh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhzBLt.iL3jSN4jiLzXSM4biL4HxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhzhLtPSL4jSN3DiM3jCM0LSLxHxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HBLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -8206,23 +7387,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "709.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HPhVMjLg.n....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKx3BN2.CLw.yL2TSN2XSM1HiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhHCMtXyM4jSNxXyM0bCNwHSMh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK4biMv.CLvbCL0bSL3jSNzHxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HRKv3BLxTSN4jSN1LiL3LSMyfCNxHxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3hLwHSN4jSNyjSNwfSMwfSLh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhzBLt.iL3jSN4jiLzXSM4biL4HxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhzhLtPSL4jSN3DiM3jCM0LSLxHxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HBLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_1.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_51.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "c5fe30a69113663dec3fec5a0a002285"
+                                                                            "snapshotfileid": "160ca24ce1cfa7f69eaed03dbdda0443"
                                                                         }
                                                                     }
                                                                 ]
@@ -8239,7 +7420,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1763.077091217041, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1647.5806569457054, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -8256,11 +7437,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "27_rhytmicgrains-act7-1.1_1.wav",
-                                                                "filename": "27_rhytmicgrains-act7-1.1_1.wav",
+                                                                "absolutepath": "27_base-act7-1.1_1.wav",
+                                                                "filename": "27_base-act7-1.1_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u949013110",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u806002937",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -8273,7 +7453,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 1761.5386295318604, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 1645.9677537083626, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -8307,7 +7487,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1738.4617042541504, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1622.5806567668915, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[48]"
                                                 }
@@ -8332,11 +7512,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "710.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfhVMjLgDn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKx3RM2.CLvbyLxPiLwfyM0HxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHxPiKwbSN4jiL1bSM2fSLxTiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3RN2bCLv.SLwbyLvDSNz.SNh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOhzBLt.SL3jSN4jyLzDSN1PyMxDyMh7hO7.UPRETSfjFY8HRb4IBH1EFa0UVOhzBLtHCL3jSN4jSNwPSL1jyLwHiHu3COPEjTA0DHoQVOhDmdh.hcgwVck0iHs.iKvHCM4jSN4biMwTCNwPiLvjiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKw3hM3.CLvbSNyPSM2.yLwHiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHv3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -8349,23 +7529,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "710.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfhVMjLgDn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKx3RM2.CLvbyLxPiLwfyM0HxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHxPiKwbSN4jiL1bSM2fSLxTiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3RN2bCLv.SLwbyLvDSNz.SNh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOhzBLt.SL3jSN4jyLzDSN1PyMxDyMh7hO7.UPRETSfjFY8HRb4IBH1EFa0UVOhzBLtHCL3jSN4jSNwPSL1jyLwHiHu3COPEjTA0DHoQVOhDmdh.hcgwVck0iHs.iKvHCM4jSN4biMwTCNwPiLvjiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKw3hM3.CLvbSNyPSM2.yLwHiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHv3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_2.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_52.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "f383b645d73aa8c2caad59acba143a60"
+                                                                            "snapshotfileid": "d026eff4d3b0f69945bf2c2d9a137484"
                                                                         }
                                                                     }
                                                                 ]
@@ -8382,7 +7562,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1713.8463172912598, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1598.387108206749, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -8399,11 +7579,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "26_bubbles-act7-1.1_1.wav",
-                                                                "filename": "26_bubbles-act7-1.1_1.wav",
+                                                                "absolutepath": "26_rhytmicgrains-act7-1.2_1.wav",
+                                                                "filename": "26_rhytmicgrains-act7-1.2_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u357013105",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u652002923",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -8416,7 +7595,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 1715.3847789764404, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 1600.0000114440918, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -8450,7 +7629,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1623.0770778656006, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1573.387108027935, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[50]"
                                                 }
@@ -8475,11 +7654,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "712.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................H.iVMjLgLn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRK0LiKxjCLv.CL4DSM0HyMyPiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhXSLtbSN4jCN2bSNxjiM3bSMh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK3.CLv.CLvbSL0HSM0byL2HxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HRKv3BLyHSN4jSNyHyM1TSN1.iM4HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3RMyjSN4jSN1DCN0LCLxbyLh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhzBLtHSM3jSN4jCMybyLyHSL0LiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HhL33xMvjSN4DCM0TCL2fSLxHxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HRKwfCLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -8492,23 +7671,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "712.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................H.iVMjLgLn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRK0LiKxjCLv.CL4DSM0HyMyPiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhXSLtbSN4jCN2bSNxjiM3bSMh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK3.CLv.CLvbSL0HSM0byL2HxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HRKv3BLyHSN4jSNyHyM1TSN1.iM4HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3RMyjSN4jSN1DCN0LCLxbyLh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhzBLtHSM3jSN4jCMybyLyHSL0LiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HhL33xMvjSN4DCM0TCL2fSLxHxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HRKwfCLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_1.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_53.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "c5fe30a69113663dec3fec5a0a002285"
+                                                                            "snapshotfileid": "32d1621e8865a3be7fd2b2d1d2233746"
                                                                         }
                                                                     }
                                                                 ]
@@ -8525,7 +7704,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1600.0001525878906, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1550.8064627051353, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -8542,11 +7721,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "25_grains-act6-1.1_1.wav",
-                                                                "filename": "25_grains-act6-1.1_1.wav",
+                                                                "absolutepath": "25_grainbeat-act7-1.1_1.wav",
+                                                                "filename": "25_grainbeat-act7-1.1_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u468012737",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u591002909",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -8559,7 +7737,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 1601.5386142730713, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 1551.6129143238068, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -8593,7 +7771,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1576.9232273101807, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1529.032269001007, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[52]"
                                                 }
@@ -8618,11 +7796,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "699.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HveVMjLgXm....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKwXiK2bCLv.CMxbiLzXCL4PiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhHSLtjCM4jSN1jCM3HCMxDSNh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK4biLv.CLwHiLvbCLyDiL0HxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HBLt.CLz.CLv.iM2bSLvfyM1PiM0HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3RL4HSN4jSN0fSN4HCLvPCMh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhzBLtDyL1jSN4jiMzbSLz.SMvLiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HxLtbSMh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HxcoQFcnIBH1EFa0UVOhzRL3.iKvHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTzUlbk8VQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSQWYxU1aE41XuQVYx4C."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -8635,23 +7813,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "699.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HveVMjLgXm....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKwXiK2bCLv.CMxbiLzXCL4PiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhHSLtjCM4jSN1jCM3HCMxDSNh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK4biLv.CLwHiLvbCLyDiL0HxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HBLt.CLz.CLv.iM2bSLvfyM1PiM0HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3RL4HSN4jSN0fSN4HCLvPCMh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhzBLtDyL1jSN4jiMzbSLz.SMvLiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HxLtbSMh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HxcoQFcnIBH1EFa0UVOhzRL3.iKvHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTzUlbk8VQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSQWYxU1aE41XuQVYx4C."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_2.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_54.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "f383b645d73aa8c2caad59acba143a60"
+                                                                            "snapshotfileid": "91195ddb3d316ab4d4eb0758154a8ff9"
                                                                         }
                                                                     }
                                                                 ]
@@ -8668,7 +7846,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1552.30784034729, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1504.0322688221931, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -8685,11 +7863,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "24_bubbles-act6-1.1_1.wav",
-                                                                "filename": "24_bubbles-act6-1.1_1.wav",
+                                                                "absolutepath": "24_rhytmicgrains-act7-1.1_1.wav",
+                                                                "filename": "24_rhytmicgrains-act7-1.1_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u291012732",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u561002895",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -8702,7 +7879,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 1552.30784034729, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 1504.0322688221931, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -8736,7 +7913,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1470.7693710327148, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1479.0322686433792, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[38]"
                                                 }
@@ -8761,11 +7938,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "713.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HPiVMjLgPn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HxLtTCNv.CLwfyLw.SMzXCN3HxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHw.iK4PCLv.iLzPSLz.iMxTiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3RN4TCLv.SLxLSN2biM1DSLh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOhzBLt.SL3jSN4jyLzDSN1PyMxDyMh7hO7.UPRETSfjFY8HRb4IBH1EFa0UVOhzBLt.SN0jSN4jSM1DyLvjCNwPSMh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOh.iKvHSNv.CLvPyL3XSNvDCN0TiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKx3RMxjSN4fyM2jiL4XCN2TiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsDCNv3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -8778,23 +7955,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "713.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HPiVMjLgPn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HxLtTCNv.CLwfyLw.SMzXCN3HxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHw.iK4PCLv.iLzPSLz.iMxTiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3RN4TCLv.SLxLSN2biM1DSLh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOhzBLt.SL3jSN4jyLzDSN1PyMxDyMh7hO7.UPRETSfjFY8HRb4IBH1EFa0UVOhzBLt.SN0jSN4jSM1DyLvjCNwPSMh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOh.iKvHSNv.CLvPyL3XSNvDCN0TiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKx3RMxjSN4fyM2jiL4XCN2TiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsDCNv3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_2.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_55.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "f383b645d73aa8c2caad59acba143a60"
+                                                                            "snapshotfileid": "bce17d27f1742afba30555f29fa993a0"
                                                                         }
                                                                     }
                                                                 ]
@@ -8811,7 +7988,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1447.6924457550049, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1455.645171701908, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -8828,11 +8005,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "23_piano-reverse-act5-1.1_1.wav",
-                                                                "filename": "23_piano-reverse-act5-1.1_1.wav",
+                                                                "absolutepath": "23_bubbles-act7-1.1_1.wav",
+                                                                "filename": "23_bubbles-act7-1.1_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u067012527",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u371002881",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -8845,7 +8021,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 1447.6924457550049, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 1455.645171701908, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -8879,7 +8055,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1423.0770587921143, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1393.548397064209, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[40]"
                                                 }
@@ -8904,11 +8080,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "706.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfgVMjLgzm....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRL03BNzjSN4.CNzPyMxXSM1HxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHwjiKz.SN4fCNz.yLyHCLyDiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3RN2XCLv.CL2.SM2DCN4jCMh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOhzBLt.iLwjSN4jSM0DyM2LCL2DyLh7hO7.UPRETSfjFY8HRb4IBH1EFa0UVOhzBLtDyMxjSN4jyM3.iM0PSNvbiHu3COPEjTA0DHoQVOhDmdh.hcgwVck0iHv3RLxfCLv.CLx.SN3.CNyTiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRK03xLvjSN4bSM0fSM4LyM0HxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HBLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -8921,23 +8097,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "706.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfgVMjLgzm....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRL03BNzjSN4.CNzPyMxXSM1HxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHwjiKz.SN4fCNz.yLyHCLyDiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3RN2XCLv.CL2.SM2DCN4jCMh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOhzBLt.iLwjSN4jSM0DyM2LCL2DyLh7hO7.UPRETSfjFY8HRb4IBH1EFa0UVOhzBLtDyMxjSN4jyM3.iM0PSNvbiHu3COPEjTA0DHoQVOhDmdh.hcgwVck0iHv3RLxfCLv.CLx.SN3.CNyTiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRK03xLvjSN4bSM0fSM4LyM0HxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HBLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_2.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_56.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "f383b645d73aa8c2caad59acba143a60"
+                                                                            "snapshotfileid": "5d98e0a923fb014f6800148d0a96aea5"
                                                                         }
                                                                     }
                                                                 ]
@@ -8954,7 +8130,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1400.0001335144043, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1370.9677517414093, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -8971,11 +8147,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "22_piano-stretch-act5-1.2_1.wav",
-                                                                "filename": "22_piano-stretch-act5-1.2_1.wav",
+                                                                "absolutepath": "22_grains-act6-1.1_1.wav",
+                                                                "filename": "22_grains-act6-1.1_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u026012522",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u288002867",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -8988,7 +8163,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 1400.0001335144043, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 1370.9677517414093, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -9022,7 +8197,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1375.3847465515137, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1345.9677515625954, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[42]"
                                                 }
@@ -9047,11 +8222,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "707.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HvgVMjLg3m....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRL03BN1.CLv.iMw.yL0DSM1HxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHwjiKxHCLv.SLxHCL2.yLwHiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3RN2bCLv.SLwbyLvDSNz.SNh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOhzBLt.SL2jSN4jCM2.yMw.yM0PCMh7hO7.UPRETSfjFY8HRb4IBH1EFa0UVOhzBLtDyMvjSN4jCMzHSLv.SMxTiHu3COPEjTA0DHoQVOhDmdh.hcgwVck0iHv3RLxjCLv.CL1byMw.CN2XSMh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iHsPiK3.SN4jyM0TCN0jyL2TiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHv3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -9064,23 +8239,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "707.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HvgVMjLg3m....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRL03BN1.CLv.iMw.yL0DSM1HxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHwjiKxHCLv.SLxHCL2.yLwHiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3RN2bCLv.SLwbyLvDSNz.SNh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOhzBLt.SL2jSN4jCM2.yMw.yM0PCMh7hO7.UPRETSfjFY8HRb4IBH1EFa0UVOhzBLtDyMvjSN4jCMzHSLv.SMxTiHu3COPEjTA0DHoQVOhDmdh.hcgwVck0iHv3RLxjCLv.CL1byMw.CN2XSMh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iHsPiK3.SN4jyM0TCN0jyL2TiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHv3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_1.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_57.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "c5fe30a69113663dec3fec5a0a002285"
+                                                                            "snapshotfileid": "745d772003a62116d2a667e48b239ba6"
                                                                         }
                                                                     }
                                                                 ]
@@ -9097,7 +8272,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1352.3078212738037, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1323.3871062397957, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -9114,11 +8289,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "21_piano-stretch-act5-1.1_1.wav",
-                                                                "filename": "21_piano-stretch-act5-1.1_1.wav",
+                                                                "absolutepath": "21_bubbles-act6-1.1_1.wav",
+                                                                "filename": "21_bubbles-act6-1.1_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u081012517",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u075002853",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -9131,7 +8305,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 1352.3078212738037, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 1323.3871062397957, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -9165,7 +8339,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1329.2308959960938, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1300.0000092983246, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[44]"
                                                 }
@@ -9190,11 +8364,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "701.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HPfVMjLgfm....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKxLiK4DCLv.yL1XiLw.SNyfiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhDSLtTiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3RN2LCLv.CLzjSM4DCL1PSMh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOhzBLt.iL4jSN4jyMwLCN4byMvTSLh7hO7.UPRETSfjFY8HRb4IBH1EFa0UVOhzBLt.SN0jSN4jSM1DyLvjCNwPSMh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhzBLtHCL1jSN4jSM2TiMwPSNxjiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKw3BL4.CLwDSM4XiM2jiM3fiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsDCNv3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -9207,23 +8381,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "701.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HPfVMjLgfm....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKxLiK4DCLv.yL1XiLw.SNyfiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhDSLtTiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3RN2LCLv.CLzjSM4DCL1PSMh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOhzBLt.iL4jSN4jyMwLCN4byMvTSLh7hO7.UPRETSfjFY8HRb4IBH1EFa0UVOhzBLt.SN0jSN4jSM1DyLvjCNwPSMh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhzBLtHCL1jSN4jSM2TiMwPSNxjiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKw3BL4.CLwDSM4XiM2jiM3fiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsDCNv3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_2.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_58.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "f383b645d73aa8c2caad59acba143a60"
+                                                                            "snapshotfileid": "ba83f4a5487b79410cebdd8a2bd0b24a"
                                                                         }
                                                                     }
                                                                 ]
@@ -9240,7 +8414,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1304.6155090332031, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1275.806460738182, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -9257,11 +8431,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "20_grains-act5-1.1_1.wav",
-                                                                "filename": "20_grains-act5-1.1_1.wav",
+                                                                "absolutepath": "20_piano-reverse-act5-1.1_1.wav",
+                                                                "filename": "20_piano-reverse-act5-1.1_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u215012512",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u370002839",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -9274,7 +8447,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 1304.6155090332031, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 1275.806460738182, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -9308,7 +8481,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1235.3847332000732, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1252.419363796711, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[36]"
                                                 }
@@ -9333,11 +8506,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "705.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HPgVMjLgvm....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRNtTSM4jSN2TSM3TSNybSMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lHfXWXrUWY8HBLtbyL4jSNvHyLzLyM0HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HBLtjSM0.CLv.CMxjSL0LCMzHiHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHs.iKxfyL4jSN4bSNzjiMv.iLxHxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3BLxjSN4jSN2DyL3jyM2.SMwHxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HBLt.yM3.CLv.iM3XiMzTSMvbCNh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iHsLyLtDSNv.CLxPCMwPCL1HSMh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HxcoQFcnIBH1EFa0UVOh.iKvHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTzUlbk8VQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSQWYxU1aE41XuQVYx4C."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -9350,23 +8523,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "705.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HPgVMjLgvm....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRNtTSM4jSN2TSM3TSNybSMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lHfXWXrUWY8HBLtbyL4jSNvHyLzLyM0HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HBLtjSM0.CLv.CMxjSL0LCMzHiHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHs.iKxfyL4jSN4bSNzjiMv.iLxHxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3BLxjSN4jSN2DyL3jyM2.SMwHxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HBLt.yM3.CLv.iM3XiMzTSMvbCNh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iHsLyLtDSNv.CLxPCMwPCL1HSMh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HxcoQFcnIBH1EFa0UVOh.iKvHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTzUlbk8VQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSQWYxU1aE41XuQVYx4C."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_2.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_59.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "f383b645d73aa8c2caad59acba143a60"
+                                                                            "snapshotfileid": "1081461ae0a9e4ca611da21a6d5481e3"
                                                                         }
                                                                     }
                                                                 ]
@@ -9383,7 +8556,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1210.7693462371826, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1227.419363617897, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -9400,11 +8573,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "19_piano-act4-1.3_1.wav",
-                                                                "filename": "19_piano-act4-1.3_1.wav",
+                                                                "absolutepath": "19_piano-stretch-act5-1.2_1.wav",
+                                                                "filename": "19_piano-stretch-act5-1.2_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u557012374",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u935002825",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -9417,7 +8589,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 1210.7693462371826, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 1227.419363617897, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -9460,7 +8632,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1187.6924209594727, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1204.032266676426, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[30]"
                                                 }
@@ -9485,11 +8657,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "714.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfiVMjLgTn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRK43hMx.CLw.yL2TSN2XSM1HiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBLtfSMv.CL1DCLyTSL0XiL0HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HBLtjSN1.CLv.SMwPSN3PSLyDiHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHv3BLxjCLv.CLzLCN1jCLwfSM0HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBLt.CLzjSN4jSN0HyLwXiL3PSL3HxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HRKv3BL3LSN4jSNyDCNwHiL3XyL3HxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhLiKxTSN4jCM0.iM3LSM4LCNh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HxcoQFcnIBH1EFa0UVOhzRL3.iKvHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTzUlbk8VQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSQWYxU1aE41XuQVYx4C."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -9502,23 +8674,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "714.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfiVMjLgTn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRK43hMx.CLw.yL2TSN2XSM1HiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBLtfSMv.CL1DCLyTSL0XiL0HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HBLtjSN1.CLv.SMwPSN3PSLyDiHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHv3BLxjCLv.CLzLCN1jCLwfSM0HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBLt.CLzjSN4jSN0HyLwXiL3PSL3HxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HRKv3BL3LSN4jSNyDCNwHiL3XyL3HxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhLiKxTSN4jCM0.iM3LSM4LCNh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HxcoQFcnIBH1EFa0UVOhzRL3.iKvHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTzUlbk8VQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSQWYxU1aE41XuQVYx4C."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_2.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_60.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "f383b645d73aa8c2caad59acba143a60"
+                                                                            "snapshotfileid": "340ace915aecb394a39a4e55f77805e6"
                                                                         }
                                                                     }
                                                                 ]
@@ -9535,7 +8707,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1163.077033996582, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1179.8387181162834, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -9552,11 +8724,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "18_piano-act4-1.2_1.wav",
-                                                                "filename": "18_piano-act4-1.2_1.wav",
+                                                                "absolutepath": "18_piano-stretch-act5-1.1_1.wav",
+                                                                "filename": "18_piano-stretch-act5-1.1_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u293012369",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u126002811",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -9569,7 +8740,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 1163.077033996582, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 1179.8387181162834, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -9603,7 +8774,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1140.000108718872, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1156.4516211748123, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[32]"
                                                 }
@@ -9628,11 +8799,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "713.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HPiVMjLgPn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKw.iK2bCLv.CMxbiLzXCL4PiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzRLtLCL4jSN2TSM3TSNybSMh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK4jSMv.CLwHyL4byM1XSLwHxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HBLt.SL1.CLv.yLxPiLzjiL1biMh7hO7.UPRETSfjFY8HRb4IBH1EFa0UVOh.iKv.SN4jSN4jCLzXyLxTiM3LiMh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhzBLt.SNyjSN4jCNwfCNvDCN2jSNh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iHw3xMx.CLvDiLx.yMvLSLxTiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsDCNv3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -9645,23 +8816,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "713.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HPiVMjLgPn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKw.iK2bCLv.CMxbiLzXCL4PiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzRLtLCL4jSN2TSM3TSNybSMh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK4jSMv.CLwHyL4byM1XSLwHxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HBLt.SL1.CLv.yLxPiLzjiL1biMh7hO7.UPRETSfjFY8HRb4IBH1EFa0UVOh.iKv.SN4jSN4jCLzXyLxTiM3LiMh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhzBLt.SNyjSN4jCNwfCNvDCN2jSNh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iHw3xMx.CLvDiLx.yMvLSLxTiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsDCNv3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_1.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_61.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "c5fe30a69113663dec3fec5a0a002285"
+                                                                            "snapshotfileid": "d27e816571abd1d00849fe55ca95a755"
                                                                         }
                                                                     }
                                                                 ]
@@ -9678,7 +8849,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1116.923183441162, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1133.8709758520126, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -9695,11 +8866,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "17_phonecall-act4-1.2_1.wav",
-                                                                "filename": "17_phonecall-act4-1.2_1.wav",
+                                                                "absolutepath": "17_grains-act5-1.1_1.wav",
+                                                                "filename": "17_grains-act5-1.1_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u120012364",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u447002797",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -9712,7 +8882,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 1116.923183441162, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 1133.8709758520126, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -9746,7 +8916,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1092.3077964782715, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1078.2258141636848, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[34]"
                                                 }
@@ -9771,11 +8941,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "710.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfhVMjLgDn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HhL43RNvjSN3fCMvLyLx.yLwHxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHyTiK0fCLv.SL3LSLvTCM1jiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3RNwTCLv.CL3DCL1HyLwXSNh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOhzBLtDiLzjSN4jCMvLSN0LSM0HiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHs.iKyPSL4jSN4PCNvHCM2PSN3HxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HBLtDyM0.CLv.yMwTiL0TyMybiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKxTiKyXCLv.CL1DCLyTSL0XiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsDCNv3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -9788,23 +8958,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "710.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfhVMjLgDn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HhL43RNvjSN3fCMvLyLx.yLwHxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHyTiK0fCLv.SL3LSLvTCM1jiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3RNwTCLv.CL3DCL1HyLwXSNh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOhzBLtDiLzjSN4jCMvLSN0LSM0HiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHs.iKyPSL4jSN4PCNvHCM2PSN3HxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HBLtDyM0.CLv.yMwTiL0TyMybiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKxTiKyXCLv.CL1DCLyTSL0XiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsDCNv3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_2.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_62.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "f383b645d73aa8c2caad59acba143a60"
+                                                                            "snapshotfileid": "187a18bcd2dede67e6ca57576b4a5a79"
                                                                         }
                                                                     }
                                                                 ]
@@ -9821,7 +8991,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1067.6924095153809, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1053.225813984871, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -9838,11 +9008,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "16_phonecall-act4-1.1_1.wav",
-                                                                "filename": "16_phonecall-act4-1.1_1.wav",
+                                                                "absolutepath": "16_piano-act4-1.3_1.wav",
+                                                                "filename": "16_piano-act4-1.3_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u174012359",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u062002783",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -9855,7 +9024,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 1067.6924095153809, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 1053.225813984871, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -9889,7 +9058,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1044.615484237671, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1030.6451686620712, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[24]"
                                                 }
@@ -9914,11 +9083,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "708.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................H.hVMjLg7m....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HhM03xMyjSN4.iLyPyL2TiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhHCMtXSNv.CLxPCMwPCL1HSMh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK3DCNv.CLvbCNx.SLxjyL4HxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HRKv3RLyHSN4jSN0XiMvbCNwfiMh7hO7.UPRETSfjFY8HRb4IBH1EFa0UVOhzBLtLiL3jSN4jSN1DCN0LCLxbiHu3COPEjTA0DHoQVOhDmdh.hcgwVck0iHv3BM0LCLv.CL1fiM1PSM0.CNh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iHsLCMtTyMv.CL2LiLzHSL3bSMh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HxcoQFcnIBH1EFa0UVOhzRL3.iKvHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTzUlbk8VQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSQWYxU1aE41XuQVYx4C."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -9931,23 +9100,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "708.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................H.hVMjLg7m....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HhM03xMyjSN4.iLyPyL2TiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhHCMtXSNv.CLxPCMwPCL1HSMh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK3DCNv.CLvbCNx.SLxjyL4HxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HRKv3RLyHSN4jSN0XiMvbCNwfiMh7hO7.UPRETSfjFY8HRb4IBH1EFa0UVOhzBLtLiL3jSN4jSN1DCN0LCLxbiHu3COPEjTA0DHoQVOhDmdh.hcgwVck0iHv3BM0LCLv.CL1fiM1PSM0.CNh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iHsLCMtTyMv.CL2LiLzHSL3bSMh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HxcoQFcnIBH1EFa0UVOhzRL3.iKvHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTzUlbk8VQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSQWYxU1aE41XuQVYx4C."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_2.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_63.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "f383b645d73aa8c2caad59acba143a60"
+                                                                            "snapshotfileid": "44494581f8b12dc41d8f4e4857ee3efb"
                                                                         }
                                                                     }
                                                                 ]
@@ -9964,7 +9133,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 1020.0000972747803, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 1005.6451684832573, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -9981,11 +9150,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "15_cellobass-act4-1.1_1.wav",
-                                                                "filename": "15_cellobass-act4-1.1_1.wav",
+                                                                "absolutepath": "15_piano-act4-1.2_1.wav",
+                                                                "filename": "15_piano-act4-1.2_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u930012354",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u318002769",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -9998,7 +9166,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 1020.0000972747803, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 1005.6451684832573, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -10032,7 +9200,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 996.9231719970703, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 983.0645231604576, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[26]"
                                                 }
@@ -10057,11 +9225,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "721.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HPkVMjLgvn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HBM33RL1jSN4fSL1fSNzTyLwHxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHxLiK1jSN4jiM4PCNxPiLwjiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3BN2fCLv.SLz.SL4.SLxPSMh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOhzBLtDCNyjSN4jSM0XSMzDCMzLiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHs.iKxjiM4jSN4jCL4PCLvjCMh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOh.iKyHiMv.CLvjCMzDyL2TyMyHxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhzxLz3xL3jSN4jyL3jiMzfCMzHxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HRKwbSNtfyLv.CLwfyLw.SMzbiHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -10074,23 +9242,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "721.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HPkVMjLgvn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HBM33RL1jSN4fSL1fSNzTyLwHxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHxLiK1jSN4jiM4PCNxPiLwjiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3BN2fCLv.SLz.SL4.SLxPSMh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOhzBLtDCNyjSN4jSM0XSMzDCMzLiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHs.iKxjiM4jSN4jCL4PCLvjCMh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOh.iKyHiMv.CLvjCMzDyL2TyMyHxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhzxLz3xL3jSN4jyL3jiMzfCMzHxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HRKwbSNtfyLv.CLwfyLw.SMzbiHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_1.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_64.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "c5fe30a69113663dec3fec5a0a002285"
+                                                                            "snapshotfileid": "c30f597da245cc8ab73d729c926b8e36"
                                                                         }
                                                                     }
                                                                 ]
@@ -10107,7 +9275,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 973.8462467193604, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 959.6774262189865, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -10124,11 +9292,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "14_piano-act4-1.1_1.wav",
-                                                                "filename": "14_piano-act4-1.1_1.wav",
+                                                                "absolutepath": "14_phonecall-act4-1.2_1.wav",
+                                                                "filename": "14_phonecall-act4-1.2_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u783012349",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u440002755",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -10141,7 +9308,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 973.8462467193604, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 959.6774262189865, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -10175,7 +9342,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 949.2308597564697, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 934.6774260401726, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[28]"
                                                 }
@@ -10200,11 +9367,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "711.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HvhVMjLgHn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKyDiKyHCLv.yMyHCMxDCN2TiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhLSNtfCL4jSN2TSM3TSNybSMh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK4DCLv.CLvfSM3LCL1fCN0HxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HBLt.CLw.CLv.CM1byLv.CMwTCLzHxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3xL0DSN4jSN4fCL4HiM0DCMh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhzBLtHSL3jSN4jCNwfCNvDCN3HxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhDSLtbiLv.CLwHiLvbCLyDiLh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HxcoQFcnIBH1EFa0UVOhzRL3.iKvHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTzUlbk8VQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSQWYxU1aE41XuQVYx4C."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -10217,23 +9384,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "711.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HvhVMjLgHn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKyDiKyHCLv.yMyHCMxDCN2TiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhLSNtfCL4jSN2TSM3TSNybSMh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK4DCLv.CLvfSM3LCL1fCN0HxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HBLt.CLw.CLv.CM1byLv.CMwTCLzHxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3xL0DSN4jSN4fCL4HiM0DCMh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhzBLtHSL3jSN4jCNwfCNvDCN3HxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhDSLtbiLv.CLwHiLvbCLyDiLh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HxcoQFcnIBH1EFa0UVOhzRL3.iKvHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTzUlbk8VQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSQWYxU1aE41XuQVYx4C."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_2.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_65.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "f383b645d73aa8c2caad59acba143a60"
+                                                                            "snapshotfileid": "6211c4ca15ffdb503b4b4afddd4f5a37"
                                                                         }
                                                                     }
                                                                 ]
@@ -10250,7 +9417,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 926.1539344787598, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 912.0967807173729, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -10267,11 +9434,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "13_grains-act4-1.1_1.wav",
-                                                                "filename": "13_grains-act4-1.1_1.wav",
+                                                                "absolutepath": "13_phonecall-act4-1.1_1.wav",
+                                                                "filename": "13_phonecall-act4-1.1_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u601012344",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u626002741",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -10284,7 +9450,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 926.1539344787598, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 912.0967807173729, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -10318,7 +9484,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 856.9231586456299, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 887.9032321572304, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[16]"
                                                 }
@@ -10343,11 +9509,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "706.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfgVMjLgzm....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HBNw3BM0jSN4DCM0TCL2fSLxHxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHwHiK4bCLv.SLxHCL2.yLwHiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3xMxTCLv.CLxLCNzDCN0bSNh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOhzBLtHSL0jSN4jiMvfSN4LSMyHxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3xLxLSN4jSNzDyLzjCLxjSMh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOh.iK0XCNv.CLvbCNx.SLxjyL4HxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhzBMz3xL1.CLv.iMw.yL0DSM1HxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HBLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -10360,23 +9526,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "706.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfgVMjLgzm....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HBNw3BM0jSN4DCM0TCL2fSLxHxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHwHiK4bCLv.SLxHCL2.yLwHiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3xMxTCLv.CLxLCNzDCN0bSNh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOhzBLtHSL0jSN4jiMvfSN4LSMyHxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3xLxLSN4jSNzDyLzjCLxjSMh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOh.iK0XCNv.CLvbCNx.SLxjyL4HxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhzBMz3xL1.CLv.iMw.yL0DSM1HxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HBLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_2.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_66.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "f383b645d73aa8c2caad59acba143a60"
+                                                                            "snapshotfileid": "8c19ea8a465b739ac1dafb8ca7c34eeb"
                                                                         }
                                                                     }
                                                                 ]
@@ -10393,7 +9559,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 833.8462333679199, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 864.5161352157593, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -10410,11 +9576,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "12_wierdrobotvoice-act3-1.1_1.wav",
-                                                                "filename": "12_wierdrobotvoice-act3-1.1_1.wav",
+                                                                "absolutepath": "12_cellobass-act4-1.1_1.wav",
+                                                                "filename": "12_cellobass-act4-1.1_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u990011959",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u332002727",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -10427,7 +9592,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 833.8462333679199, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 864.5161352157593, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -10461,7 +9626,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 809.2308464050293, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 837.9032317996025, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[20]"
                                                 }
@@ -10486,11 +9651,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "707.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HvgVMjLg3m....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRK2TiK4TCLv.CM0byM1LiM2HiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhLCLtfyLv.CLwfyLw.SMzXSNh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK2HiLv.CLwHiLvbCLyDiL0HxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HBLtHCN2.CLv.iMv.CNwPCNwjiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHs.iK0.yL4jSN4PCN0.SL0fiM4HxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HRKv3xL2TSN4jSN3bSLxTyL4XyMh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iH1biK1PSN4jyL3jiMzfCMyfiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHv3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -10503,23 +9668,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "707.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HvgVMjLg3m....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRK2TiK4TCLv.CM0byM1LiM2HiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhLCLtfyLv.CLwfyLw.SMzXSNh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK2HiLv.CLwHiLvbCLyDiL0HxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HBLtHCN2.CLv.iMv.CNwPCNwjiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHs.iK0.yL4jSN4PCN0.SL0fiM4HxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HRKv3xL2TSN4jSN3bSLxTyL4XyMh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iH1biK1PSN4jyL3jiMzfCMyfiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHv3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_1.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_67.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "c5fe30a69113663dec3fec5a0a002285"
+                                                                            "snapshotfileid": "cbc4a6e71c909832084d414312310eb3"
                                                                         }
                                                                     }
                                                                 ]
@@ -10536,7 +9701,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 786.1539211273193, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 814.5161348581314, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -10553,11 +9718,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "11_glitch-act3-1.2_1.wav",
-                                                                "filename": "11_glitch-act3-1.2_1.wav",
+                                                                "absolutepath": "11_piano-act4-1.1_1.wav",
+                                                                "filename": "11_piano-act4-1.1_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u079011954",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u672002713",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -10570,7 +9734,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 787.6923828125, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 816.1290380954742, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -10604,7 +9768,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 763.0769958496094, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 791.9354895353317, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[22]"
                                                 }
@@ -10629,11 +9793,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "706.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfgVMjLgzm....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRN23BN3.CLvPCN3HCNwHSMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lHfXWXrUWY8HRL23RLyjSN4jyL3jiMzfCMzHxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HBLtXyLx.CLv.CN3XSNwbSLwPiHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHs.iKwfiM4jSN4biM1LCM4bSNxHxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3BMwbSN4jSN3HCNyLCN1HyLh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOh.iK1HSMv.CLwDSNx.SNxfSN1HxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhzRMx3RM4.CLvLSN1biL3TSL1HxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HBLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -10646,23 +9810,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "706.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfgVMjLgzm....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRN23BN3.CLvPCN3HCNwHSMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lHfXWXrUWY8HRL23RLyjSN4jyL3jiMzfCMzHxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HBLtXyLx.CLv.CN3XSNwbSLwPiHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHs.iKwfiM4jSN4biM1LCM4bSNxHxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3BMwbSN4jSN3HCNyLCN1HyLh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOh.iK1HSMv.CLwDSNx.SNxfSN1HxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhzRMx3RM4.CLvLSN1biL3TSL1HxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HBLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_2.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_68.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "f383b645d73aa8c2caad59acba143a60"
+                                                                            "snapshotfileid": "b3c8ba25394d7f312fcc1d1027029e75"
                                                                         }
                                                                     }
                                                                 ]
@@ -10679,7 +9843,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 738.4616088867188, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 766.9354893565178, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -10696,11 +9860,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "10_glitch-act3-1.1_1.wav",
-                                                                "filename": "10_glitch-act3-1.1_1.wav",
+                                                                "absolutepath": "10_grains-act4-1.1_1.wav",
+                                                                "filename": "10_grains-act4-1.1_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u789011949",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u583002699",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -10713,7 +9876,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 738.4616088867188, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 766.9354893565178, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -10747,7 +9910,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 673.8462181091309, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 708.8709728121758, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[18]"
                                                 }
@@ -10772,11 +9935,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "707.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HvgVMjLg3m....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRNw3BMwjSN3HSNw.SL0XiL0HxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHwPiKzHSN4jiL1bSM2fSLxTiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3hM0PCLv.CLzLCN1jCLwfiMh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOhzBLtHCM0jSN4jSNwfSNybiM3LiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHs.iKzDCL4jSN4TyL2PiM2jSM2HxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HBLtTCN1.CLv.CNzfyM2.SLzHiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRK0XiKvDCLv.iLwLiMxLCLzbiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHv3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -10789,23 +9952,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "707.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HvgVMjLg3m....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRNw3BMwjSN3HSNw.SL0XiL0HxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHwPiKzHSN4jiL1bSM2fSLxTiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3hM0PCLv.CLzLCN1jCLwfiMh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOhzBLtHCM0jSN4jSNwfSNybiM3LiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHs.iKzDCL4jSN4TyL2PiM2jSM2HxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HBLtTCN1.CLv.CNzfyM2.SLzHiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRK0XiKvDCLv.iLwLiMxLCLzbiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHv3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_2.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_69.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "f383b645d73aa8c2caad59acba143a60"
+                                                                            "snapshotfileid": "100867d9448986f280552787678cc214"
                                                                         }
                                                                     }
                                                                 ]
@@ -10822,7 +9985,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 650.7692928314209, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 685.4838758707047, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -10839,11 +10002,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "09_piano-act2-1.2_1.wav",
-                                                                "filename": "09_piano-act2-1.2_1.wav",
+                                                                "absolutepath": "09_glitch-act3-1.2_1.wav",
+                                                                "filename": "09_glitch-act3-1.2_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u575011831",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u383002685",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -10856,7 +10018,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 650.7692928314209, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 685.4838758707047, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -10890,7 +10052,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 626.1539058685303, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 661.2903273105621, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[8]"
                                                 }
@@ -10915,11 +10077,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "696.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................H.eVMjLgLm....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HBNz3hL4jSN3byM4HSN1fyM0HxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHwjiK0HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HBLtbCLy.CLv.iM3XiMzTSMvfiHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHs.iKxHCN4jSN4biLyPyLzPCM3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3BMw.SN4jSN0LyMzXyM4TyMh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOh.iK0LyLv.CLwDSL0bSN3jSMh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iHsTyLtbyMv.CLzHyMxPiMvjCMh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HxcoQFcnIBH1EFa0UVOhzRL3.iKvHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTzUlbk8VQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSQWYxU1aE41XuQVYx4C."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -10932,23 +10094,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "696.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................H.eVMjLgLm....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HBNz3hL4jSN3byM4HSN1fyM0HxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHwjiK0HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HBLtbCLy.CLv.iM3XiMzTSMvfiHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHs.iKxHCN4jSN4biLyPyLzPCM3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3BMw.SN4jSN0LyMzXyM4TyMh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOh.iK0LyLv.CLwDSL0bSN3jSMh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iHsTyLtbyMv.CLzHyMxPiMvjCMh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HxcoQFcnIBH1EFa0UVOhzRL3.iKvHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTzUlbk8VQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSQWYxU1aE41XuQVYx4C."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_1.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_70.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "c5fe30a69113663dec3fec5a0a002285"
+                                                                            "snapshotfileid": "555af1afcd4e72ea0cf8693bde306196"
                                                                         }
                                                                     }
                                                                 ]
@@ -10965,7 +10127,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 603.0769805908203, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 637.903230369091, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -10982,11 +10144,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "08_piano-act2-1.1_1.wav",
-                                                                "filename": "08_piano-act2-1.1_1.wav",
+                                                                "absolutepath": "08_glitch-act3-1.1_1.wav",
+                                                                "filename": "08_glitch-act3-1.1_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u132011729",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u000002671",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -10999,7 +10160,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 603.0769805908203, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 637.903230369091, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -11033,7 +10194,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 580.0000553131104, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 582.2580686807632, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[10]"
                                                 }
@@ -11058,11 +10219,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "707.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HvgVMjLg3m....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HhMw3RN3jSN4.iLyPyL2TiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhLyMtjCL4jCN3PCLyLiLvLSLh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK3DCLv.CLvXSL4fCN3LCL1HxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HRKv3RL2.SN4jSNzPiLw.CL0HSMh7hO7.UPRETSfjFY8HRb4IBH1EFa0UVOhzBLtPCM4jSN4jCN3.yM4.yMwHxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HBLtLyL0.CLv.yL3DCM1jyMxbiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKzbiKwTCLv.SNwTSMxbyLzPiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsDCNv3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -11075,23 +10236,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "707.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HvgVMjLg3m....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HhMw3RN3jSN4.iLyPyL2TiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhLyMtjCL4jCN3PCLyLiLvLSLh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK3DCLv.CLvXSL4fCN3LCL1HxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HRKv3RL2.SN4jSNzPiLw.CL0HSMh7hO7.UPRETSfjFY8HRb4IBH1EFa0UVOhzBLtPCM4jSN4jCN3.yM4.yMwHxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HBLtLyL0.CLv.yL3DCM1jyMxbiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKzbiKwTCLv.SNwTSMxbyLzPiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsDCNv3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_2.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_71.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "f383b645d73aa8c2caad59acba143a60"
+                                                                            "snapshotfileid": "b9844a63acc96cda1c6ee53d960e40e1"
                                                                         }
                                                                     }
                                                                 ]
@@ -11108,7 +10269,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 555.3846683502197, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 557.2580685019493, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -11125,11 +10286,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "07_cello-act2-1.1_1.wav",
-                                                                "filename": "07_cello-act2-1.1_1.wav",
+                                                                "absolutepath": "07_piano-act2-1.2_1.wav",
+                                                                "filename": "07_piano-act2-1.2_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u728011724",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u262002658",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -11142,7 +10302,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 555.3846683502197, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 557.2580685019493, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -11176,7 +10336,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 500.0000476837158, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 532.2580683231354, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[12]"
                                                 }
@@ -11201,11 +10361,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "707.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HvgVMjLg3m....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HxM03BL1jSN4HCL1TCMxjiM4HxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHyDiK3LCLv.SL3LSLvTCM1jiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3xM0PCLv.CL1byMw.CN2XSMh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOhzBLtHCLxjSN4jCM4PSM0HiMwHiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHs.iKzXiL4jSN4jSN0HyLwXiL3HxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HBLtPiLv.CLv.yM1HSNyjCM0LiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRK0PiK3TCLv.iMw.yL0DSM1HiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHv3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
+                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -11218,23 +10378,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "707.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HvgVMjLg3m....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HxM03BL1jSN4HCL1TCMxjiM4HxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHyDiK3LCLv.SL3LSLvTCM1jiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3xM0PCLv.CL1byMw.CN2XSMh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOhzBLtHCLxjSN4jCM4PSM0HiMwHiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHs.iKzXiL4jSN4jSN0HyLwXiL3HxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HBLtPiLv.CLv.yM1HSNyjCM0LiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRK0PiK3TCLv.iMw.yL0DSM1HiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHv3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
+                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHnk1YnEUcgwVZzkmHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh7lbjUlbSUFczklamIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHwcmHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhDGdh.hcgwVck0iHz3xMzjyMzTSLy.SMyfSNzTVK3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBMtbCM4bCM0DyLvTyL3jCMk0BNh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhPiK2PSN2PSMwLCL0LCN4PSYsfiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsfiKvPiM1HyMvPCM1byM2LCMk0hMh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_3.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_72.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "4aa574f9510d142cb8d1c07f8930b812"
+                                                                            "snapshotfileid": "43bfda438de641163d4772bd66b256fc"
                                                                         }
                                                                     }
                                                                 ]
@@ -11251,7 +10411,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 475.3846607208252, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 507.25806814432144, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -11268,11 +10428,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "06_phonecall-act1-1.3_1.wav",
-                                                                "filename": "06_phonecall-act1-1.3_1.wav",
+                                                                "absolutepath": "06_piano-act2-1.1_1.wav",
+                                                                "filename": "06_piano-act2-1.1_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u373011611",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u914002645",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -11285,7 +10444,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 476.92312240600586, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 508.8709713816643, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -11319,7 +10478,7 @@
                                                     "numinlets": 16,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "multichannelsignal" ],
-                                                    "patching_rect": [ 1495.3847579956055, 452.30773544311523, 176.5, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 484.67742282152176, 176.5, 22.0 ],
                                                     "text": "mc.pack~ 16",
                                                     "varname": "vst~[14]"
                                                 }
@@ -11344,11 +10503,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "721.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HPkVMjLgvn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HBMx3RL4jSN4XSNzfiLzHSL4HxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iH1XiK4HSN4jiL1bSM2fSLxTiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3xM4PCLv.CLxjSM1LSNvLCNh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOhzBLtDiLwjSN4jyM4.SL4DiM0HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3RM4.SN4jSN1.CN4jyL0LiHu3COPEjTA0DHoQVOhDmdh.hcgwVck0iHv3BL2TCLv.CLzbiM3LyMwTCNxHxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhzBM13BL3.CLvDCNyDCL0PiM4HxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HRKwjiK3LSN4jiMyLyM3jCL1HiHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
+                                                                "blob": "724.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................H.lVMjLg7n....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRLx3BLyjSN4XSLzbSL0TyM1HxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHwPiKwTSN4jiMvLiL2DCM3PiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3RN3bCLv.SLvbyM1TSL4bCNh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOh.iKvHCNv.CLvPSNxjyLvPSLxLiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHs.iKwHCL4jSN4TCM1PCL3XSMyHxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HBLtDCL1.CLv.SMvjCLxLiM1XiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRLtbCM4jSN0jCM1fCNzDSM0HxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HRK33BLzXiMxbCLzPiM2byMyPSYsXiHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -11361,23 +10520,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "721.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HPkVMjLgvn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HBMx3RL4jSN4XSNzfiLzHSL4HxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iH1XiK4HSN4jiL1bSM2fSLxTiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3xM4PCLv.CLxjSM1LSNvLCNh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOhzBLtDiLwjSN4jyM4.SL4DiM0HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3RM4.SN4jSN1.CN4jyL0LiHu3COPEjTA0DHoQVOhDmdh.hcgwVck0iHv3BL2TCLv.CLzbiM3LyMwTCNxHxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhzBM13BL3.CLvDCNyDCL0PiM4HxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HRKwjiK3LSN4jiMyLyM3jCL1HiHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
+                                                                            "blob": "724.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................H.lVMjLg7n....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRLx3BLyjSN4XSLzbSL0TyM1HxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHwPiKwTSN4jiMvLiL2DCM3PiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3RN3bCLv.SLvbyM1TSL4bCNh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOh.iKvHCNv.CLvPSNxjyLvPSLxLiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHs.iKwHCL4jSN4TCM1PCL3XSMyHxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HBLtDCL1.CLv.SMvjCLxLiM1XiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HRLtbCM4jSN0jCM1fCNzDSM0HxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HRK33BLzXiMxbCLzPiM2byMyPSYsXiHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_4.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_73.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "ba1be608fc5bef36e9a79efd7b3c9482"
+                                                                            "snapshotfileid": "bfa50ef39eb36eefb706d56d064d2f5b"
                                                                         }
                                                                     }
                                                                 ]
@@ -11394,7 +10553,7 @@
                                                     "numoutlets": 23,
                                                     "offset": [ 0.0, 0.0 ],
                                                     "outlettype": [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "multichannelsignal", "", "", "", "", "", "", "" ],
-                                                    "patching_rect": [ 1495.3847579956055, 426.15388679504395, 250.0, 22.0 ],
+                                                    "patching_rect": [ 1495.4220096468925, 458.064519405365, 250.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "parameter_enable": 1,
                                                         "parameter_mappable": 0
@@ -11411,11 +10570,10 @@
                                                     "data": {
                                                         "clips": [
                                                             {
-                                                                "absolutepath": "05_phonecall-act1-1.2_1.wav",
-                                                                "filename": "05_phonecall-act1-1.2_1.wav",
+                                                                "absolutepath": "05_cello-act2-1.1_1.wav",
+                                                                "filename": "05_cello-act2-1.1_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u884011606",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u450002576",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -11428,7 +10586,7 @@
                                                     "numoutlets": 5,
                                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1844.6155605316162, 427.6923484802246, 594.7712819576263, 45.74263805150986 ],
+                                                    "patching_rect": [ 1844.6155605316162, 459.6774226427078, 594.7712819576263, 45.74263805150986 ],
                                                     "quality": "basic",
                                                     "saved_attribute_attributes": {
                                                         "candicane2": {
@@ -11474,7 +10632,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 1670.7693901062012, 184.6154022216797, 117.82790386676788, 22.0 ],
-                                                    "text": "10 0.499528"
+                                                    "text": "10 0.393307"
                                                 }
                                             },
                                             {
@@ -11489,13 +10647,109 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 5,
+                                                            "revision": 3,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
                                                         "classnamespace": "box",
-                                                        "rect": [ 273.0, 417.0, 1000.0, 780.0 ],
+                                                        "rect": [ 662.0, 180.0, 1000.0, 780.0 ],
+                                                        "visible": 1,
                                                         "boxes": [
+                                                            {
+                                                                "box": {
+                                                                    "id": "obj-8",
+                                                                    "maxclass": "newobj",
+                                                                    "numinlets": 0,
+                                                                    "numoutlets": 1,
+                                                                    "outlettype": [ "" ],
+                                                                    "patching_rect": [ 553.47, 439.0, 111.0, 22.0 ],
+                                                                    "text": "r openVectorCheck"
+                                                                }
+                                                            },
+                                                            {
+                                                                "box": {
+                                                                    "autosave": 1,
+                                                                    "bgmode": 0,
+                                                                    "border": 0,
+                                                                    "clickthrough": 0,
+                                                                    "id": "obj-1",
+                                                                    "maxclass": "newobj",
+                                                                    "numinlets": 2,
+                                                                    "numoutlets": 8,
+                                                                    "offset": [ 0.0, 0.0 ],
+                                                                    "outlettype": [ "signal", "signal", "", "list", "int", "", "", "" ],
+                                                                    "patching_rect": [ 553.47, 476.57, 114.0, 22.0 ],
+                                                                    "save": [ "#N", "vst~", "loaduniqueid", 0, "StereoEncoder", ";" ],
+                                                                    "saved_attribute_attributes": {
+                                                                        "valueof": {
+                                                                            "parameter_invisible": 1,
+                                                                            "parameter_longname": "vst~",
+                                                                            "parameter_modmode": 0,
+                                                                            "parameter_shortname": "vst~",
+                                                                            "parameter_type": 3
+                                                                        }
+                                                                    },
+                                                                    "saved_object_attributes": {
+                                                                        "parameter_enable": 1,
+                                                                        "parameter_mappable": 0
+                                                                    },
+                                                                    "snapshot": {
+                                                                        "filetype": "C74Snapshot",
+                                                                        "version": 2,
+                                                                        "minorversion": 0,
+                                                                        "name": "snapshotlist",
+                                                                        "origin": "vst~",
+                                                                        "type": "list",
+                                                                        "subtype": "Undefined",
+                                                                        "embed": 1,
+                                                                        "snapshot": {
+                                                                            "pluginname": "StereoEncoder.vstinfo",
+                                                                            "plugindisplayname": "StereoEncoder",
+                                                                            "pluginsavedname": "",
+                                                                            "pluginsaveduniqueid": 1400128878,
+                                                                            "version": 1,
+                                                                            "isbank": 0,
+                                                                            "isbase64": 1,
+                                                                            "blob": "727.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HvlVMjLgHo....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKy3hMw.CLvLSNzfiLwDiM2HxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHyPiK0HSN4jCM4XCM0jSN1DiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3RN0LCLv.CL1fiM1PSM0.CNh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOhzBLt.SMvjSN4jSMzLCMxfCMxDiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHs.iKxjCM4jSN4TyMvfCM1TSM3HxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HRKv3BLzHSN4jSN0LCLyDSMyjSNxHxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhzRMt.CLv.CLyfSLzXSN2HiM1HxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HRK33BLzXiMxbCLzPiM2byMyPSYsXiHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
+                                                                        },
+                                                                        "snapshotlist": {
+                                                                            "current_snapshot": 0,
+                                                                            "entries": [
+                                                                                {
+                                                                                    "filetype": "C74Snapshot",
+                                                                                    "version": 2,
+                                                                                    "minorversion": 0,
+                                                                                    "name": "StereoEncoder",
+                                                                                    "origin": "StereoEncoder.vstinfo",
+                                                                                    "type": "VST",
+                                                                                    "subtype": "AudioEffect",
+                                                                                    "embed": 0,
+                                                                                    "snapshot": {
+                                                                                        "pluginname": "StereoEncoder.vstinfo",
+                                                                                        "plugindisplayname": "StereoEncoder",
+                                                                                        "pluginsavedname": "",
+                                                                                        "pluginsaveduniqueid": 1400128878,
+                                                                                        "version": 1,
+                                                                                        "isbank": 0,
+                                                                                        "isbase64": 1,
+                                                                                        "blob": "727.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HvlVMjLgHo....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKy3hMw.CLvLSNzfiLwDiM2HxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHyPiK0HSN4jCM4XCM0jSN1DiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3RN0LCLv.CL1fiM1PSM0.CNh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOhzBLt.SMvjSN4jSMzLCMxfCMxDiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHs.iKxjCM4jSN4TyMvfCM1TSM3HxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HRKv3BLzHSN4jSN0LCLyDSMyjSNxHxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhzRMt.CLv.CLyfSLzXSN2HiM1HxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HRK33BLzXiMxbCLzPiM2byMyPSYsXiHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
+                                                                                    },
+                                                                                    "fileref": {
+                                                                                        "name": "StereoEncoder",
+                                                                                        "filename": "StereoEncoder_20260828_78.maxsnap",
+                                                                                        "filepath": "~/Documents/Max 9/Snapshots",
+                                                                                        "filepos": -1,
+                                                                                        "snapshotfileid": "b31b9c7a4ea0f2d19ca2f71e50b4060a"
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    },
+                                                                    "text": "vst~ StereoEncoder",
+                                                                    "varname": "vst~",
+                                                                    "viewvisibility": 0
+                                                                }
+                                                            },
                                                             {
                                                                 "box": {
                                                                     "id": "obj-21",
@@ -11557,7 +10811,7 @@
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
                                                                     "patching_rect": [ 616.0, 353.7640582919121, 98.0, 22.0 ],
-                                                                    "text": "0."
+                                                                    "text": "0.444044"
                                                                 }
                                                             },
                                                             {
@@ -11568,7 +10822,7 @@
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
                                                                     "patching_rect": [ 616.0, 322.51195925474167, 98.0, 22.0 ],
-                                                                    "text": "1."
+                                                                    "text": "0.896005"
                                                                 }
                                                             },
                                                             {
@@ -11766,8 +11020,8 @@
                                                                     "numinlets": 2,
                                                                     "numoutlets": 1,
                                                                     "outlettype": [ "" ],
-                                                                    "patching_rect": [ 119.338219165802, 100.0, 213.97058415412903, 36.0 ],
-                                                                    "text": "0.759888 -0.078918 -0.292786 -0.574951"
+                                                                    "patching_rect": [ 119.338219165802, 100.0, 213.97058415412903, 35.0 ],
+                                                                    "text": "0.8349 -0.176819 -0.241211 -0.462036"
                                                                 }
                                                             },
                                                             {
@@ -11851,25 +11105,57 @@
                                                             },
                                                             {
                                                                 "patchline": {
-                                                                    "destination": [ "obj-331", 0 ],
+                                                                    "destination": [ "obj-1", 0 ],
+                                                                    "order": 0,
                                                                     "source": [ "obj-302", 0 ]
                                                                 }
                                                             },
                                                             {
                                                                 "patchline": {
                                                                     "destination": [ "obj-331", 0 ],
+                                                                    "order": 1,
+                                                                    "source": [ "obj-302", 0 ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "patchline": {
+                                                                    "destination": [ "obj-1", 0 ],
+                                                                    "order": 0,
                                                                     "source": [ "obj-303", 0 ]
                                                                 }
                                                             },
                                                             {
                                                                 "patchline": {
                                                                     "destination": [ "obj-331", 0 ],
+                                                                    "order": 1,
+                                                                    "source": [ "obj-303", 0 ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "patchline": {
+                                                                    "destination": [ "obj-1", 0 ],
+                                                                    "order": 0,
                                                                     "source": [ "obj-304", 0 ]
                                                                 }
                                                             },
                                                             {
                                                                 "patchline": {
                                                                     "destination": [ "obj-331", 0 ],
+                                                                    "order": 1,
+                                                                    "source": [ "obj-304", 0 ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "patchline": {
+                                                                    "destination": [ "obj-1", 0 ],
+                                                                    "order": 0,
+                                                                    "source": [ "obj-306", 0 ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "patchline": {
+                                                                    "destination": [ "obj-331", 0 ],
+                                                                    "order": 1,
                                                                     "source": [ "obj-306", 0 ]
                                                                 }
                                                             },
@@ -12144,6 +11430,12 @@
                                                                     "destination": [ "obj-312", 0 ],
                                                                     "source": [ "obj-330", 0 ]
                                                                 }
+                                                            },
+                                                            {
+                                                                "patchline": {
+                                                                    "destination": [ "obj-1", 0 ],
+                                                                    "source": [ "obj-8", 0 ]
+                                                                }
                                                             }
                                                         ]
                                                     },
@@ -12158,7 +11450,7 @@
                                                     "numinlets": 0,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
-                                                    "patching_rect": [ 1278.4616603851318, 112.30770301818848, 153.0, 22.0 ],
+                                                    "patching_rect": [ 1219.6808423399925, 112.30770301818848, 153.0, 22.0 ],
                                                     "text": "r azimuth_correction_value"
                                                 }
                                             },
@@ -12181,7 +11473,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 1844.6155605316162, 206.15386581420898, 50.0, 22.0 ],
-                                                    "text": "0"
+                                                    "text": "1"
                                                 }
                                             },
                                             {
@@ -12197,46 +11489,13 @@
                                             },
                                             {
                                                 "box": {
-                                                    "id": "obj-266",
-                                                    "maxclass": "toggle",
-                                                    "numinlets": 1,
-                                                    "numoutlets": 1,
-                                                    "outlettype": [ "int" ],
-                                                    "parameter_enable": 0,
-                                                    "patching_rect": [ 1812.3078651428223, 2527.692548751831, 24.0, 24.0 ]
-                                                }
-                                            },
-                                            {
-                                                "box": {
-                                                    "id": "obj-267",
-                                                    "maxclass": "toggle",
-                                                    "numinlets": 1,
-                                                    "numoutlets": 1,
-                                                    "outlettype": [ "int" ],
-                                                    "parameter_enable": 0,
-                                                    "patching_rect": [ 1812.3078651428223, 2481.538698196411, 24.0, 24.0 ]
-                                                }
-                                            },
-                                            {
-                                                "box": {
-                                                    "id": "obj-268",
-                                                    "maxclass": "toggle",
-                                                    "numinlets": 1,
-                                                    "numoutlets": 1,
-                                                    "outlettype": [ "int" ],
-                                                    "parameter_enable": 0,
-                                                    "patching_rect": [ 1812.3078651428223, 2432.30792427063, 24.0, 24.0 ]
-                                                }
-                                            },
-                                            {
-                                                "box": {
                                                     "id": "obj-269",
                                                     "maxclass": "toggle",
                                                     "numinlets": 1,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1812.3078651428223, 2386.15407371521, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1812.3574957847595, 2262.9032419919968, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -12247,7 +11506,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1812.3078651428223, 2336.9232997894287, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1812.3574957847595, 2213.7096932530403, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -12258,7 +11517,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1812.3078651428223, 2289.230987548828, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1812.3574957847595, 2166.1290477514267, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -12269,7 +11528,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1812.3078651428223, 2241.5386753082275, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1812.3574957847595, 2118.548402249813, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -12280,7 +11539,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1812.3078651428223, 2155.3848209381104, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1812.3574957847595, 2070.9677567481995, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -12291,7 +11550,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1812.3078651428223, 2109.2309703826904, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1812.3574957847595, 2025.0000144839287, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -12302,7 +11561,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1812.3078651428223, 2060.000196456909, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1812.3574957847595, 1975.8064657449722, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -12313,7 +11572,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1812.3078651428223, 2012.3078842163086, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1812.3574957847595, 1896.7742071151733, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -12324,7 +11583,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1812.3078651428223, 1963.0771102905273, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1812.3574957847595, 1847.580658376217, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -12335,7 +11594,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1812.3078651428223, 1916.9232597351074, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1812.3574957847595, 1801.612916111946, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -12346,7 +11605,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1812.3078651428223, 1867.6924858093262, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1812.3574957847595, 1751.6129157543182, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -12357,7 +11616,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1812.3078651428223, 1821.5386352539062, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1812.3574957847595, 1705.6451734900475, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -12368,7 +11627,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1812.3078651428223, 1773.8463230133057, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1812.3574957847595, 1658.0645279884338, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -12379,7 +11638,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1812.3078651428223, 1724.6155490875244, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1812.3574957847595, 1608.8709792494774, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -12390,7 +11649,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1812.3078651428223, 1612.307846069336, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1812.3574957847595, 1562.9032369852066, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -12401,7 +11660,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1812.3078651428223, 1563.0770721435547, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1812.3574957847595, 1515.322591483593, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -12412,7 +11671,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1812.3078651428223, 1458.4616775512695, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1812.3574957847595, 1466.1290427446365, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -12423,7 +11682,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1812.3078651428223, 1410.769365310669, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1812.3574957847595, 1381.4516227841377, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -12434,7 +11693,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1812.3078651428223, 1363.0770530700684, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1812.3574957847595, 1333.870977282524, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -12445,7 +11704,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1812.3078651428223, 1315.3847408294678, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1812.3574957847595, 1286.2903317809105, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -12456,7 +11715,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1816.9232501983643, 1221.5385780334473, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1817.196205496788, 1237.9032346606255, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -12467,7 +11726,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1816.9232501983643, 1175.3847274780273, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1817.196205496788, 1191.9354923963547, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -12478,7 +11737,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1816.9232501983643, 1127.6924152374268, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1817.196205496788, 1144.354846894741, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -12489,7 +11748,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1816.9232501983643, 1080.0001029968262, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1817.196205496788, 1066.1290398836136, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -12500,7 +11759,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1816.9232501983643, 1030.769329071045, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1817.196205496788, 1016.9354911446571, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -12511,7 +11770,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1816.9232501983643, 984.615478515625, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1817.196205496788, 970.1612972617149, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -12522,7 +11781,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1816.9232501983643, 936.9231662750244, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1817.196205496788, 922.5806517601013, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -12557,11 +11816,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "712.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................H.iVMjLgLn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKxDiK3LSN4jiMyLyM3jCL1HiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhHCMtLyM4jCN4XiLz.iLyPCMh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK4XSLv.CLvfCM3byMvDCMxHxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HRKv3BLwTSN4jSN2HCNx.iL3DSN3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3hLwDSN4jSN0HyM4LSLxDyLh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhzBLtDyM4jSN4jCM2TCM2jSLxXiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HhLtfiMv.CLvXSLvLSMwTiMxHxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HRKwfCLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
+                                                                "blob": "720.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................H.kVMjLgrn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HhM43BLxjSN4DSLzjSNvHyLzHxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHwjiKxTSN4jiMzDCMwfCM0biHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3BNvbCLv.SLv.iMwHiMz.CMh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOh.iKwLSMv.CLvTCLvXyM4.SL1HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3RLvjSN4jSN0PyMv.CM2HxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HBLtTiM0.CLv.SM2HiLvPSM4HxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhTiK1bSN4jiMvDyL1PSLyTyMh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HxcoQFcnIBH1EFa0UVOhzBNt.CM1XiL2.CMzXyM2byLzTVK1HxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTzUlbk8VQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSQWYxU1aE41XuQVYx4C."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -12574,23 +11833,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "712.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................H.iVMjLgLn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKxDiK3LSN4jiMyLyM3jCL1HiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhHCMtLyM4jCN4XiLz.iLyPCMh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK4XSLv.CLvfCM3byMvDCMxHxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HRKv3BLwTSN4jSN2HCNx.iL3DSN3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3hLwDSN4jSN0HyM4LSLxDyLh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhzBLtDyM4jSN4jCM2TCM2jSLxXiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HhLtfiMv.CLvXSLvLSMwTiMxHxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HRKwfCLt.iHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
+                                                                            "blob": "720.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................H.kVMjLgrn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HhM43BLxjSN4DSLzjSNvHyLzHxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHwjiKxTSN4jiMzDCMwfCM0biHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3BNvbCLv.SLv.iMwHiMz.CMh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOh.iKwLSMv.CLvTCLvXyM4.SL1HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3RLvjSN4jSN0PyMv.CM2HxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HBLtTiM0.CLv.SM2HiLvPSM4HxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhTiK1bSN4jiMvDyL1PSLyTyMh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HxcoQFcnIBH1EFa0UVOhzBNt.CM1XiL2.CMzXyM2byLzTVK1HxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTzUlbk8VQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSQWYxU1aE41XuQVYx4C."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_1.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_74.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "c5fe30a69113663dec3fec5a0a002285"
+                                                                            "snapshotfileid": "8879b2739871b3ae023f19b7c7cf5c21"
                                                                         }
                                                                     }
                                                                 ]
@@ -12627,8 +11886,7 @@
                                                                 "absolutepath": "04_wierdroboticvoice-act1-1.1_1.wav",
                                                                 "filename": "04_wierdroboticvoice-act1-1.1_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u961009542",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u321002562",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -12700,11 +11958,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKw.yLtHCLv.CLzTyM2XyL1biHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhLyLtDSN4jSN1jCM3HCMxDSNh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK1HiLv.CLvjCNxHCNzTCM1HxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HBLtDyLx.CLv.CN3XSNwbSLwPiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHs.iK0TCMv.CLvHCLvHyMwXCL1HxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HRKv3RMyXSN4jSNz.CN2HSL4HCMh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iH1TiKwfSN4fyMwfiL1DyMwjiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsLCNtPSNv.iLvbSMwjSMyDiLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
+                                                                "blob": "721.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HPkVMjLgvn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRLwLiKxbSN4jSLwPSN4.iLyHxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHx3BM1jSN4TSN2TCM4PyL3TiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3xLvDCLv.CL0fiM0.SN2.SMh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOh.iKwDSNv.CLvTCM3jSM3byM3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBLtDSM4.CLv.SMz.CLwfCL3HiHu3COPEjTA0DHoQVOhDmdh.hcgwVck0iHv3BM1TCLv.CL1LSL3.SNxLSMh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iHyjiKybSN4jyLzLCN2HCL2HxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HRK33BLzXiMxbCLzPiM2byMyPSYsXiHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -12717,23 +11975,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "722.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HfkVMjLgzn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKw.yLtHCLv.CLzTyM2XyL1biHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhLyLtDSN4jSN1jCM3HCMxDSNh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK1HiLv.CLvjCNxHCNzTCM1HxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HBLtDyLx.CLv.CN3XSNwbSLwPiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHs.iK0TCMv.CLvHCLvHyMwXCL1HxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HRKv3RMyXSN4jSNz.CN2HSL4HCMh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iH1TiKwfSN4fyMwfiL1DyMwjiHu3COPEjTA0DHoQVOhT2bkMkSyPjHfXWXrUWY8HRLt.iHu3COPEjTA0DHoQVOhbWZjQGZh.hcgwVck0iHsLCNtPSNv.iLvbSMwjSMyDiLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuLEckIWYuUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77xTzUlbk8VQtM1ajUlb9.."
+                                                                            "blob": "721.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HPkVMjLgvn....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRLwLiKxbSN4jSLwPSN4.iLyHxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHx3BM1jSN4TSN2TCM4PyL3TiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3xLvDCLv.CL0fiM0.SN2.SMh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOh.iKwDSNv.CLvTCM3jSM3byM3HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HBLtDSM4.CLv.SMz.CLwfCL3HiHu3COPEjTA0DHoQVOhDmdh.hcgwVck0iHv3BM1TCLv.CL1LSL3.SNxLSMh7hO7.UPRETSfjFY8HhbuwFah.hcgwVck0iHyjiKybSN4jyLzLCN2HCL2HxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HRK33BLzXiMxbCLzPiM2byMyPSYsXiHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_2.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_75.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "f383b645d73aa8c2caad59acba143a60"
+                                                                            "snapshotfileid": "5edc1e9c13d7b8526ff2315472054307"
                                                                         }
                                                                     }
                                                                 ]
@@ -12770,8 +12028,7 @@
                                                                 "absolutepath": "03_phonecall-act1-1.1_1.wav",
                                                                 "filename": "03_phonecall-act1-1.1_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u205009537",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u683002548",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -12843,11 +12100,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "708.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................H.hVMjLg7m....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRK3DiK1bCLv.SM2jCNyLSN3PiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhHSMtbiM4jCN4.SLyXyMwfCNh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK2TSLv.CLvPiM2LCLvPSL0HxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HRKv3BLyLSN4jSN2jCM4XCLvHiLh7hO7.UPRETSfjFY8HRb4IBH1EFa0UVOhzBLtHiMwjSN4jiMzbSLz.SMvLiHu3COPEjTA0DHoQVOhDmdh.hcgwVck0iHs.iK1.SMv.CLvDSNvbyLzfiMyHxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhDyMtDyM4jSNxXyM0bCNwHSMh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HxcoQFcnIBH1EFa0UVOh.iKvHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTzUlbk8VQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSQWYxU1aE41XuQVYx4C."
+                                                                "blob": "726.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HflVMjLgDo....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKwPiMtfiM4jSN0DSL2DCN2TiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOh.iK3TSN4jSM4XSLwfSNxbiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHs.iKxfCM4jSN4XiM1HSLyjCN4HxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HRKv3BLvPSN4jSN0HCN0XCM0DiL2LiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHv3BLzLCLv.CLzjCN3jCL3biM3HxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HBLtjSM2.CLv.yM1byMvbCNxTiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HBMtfCN4jSN1.SMwbCN3LyLh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HxcoQFcnIBH1EFa0UVOhzBNt.CM1XiL2.CMzXyM2byLzTVK1HxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTzUlbk8VQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSQWYxU1aE41XuQVYx4C."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -12860,23 +12117,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "708.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................H.hVMjLg7m....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRK3DiK1bCLv.SM2jCNyLSN3PiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhHSMtbiM4jCN4.SLyXyMwfCNh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK2TSLv.CLvPiM2LCLvPSL0HxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HRKv3BLyLSN4jSN2jCM4XCLvHiLh7hO7.UPRETSfjFY8HRb4IBH1EFa0UVOhzBLtHiMwjSN4jiMzbSLz.SMvLiHu3COPEjTA0DHoQVOhDmdh.hcgwVck0iHs.iK1.SMv.CLvDSNvbyLzfiMyHxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhDyMtDyM4jSNxXyM0bCNwHSMh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HxcoQFcnIBH1EFa0UVOh.iKvHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTzUlbk8VQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSQWYxU1aE41XuQVYx4C."
+                                                                            "blob": "726.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HflVMjLgDo....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKwPiMtfiM4jSN0DSL2DCN2TiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOh.iK3TSN4jSM4XSLwfSNxbiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHs.iKxfCM4jSN4XiM1HSLyjCN4HxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HRKv3BLvPSN4jSN0HCN0XCM0DiL2LiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHv3BLzLCLv.CLzjCN3jCL3biM3HxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HBLtjSM2.CLv.yM1byMvbCNxTiHu3COPEjTA0DHoQVOhH2arwlHfXWXrUWY8HBMtfCN4jSN1.SMwbCN3LyLh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HxcoQFcnIBH1EFa0UVOhzBNt.CM1XiL2.CMzXyM2byLzTVK1HxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTzUlbk8VQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSQWYxU1aE41XuQVYx4C."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_3.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_76.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "4aa574f9510d142cb8d1c07f8930b812"
+                                                                            "snapshotfileid": "6b682876a87181e12e1f84934da04977"
                                                                         }
                                                                     }
                                                                 ]
@@ -12913,8 +12170,7 @@
                                                                 "absolutepath": "02_piano-act1-1.2_1.wav",
                                                                 "filename": "02_piano-act1-1.2_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u227009532",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u621002534",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -12986,11 +12242,11 @@
                                                                 "pluginname": "StereoEncoder.vstinfo",
                                                                 "plugindisplayname": "StereoEncoder",
                                                                 "pluginsavedname": "",
-                                                                "pluginsaveduniqueid": 0,
+                                                                "pluginsaveduniqueid": 1400128878,
                                                                 "version": 1,
                                                                 "isbank": 0,
                                                                 "isbase64": 1,
-                                                                "blob": "723.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HvkVMjLg3n....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRK2fiK0XSN4jSN1jCM3HCMxHiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhLiLtPCL4jCN3PCLyLiLvLSLh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK2XCLv.CLw.SN1biL0PiMzHxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HRKv3BL2fSN4jSNyXSM3.iM0bSN1HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3hL4HSN4jSN3HCNyLCN1HyLh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhzBLtTyMzjSN4jCN3.yM4.yMwHxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhDCMtfyM4jCN4XiLz.iLyPCMh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HxcoQFcnIBH1EFa0UVOhzBLtLyL4jSN1LyL2fSNvXiL0HxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTzUlbk8VQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSQWYxU1aE41XuQVYx4C."
+                                                                "blob": "724.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................H.lVMjLg7n....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKy3hMw.CLvLSNzfiLwDiM2HxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHyPiK0HSN4jCM4XCM0jSN1DiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3RN0LCLv.CL1fiM1PSM0.CNh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOhzBLt.SMvjSN4jSMzLCMxfCMxDiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHs.iKxjCM4jSN4TyMvfCM1TSM3HxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HRKv3BLzHSN4jSN0LCLyDSMyjSNxHxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhzRMt.CLv.CLyfSLzXSN2HiM1HxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HRK2.iK4fCLv.yLyTiM4LyL0jiHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
                                                             },
                                                             "snapshotlist": {
                                                                 "current_snapshot": 0,
@@ -13003,23 +12259,23 @@
                                                                         "origin": "StereoEncoder.vstinfo",
                                                                         "type": "VST",
                                                                         "subtype": "AudioEffect",
-                                                                        "embed": 0,
+                                                                        "embed": 1,
                                                                         "snapshot": {
                                                                             "pluginname": "StereoEncoder.vstinfo",
                                                                             "plugindisplayname": "StereoEncoder",
                                                                             "pluginsavedname": "",
-                                                                            "pluginsaveduniqueid": 0,
+                                                                            "pluginsaveduniqueid": 1400128878,
                                                                             "version": 1,
                                                                             "isbank": 0,
                                                                             "isbase64": 1,
-                                                                            "blob": "723.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................HvkVMjLg3n....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRK2fiK0XSN4jSN1jCM3HCMxHiHu3COPEjTA0DHoQVOhTFakYWXzk1atIBH1EFa0UVOhLiLtPCL4jCN3PCLyLiLvLSLh7hO7.UPRETSfjFY8HBZocFZQUWXrkFc4IBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRb2IBH1EFa0UVOh.iK2XCLv.CLw.SN1biL0PiMzHxK9vCTAIUPMARZj0iHwgmHfXWXrUWY8HRKv3BL2fSN4jSNyXSM3.iM0bSN1HxK9vCTAIUPMARZj0iHwkmHfXWXrUWY8HRKv3hL4HSN4jSN3HCNyLCN1HyLh7hO7.UPRETSfjFY8HRb5IBH1EFa0UVOhzBLtTyMzjSN4jCN3.yM4.yMwHxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhDCMtfyM4jCN4XiLz.iLyPCMh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO7.UPRETSfjFY8HxcoQFcnIBH1EFa0UVOhzBLtLyL4jSN1LyL2fSNvXiL0HxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7xTzUlbk8VQtM1ajUlbuHBHSUlajUlbI4FckImcgwVOhDCLvHxK9vyKSQWYxU1aE41XuQVYx4C."
+                                                                            "blob": "724.CMlaKA....fQPMDZ....ALEcE4F.APfA....A........................................H.lVMjLg7n....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOSQWYxU1aE41XuQVYx4COPEjTA0DHoQVOhDldo0VczglHfXWXrUWY8HRKy3hMw.CLvLSNzfiLwDiM2HxK9vCTAIUPMARZj0iHkwVY1EFco8lah.hcgwVck0iHyPiK0HSN4jCM4XCM0jSN1DiHu3COPEjTA0DHoQVOhfVZmgVT0EFaoQWdh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhD2ch.hcgwVck0iHv3RN0LCLv.CL1fiM1PSM0.CNh7hO7.UPRETSfjFY8HRb3IBH1EFa0UVOhzBLt.SMvjSN4jSMzLCMxfCMxDiHu3COPEjTA0DHoQVOhDWdh.hcgwVck0iHs.iKxjCM4jSN4TyMvfCM1TSM3HxK9vCTAIUPMARZj0iHwomHfXWXrUWY8HRKv3BLzHSN4jSN0LCLyDSMyjSNxHxK9vCTAIUPMARZj0iHx8FarIBH1EFa0UVOhzRMt.CLv.CLyfSLzXSN2HiM1HxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH2kFYzglHfXWXrUWY8HRK2.iK4fCLv.yLyTiM4LyL0jiHu3COOM0PC8lalk1YfHUYiUVZ1UlbP8lbz0iHsDiHfLUYtQVYxkDT8HhHfLUYtQVYxA0axQWOhzRLh.xTk4FYkI2SSMTPjQlbkM2b8HxKSQWYxU1aE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuLEckIWYuUjai8FYkImO.."
                                                                         },
                                                                         "fileref": {
                                                                             "name": "StereoEncoder",
-                                                                            "filename": "StereoEncoder_20260827_4.maxsnap",
+                                                                            "filename": "StereoEncoder_20260828_77.maxsnap",
                                                                             "filepath": "~/Documents/Max 9/Snapshots",
                                                                             "filepos": -1,
-                                                                            "snapshotfileid": "ba1be608fc5bef36e9a79efd7b3c9482"
+                                                                            "snapshotfileid": "833fa05b2821c3ae79d2bc72d4fdeedc"
                                                                         }
                                                                     }
                                                                 ]
@@ -13056,8 +12312,7 @@
                                                                 "absolutepath": "01_piano-act1-1.1_1.wav",
                                                                 "filename": "01_piano-act1-1.1_1.wav",
                                                                 "filekind": "audiofile",
-                                                                "id": "u163007866",
-                                                                "selection": [ 0.0, 1.0 ],
+                                                                "id": "u349002520",
                                                                 "loop": 0,
                                                                 "content_state": {                                                                }
                                                             }
@@ -13105,7 +12360,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 892.3077774047852, 172.30770874023438, 24.0, 24.0 ]
+                                                    "patching_rect": [ 892.4369215965271, 172.26889729499817, 86.554616689682, 86.554616689682 ]
                                                 }
                                             },
                                             {
@@ -13192,7 +12447,7 @@
                                                     "maxclass": "comment",
                                                     "numinlets": 1,
                                                     "numoutlets": 0,
-                                                    "patching_rect": [ 846.1539268493652, 381.5384979248047, 116.6666647195816, 34.0 ],
+                                                    "patching_rect": [ 846.1539268493652, 381.5384979248047, 116.6666647195816, 33.0 ],
                                                     "text": "fix button state change microstutter"
                                                 }
                                             },
@@ -13422,7 +12677,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1816.9232501983643, 844.6154651641846, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1817.196205496788, 875.0000062584877, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -13433,7 +12688,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1816.9232501983643, 798.4616146087646, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1817.196205496788, 827.4193607568741, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -13444,7 +12699,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1816.9232501983643, 744.6154556274414, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1817.196205496788, 773.3871023058891, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -13455,7 +12710,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1816.9232501983643, 661.5385246276855, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1817.196205496788, 696.7741985321045, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -13466,7 +12721,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1816.9232501983643, 613.846212387085, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1817.196205496788, 649.1935530304909, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -13477,7 +12732,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1816.9232501983643, 566.1539001464844, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1817.196205496788, 568.5483911633492, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -13488,7 +12743,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1816.9232501983643, 487.6923542022705, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1817.196205496788, 520.1612940430641, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -13499,7 +12754,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "int" ],
                                                     "parameter_enable": 0,
-                                                    "patching_rect": [ 1816.9232501983643, 435.38465690612793, 24.0, 24.0 ]
+                                                    "patching_rect": [ 1817.196205496788, 467.741938829422, 24.0, 24.0 ]
                                                 }
                                             },
                                             {
@@ -13607,6 +12862,12 @@
                                         "lines": [
                                             {
                                                 "patchline": {
+                                                    "destination": [ "obj-423", 1 ],
+                                                    "source": [ "obj-1", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
                                                     "destination": [ "obj-116", 0 ],
                                                     "order": 1,
                                                     "source": [ "obj-103", 0 ]
@@ -13635,315 +12896,294 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-164", 0 ],
-                                                    "order": 43,
-                                                    "source": [ "obj-116", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-423", 0 ],
-                                                    "order": 42,
-                                                    "source": [ "obj-116", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-636", 0 ],
-                                                    "order": 41,
-                                                    "source": [ "obj-116", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-640", 0 ],
                                                     "order": 40,
                                                     "source": [ "obj-116", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-642", 0 ],
+                                                    "destination": [ "obj-423", 0 ],
                                                     "order": 39,
                                                     "source": [ "obj-116", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-644", 0 ],
+                                                    "destination": [ "obj-636", 0 ],
                                                     "order": 38,
                                                     "source": [ "obj-116", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-646", 0 ],
+                                                    "destination": [ "obj-640", 0 ],
                                                     "order": 37,
                                                     "source": [ "obj-116", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-648", 0 ],
-                                                    "order": 32,
-                                                    "source": [ "obj-116", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-650", 0 ],
-                                                    "order": 33,
-                                                    "source": [ "obj-116", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-652", 0 ],
-                                                    "order": 34,
-                                                    "source": [ "obj-116", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-654", 0 ],
-                                                    "order": 35,
-                                                    "source": [ "obj-116", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-656", 0 ],
+                                                    "destination": [ "obj-642", 0 ],
                                                     "order": 36,
                                                     "source": [ "obj-116", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-658", 0 ],
-                                                    "order": 27,
+                                                    "destination": [ "obj-644", 0 ],
+                                                    "order": 35,
                                                     "source": [ "obj-116", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-66", 0 ],
-                                                    "order": 44,
+                                                    "destination": [ "obj-646", 0 ],
+                                                    "order": 34,
                                                     "source": [ "obj-116", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-660", 0 ],
-                                                    "order": 28,
-                                                    "source": [ "obj-116", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-662", 0 ],
+                                                    "destination": [ "obj-648", 0 ],
                                                     "order": 29,
                                                     "source": [ "obj-116", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-664", 0 ],
+                                                    "destination": [ "obj-650", 0 ],
                                                     "order": 30,
                                                     "source": [ "obj-116", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-666", 0 ],
+                                                    "destination": [ "obj-652", 0 ],
                                                     "order": 31,
                                                     "source": [ "obj-116", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-668", 0 ],
-                                                    "order": 12,
+                                                    "destination": [ "obj-654", 0 ],
+                                                    "order": 32,
                                                     "source": [ "obj-116", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-670", 0 ],
-                                                    "order": 13,
+                                                    "destination": [ "obj-656", 0 ],
+                                                    "order": 33,
                                                     "source": [ "obj-116", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-672", 0 ],
-                                                    "order": 14,
-                                                    "source": [ "obj-116", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-674", 0 ],
-                                                    "order": 15,
-                                                    "source": [ "obj-116", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-676", 0 ],
-                                                    "order": 16,
-                                                    "source": [ "obj-116", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-678", 0 ],
-                                                    "order": 7,
-                                                    "source": [ "obj-116", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-680", 0 ],
-                                                    "order": 8,
-                                                    "source": [ "obj-116", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-682", 0 ],
-                                                    "order": 9,
-                                                    "source": [ "obj-116", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-684", 0 ],
-                                                    "order": 10,
-                                                    "source": [ "obj-116", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-686", 0 ],
-                                                    "order": 11,
-                                                    "source": [ "obj-116", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-688", 0 ],
-                                                    "order": 2,
-                                                    "source": [ "obj-116", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-690", 0 ],
-                                                    "order": 3,
-                                                    "source": [ "obj-116", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-692", 0 ],
-                                                    "order": 4,
-                                                    "source": [ "obj-116", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-694", 0 ],
-                                                    "order": 5,
-                                                    "source": [ "obj-116", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-696", 0 ],
-                                                    "order": 6,
-                                                    "source": [ "obj-116", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-698", 0 ],
-                                                    "order": 22,
-                                                    "source": [ "obj-116", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-700", 0 ],
-                                                    "order": 23,
-                                                    "source": [ "obj-116", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-702", 0 ],
+                                                    "destination": [ "obj-658", 0 ],
                                                     "order": 24,
                                                     "source": [ "obj-116", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-704", 0 ],
+                                                    "destination": [ "obj-66", 0 ],
+                                                    "order": 41,
+                                                    "source": [ "obj-116", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-660", 0 ],
                                                     "order": 25,
                                                     "source": [ "obj-116", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-706", 0 ],
+                                                    "destination": [ "obj-662", 0 ],
                                                     "order": 26,
                                                     "source": [ "obj-116", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-708", 0 ],
-                                                    "order": 17,
+                                                    "destination": [ "obj-664", 0 ],
+                                                    "order": 27,
                                                     "source": [ "obj-116", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-710", 0 ],
-                                                    "order": 18,
+                                                    "destination": [ "obj-666", 0 ],
+                                                    "order": 28,
                                                     "source": [ "obj-116", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-712", 0 ],
+                                                    "destination": [ "obj-668", 0 ],
+                                                    "order": 23,
+                                                    "source": [ "obj-116", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-670", 0 ],
+                                                    "order": 6,
+                                                    "source": [ "obj-116", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-672", 0 ],
+                                                    "order": 7,
+                                                    "source": [ "obj-116", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-674", 0 ],
+                                                    "order": 8,
+                                                    "source": [ "obj-116", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-676", 0 ],
+                                                    "order": 9,
+                                                    "source": [ "obj-116", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-678", 0 ],
                                                     "order": 19,
                                                     "source": [ "obj-116", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-714", 0 ],
+                                                    "destination": [ "obj-680", 0 ],
                                                     "order": 20,
                                                     "source": [ "obj-116", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-716", 0 ],
+                                                    "destination": [ "obj-682", 0 ],
+                                                    "order": 5,
+                                                    "source": [ "obj-116", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-684", 0 ],
                                                     "order": 21,
                                                     "source": [ "obj-116", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-718", 0 ],
+                                                    "destination": [ "obj-686", 0 ],
+                                                    "order": 22,
+                                                    "source": [ "obj-116", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-688", 0 ],
+                                                    "order": 0,
+                                                    "source": [ "obj-116", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-690", 0 ],
                                                     "order": 1,
                                                     "source": [ "obj-116", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-720", 0 ],
-                                                    "order": 0,
+                                                    "destination": [ "obj-692", 0 ],
+                                                    "order": 2,
+                                                    "source": [ "obj-116", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-694", 0 ],
+                                                    "order": 3,
+                                                    "source": [ "obj-116", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-696", 0 ],
+                                                    "order": 4,
+                                                    "source": [ "obj-116", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-698", 0 ],
+                                                    "order": 14,
+                                                    "source": [ "obj-116", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-700", 0 ],
+                                                    "order": 15,
+                                                    "source": [ "obj-116", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-702", 0 ],
+                                                    "order": 16,
+                                                    "source": [ "obj-116", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-704", 0 ],
+                                                    "order": 17,
+                                                    "source": [ "obj-116", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-706", 0 ],
+                                                    "order": 18,
+                                                    "source": [ "obj-116", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-710", 0 ],
+                                                    "order": 10,
+                                                    "source": [ "obj-116", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-712", 0 ],
+                                                    "order": 11,
+                                                    "source": [ "obj-116", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-714", 0 ],
+                                                    "order": 12,
+                                                    "source": [ "obj-116", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-716", 0 ],
+                                                    "order": 13,
                                                     "source": [ "obj-116", 0 ]
                                                 }
                                             },
@@ -14015,15 +13255,15 @@
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-582", 0 ],
-                                                    "order": 1,
+                                                    "destination": [ "obj-1", 0 ],
+                                                    "order": 0,
                                                     "source": [ "obj-152", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-583", 0 ],
-                                                    "order": 0,
+                                                    "destination": [ "obj-582", 0 ],
+                                                    "order": 1,
                                                     "source": [ "obj-152", 0 ]
                                                 }
                                             },
@@ -14061,7 +13301,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-281", 1 ],
-                                                    "midpoints": [ 901.8077774047852, 199.7382881641388, 1885.1155605316162, 199.7382881641388 ],
+                                                    "midpoints": [ 901.9369215965271, 199.7382881641388, 1885.1155605316162, 199.7382881641388 ],
                                                     "order": 0,
                                                     "source": [ "obj-161", 0 ]
                                                 }
@@ -14069,7 +13309,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-281", 0 ],
-                                                    "midpoints": [ 901.8077774047852, 199.7382881641388, 1854.1155605316162, 199.7382881641388 ],
+                                                    "midpoints": [ 901.9369215965271, 199.7382881641388, 1854.1155605316162, 199.7382881641388 ],
                                                     "order": 1,
                                                     "source": [ "obj-161", 0 ]
                                                 }
@@ -14110,21 +13350,21 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-81", 0 ],
-                                                    "order": 6,
-                                                    "source": [ "obj-166", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-82", 0 ],
                                                     "order": 7,
                                                     "source": [ "obj-166", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-83", 0 ],
+                                                    "destination": [ "obj-82", 0 ],
                                                     "order": 8,
+                                                    "source": [ "obj-166", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-83", 0 ],
+                                                    "order": 6,
                                                     "source": [ "obj-166", 0 ]
                                                 }
                                             },
@@ -14619,6 +13859,13 @@
                                             },
                                             {
                                                 "patchline": {
+                                                    "destination": [ "obj-1", 1 ],
+                                                    "order": 1,
+                                                    "source": [ "obj-2", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
                                                     "destination": [ "obj-344", 1 ],
                                                     "order": 0,
                                                     "source": [ "obj-2", 0 ]
@@ -14626,302 +13873,274 @@
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-423", 1 ],
-                                                    "order": 1,
-                                                    "source": [ "obj-2", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
                                                     "destination": [ "obj-110", 0 ],
-                                                    "order": 41,
-                                                    "source": [ "obj-281", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-193", 0 ],
-                                                    "order": 40,
-                                                    "source": [ "obj-281", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-196", 0 ],
-                                                    "order": 39,
-                                                    "source": [ "obj-281", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-199", 0 ],
                                                     "order": 38,
                                                     "source": [ "obj-281", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-429", 0 ],
-                                                    "order": 34,
-                                                    "source": [ "obj-281", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-432", 0 ],
-                                                    "order": 35,
-                                                    "source": [ "obj-281", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-435", 0 ],
-                                                    "order": 36,
-                                                    "source": [ "obj-281", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-439", 0 ],
+                                                    "destination": [ "obj-193", 0 ],
                                                     "order": 37,
                                                     "source": [ "obj-281", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-445", 0 ],
-                                                    "order": 33,
+                                                    "destination": [ "obj-196", 0 ],
+                                                    "order": 36,
                                                     "source": [ "obj-281", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-449", 0 ],
-                                                    "order": 30,
+                                                    "destination": [ "obj-199", 0 ],
+                                                    "order": 35,
                                                     "source": [ "obj-281", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-452", 0 ],
+                                                    "destination": [ "obj-429", 0 ],
                                                     "order": 31,
                                                     "source": [ "obj-281", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-455", 0 ],
+                                                    "destination": [ "obj-432", 0 ],
                                                     "order": 32,
                                                     "source": [ "obj-281", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-461", 0 ],
+                                                    "destination": [ "obj-435", 0 ],
+                                                    "order": 33,
+                                                    "source": [ "obj-281", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-439", 0 ],
+                                                    "order": 34,
+                                                    "source": [ "obj-281", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-445", 0 ],
+                                                    "order": 30,
+                                                    "source": [ "obj-281", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-449", 0 ],
                                                     "order": 27,
                                                     "source": [ "obj-281", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-464", 0 ],
+                                                    "destination": [ "obj-452", 0 ],
                                                     "order": 28,
                                                     "source": [ "obj-281", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-467", 0 ],
+                                                    "destination": [ "obj-455", 0 ],
                                                     "order": 29,
                                                     "source": [ "obj-281", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-473", 0 ],
+                                                    "destination": [ "obj-461", 0 ],
                                                     "order": 24,
                                                     "source": [ "obj-281", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-476", 0 ],
+                                                    "destination": [ "obj-464", 0 ],
                                                     "order": 25,
                                                     "source": [ "obj-281", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-479", 0 ],
+                                                    "destination": [ "obj-467", 0 ],
                                                     "order": 26,
                                                     "source": [ "obj-281", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-487", 0 ],
-                                                    "order": 23,
-                                                    "source": [ "obj-281", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-491", 0 ],
-                                                    "order": 19,
-                                                    "source": [ "obj-281", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-494", 0 ],
-                                                    "order": 20,
-                                                    "source": [ "obj-281", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-497", 0 ],
+                                                    "destination": [ "obj-473", 0 ],
                                                     "order": 21,
                                                     "source": [ "obj-281", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-500", 0 ],
+                                                    "destination": [ "obj-476", 0 ],
                                                     "order": 22,
                                                     "source": [ "obj-281", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-513", 0 ],
-                                                    "order": 17,
+                                                    "destination": [ "obj-479", 0 ],
+                                                    "order": 23,
                                                     "source": [ "obj-281", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-516", 0 ],
-                                                    "order": 18,
+                                                    "destination": [ "obj-487", 0 ],
+                                                    "order": 20,
                                                     "source": [ "obj-281", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-523", 0 ],
-                                                    "order": 15,
-                                                    "source": [ "obj-281", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-526", 0 ],
+                                                    "destination": [ "obj-491", 0 ],
                                                     "order": 16,
                                                     "source": [ "obj-281", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-529", 0 ],
-                                                    "order": 13,
+                                                    "destination": [ "obj-494", 0 ],
+                                                    "order": 17,
                                                     "source": [ "obj-281", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-532", 0 ],
+                                                    "destination": [ "obj-497", 0 ],
+                                                    "order": 18,
+                                                    "source": [ "obj-281", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-500", 0 ],
+                                                    "order": 19,
+                                                    "source": [ "obj-281", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-513", 0 ],
                                                     "order": 14,
                                                     "source": [ "obj-281", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-535", 0 ],
-                                                    "order": 9,
+                                                    "destination": [ "obj-516", 0 ],
+                                                    "order": 15,
                                                     "source": [ "obj-281", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-538", 0 ],
-                                                    "order": 10,
-                                                    "source": [ "obj-281", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-541", 0 ],
-                                                    "order": 11,
-                                                    "source": [ "obj-281", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-544", 0 ],
+                                                    "destination": [ "obj-523", 0 ],
                                                     "order": 12,
                                                     "source": [ "obj-281", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-547", 0 ],
+                                                    "destination": [ "obj-526", 0 ],
+                                                    "order": 13,
+                                                    "source": [ "obj-281", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-529", 0 ],
+                                                    "order": 10,
+                                                    "source": [ "obj-281", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-532", 0 ],
+                                                    "order": 11,
+                                                    "source": [ "obj-281", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-535", 0 ],
+                                                    "order": 6,
+                                                    "source": [ "obj-281", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-538", 0 ],
                                                     "order": 7,
                                                     "source": [ "obj-281", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-550", 0 ],
+                                                    "destination": [ "obj-541", 0 ],
                                                     "order": 8,
                                                     "source": [ "obj-281", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-562", 0 ],
-                                                    "order": 0,
+                                                    "destination": [ "obj-544", 0 ],
+                                                    "order": 9,
                                                     "source": [ "obj-281", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-565", 0 ],
-                                                    "order": 1,
-                                                    "source": [ "obj-281", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-568", 0 ],
-                                                    "order": 2,
-                                                    "source": [ "obj-281", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-571", 0 ],
-                                                    "order": 3,
-                                                    "source": [ "obj-281", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-574", 0 ],
+                                                    "destination": [ "obj-547", 0 ],
                                                     "order": 4,
                                                     "source": [ "obj-281", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-577", 0 ],
+                                                    "destination": [ "obj-550", 0 ],
                                                     "order": 5,
                                                     "source": [ "obj-281", 0 ]
                                                 }
                                             },
                                             {
                                                 "patchline": {
+                                                    "destination": [ "obj-571", 0 ],
+                                                    "order": 0,
+                                                    "source": [ "obj-281", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-574", 0 ],
+                                                    "order": 1,
+                                                    "source": [ "obj-281", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-577", 0 ],
+                                                    "order": 2,
+                                                    "source": [ "obj-281", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
                                                     "destination": [ "obj-580", 0 ],
-                                                    "order": 6,
+                                                    "order": 3,
                                                     "source": [ "obj-281", 0 ]
                                                 }
                                             },
@@ -14933,7 +14152,13 @@
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-583", 1 ],
+                                                    "destination": [ "obj-152", 0 ],
+                                                    "source": [ "obj-30", 0 ]
+                                                }
+                                            },
+                                            {
+                                                "patchline": {
+                                                    "destination": [ "obj-332", 1 ],
                                                     "source": [ "obj-311", 0 ]
                                                 }
                                             },
@@ -15155,24 +14380,6 @@
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-561", 0 ],
-                                                    "source": [ "obj-423", 41 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-564", 0 ],
-                                                    "source": [ "obj-423", 40 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-567", 0 ],
-                                                    "source": [ "obj-423", 39 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
                                                     "destination": [ "obj-570", 0 ],
                                                     "source": [ "obj-423", 38 ]
                                                 }
@@ -15300,7 +14507,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-428", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 644.2533941864967, 1735.8847579956055, 644.2533941864967 ],
+                                                    "midpoints": [ 1998.0583810210228, 679.0796439647675, 1735.9220096468925, 679.0796439647675 ],
                                                     "source": [ "obj-429", 1 ]
                                                 }
                                             },
@@ -15415,7 +14622,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-431", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 596.5107561349869, 1735.8847579956055, 596.5107561349869 ],
+                                                    "midpoints": [ 1998.0583810210228, 598.0870940685272, 1735.9220096468925, 598.0870940685272 ],
                                                     "source": [ "obj-432", 1 ]
                                                 }
                                             },
@@ -15530,7 +14737,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-434", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 516.3247351646423, 1735.8847579956055, 516.3247351646423 ],
+                                                    "midpoints": [ 1998.0583810210228, 548.2353677749634, 1735.9220096468925, 548.2353677749634 ],
                                                     "source": [ "obj-435", 1 ]
                                                 }
                                             },
@@ -15645,7 +14852,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-438", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 468.5820971131325, 1735.8847579956055, 468.5820971131325 ],
+                                                    "midpoints": [ 1998.0583810210228, 500.4927297234535, 1735.9220096468925, 500.4927297234535 ],
                                                     "source": [ "obj-439", 1 ]
                                                 }
                                             },
@@ -15760,7 +14967,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-444", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 691.5107561349869, 1735.8847579956055, 691.5107561349869 ],
+                                                    "midpoints": [ 1998.0583810210228, 726.3370059132576, 1735.9220096468925, 726.3370059132576 ],
                                                     "source": [ "obj-445", 1 ]
                                                 }
                                             },
@@ -15875,7 +15082,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-448", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 874.639437109232, 1735.8847579956055, 874.639437109232 ],
+                                                    "midpoints": [ 1998.0583810210228, 905.0480763018131, 1735.9220096468925, 905.0480763018131 ],
                                                     "source": [ "obj-449", 1 ]
                                                 }
                                             },
@@ -15990,7 +15197,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-451", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 827.3820751607418, 1735.8847579956055, 827.3820751607418 ],
+                                                    "midpoints": [ 1998.0583810210228, 856.5245127975941, 1735.9220096468925, 856.5245127975941 ],
                                                     "source": [ "obj-452", 1 ]
                                                 }
                                             },
@@ -16105,7 +15312,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-454", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 779.639437109232, 1735.8847579956055, 779.639437109232 ],
+                                                    "midpoints": [ 1998.0583810210228, 808.7818747460842, 1735.9220096468925, 808.7818747460842 ],
                                                     "source": [ "obj-455", 1 ]
                                                 }
                                             },
@@ -16220,7 +15427,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-460", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 1061.639437109232, 1735.8847579956055, 1061.639437109232 ],
+                                                    "midpoints": [ 1998.0583810210228, 1047.7683739960194, 1735.9220096468925, 1047.7683739960194 ],
                                                     "source": [ "obj-461", 1 ]
                                                 }
                                             },
@@ -16335,7 +15542,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-463", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 1014.3820751607418, 1735.8847579956055, 1014.3820751607418 ],
+                                                    "midpoints": [ 1998.0583810210228, 1000.5110120475292, 1735.9220096468925, 1000.5110120475292 ],
                                                     "source": [ "obj-464", 1 ]
                                                 }
                                             },
@@ -16450,7 +15657,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-466", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 966.639437109232, 1735.8847579956055, 966.639437109232 ],
+                                                    "midpoints": [ 1998.0583810210228, 952.7683739960194, 1735.9220096468925, 952.7683739960194 ],
                                                     "source": [ "obj-467", 1 ]
                                                 }
                                             },
@@ -16565,7 +15772,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-472", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 1204.3820751607418, 1735.8847579956055, 1204.3820751607418 ],
+                                                    "midpoints": [ 1998.0583810210228, 1221.2547132074833, 1735.9220096468925, 1221.2547132074833 ],
                                                     "source": [ "obj-473", 1 ]
                                                 }
                                             },
@@ -16680,7 +15887,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-475", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 1157.1247132122517, 1735.8847579956055, 1157.1247132122517 ],
+                                                    "midpoints": [ 1998.0583810210228, 1173.9973512589931, 1735.9220096468925, 1173.9973512589931 ],
                                                     "source": [ "obj-476", 1 ]
                                                 }
                                             },
@@ -16795,7 +16002,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-478", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 1109.3820751607418, 1735.8847579956055, 1109.3820751607418 ],
+                                                    "midpoints": [ 1998.0583810210228, 1095.5110120475292, 1735.9220096468925, 1095.5110120475292 ],
                                                     "source": [ "obj-479", 1 ]
                                                 }
                                             },
@@ -16910,7 +16117,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-486", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 1252.3820751607418, 1735.8847579956055, 1252.3820751607418 ],
+                                                    "midpoints": [ 1998.0583810210228, 1269.2547132074833, 1735.9220096468925, 1269.2547132074833 ],
                                                     "source": [ "obj-487", 1 ]
                                                 }
                                             },
@@ -17025,7 +16232,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-490", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 1488.768118083477, 1735.8847579956055, 1488.768118083477 ],
+                                                    "midpoints": [ 1998.0583810210228, 1497.7608608603477, 1735.9220096468925, 1497.7608608603477 ],
                                                     "source": [ "obj-491", 1 ]
                                                 }
                                             },
@@ -17140,7 +16347,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-493", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 1440.768118083477, 1735.8847579956055, 1440.768118083477 ],
+                                                    "midpoints": [ 1998.0583810210228, 1411.2394563555717, 1735.9220096468925, 1411.2394563555717 ],
                                                     "source": [ "obj-494", 1 ]
                                                 }
                                             },
@@ -17255,7 +16462,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-496", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 1393.5107561349869, 1735.8847579956055, 1393.5107561349869 ],
+                                                    "midpoints": [ 1998.0583810210228, 1363.9820944070816, 1735.9220096468925, 1363.9820944070816 ],
                                                     "source": [ "obj-497", 1 ]
                                                 }
                                             },
@@ -17376,7 +16583,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-499", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 1345.768118083477, 1735.8847579956055, 1345.768118083477 ],
+                                                    "midpoints": [ 1998.0583810210228, 1316.2394563555717, 1735.9220096468925, 1316.2394563555717 ],
                                                     "source": [ "obj-500", 1 ]
                                                 }
                                             },
@@ -17491,7 +16698,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-512", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 1641.5107561349869, 1735.8847579956055, 1641.5107561349869 ],
+                                                    "midpoints": [ 1998.0583810210228, 1592.1798316836357, 1735.9220096468925, 1592.1798316836357 ],
                                                     "source": [ "obj-513", 1 ]
                                                 }
                                             },
@@ -17606,7 +16813,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-515", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 1593.768118083477, 1735.8847579956055, 1593.768118083477 ],
+                                                    "midpoints": [ 1998.0583810210228, 1545.8881043195724, 1735.9220096468925, 1545.8881043195724 ],
                                                     "source": [ "obj-516", 1 ]
                                                 }
                                             },
@@ -17721,7 +16928,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-522", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 1803.5107561349869, 1735.8847579956055, 1803.5107561349869 ],
+                                                    "midpoints": [ 1998.0583810210228, 1688.0390798449516, 1735.9220096468925, 1688.0390798449516 ],
                                                     "source": [ "obj-523", 1 ]
                                                 }
                                             },
@@ -17836,7 +17043,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-525", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 1755.768118083477, 1735.8847579956055, 1755.768118083477 ],
+                                                    "midpoints": [ 1998.0583810210228, 1640.2964417934418, 1735.9220096468925, 1640.2964417934418 ],
                                                     "source": [ "obj-526", 1 ]
                                                 }
                                             },
@@ -17951,7 +17158,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-528", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 1899.2533941864967, 1735.8847579956055, 1899.2533941864967 ],
+                                                    "midpoints": [ 1998.0583810210228, 1783.7817178964615, 1735.9220096468925, 1783.7817178964615 ],
                                                     "source": [ "obj-529", 1 ]
                                                 }
                                             },
@@ -18066,7 +17273,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-531", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 1851.5107561349869, 1735.8847579956055, 1851.5107561349869 ],
+                                                    "midpoints": [ 1998.0583810210228, 1736.0390798449516, 1735.9220096468925, 1736.0390798449516 ],
                                                     "source": [ "obj-532", 1 ]
                                                 }
                                             },
@@ -18181,7 +17388,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-534", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 2089.9960322380066, 1735.8847579956055, 2089.9960322380066 ],
+                                                    "midpoints": [ 1998.0583810210228, 2005.9008411765099, 1735.9220096468925, 2005.9008411765099 ],
                                                     "source": [ "obj-535", 1 ]
                                                 }
                                             },
@@ -18296,7 +17503,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-537", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 2042.2533941864967, 1735.8847579956055, 2042.2533941864967 ],
+                                                    "midpoints": [ 1998.0583810210228, 1926.7817178964615, 1735.9220096468925, 1926.7817178964615 ],
                                                     "source": [ "obj-538", 1 ]
                                                 }
                                             },
@@ -18411,7 +17618,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-540", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 1994.2533941864967, 1735.8847579956055, 1994.2533941864967 ],
+                                                    "midpoints": [ 1998.0583810210228, 1878.7817178964615, 1735.9220096468925, 1878.7817178964615 ],
                                                     "source": [ "obj-541", 1 ]
                                                 }
                                             },
@@ -18526,7 +17733,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-543", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 1946.5107561349869, 1735.8847579956055, 1946.5107561349869 ],
+                                                    "midpoints": [ 1998.0583810210228, 1831.0390798449516, 1735.9220096468925, 1831.0390798449516 ],
                                                     "source": [ "obj-544", 1 ]
                                                 }
                                             },
@@ -18641,7 +17848,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-546", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 2186.2533941864967, 1735.8847579956055, 2186.2533941864967 ],
+                                                    "midpoints": [ 1998.0583810210228, 2102.158203125, 1735.9220096468925, 2102.158203125 ],
                                                     "source": [ "obj-547", 1 ]
                                                 }
                                             },
@@ -18756,7 +17963,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-549", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 2138.510756134987, 1735.8847579956055, 2138.510756134987 ],
+                                                    "midpoints": [ 1998.0583810210228, 2054.41556507349, 1735.9220096468925, 2054.41556507349 ],
                                                     "source": [ "obj-550", 1 ]
                                                 }
                                             },
@@ -18764,351 +17971,6 @@
                                                 "patchline": {
                                                     "destination": [ "obj-549", 0 ],
                                                     "source": [ "obj-550", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-272", 0 ],
-                                                    "source": [ "obj-560", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-560", 15 ],
-                                                    "source": [ "obj-561", 15 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-560", 14 ],
-                                                    "source": [ "obj-561", 14 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-560", 13 ],
-                                                    "source": [ "obj-561", 13 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-560", 12 ],
-                                                    "source": [ "obj-561", 12 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-560", 11 ],
-                                                    "source": [ "obj-561", 11 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-560", 10 ],
-                                                    "source": [ "obj-561", 10 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-560", 9 ],
-                                                    "source": [ "obj-561", 9 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-560", 8 ],
-                                                    "source": [ "obj-561", 8 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-560", 7 ],
-                                                    "source": [ "obj-561", 7 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-560", 6 ],
-                                                    "source": [ "obj-561", 6 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-560", 5 ],
-                                                    "source": [ "obj-561", 5 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-560", 4 ],
-                                                    "source": [ "obj-561", 4 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-560", 3 ],
-                                                    "source": [ "obj-561", 3 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-560", 2 ],
-                                                    "source": [ "obj-561", 2 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-560", 1 ],
-                                                    "source": [ "obj-561", 1 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-560", 0 ],
-                                                    "source": [ "obj-561", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-561", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 2558.2533941864967, 1735.8847579956055, 2558.2533941864967 ],
-                                                    "source": [ "obj-562", 1 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-561", 0 ],
-                                                    "source": [ "obj-562", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-272", 0 ],
-                                                    "source": [ "obj-563", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-563", 15 ],
-                                                    "source": [ "obj-564", 15 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-563", 14 ],
-                                                    "source": [ "obj-564", 14 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-563", 13 ],
-                                                    "source": [ "obj-564", 13 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-563", 12 ],
-                                                    "source": [ "obj-564", 12 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-563", 11 ],
-                                                    "source": [ "obj-564", 11 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-563", 10 ],
-                                                    "source": [ "obj-564", 10 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-563", 9 ],
-                                                    "source": [ "obj-564", 9 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-563", 8 ],
-                                                    "source": [ "obj-564", 8 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-563", 7 ],
-                                                    "source": [ "obj-564", 7 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-563", 6 ],
-                                                    "source": [ "obj-564", 6 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-563", 5 ],
-                                                    "source": [ "obj-564", 5 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-563", 4 ],
-                                                    "source": [ "obj-564", 4 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-563", 3 ],
-                                                    "source": [ "obj-564", 3 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-563", 2 ],
-                                                    "source": [ "obj-564", 2 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-563", 1 ],
-                                                    "source": [ "obj-564", 1 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-563", 0 ],
-                                                    "source": [ "obj-564", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-564", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 2510.2533941864967, 1735.8847579956055, 2510.2533941864967 ],
-                                                    "source": [ "obj-565", 1 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-564", 0 ],
-                                                    "source": [ "obj-565", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-272", 0 ],
-                                                    "source": [ "obj-566", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-566", 15 ],
-                                                    "source": [ "obj-567", 15 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-566", 14 ],
-                                                    "source": [ "obj-567", 14 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-566", 13 ],
-                                                    "source": [ "obj-567", 13 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-566", 12 ],
-                                                    "source": [ "obj-567", 12 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-566", 11 ],
-                                                    "source": [ "obj-567", 11 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-566", 10 ],
-                                                    "source": [ "obj-567", 10 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-566", 9 ],
-                                                    "source": [ "obj-567", 9 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-566", 8 ],
-                                                    "source": [ "obj-567", 8 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-566", 7 ],
-                                                    "source": [ "obj-567", 7 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-566", 6 ],
-                                                    "source": [ "obj-567", 6 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-566", 5 ],
-                                                    "source": [ "obj-567", 5 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-566", 4 ],
-                                                    "source": [ "obj-567", 4 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-566", 3 ],
-                                                    "source": [ "obj-567", 3 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-566", 2 ],
-                                                    "source": [ "obj-567", 2 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-566", 1 ],
-                                                    "source": [ "obj-567", 1 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-566", 0 ],
-                                                    "source": [ "obj-567", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-567", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 2462.510756134987, 1735.8847579956055, 2462.510756134987 ],
-                                                    "source": [ "obj-568", 1 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-567", 0 ],
-                                                    "source": [ "obj-568", 0 ]
                                                 }
                                             },
                                             {
@@ -19216,7 +18078,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-570", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 2415.2533941864967, 1735.8847579956055, 2415.2533941864967 ],
+                                                    "midpoints": [ 1998.0583810210228, 2292.5236533284187, 1735.9220096468925, 2292.5236533284187 ],
                                                     "source": [ "obj-571", 1 ]
                                                 }
                                             },
@@ -19331,7 +18193,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-573", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 2367.510756134987, 1735.8847579956055, 2367.510756134987 ],
+                                                    "midpoints": [ 1998.0583810210228, 2244.781015276909, 1735.9220096468925, 2244.781015276909 ],
                                                     "source": [ "obj-574", 1 ]
                                                 }
                                             },
@@ -19446,7 +18308,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-576", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 2319.510756134987, 1735.8847579956055, 2319.510756134987 ],
+                                                    "midpoints": [ 1998.0583810210228, 2196.781015276909, 1735.9220096468925, 2196.781015276909 ],
                                                     "source": [ "obj-577", 1 ]
                                                 }
                                             },
@@ -19561,7 +18423,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-579", 1 ],
-                                                    "midpoints": [ 1998.0583810210228, 2271.768118083477, 1735.8847579956055, 2271.768118083477 ],
+                                                    "midpoints": [ 1998.0583810210228, 2149.038377225399, 1735.9220096468925, 2149.038377225399 ],
                                                     "source": [ "obj-580", 1 ]
                                                 }
                                             },
@@ -19575,12 +18437,6 @@
                                                 "patchline": {
                                                     "destination": [ "obj-332", 0 ],
                                                     "source": [ "obj-582", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-332", 1 ],
-                                                    "source": [ "obj-583", 0 ]
                                                 }
                                             },
                                             {
@@ -19811,24 +18667,6 @@
                                                 "patchline": {
                                                     "destination": [ "obj-259", 0 ],
                                                     "source": [ "obj-66", 24 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-266", 0 ],
-                                                    "source": [ "obj-66", 41 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-267", 0 ],
-                                                    "source": [ "obj-66", 40 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-268", 0 ],
-                                                    "source": [ "obj-66", 39 ]
                                                 }
                                             },
                                             {
@@ -20073,12 +18911,6 @@
                                             },
                                             {
                                                 "patchline": {
-                                                    "destination": [ "obj-707", 0 ],
-                                                    "source": [ "obj-708", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
                                                     "destination": [ "obj-709", 0 ],
                                                     "source": [ "obj-710", 0 ]
                                                 }
@@ -20099,18 +18931,6 @@
                                                 "patchline": {
                                                     "destination": [ "obj-715", 0 ],
                                                     "source": [ "obj-716", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-717", 0 ],
-                                                    "source": [ "obj-718", 0 ]
-                                                }
-                                            },
-                                            {
-                                                "patchline": {
-                                                    "destination": [ "obj-719", 0 ],
-                                                    "source": [ "obj-720", 0 ]
                                                 }
                                             },
                                             {
@@ -20260,7 +19080,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 5,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -20531,11 +19351,11 @@
                                             "pluginname": "MultiEncoder.vstinfo",
                                             "plugindisplayname": "MultiEncoder",
                                             "pluginsavedname": "",
-                                            "pluginsaveduniqueid": 0,
+                                            "pluginsaveduniqueid": 1299531118,
                                             "version": 1,
                                             "isbank": 0,
                                             "isbase64": 1,
-                                            "blob": "13089.CMlaKA....fQPMDZ....AzTcE4F.A..A....FzRKs....................................HS4VMjLgvsL...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOMUGazkVQtM1ajUlbfL1ar8VcxASOhXlYv.iYlYlYh.xXuw1a0IWL8HhYlACLlYlYlIBHi8FauUmbxziHlYFLvXlYlYlHfL1ar8VcxMSOhXlYv.iYlYlYh.xXuw1a0IGM8HhYlACLlYlYlIBHi8FauUmb0ziHlYFLvXlYlYlHfL1ar8VcxYSOhXlYv.iYlYlYh.xXuw1a0I2M8HhYlACLlYlYlIBHi8FauUmb3ziHlYFLvXlYlYlHfL1ar8VcxkSOhXlYv.iYlYlYh.xXuw1a0IWLvziHlYFLvXlYlYlHfL1ar8VcxESL8HhYlACLlYlYlIBHi8FauUmbwHSOhXlYv.iYlYlYh.xXuw1a0IWLyziHlYFLvXlYlYlHfL1ar8VcxECM8HhYlACLlYlYlIBHi8FauUmbwTSOhXlYv.iYlYlYh.xXuw1a0IWL1ziHlYFLvXlYlYlHfL1ar8VcxEyM8HhYlACLlYlYlIBHi8FauUmbwfSOhXlYv.iYlYlYh.xXuw1a0IWL4ziHlYFLvXlYlYlHfL1ar8VcxICL8HhYlACLlYlYlIBHi8FauUmbxDSOhXlYv.iYlYlYh.xXuw1a0ImLxziHlYFLvXlYlYlHfL1ar8VcxIyL8HhYlACLlYlYlIBHi8FauUmbxPSOhXlYv.iYlYlYh.xXuw1a0ImL0ziHlYFLvXlYlYlHfL1ar8VcxIiM8HhYlACLlYlYlIBHi8FauUmbxbSOhXlYv.iYlYlYh.xXuw1a0ImL3ziHlYFLvXlYlYlHfL1ar8VcxISN8HhYlACLlYlYlIBHi8FauUmby.SOhXlYv.iYlYlYh.xXuw1a0I2LwziHlYFLvXlYlYlHfL1ar8VcxMiL8HhYlACLlYlYlIBHi8FauUmbyLSOhXlYv.iYlYlYh.xXuw1a0I2LzziHlYFLvXlYlYlHfL1ar8VcxMSM8HhYlACLlYlYlIBHi8FauUmbyXSOhXlYv.iYlYlYh.xXuw1a0I2L2ziHlYFLvXlYlYlHfL1ar8VcxMCN8HhYlACLlYlYlIBHi8FauUmbyjSOhXlYv.iYlYlYh.xXuw1a0IGMvziHlYFLvXlYlYlHfL1ar8VcxQSL8HhYlACLlYlYlIBHi8FauUmbzHSOhXlYv.iYlYlYh.xXuw1a0IGMyziHlYFLvXlYlYlHfL1ar8VcxQCM8HhYlACLlYlYlIBHi8FauUmbzTSOhXlYv.iYlYlYh.xXuw1a0IGM1ziHlYFLvXlYlYlHfL1ar8VcxQyM8HhYlACLlYlYlIBHi8FauUmbzfSOhXlYv.iYlYlYh.xXuw1a0IGM4ziHlYFLvXlYlYlHfL1ar8VcxUCL8HhYlACLlYlYlIBHi8FauUmb0DSOhXlYv.iYlYlYh.xXuw1a0IWMxziHlYFLvXlYlYlHfL1ar8VcxUyL8HhYlACLlYlYlIBHi8FauUmb0PSOhXlYv.iYlYlYh.xXuw1a0IWM0ziHlYFLvXlYlYlHfL1ar8VcxUiM8HhYlACLlYlYlIBHi8FauUmb0bSOhXlYv.iYlYlYh.xXuw1a0IWM3ziHlYFLvXlYlYlHfL1ar8VcxUSN8HhYlACLlYlYlIBHi8FauUmb1.SOhXlYv.iYlYlYh.xXuw1a0ImMwziHlYFLvXlYlYlHfL1ar8VcxYiL8HhYlACLlYlYlIBHi8FauUmb1LSOhXlYv.iYlYlYh3COPEjTA0DHoQVOhDlagwVd5UlTMMkHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFLh.hcgwVck0iHyHiKzDSN4jCNwXCN4PSMyDiHu3COPEjTA0DHoQVOhDldo0VczgVLh.hcgwVck0iHsDSNtbiLv.CLwHiLvbCLyDiLh7hO7.UPRETSfjFY8HRX5kVa0QGZw.iHfXWXrUWY8HRLz3BL3jSN4XyLybCN4.iMxHxK9vCTAIUPMARZj0iHgoWZsUGcnESLh.hcgwVck0iHzDiKxjSN4fyM2jiL4XCN2TiHu3COPEjTA0DHoQVOhDldo0VczgVLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnEyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZwPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnEiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZwbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnESNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZxHBH1EFa0UVOhzhLx3xMx.CLvDiLx.yMvLSLxHxK9vCTAIUPMARZj0iHgoWZsUGcnICLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZxDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnIyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZxPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnIiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZxbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnISNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZyHBH1EFa0UVOhzRMtDSNv.CLxPCMwPCL1HSMh7hO7.UPRETSfjFY8HRX5kVa0QGZy.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0Vczg1LwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnMiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZyLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0Vczg1LzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnMSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZyXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0Vczg1L2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnMCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZyjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFMh.hcgwVck0iHxLiK2LSN4jCLxLCMybSMh7hO7.UPRETSfjFY8HRX5kVa0QGZz.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnQiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZzLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFMzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnQSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZzXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFM2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnQCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZzjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVMh.hcgwVck0iHxLiKzDSN4jCNwXCN4PSMyDiHu3COPEjTA0DHoQVOhDldo0VczgVMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnUSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ0HiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnUCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ0TiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnUyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ0fiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnYiHfXWXrUWY8HhLz3hMxjSN3jiMxPCLxLCMzHxK9vCTAIUPMARZj0iHgoWZsUGcnYCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ1DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnYyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ2HBH1EFa0UVOhHCMtLSL4jSNx.iM0PiL4XSNh7hO7.UPRETSfjFY8HRX5kVa0QGZ3HBH1EFa0UVOhHSLtXiM4jSN3DiM3jCM0LSLh7hO7.UPRETSfjFY8HRX5kVa0QGZ4HBH1EFa0UVOhzhLy3BL0jSN4bSM0fSM4LyM0HxK9vCTAIUPMARZj0iHjkmag0VZiIUXtcVYh.hcgwVck0iHyTiKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lavHBH1EFa0UVOhLSLtHyL4jSNvHyLzLyM0HxK9vCTAIUPMARZj0iHkwVY1EFco8lawHBH1EFa0UVOhDyMtHiLv.CLwHiLvbCLyDiLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VLvHBH1EFa0UVOhbCLtHiM4jCN4.SLyXyMwfCNh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VLwHBH1EFa0UVOhPCMtbiLv.CLwHiLvbCLyDiLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lawLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atECMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lawXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atEyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lawjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atIiHfXWXrUWY8HRLx3RNxjSN4HiM2TyM3DiL0HxK9vCTAIUPMARZj0iHkwVY1EFco8lax.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atISLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8laxLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atICMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8laxXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atIyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8laxjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMiHfXWXrUWY8HRL33hL0HxK9vCTAIUPMARZj0iHkwVY1EFco8lay.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu41LxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8layLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu41L0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8layXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu41L3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8layjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atQiHfXWXrUWY8HBM03xL3jSN4jyL3jiMzfCMzHxK9vCTAIUPMARZj0iHkwVY1EFco8laz.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atQSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lazLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atQCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lazXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atQyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lazjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atUiHfXWXrUWY8HBMz3RLzjSN4LCN4XCM3PyL3HxK9vCTAIUPMARZj0iHkwVY1EFco8la0.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atUSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la0LiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atUCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la0XiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atUyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la0jiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atYiHfXWXrUWY8HBM03hL0HxK9vCTAIUPMARZj0iHkwVY1EFco8la1.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atYSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la1LiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atciHfXWXrUWY8HBMz3RL2jSN4HiM2TyM3DiL0HxK9vCTAIUPMARZj0iHkwVY1EFco8la3HBH1EFa0UVOhPyLtjSL4jSN3DiM3jCM0LSLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VNh.hcgwVck0iH2HiKvfCLv.SL3LSLvTCM1jiHu3COPEjTA0DHoQVOhbVXo4FLh.hcgwVck0iHsHiLtHCLv.CLvbiMxjyL4PSMh7hO7.UPRETSfjFY8HxYgklawHBH1EFa0UVOhzhLx3hLv.CLv.yM1HSNyjCM0HxK9vCTAIUPMARZj0iHmEVZtECLh.hcgwVck0iHsHiLtHCLv.CLvbiMxjyL4PSMh7hO7.UPRETSfjFY8HxYgklawDiHfXWXrUWY8HRKxHiKx.CLv.CL2XiL4LSNzTiHu3COPEjTA0DHoQVOhbVXo4VLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtEyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklawPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtEiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklawbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtESNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaxHBH1EFa0UVOhzhLx3hLv.CLv.yM1HSNyjCM0HxK9vCTAIUPMARZj0iHmEVZtICLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaxDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtIyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaxPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtIiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaxbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtISNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklayHBH1EFa0UVOhzhLx3hLv.CLv.yM1HSNyjCM0HxK9vCTAIUPMARZj0iHmEVZtMCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklayDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo41LxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtMyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklayPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo41L0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtMiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaybiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo41L3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtMSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklazHBH1EFa0UVOhzhLx3hLv.CLv.yM1HSNyjCM0HxK9vCTAIUPMARZj0iHmEVZtQCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklazDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4FMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtQyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklazPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4FM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtQiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklazbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4FM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtQSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla0HBH1EFa0UVOhzhLx3hLv.CLv.yM1HSNyjCM0HxK9vCTAIUPMARZj0iHmEVZtUCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla0DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtUyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla0PiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtUiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla0biHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtUSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla1HBH1EFa0UVOhzhLx3hLv.CLv.yM1HSNyjCM0HxK9vCTAIUPMARZj0iHmEVZtYCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla1DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtYyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla2HBH1EFa0UVOhzhLx3hLv.CLv.yM1HSNyjCM0HxK9vCTAIUPMARZj0iHmEVZtgiHfXWXrUWY8HRKxHiKx.CLv.CL2XiL4LSNzTiHu3COPEjTA0DHoQVOhbVXo4VNh.hcgwVck0iHsHiLtHCLv.CLvbiMxjyL4PSMh7hO7.UPRETSfjFY8HRZtAWczMUYzQWZtclHfXWXrUWY8HRLx3BLh7hO7.UPRETSfjFY8HBauM1ZkQFUu0TXyQWYxIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsE1bzUlbAoWZsUGcnIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsE1bzUlbEwVY1EFco8lah.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRagMGckImTuwFah.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckEiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVLvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckESLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckECMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckEyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckIiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlLvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckISLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckICMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckIyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1LvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYyHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1LyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYyTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1L1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYyfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1L4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0HiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0TiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0fiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckYiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckYSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY1HiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckciHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HBbkE1ZLUlckwlHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauECLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauEyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauEiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauESNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauICLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauIyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauIiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauISNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ayHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ayDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81LxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ayPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81L0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1aybiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81L3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0PiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0biHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauYCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a1DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauYyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FaugiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuzTcrQWZE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuzTcrQWZE41XuQVYx4C."
+                                            "blob": "16060.CMlaKA....fQPMDZ....AzTcE4F.A..A....FzRKs....................................3CfVMjLgbmO...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOMUGazkVQtM1ajUlbfL1ar8VcxASOhXlYv.iYlYlYh.xXuw1a0IWL8HhYlACLlYlYlIBHi8FauUmbxziHlYFLvXlYlYlHfL1ar8VcxMSOhXlYv.iYlYlYh.xXuw1a0IGM8HhYlACLlYlYlIBHi8FauUmb0ziHlYFLvXlYlYlHfL1ar8VcxYSOhXlYv.iYlYlYh.xXuw1a0I2M8HhYlACLlYlYlIBHi8FauUmb3ziHlYFLvXlYlYlHfL1ar8VcxkSOhXlYv.iYlYlYh.xXuw1a0IWLvziHlYFLvXlYlYlHfL1ar8VcxESL8HhYlACLlYlYlIBHi8FauUmbwHSOhXlYv.iYlYlYh.xXuw1a0IWLyziHlYFLvXlYlYlHfL1ar8VcxECM8HhYlACLlYlYlIBHi8FauUmbwTSOhXlYv.iYlYlYh.xXuw1a0IWL1ziHlYFLvXlYlYlHfL1ar8VcxEyM8HhYlACLlYlYlIBHi8FauUmbwfSOhXlYv.iYlYlYh.xXuw1a0IWL4ziHlYFLvXlYlYlHfL1ar8VcxICL8HhYlACLlYlYlIBHi8FauUmbxDSOhXlYv.iYlYlYh.xXuw1a0ImLxziHlYFLvXlYlYlHfL1ar8VcxIyL8HhYlACLlYlYlIBHi8FauUmbxPSOhXlYv.iYlYlYh.xXuw1a0ImL0ziHlYFLvXlYlYlHfL1ar8VcxIiM8HhYlACLlYlYlIBHi8FauUmbxbSOhXlYv.iYlYlYh.xXuw1a0ImL3ziHlYFLvXlYlYlHfL1ar8VcxISN8HhYlACLlYlYlIBHi8FauUmby.SOhXlYv.iYlYlYh.xXuw1a0I2LwziHlYFLvXlYlYlHfL1ar8VcxMiL8HhYlACLlYlYlIBHi8FauUmbyLSOhXlYv.iYlYlYh.xXuw1a0I2LzziHlYFLvXlYlYlHfL1ar8VcxMSM8HhYlACLlYlYlIBHi8FauUmbyXSOhXlYv.iYlYlYh.xXuw1a0I2L2ziHlYFLvXlYlYlHfL1ar8VcxMCN8HhYlACLlYlYlIBHi8FauUmbyjSOhXlYv.iYlYlYh.xXuw1a0IGMvziHlYFLvXlYlYlHfL1ar8VcxQSL8HhYlACLlYlYlIBHi8FauUmbzHSOhXlYv.iYlYlYh.xXuw1a0IGMyziHlYFLvXlYlYlHfL1ar8VcxQCM8HhYlACLlYlYlIBHi8FauUmbzTSOhXlYv.iYlYlYh.xXuw1a0IGM1ziHlYFLvXlYlYlHfL1ar8VcxQyM8HhYlACLlYlYlIBHi8FauUmbzfSOhXlYv.iYlYlYh.xXuw1a0IGM4ziHlYFLvXlYlYlHfL1ar8VcxUCL8HhYlACLlYlYlIBHi8FauUmb0DSOhXlYv.iYlYlYh.xXuw1a0IWMxziHlYFLvXlYlYlHfL1ar8VcxUyL8HhYlACLlYlYlIBHi8FauUmb0PSOhXlYv.iYlYlYh.xXuw1a0IWM0ziHlYFLvXlYlYlHfL1ar8VcxUiM8HhYlACLlYlYlIBHi8FauUmb0bSOhXlYv.iYlYlYh.xXuw1a0IWM3ziHlYFLvXlYlYlHfL1ar8VcxUSN8HhYlACLlYlYlIBHi8FauUmb1.SOhXlYv.iYlYlYh.xXuw1a0ImMwziHlYFLvXlYlYlHfL1ar8VcxYiL8HhYlACLlYlYlIBHi8FauUmb1LSOhXlYv.iYlYlYh3COPEjTA0DHoQVOhDlagwVd5UlTMMkHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZwHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnECLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZwDiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0VczgVLxHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnEyLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZwPiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0VczgVL0HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnEiMh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZwbiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0VczgVL3HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnESNh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZxHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnICLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZxDiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0VczglLxHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnIyLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZxPiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0VczglL0HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnIiMh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZxbiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0VczglL3HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnISNh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZyHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnMCLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZyDiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0Vczg1LxHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnMyLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZyPiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0Vczg1L0HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnMiMh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZybiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0Vczg1L3HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnMSNh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZzHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnQCLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZzDiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0VczgFMxHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnQyLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZzPiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0VczgFM0HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnQiMh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZzbiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0VczgFM3HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnQSNh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZ0HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnUCLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZ0DiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0VczgVMxHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnUyLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZ0PiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0VczgVM0HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnUiMh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZ0biHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0VczgVM3HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnUSNh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZ1HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnYCLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZ1DiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0VczglMxHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnYyLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZ2HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcngiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0VczgVNh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HBY44VXsk1XRElamUlHfXWXrUWY8HxL03BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VLvHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8lawDiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atEiLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VLyHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8lawPiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atESMh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VL1HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8lawbiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atECNh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VL4HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8laxHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8lax.iHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atISLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lLxHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8laxLiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atICMh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lL0HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8laxXiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIyMh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lL3HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8laxjiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atMiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atMCLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu41LwHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8layHiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atMyLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu41LzHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8layTiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atMiMh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu41L2HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8layfiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atMSNh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FMh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FMvHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8lazDiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atQiLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FMyHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8lazPiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atQSMh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FM1HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8lazbiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atQCNh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FM4HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8la0HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8la0.iHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atUSLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VMxHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8la0LiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atUCMh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VM0HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8la0XiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atUyMh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VM3HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8la0jiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atYiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atYCLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lMwHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8la1HiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atYyLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu41Mh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FNh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VNh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HxYgklavHBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklawHBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklaw.iHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtESLh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo4VLxHBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklawLiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtECMh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo4VL0HBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklawXiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtEyMh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo4VL3HBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklawjiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtIiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtICLh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo4lLwHBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklaxHiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtIyLh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo4lLzHBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklaxTiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtIiMh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo4lL2HBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklaxfiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtISNh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo41Lh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo41LvHBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklayDiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtMiLh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo41LyHBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklayPiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtMSMh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo41L1HBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklaybiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtMCNh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo41L4HBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklazHBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklaz.iHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtQSLh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo4FMxHBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklazLiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtQCMh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo4FM0HBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklazXiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtQyMh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo4FM3HBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklazjiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtUiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtUCLh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo4VMwHBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgkla0HiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtUyLh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo4VMzHBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgkla0TiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtUiMh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo4VM2HBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgkla0fiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtUSNh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo4lMh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo4lMvHBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgkla1DiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtYiLh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo4lMyHBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgkla2HBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgkla3HBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgkla4HBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HRZtAWczMUYzQWZtclHfXWXrUWY8HRMt.iHu3COPEjTA0DHoQVOhv1aisVYjQ0aME1bzUlbh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRagMGckIWP5kVa0QGZh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRagMGckIWQrUlcgQWZu4lHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhzVXyQWYxI0arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhzVczUFLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckECLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckEyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckEiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckESNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckICLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckIyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckIiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckISNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYyDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1LxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYyPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1L0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYybiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1L3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0PiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0biHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckYCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY1DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckYyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckgiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh.WYgsFSkYWYrIBH1EFa0UVOhbiKzTCL0fCL0jiM4HyL3HCNk0xMh7hO7.UPRETSfjFY8Hxbuw1avHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauEiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VLvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauESLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauECMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauEyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauIiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lLvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauISLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauICMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauIyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81LvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ayHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81LyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ayTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81L1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ayfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81L4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0HiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0TiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0fiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauYiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauYSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a1HiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauciHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7RS0wFcoUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77RS0wFcoUjai8FYkImO.."
                                         },
                                         "snapshotlist": {
                                             "current_snapshot": 0,
@@ -20548,23 +19368,23 @@
                                                     "origin": "MultiEncoder.vstinfo",
                                                     "type": "VST",
                                                     "subtype": "AudioEffect",
-                                                    "embed": 0,
+                                                    "embed": 1,
                                                     "snapshot": {
                                                         "pluginname": "MultiEncoder.vstinfo",
                                                         "plugindisplayname": "MultiEncoder",
                                                         "pluginsavedname": "",
-                                                        "pluginsaveduniqueid": 0,
+                                                        "pluginsaveduniqueid": 1299531118,
                                                         "version": 1,
                                                         "isbank": 0,
                                                         "isbase64": 1,
-                                                        "blob": "13089.CMlaKA....fQPMDZ....AzTcE4F.A..A....FzRKs....................................HS4VMjLgvsL...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOMUGazkVQtM1ajUlbfL1ar8VcxASOhXlYv.iYlYlYh.xXuw1a0IWL8HhYlACLlYlYlIBHi8FauUmbxziHlYFLvXlYlYlHfL1ar8VcxMSOhXlYv.iYlYlYh.xXuw1a0IGM8HhYlACLlYlYlIBHi8FauUmb0ziHlYFLvXlYlYlHfL1ar8VcxYSOhXlYv.iYlYlYh.xXuw1a0I2M8HhYlACLlYlYlIBHi8FauUmb3ziHlYFLvXlYlYlHfL1ar8VcxkSOhXlYv.iYlYlYh.xXuw1a0IWLvziHlYFLvXlYlYlHfL1ar8VcxESL8HhYlACLlYlYlIBHi8FauUmbwHSOhXlYv.iYlYlYh.xXuw1a0IWLyziHlYFLvXlYlYlHfL1ar8VcxECM8HhYlACLlYlYlIBHi8FauUmbwTSOhXlYv.iYlYlYh.xXuw1a0IWL1ziHlYFLvXlYlYlHfL1ar8VcxEyM8HhYlACLlYlYlIBHi8FauUmbwfSOhXlYv.iYlYlYh.xXuw1a0IWL4ziHlYFLvXlYlYlHfL1ar8VcxICL8HhYlACLlYlYlIBHi8FauUmbxDSOhXlYv.iYlYlYh.xXuw1a0ImLxziHlYFLvXlYlYlHfL1ar8VcxIyL8HhYlACLlYlYlIBHi8FauUmbxPSOhXlYv.iYlYlYh.xXuw1a0ImL0ziHlYFLvXlYlYlHfL1ar8VcxIiM8HhYlACLlYlYlIBHi8FauUmbxbSOhXlYv.iYlYlYh.xXuw1a0ImL3ziHlYFLvXlYlYlHfL1ar8VcxISN8HhYlACLlYlYlIBHi8FauUmby.SOhXlYv.iYlYlYh.xXuw1a0I2LwziHlYFLvXlYlYlHfL1ar8VcxMiL8HhYlACLlYlYlIBHi8FauUmbyLSOhXlYv.iYlYlYh.xXuw1a0I2LzziHlYFLvXlYlYlHfL1ar8VcxMSM8HhYlACLlYlYlIBHi8FauUmbyXSOhXlYv.iYlYlYh.xXuw1a0I2L2ziHlYFLvXlYlYlHfL1ar8VcxMCN8HhYlACLlYlYlIBHi8FauUmbyjSOhXlYv.iYlYlYh.xXuw1a0IGMvziHlYFLvXlYlYlHfL1ar8VcxQSL8HhYlACLlYlYlIBHi8FauUmbzHSOhXlYv.iYlYlYh.xXuw1a0IGMyziHlYFLvXlYlYlHfL1ar8VcxQCM8HhYlACLlYlYlIBHi8FauUmbzTSOhXlYv.iYlYlYh.xXuw1a0IGM1ziHlYFLvXlYlYlHfL1ar8VcxQyM8HhYlACLlYlYlIBHi8FauUmbzfSOhXlYv.iYlYlYh.xXuw1a0IGM4ziHlYFLvXlYlYlHfL1ar8VcxUCL8HhYlACLlYlYlIBHi8FauUmb0DSOhXlYv.iYlYlYh.xXuw1a0IWMxziHlYFLvXlYlYlHfL1ar8VcxUyL8HhYlACLlYlYlIBHi8FauUmb0PSOhXlYv.iYlYlYh.xXuw1a0IWM0ziHlYFLvXlYlYlHfL1ar8VcxUiM8HhYlACLlYlYlIBHi8FauUmb0bSOhXlYv.iYlYlYh.xXuw1a0IWM3ziHlYFLvXlYlYlHfL1ar8VcxUSN8HhYlACLlYlYlIBHi8FauUmb1.SOhXlYv.iYlYlYh.xXuw1a0ImMwziHlYFLvXlYlYlHfL1ar8VcxYiL8HhYlACLlYlYlIBHi8FauUmb1LSOhXlYv.iYlYlYh3COPEjTA0DHoQVOhDlagwVd5UlTMMkHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFLh.hcgwVck0iHyHiKzDSN4jCNwXCN4PSMyDiHu3COPEjTA0DHoQVOhDldo0VczgVLh.hcgwVck0iHsDSNtbiLv.CLwHiLvbCLyDiLh7hO7.UPRETSfjFY8HRX5kVa0QGZw.iHfXWXrUWY8HRLz3BL3jSN4XyLybCN4.iMxHxK9vCTAIUPMARZj0iHgoWZsUGcnESLh.hcgwVck0iHzDiKxjSN4fyM2jiL4XCN2TiHu3COPEjTA0DHoQVOhDldo0VczgVLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnEyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZwPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnEiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZwbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnESNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZxHBH1EFa0UVOhzhLx3xMx.CLvDiLx.yMvLSLxHxK9vCTAIUPMARZj0iHgoWZsUGcnICLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZxDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnIyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZxPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnIiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZxbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnISNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZyHBH1EFa0UVOhzRMtDSNv.CLxPCMwPCL1HSMh7hO7.UPRETSfjFY8HRX5kVa0QGZy.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0Vczg1LwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnMiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZyLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0Vczg1LzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnMSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZyXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0Vczg1L2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnMCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZyjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFMh.hcgwVck0iHxLiK2LSN4jCLxLCMybSMh7hO7.UPRETSfjFY8HRX5kVa0QGZz.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFMwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnQiLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZzLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFMzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnQSMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZzXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFM2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnQCNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZzjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVMh.hcgwVck0iHxLiKzDSN4jCNwXCN4PSMyDiHu3COPEjTA0DHoQVOhDldo0VczgVMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnUSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ0HiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnUCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ0TiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnUyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ0fiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgVM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnYiHfXWXrUWY8HhLz3hMxjSN3jiMxPCLxLCMzHxK9vCTAIUPMARZj0iHgoWZsUGcnYCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ1DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczglMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHgoWZsUGcnYyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRX5kVa0QGZ2HBH1EFa0UVOhHCMtLSL4jSNx.iM0PiL4XSNh7hO7.UPRETSfjFY8HRX5kVa0QGZ3HBH1EFa0UVOhHSLtXiM4jSN3DiM3jCM0LSLh7hO7.UPRETSfjFY8HRX5kVa0QGZ4HBH1EFa0UVOhzhLy3BL0jSN4bSM0fSM4LyM0HxK9vCTAIUPMARZj0iHjkmag0VZiIUXtcVYh.hcgwVck0iHyTiKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lavHBH1EFa0UVOhLSLtHyL4jSNvHyLzLyM0HxK9vCTAIUPMARZj0iHkwVY1EFco8lawHBH1EFa0UVOhDyMtHiLv.CLwHiLvbCLyDiLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VLvHBH1EFa0UVOhbCLtHiM4jCN4.SLyXyMwfCNh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VLwHBH1EFa0UVOhPCMtbiLv.CLwHiLvbCLyDiLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lawLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atECMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lawXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atEyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lawjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atIiHfXWXrUWY8HRLx3RNxjSN4HiM2TyM3DiL0HxK9vCTAIUPMARZj0iHkwVY1EFco8lax.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atISLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8laxLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atICMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8laxXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atIyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8laxjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMiHfXWXrUWY8HRL33hL0HxK9vCTAIUPMARZj0iHkwVY1EFco8lay.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu41LxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8layLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu41L0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8layXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atMyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu41L3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8layjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atQiHfXWXrUWY8HBM03xL3jSN4jyL3jiMzfCMzHxK9vCTAIUPMARZj0iHkwVY1EFco8laz.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atQSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lazLiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atQCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lazXiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atQyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8lazjiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atUiHfXWXrUWY8HBMz3RLzjSN4LCN4XCM3PyL3HxK9vCTAIUPMARZj0iHkwVY1EFco8la0.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atUSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la0LiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atUCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la0XiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atUyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la0jiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atYiHfXWXrUWY8HBM03hL0HxK9vCTAIUPMARZj0iHkwVY1EFco8la1.iHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atYSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHkwVY1EFco8la1LiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhTFakYWXzk1atciHfXWXrUWY8HBMz3RL2jSN4HiM2TyM3DiL0HxK9vCTAIUPMARZj0iHkwVY1EFco8la3HBH1EFa0UVOhPyLtjSL4jSN3DiM3jCM0LSLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VNh.hcgwVck0iH2HiKvfCLv.SL3LSLvTCM1jiHu3COPEjTA0DHoQVOhbVXo4FLh.hcgwVck0iHsHiLtHCLv.CLvbiMxjyL4PSMh7hO7.UPRETSfjFY8HxYgklawHBH1EFa0UVOhzhLx3hLv.CLv.yM1HSNyjCM0HxK9vCTAIUPMARZj0iHmEVZtECLh.hcgwVck0iHsHiLtHCLv.CLvbiMxjyL4PSMh7hO7.UPRETSfjFY8HxYgklawDiHfXWXrUWY8HRKxHiKx.CLv.CL2XiL4LSNzTiHu3COPEjTA0DHoQVOhbVXo4VLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtEyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklawPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtEiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklawbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtESNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaxHBH1EFa0UVOhzhLx3hLv.CLv.yM1HSNyjCM0HxK9vCTAIUPMARZj0iHmEVZtICLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaxDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtIyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaxPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtIiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaxbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtISNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklayHBH1EFa0UVOhzhLx3hLv.CLv.yM1HSNyjCM0HxK9vCTAIUPMARZj0iHmEVZtMCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklayDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo41LxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtMyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklayPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo41L0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtMiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklaybiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo41L3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtMSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklazHBH1EFa0UVOhzhLx3hLv.CLv.yM1HSNyjCM0HxK9vCTAIUPMARZj0iHmEVZtQCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklazDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4FMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtQyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklazPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4FM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtQiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgklazbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4FM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtQSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla0HBH1EFa0UVOhzhLx3hLv.CLv.yM1HSNyjCM0HxK9vCTAIUPMARZj0iHmEVZtUCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla0DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtUyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla0PiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtUiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla0biHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4VM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtUSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla1HBH1EFa0UVOhzhLx3hLv.CLv.yM1HSNyjCM0HxK9vCTAIUPMARZj0iHmEVZtYCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla1DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhbVXo4lMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHmEVZtYyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxYgkla2HBH1EFa0UVOhzhLx3hLv.CLv.yM1HSNyjCM0HxK9vCTAIUPMARZj0iHmEVZtgiHfXWXrUWY8HRKxHiKx.CLv.CL2XiL4LSNzTiHu3COPEjTA0DHoQVOhbVXo4VNh.hcgwVck0iHsHiLtHCLv.CLvbiMxjyL4PSMh7hO7.UPRETSfjFY8HRZtAWczMUYzQWZtclHfXWXrUWY8HRLx3BLh7hO7.UPRETSfjFY8HBauM1ZkQFUu0TXyQWYxIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsE1bzUlbAoWZsUGcnIBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsE1bzUlbEwVY1EFco8lah.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRagMGckImTuwFah.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckEiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVLvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckESLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckECMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckEyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckIiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlLvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckISLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckICMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckIyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1LvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYyHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1LyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYyTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1L1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYyfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1L4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0HiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0TiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0fiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckYiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckYSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY1HiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckciHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHuIGYkI2TkQGco41Yh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HBbkE1ZLUlckwlHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauECLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauEyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauEiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauESNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauICLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauIyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauIiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauISNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ayHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ayDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81LxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ayPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81L0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1aybiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81L3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0PiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0biHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauYCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a1DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauYyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FaugiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRcyU1TNMCQh.hcgwVck0iHw3BLh7hO77zTCMzatYVZmAhTkMVYoYWYxA0axQWOhzRLh.xTk4FYkIWRP0iHh.xTk4FYkIGTuIGc8HRKwHBHSUlajUlbOM0PAQFYxU1by0iHuzTcrQWZE41XuQVYx8hHfLUYtQVYxkjazUlb1EFa8HRLv.iHu3COuzTcrQWZE41XuQVYx4C."
+                                                        "blob": "16060.CMlaKA....fQPMDZ....AzTcE4F.A..A....FzRKs....................................3CfVMjLgbmO...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOMUGazkVQtM1ajUlbfL1ar8VcxASOhXlYv.iYlYlYh.xXuw1a0IWL8HhYlACLlYlYlIBHi8FauUmbxziHlYFLvXlYlYlHfL1ar8VcxMSOhXlYv.iYlYlYh.xXuw1a0IGM8HhYlACLlYlYlIBHi8FauUmb0ziHlYFLvXlYlYlHfL1ar8VcxYSOhXlYv.iYlYlYh.xXuw1a0I2M8HhYlACLlYlYlIBHi8FauUmb3ziHlYFLvXlYlYlHfL1ar8VcxkSOhXlYv.iYlYlYh.xXuw1a0IWLvziHlYFLvXlYlYlHfL1ar8VcxESL8HhYlACLlYlYlIBHi8FauUmbwHSOhXlYv.iYlYlYh.xXuw1a0IWLyziHlYFLvXlYlYlHfL1ar8VcxECM8HhYlACLlYlYlIBHi8FauUmbwTSOhXlYv.iYlYlYh.xXuw1a0IWL1ziHlYFLvXlYlYlHfL1ar8VcxEyM8HhYlACLlYlYlIBHi8FauUmbwfSOhXlYv.iYlYlYh.xXuw1a0IWL4ziHlYFLvXlYlYlHfL1ar8VcxICL8HhYlACLlYlYlIBHi8FauUmbxDSOhXlYv.iYlYlYh.xXuw1a0ImLxziHlYFLvXlYlYlHfL1ar8VcxIyL8HhYlACLlYlYlIBHi8FauUmbxPSOhXlYv.iYlYlYh.xXuw1a0ImL0ziHlYFLvXlYlYlHfL1ar8VcxIiM8HhYlACLlYlYlIBHi8FauUmbxbSOhXlYv.iYlYlYh.xXuw1a0ImL3ziHlYFLvXlYlYlHfL1ar8VcxISN8HhYlACLlYlYlIBHi8FauUmby.SOhXlYv.iYlYlYh.xXuw1a0I2LwziHlYFLvXlYlYlHfL1ar8VcxMiL8HhYlACLlYlYlIBHi8FauUmbyLSOhXlYv.iYlYlYh.xXuw1a0I2LzziHlYFLvXlYlYlHfL1ar8VcxMSM8HhYlACLlYlYlIBHi8FauUmbyXSOhXlYv.iYlYlYh.xXuw1a0I2L2ziHlYFLvXlYlYlHfL1ar8VcxMCN8HhYlACLlYlYlIBHi8FauUmbyjSOhXlYv.iYlYlYh.xXuw1a0IGMvziHlYFLvXlYlYlHfL1ar8VcxQSL8HhYlACLlYlYlIBHi8FauUmbzHSOhXlYv.iYlYlYh.xXuw1a0IGMyziHlYFLvXlYlYlHfL1ar8VcxQCM8HhYlACLlYlYlIBHi8FauUmbzTSOhXlYv.iYlYlYh.xXuw1a0IGM1ziHlYFLvXlYlYlHfL1ar8VcxQyM8HhYlACLlYlYlIBHi8FauUmbzfSOhXlYv.iYlYlYh.xXuw1a0IGM4ziHlYFLvXlYlYlHfL1ar8VcxUCL8HhYlACLlYlYlIBHi8FauUmb0DSOhXlYv.iYlYlYh.xXuw1a0IWMxziHlYFLvXlYlYlHfL1ar8VcxUyL8HhYlACLlYlYlIBHi8FauUmb0PSOhXlYv.iYlYlYh.xXuw1a0IWM0ziHlYFLvXlYlYlHfL1ar8VcxUiM8HhYlACLlYlYlIBHi8FauUmb0bSOhXlYv.iYlYlYh.xXuw1a0IWM3ziHlYFLvXlYlYlHfL1ar8VcxUSN8HhYlACLlYlYlIBHi8FauUmb1.SOhXlYv.iYlYlYh.xXuw1a0ImMwziHlYFLvXlYlYlHfL1ar8VcxYiL8HhYlACLlYlYlIBHi8FauUmb1LSOhXlYv.iYlYlYh3COPEjTA0DHoQVOhDlagwVd5UlTMMkHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhDldo0VczgFLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZwHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnECLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZwDiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0VczgVLxHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnEyLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZwPiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0VczgVL0HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnEiMh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZwbiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0VczgVL3HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnESNh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZxHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnICLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZxDiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0VczglLxHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnIyLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZxPiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0VczglL0HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnIiMh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZxbiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0VczglL3HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnISNh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZyHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnMCLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZyDiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0Vczg1LxHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnMyLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZyPiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0Vczg1L0HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnMiMh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZybiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0Vczg1L3HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnMSNh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZzHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnQCLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZzDiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0VczgFMxHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnQyLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZzPiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0VczgFM0HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnQiMh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZzbiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0VczgFM3HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnQSNh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZ0HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnUCLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZ0DiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0VczgVMxHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnUyLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZ0PiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0VczgVM0HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnUiMh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZ0biHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0VczgVM3HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnUSNh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZ1HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnYCLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZ1DiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0VczglMxHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcnYyLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRX5kVa0QGZ2HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHgoWZsUGcngiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhDldo0VczgVNh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HBY44VXsk1XRElamUlHfXWXrUWY8HxL03BLh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VLvHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8lawDiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atEiLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VLyHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8lawPiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atESMh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VL1HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8lawbiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atECNh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VL4HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8laxHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8lax.iHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atISLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lLxHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8laxLiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atICMh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lL0HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8laxXiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atIyMh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lL3HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8laxjiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atMiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atMCLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu41LwHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8layHiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atMyLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu41LzHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8layTiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atMiMh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu41L2HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8layfiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atMSNh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FMh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FMvHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8lazDiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atQiLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FMyHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8lazPiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atQSMh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FM1HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8lazbiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atQCNh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FM4HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8la0HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8la0.iHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atUSLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VMxHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8la0LiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atUCMh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VM0HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8la0XiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atUyMh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VM3HBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8la0jiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atYiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atYCLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4lMwHBH1EFa0UVOhzBMt.iLyLSLyTiLxLyL3fiM2TVK1HxK9vCTAIUPMARZj0iHkwVY1EFco8la1HiHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhTFakYWXzk1atYyLh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu41Mh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4FNh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRYrUlcgQWZu4VNh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HxYgklavHBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklawHBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklaw.iHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtESLh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo4VLxHBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklawLiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtECMh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo4VL0HBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklawXiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtEyMh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo4VL3HBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklawjiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtIiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtICLh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo4lLwHBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklaxHiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtIyLh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo4lLzHBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklaxTiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtIiMh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo4lL2HBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklaxfiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtISNh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo41Lh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo41LvHBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklayDiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtMiLh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo41LyHBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklayPiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtMSMh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo41L1HBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklaybiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtMCNh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo41L4HBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklazHBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklaz.iHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtQSLh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo4FMxHBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklazLiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtQCMh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo4FM0HBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklazXiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtQyMh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo4FM3HBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgklazjiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtUiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtUCLh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo4VMwHBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgkla0HiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtUyLh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo4VMzHBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgkla0TiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtUiMh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo4VM2HBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgkla0fiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtUSNh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo4lMh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo4lMvHBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgkla1DiHfXWXrUWY8HBNtjCMvXSN1bSL1LCL3TSNzTVK2HxK9vCTAIUPMARZj0iHmEVZtYiLh.hcgwVck0iH33RNz.iM4XyMwXyLvfSM4PSYsbiHu3COPEjTA0DHoQVOhbVXo4lMyHBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgkla2HBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgkla3HBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HxYgkla4HBH1EFa0UVOhfiK4PCL1jiM2DiMy.CN0jCMk0xMh7hO7.UPRETSfjFY8HRZtAWczMUYzQWZtclHfXWXrUWY8HRMt.iHu3COPEjTA0DHoQVOhv1aisVYjQ0aME1bzUlbh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRagMGckIWP5kVa0QGZh.hcgwVck0iHsPiKvHyLyDyL0HiLyLCN3XyMk0hMh7hO7.UPRETSfjFY8HRagMGckIWQrUlcgQWZu4lHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhzVXyQWYxI0arwlHfXWXrUWY8HRKz3BLxLyLwLSMxHyLyfCN1bSYsXiHu3COPEjTA0DHoQVOhzVczUFLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckECLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckEyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckEiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYwbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckESNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckICLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlLxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckIyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlL0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckIiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYxbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlL3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckISNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYyDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1LxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYyPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1L0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYybiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczU1L3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckMSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzDiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzPiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWYzbiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUFM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckQSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0PiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVM0HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUiMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY0biHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVM3HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckUSNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckYCLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY1DiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUlMxHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckYyLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HRa0QWY2HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHsUGckgiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhzVczUVNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8HxaxQVYxMUYzQWZtclHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOh.WYgsFSkYWYrIBH1EFa0UVOhbiKzTCL0fCL0jiM4HyL3HCNk0xMh7hO7.UPRETSfjFY8Hxbuw1avHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauEiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VLvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauESLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauECMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauEyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1awfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauIiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lLvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauISLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lLyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauICMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lL1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauIyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1axfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lL4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81LvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ayHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81LyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ayTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81L1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauMyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1ayfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar81L4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azHiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azTiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauQyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1azfiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0HiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUCMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0TiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VM1HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauUyMh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a0fiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8VM4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauYiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lMvHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauYSLh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a1HiHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8lMyHBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iHy8FauciHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhL2ar8FNh.hcgwVck0iHv3BLh7hO7.UPRETSfjFY8Hxbuw1a4HBH1EFa0UVOh.iKvHxK9vCTAIUPMARZj0iH0MWYS4zLDIBH1EFa0UVOhDiKvHxK9vySSMzPu4lYocFHRU1XkklckIGTuIGc8HRKwHBHSUlajUlbIAUOhHBHSUlajUlbP8lbz0iHsDiHfLUYtQVYx8zTCEDYjIWYyMWOh7RS0wFcoUjai8FYkI2Kh.xTk4FYkIWRtQWYxYWXr0iHw.CLh7hO77RS0wFcoUjai8FYkImO.."
                                                     },
                                                     "fileref": {
                                                         "name": "MultiEncoder",
-                                                        "filename": "MultiEncoder_20260815.maxsnap",
+                                                        "filename": "MultiEncoder_20260828.maxsnap",
                                                         "filepath": "~/Documents/Max 9/Snapshots",
                                                         "filepos": -1,
-                                                        "snapshotfileid": "6ec3b4652ceff10bc3fc36a1c7636dfa"
+                                                        "snapshotfileid": "54b8a37df661fd27258a8bcd3a2ce400"
                                                     }
                                                 }
                                             ]
@@ -20770,21 +19590,20 @@
             {
                 "patchline": {
                     "destination": [ "obj-48", 1 ],
-                    "midpoints": [ 309.5, 453.3068658411503, 239.5, 453.3068658411503 ],
                     "source": [ "obj-15", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-15", 0 ],
-                    "midpoints": [ 360.5, 447.4336230009794, 351.44487877190113, 447.4336230009794, 351.44487877190113, 421.70442490279675, 309.5, 421.70442490279675 ],
+                    "midpoints": [ 291.58333134651184, 399.4336230009794, 282.52821011841297, 399.4336230009794, 282.52821011841297, 373.70442490279675, 239.5, 373.70442490279675 ],
                     "source": [ "obj-16", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-16", 0 ],
-                    "midpoints": [ 51.5, 421.9148589670658, 360.5, 421.9148589670658 ],
+                    "midpoints": [ 51.5, 421.9148589670658, 291.58333134651184, 421.9148589670658 ],
                     "order": 0,
                     "source": [ "obj-2", 0 ]
                 }
@@ -20806,7 +19625,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-15", 0 ],
-                    "midpoints": [ 425.5, 368.31826543807983, 309.5, 368.31826543807983 ],
+                    "midpoints": [ 377.5952402353287, 368.31826543807983, 239.5, 368.31826543807983 ],
                     "source": [ "obj-23", 0 ]
                 }
             },
@@ -20900,7 +19719,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-23", 1 ],
-                    "midpoints": [ 287.5, 304.0254675745964, 438.5, 304.0254675745964 ],
+                    "midpoints": [ 239.5, 329.96197950839996, 390.5952402353287, 329.96197950839996 ],
                     "source": [ "obj-35", 0 ]
                 }
             },
@@ -20920,7 +19739,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-35", 0 ],
-                    "midpoints": [ 120.5, 501.95481115579605, 129.8223142027855, 501.95481115579605, 129.8223142027855, 262.6158204674721, 287.5, 262.6158204674721 ],
+                    "midpoints": [ 120.5, 501.95481115579605, 129.8223142027855, 501.95481115579605, 129.8223142027855, 262.6158204674721, 239.5, 262.6158204674721 ],
                     "order": 0,
                     "source": [ "obj-37", 0 ]
                 }
@@ -20959,20 +19778,8 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-47", 0 ],
+                    "destination": [ "obj-7", 0 ],
                     "source": [ "obj-45", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-59", 1 ],
-                    "source": [ "obj-47", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-60", 1 ],
-                    "source": [ "obj-47", 1 ]
                 }
             },
             {
@@ -20994,12 +19801,6 @@
                 "patchline": {
                     "destination": [ "obj-86", 1 ],
                     "source": [ "obj-5", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-54", 0 ],
-                    "source": [ "obj-55", 0 ]
                 }
             },
             {
@@ -21076,48 +19877,46 @@
             "obj-102": [ "mc.live.gain~[1]", "mc.live.gain~", 0 ],
             "obj-171": [ "mc.vst~[3]", "mc.vst~[3]", 0 ],
             "obj-33::obj-24": [ "mc.vst~[9]", "mc.vst~[2]", 0 ],
-            "obj-33::obj-59::obj-168": [ "vst~", "vst~", 0 ],
-            "obj-33::obj-59::obj-192": [ "vst~[162]", "vst~[162]", 0 ],
-            "obj-33::obj-59::obj-195": [ "vst~[96]", "vst~[96]", 0 ],
-            "obj-33::obj-59::obj-198": [ "vst~[7]", "vst~[7]", 0 ],
-            "obj-33::obj-59::obj-428": [ "vst~[147]", "vst~[147]", 0 ],
-            "obj-33::obj-59::obj-431": [ "vst~[11]", "vst~[11]", 0 ],
-            "obj-33::obj-59::obj-434": [ "vst~[42]", "vst~[42]", 0 ],
-            "obj-33::obj-59::obj-438": [ "vst~[68]", "vst~[68]", 0 ],
-            "obj-33::obj-59::obj-444": [ "vst~[19]", "vst~[19]", 0 ],
-            "obj-33::obj-59::obj-448": [ "vst~[48]", "vst~[48]", 0 ],
-            "obj-33::obj-59::obj-451": [ "vst~[113]", "vst~[113]", 0 ],
-            "obj-33::obj-59::obj-454": [ "vst~[30]", "vst~[30]", 0 ],
+            "obj-33::obj-59::obj-168": [ "vst~[121]", "vst~[121]", 0 ],
+            "obj-33::obj-59::obj-192": [ "vst~[120]", "vst~[120]", 0 ],
+            "obj-33::obj-59::obj-195": [ "vst~[160]", "vst~[160]", 0 ],
+            "obj-33::obj-59::obj-198": [ "vst~[12]", "vst~[12]", 0 ],
+            "obj-33::obj-59::obj-332::obj-1": [ "vst~", "vst~", 0 ],
+            "obj-33::obj-59::obj-428": [ "vst~[95]", "vst~[95]", 0 ],
+            "obj-33::obj-59::obj-431": [ "vst~[73]", "vst~[73]", 0 ],
+            "obj-33::obj-59::obj-434": [ "vst~[74]", "vst~[74]", 0 ],
+            "obj-33::obj-59::obj-438": [ "vst~[159]", "vst~[159]", 0 ],
+            "obj-33::obj-59::obj-444": [ "vst~[62]", "vst~[62]", 0 ],
+            "obj-33::obj-59::obj-448": [ "vst~[157]", "vst~[157]", 0 ],
+            "obj-33::obj-59::obj-451": [ "vst~[8]", "vst~[8]", 0 ],
+            "obj-33::obj-59::obj-454": [ "vst~[23]", "vst~[23]", 0 ],
             "obj-33::obj-59::obj-460": [ "vst~[25]", "vst~[25]", 0 ],
-            "obj-33::obj-59::obj-463": [ "vst~[167]", "vst~[167]", 0 ],
-            "obj-33::obj-59::obj-466": [ "vst~[112]", "vst~[112]", 0 ],
-            "obj-33::obj-59::obj-472": [ "vst~[16]", "vst~[16]", 0 ],
-            "obj-33::obj-59::obj-475": [ "vst~[166]", "vst~[166]", 0 ],
+            "obj-33::obj-59::obj-463": [ "vst~[5]", "vst~[5]", 0 ],
+            "obj-33::obj-59::obj-466": [ "vst~[156]", "vst~[156]", 0 ],
+            "obj-33::obj-59::obj-472": [ "vst~[28]", "vst~[28]", 0 ],
+            "obj-33::obj-59::obj-475": [ "vst~[19]", "vst~[19]", 0 ],
             "obj-33::obj-59::obj-478": [ "vst~[35]", "vst~[35]", 0 ],
-            "obj-33::obj-59::obj-486": [ "vst~[37]", "vst~[37]", 0 ],
-            "obj-33::obj-59::obj-490": [ "vst~[154]", "vst~[154]", 0 ],
-            "obj-33::obj-59::obj-493": [ "vst~[124]", "vst~[124]", 0 ],
-            "obj-33::obj-59::obj-496": [ "vst~[39]", "vst~[39]", 0 ],
-            "obj-33::obj-59::obj-499": [ "vst~[111]", "vst~[111]", 0 ],
-            "obj-33::obj-59::obj-512": [ "vst~[108]", "vst~[108]", 0 ],
-            "obj-33::obj-59::obj-515": [ "vst~[135]", "vst~[135]", 0 ],
-            "obj-33::obj-59::obj-522": [ "vst~[152]", "vst~[152]", 0 ],
-            "obj-33::obj-59::obj-525": [ "vst~[52]", "vst~[52]", 0 ],
-            "obj-33::obj-59::obj-528": [ "vst~[145]", "vst~[145]", 0 ],
-            "obj-33::obj-59::obj-531": [ "vst~[121]", "vst~[121]", 0 ],
-            "obj-33::obj-59::obj-534": [ "vst~[119]", "vst~[119]", 0 ],
-            "obj-33::obj-59::obj-537": [ "vst~[71]", "vst~[71]", 0 ],
-            "obj-33::obj-59::obj-540": [ "vst~[150]", "vst~[150]", 0 ],
+            "obj-33::obj-59::obj-486": [ "vst~[34]", "vst~[34]", 0 ],
+            "obj-33::obj-59::obj-490": [ "vst~[4]", "vst~[4]", 0 ],
+            "obj-33::obj-59::obj-493": [ "vst~[41]", "vst~[41]", 0 ],
+            "obj-33::obj-59::obj-496": [ "vst~[88]", "vst~[88]", 0 ],
+            "obj-33::obj-59::obj-499": [ "vst~[117]", "vst~[117]", 0 ],
+            "obj-33::obj-59::obj-512": [ "vst~[70]", "vst~[70]", 0 ],
+            "obj-33::obj-59::obj-515": [ "vst~[18]", "vst~[18]", 0 ],
+            "obj-33::obj-59::obj-522": [ "vst~[114]", "vst~[114]", 0 ],
+            "obj-33::obj-59::obj-525": [ "vst~[135]", "vst~[135]", 0 ],
+            "obj-33::obj-59::obj-528": [ "vst~[124]", "vst~[124]", 0 ],
+            "obj-33::obj-59::obj-531": [ "vst~[125]", "vst~[125]", 0 ],
+            "obj-33::obj-59::obj-534": [ "vst~[134]", "vst~[134]", 0 ],
+            "obj-33::obj-59::obj-537": [ "vst~[50]", "vst~[50]", 0 ],
+            "obj-33::obj-59::obj-540": [ "vst~[63]", "vst~[63]", 0 ],
             "obj-33::obj-59::obj-543": [ "vst~[65]", "vst~[65]", 0 ],
-            "obj-33::obj-59::obj-546": [ "vst~[67]", "vst~[67]", 0 ],
-            "obj-33::obj-59::obj-549": [ "vst~[69]", "vst~[69]", 0 ],
-            "obj-33::obj-59::obj-561": [ "vst~[8]", "vst~[8]", 0 ],
-            "obj-33::obj-59::obj-564": [ "vst~[97]", "vst~[97]", 0 ],
-            "obj-33::obj-59::obj-567": [ "vst~[1]", "vst~[1]", 0 ],
-            "obj-33::obj-59::obj-570": [ "vst~[60]", "vst~[60]", 0 ],
-            "obj-33::obj-59::obj-573": [ "vst~[98]", "vst~[98]", 0 ],
-            "obj-33::obj-59::obj-576": [ "vst~[99]", "vst~[99]", 0 ],
-            "obj-33::obj-59::obj-579": [ "vst~[100]", "vst~[100]", 0 ],
+            "obj-33::obj-59::obj-546": [ "vst~[122]", "vst~[122]", 0 ],
+            "obj-33::obj-59::obj-549": [ "vst~[133]", "vst~[133]", 0 ],
+            "obj-33::obj-59::obj-570": [ "vst~[20]", "vst~[20]", 0 ],
+            "obj-33::obj-59::obj-573": [ "vst~[84]", "vst~[84]", 0 ],
+            "obj-33::obj-59::obj-576": [ "vst~[87]", "vst~[87]", 0 ],
+            "obj-33::obj-59::obj-579": [ "vst~[89]", "vst~[89]", 0 ],
             "obj-33::obj-68": [ "mc.live.gain~[2]", "mc.live.gain~[2]", 0 ],
             "obj-3::obj-11": [ "live.text[4]", "live.text", 0 ],
             "obj-3::obj-110": [ "live.text[5]", "live.text", 0 ],
@@ -21126,8 +19925,7 @@
             "obj-3::obj-606": [ "live.text[2]", "live.text", 0 ],
             "obj-3::obj-607": [ "live.button[1]", "live.button", 0 ],
             "obj-44": [ "mc.vst~", "mc.vst~", 0 ],
-            "obj-47::obj-6": [ "vst~[170]", "vst~[8]", 0 ],
-            "obj-48::obj-73::obj-11": [ "vst~[169]", "vst~[1]", 0 ],
+            "obj-48::obj-73::obj-11": [ "vst~[173]", "vst~[1]", 0 ],
             "obj-81": [ "mc.live.gain~", "mc.live.gain~", 0 ],
             "parameterbanks": {
                 "0": {
