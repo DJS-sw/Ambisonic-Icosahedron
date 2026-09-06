@@ -218,4 +218,4 @@ The frame always contains the latest known values at the time it is printed.
 
 ### Audio
 
-Audio processing is done within MAX/MSP, see [Maxpatch](max/spatial-composition).
+Audio processing is done within MAX/MSP, see [Maxpatch](Max/spatial-composer).
